@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>EnferTest</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2e7d32">
+    <!-- Mermaid.js para mapas mentales -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="theme-light font-normal">
+
+    <!-- Navbar/Header -->
+    <header class="app-header">
+        <div class="header-left">
+            <button id="btn-back" class="hidden">← Volver</button>
+        </div>
+        <h1 class="header-title">EnferTest</h1>
+        <div class="header-right">
+            <button id="btn-settings" class="icon-btn">⚙️</button>
+        </div>
+    </header>
+
+    <!-- App Container -->
+    <main id="app-container">
+
+        <!-- VIEW: MAIN MENU (Selección Asignatura) -->
+        <section id="view-main-menu" class="view active">
+            <h2 class="view-title">Selecciona una Asignatura</h2>
+            <div class="subject-grid">
+                <button class="card-btn subject-btn" data-subject="paliativos">
+                    <span class="icon">💊</span>
+                    <div class="btn-content"><span>Paliativos</span></div>
+                </button>
+                <button class="card-btn subject-btn" data-subject="salud_mental">
+                    <span class="icon">🧠</span>
+                    <div class="btn-content"><span>Salud Mental</span></div>
+                </button>
+                <button class="card-btn subject-btn" data-subject="salud_genero">
+                    <span class="icon">⚧️</span>
+                    <div class="btn-content"><span>Salud Género y Retos</span></div>
+                </button>
+                <button class="card-btn subject-btn" data-subject="comunitaria">
+                    <span class="icon">🏡</span>
+                    <div class="btn-content"><span>Familiar y Comunitaria</span></div>
+                </button>
+                <button class="card-btn subject-btn" data-subject="clinica_ii">
+                    <span class="icon">🏥</span>
+                    <div class="btn-content"><span>Clínica II</span></div>
+                </button>
+            </div>
+        </section>
+
+        <!-- VIEW: SUBJECT MENU -->
+        <section id="view-subject-menu" class="view hidden">
+            <h2 class="view-title" id="subject-menu-title">Asignatura</h2>
+            <div class="menu-list">
+                <button class="card-btn primary-card" id="btn-goto-tests">
+                    <span class="icon">📝</span> Realizar Test
+                </button>
+                <button class="card-btn" id="btn-goto-achievements">
+                    <span class="icon">🏆</span> Logros
+                </button>
+                <button class="card-btn" id="btn-goto-repository">
+                    <span class="icon">📚</span> Repositorio
+                </button>
+                <button class="card-btn outline-btn" id="btn-change-subject">
+                    <span class="icon">🔄</span> Cambiar Asignatura
+                </button>
+            </div>
+        </section>
+
+        <!-- VIEW: TEST SELECTION MENU -->
+        <section id="view-test-selection" class="view hidden">
+            <h2 class="view-title">Modo de Prueba</h2>
+            <div class="menu-list">
+                <button class="card-btn test-mode-btn" data-mode="tema">
+                    <div class="btn-content">
+                        <strong>Test por Tema</strong>
+                        <small>Preguntas de un tema específico</small>
+                    </div>
+                </button>
+                <button class="card-btn test-mode-btn" data-mode="simulacro">
+                    <div class="btn-content">
+                        <strong>Simulacro de Examen</strong>
+                        <small>Formato y puntuación real</small>
+                    </div>
+                </button>
+                <button class="card-btn test-mode-btn" data-mode="repaso">
+                    <div class="btn-content">
+                        <strong>Repaso</strong>
+                        <small>30 preguntas aleatorias de todo el temario</small>
+                    </div>
+                </button>
+                <button class="card-btn test-mode-btn" data-mode="importante">
+                    <div class="btn-content">
+                        <strong>Repaso Importante</strong>
+                        <small>Solo preguntas de exámenes/clase</small>
+                    </div>
+                </button>
+            </div>
+            
+            <!-- Selector de Tema (Oculto por defecto) -->
+            <div id="topic-selector" class="modal hidden">
+                <div class="modal-content">
+                    <h3>Selecciona el Tema</h3>
+                    <div id="topic-list" class="menu-list"></div>
+                    <button class="btn-close-modal mt-2 outline-btn full-width" id="btn-close-topic">Cancelar</button>
+                </div>
+            </div>
+
+            <!-- Selector de Simulacro (Oculto por defecto) -->
+            <div id="simulacro-selector" class="modal hidden">
+                <div class="modal-content">
+                    <h3>Tipo de Simulacro</h3>
+                    <div class="menu-list">
+                        <button class="card-btn" id="btn-simulacro-mixto">
+                            <div class="btn-content">
+                                <strong>Todas las preguntas</strong>
+                                <small>Al menos 50% de preguntas de examen</small>
+                            </div>
+                        </button>
+                        <button class="card-btn" id="btn-simulacro-examen">
+                            <div class="btn-content">
+                                <strong>Solo preguntas de examen</strong>
+                                <small>100% preguntas de examen</small>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="btn-close-modal mt-2 outline-btn full-width" id="btn-close-simulacro">Cancelar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW: TEST UI -->
+        <section id="view-test-ui" class="view hidden">
+            <div class="test-header">
+                <div class="progress-bar-container">
+                    <div id="test-progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="test-stats">
+                    <span id="test-counter" class="badge">1/30</span>
+                    <span id="test-timer" class="badge bg-green">00:00</span>
+                </div>
+            </div>
+            
+            <div class="question-container card">
+                <span id="question-tag" class="tag-examen hidden">¡Examen!</span>
+                <h3 id="question-text">Cargando pregunta...</h3>
+            </div>
+            
+            <div id="options-container" class="options-grid">
+                <!-- Botones de opciones generados por JS -->
+            </div>
+            
+            <div class="test-footer">
+                <button id="btn-next-question" class="primary-btn full-width" disabled>Siguiente</button>
+                <button id="btn-finish-test" class="danger-btn full-width hidden">Finalizar Prueba</button>
+            </div>
+        </section>
+
+        <!-- VIEW: TEST RESULTS -->
+        <section id="view-test-results" class="view hidden">
+            <div class="results-card card">
+                <h2 id="result-status">¡Completado!</h2>
+                <div class="score-circle">
+                    <span id="result-score">8.5</span>
+                </div>
+                <p id="result-message" class="result-message"></p>
+                
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <span class="stat-label">Aciertos</span>
+                        <span id="result-correct" class="stat-value text-green">25</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">Fallos</span>
+                        <span id="result-incorrect" class="stat-value text-red">5</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">Blanco</span>
+                        <span id="result-blank" class="stat-value">0</span>
+                    </div>
+                </div>
+                
+                <div class="time-stats mt-3 p-2 bg-light-green rounded">
+                    <p>⏱️ Tiempo total: <strong id="result-time">12:34</strong></p>
+                    <p class="text-sm">Media últimos 5: <span id="result-avg-time">--:--</span></p>
+                    <p id="result-record-msg" class="text-green hidden font-bold mt-1">🏆 ¡Nuevo Récord Personal!</p>
+                </div>
+
+                <div id="new-achievements" class="new-achievements mt-3 hidden">
+                    <h3 class="text-center">¡Logros Desbloqueados!</h3>
+                    <div id="unlocked-badges" class="badges-container"></div>
+                </div>
+
+                <button id="btn-results-continue" class="primary-btn full-width mt-4">Continuar</button>
+                <button id="btn-view-mistakes" class="outline-btn full-width mt-2 hidden">Ver Fallos</button>
+                <div id="mistakes-container" class="hidden mt-3 text-left"></div>
+            </div>
+        </section>
+
+        <!-- VIEW: ACHIEVEMENTS -->
+        <section id="view-achievements" class="view hidden">
+            <h2 class="view-title">Tus Logros</h2>
+            <div class="tabs scrollable-tabs">
+                <button class="tab-btn active" data-target="logros-paliativos">Paliativos</button>
+                <button class="tab-btn" data-target="logros-salud_mental">Salud M.</button>
+                <button class="tab-btn" data-target="logros-salud_genero">Género</button>
+                <button class="tab-btn" data-target="logros-comunitaria">Comunitaria</button>
+                <button class="tab-btn" data-target="logros-clinica_ii">Clínica</button>
+            </div>
+            
+            <div id="achievements-container" class="achievements-content card mt-2">
+                <!-- Generado por JS -->
+            </div>
+
+            <div class="platinum-section card mt-3">
+                <h3 class="text-center">Trofeos Ocultos</h3>
+                
+                <div class="trophies-grid">
+                    <div id="trophy-platinum" class="trophy-box locked">
+                        <div class="trophy-img-container">
+                            <img src="logro_platino.png" alt="Platino" class="trophy-img">
+                        </div>
+                        <p class="trophy-title">Platino</p>
+                        <p class="trophy-desc">Todos los oros</p>
+                    </div>
+                    
+                    <div id="trophy-superate" class="trophy-box locked">
+                        <div class="trophy-img-container">
+                            <img src="logro_superate.png" alt="Supérate" class="trophy-img">
+                        </div>
+                        <p class="trophy-title">Supérate!!</p>
+                        <p class="trophy-desc">Mejora el tiempo 5 veces aprobando</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIEW: REPOSITORY -->
+        <section id="view-repository" class="view hidden">
+            <h2 class="view-title">Repositorio</h2>
+            <div class="repo-controls card">
+                <input type="text" id="repo-search" class="form-input" placeholder="Buscar concepto o pregunta...">
+                <div class="flex-row mt-2">
+                    <select id="repo-filter" class="form-select flex-1">
+                        <option value="todos">Todas las preguntas</option>
+                        <option value="examen">Solo Examen!!</option>
+                    </select>
+                    <select id="repo-sort" class="form-select flex-1 ml-2">
+                        <option value="tema">Por Tema</option>
+                        <option value="examen">Examen primero</option>
+                        <option value="alfabetico">Orden Alfabético</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="tabs mt-2">
+                <button class="tab-btn active" id="btn-tab-lista">Lista</button>
+                <button class="tab-btn" id="btn-tab-mapa">Mapa Mental</button>
+            </div>
+
+            <div id="repo-lista" class="repo-content active mt-2">
+                <div id="questions-list" class="questions-list">
+                    <!-- Generado por JS -->
+                </div>
+            </div>
+
+            <div id="repo-mapa" class="repo-content hidden mt-2 card">
+                <div class="map-container" id="map-container">
+                    <button id="btn-expand-map" class="outline-btn mb-3 full-width">🔍 Ampliar Mapa / Pantalla Completa</button>
+                    <p class="text-sm text-gray text-center mb-3">Los conceptos que aciertes se iluminarán en verde clarito.</p>
+                    <div id="mermaid-container">
+                        <!-- Gráfico de Mermaid -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal Ajustes -->
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3 class="mb-3">Ajustes</h3>
+            
+            <div class="setting-group">
+                <label>Modo Oscuro</label>
+                <div class="toggle-switch">
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="setting-group mt-3">
+                <label>Tamaño de Letra</label>
+                <div class="font-size-controls">
+                    <button class="btn-outline font-btn" data-size="font-small">A-</button>
+                    <button class="btn-outline font-btn active" data-size="font-normal">A</button>
+                    <button class="btn-outline font-btn" data-size="font-large">A+</button>
+                </div>
+            </div>
+
+            <button class="primary-btn full-width mt-4" id="btn-close-settings">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').catch(err => {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
