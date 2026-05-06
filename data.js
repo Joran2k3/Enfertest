@@ -6,7 +6,7 @@ const CONFIG_ASIGNATURAS = {
     preguntasSimulacro: 60,
     notaAprobado: 5,
     resta: true, // 3 mal = 1 bien
-    idTemas: [1, 2, 3, 4, 5] // Modificar según los temas reales que tenga la asignatura
+    idTemas: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
   },
   salud_mental: {
     nombre: "Salud mental",
@@ -68,6 +68,3917 @@ const BANCO_PREGUNTAS = [
     correcta: 1, // La opción correcta es la segunda (índice 1)
     esExamen: true, // Le pondrá la etiqueta roja "Examen!!"
     conceptoMapa: "dolor_irruptivo"
+  },
+
+  // --- PREGUNTAS EXAMEN JUNIO PALIATIVOS ---
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "5. Los Cuidados Paliativos son (Selecciona la incorrecta):",
+    opciones: [
+      "Una alternativa de tratamiento.",
+      "Medicina avanzada para la enfermedad grave.",
+      "Un derecho reconocido por la ley.",
+      "La forma de tratar a una persona con sufrimiento intenso provocado por enfermedad grave."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "6. É un requisito para a sedación paliativa:",
+    opciones: [
+      "Indicación terapeutica correcta (presenza de síntomas de sufrimento físico ou psiquico refractario).",
+      "Solicitude por parte da familia.",
+      "Aceptación por parte do hospital.",
+      "Administración dos fármacos nas doses e combinacións necesarias ata lograr a desaparición de todos os síntomas."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "7. Cuando le comunicas a un paciente malas noticias, la información cambia drásticamente las perspectivas de este. Dar malas noticias hace que el paciente:",
+    opciones: [
+      "Tenga más ansiedad.",
+      "Pierda el control del tto.",
+      "Tome decisiones coherentes con sus valores.",
+      "Rechace el tto automáticamente."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "8. Señor de 64 años, con cancer de próstata recientemente diagnosticado, refiere dolor intolerable en localizaciones múltiples, su estado de ánimo cambió y su familia evita hablar del problema de salud. En la evaluación inicial de Cuidados Paliativos ¿qué se estima prioritario para establecer un plan de tratamiento y cuidados?",
+    opciones: [
+      "Prescripción de psicofarmacos.",
+      "Evaluación multidimensional del dolor.",
+      "Prescripcion de tratamiento antineoplasico.",
+      "Evaluación del estadío evolutivo de la enfermedad."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "10. ¿Cuál de estas no es una característica del dolor crónico?",
+    opciones: [
+      "Daño tisular.",
+      "No se relaciona con la magnitud del daño.",
+      "Descrito en términos afectivos.",
+      "Puede haber síntomas depresivos."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "11. ¿Qué favorece la desnutrición en pacientes paliativos? Señala la INCORRECTA.",
+    opciones: [
+      "En algunos casos, la obstrucción del tracto digestivo alto.",
+      "El desequilibrio proteico y electrolítico.",
+      "El consumo de corticosteroides.",
+      "Factores psicológicos o emocionales."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "12. ¿Cuál es la falsa en cuanto a recomendaciones para favorecer el descanso?",
+    opciones: [
+      "Mantener una buena higiene del sueño.",
+      "Hacer deporte ligero a la tarde-noche.",
+      "Reducir el tiempo que se pasa en cama sin estar durmiendo.",
+      "Crear un ambiente tranquilo sin luz ni ruidos."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "16. Síntoma que aparece en el cuestionario ESAS:",
+    opciones: [
+      "Bienestar",
+      "Diarrea",
+      "Estreñimiento",
+      "Sed"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "17. Como se denominan los fármacos que potencian el efecto de los fármacos de los escalones de la OMS?",
+    opciones: [
+      "Antagonistas",
+      "Agonistas",
+      "Coadyuvantes",
+      "Secundarios"
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "20. A qué corresponde la I de invitación en el protocolo EPICCE:",
+    opciones: [
+      "Comunicación sin filtros.",
+      "Hablar solo con la familia.",
+      "Valorar lo que sabe y cuanto desea saber.",
+      "Hacerle firmar consentimiento."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "21. Cuál de las siguientes afirmaciones es correcta respecto al estreñimiento en pacientes paliativos:",
+    opciones: [
+      "Lo más común es que se produzca debido al consumo de opiáceos.",
+      "Hay que realizar enemas para la eliminación fecal de primera elección.",
+      "El principal tratamiento exclusivo es una dieta rica en fibra.",
+      "Los masajes abdominales profundos son el único tratamiento preventivo."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "29. Relacionado con los aspectos de la religión en cuidados paliativos cual es falsa:",
+    opciones: [
+      "Para la etnia gitana el acompañamiento familiar es fundamental.",
+      "Para las personas con religión musulmana es importante el lavado y cubrir el cuerpo con tela blanca.",
+      "En la religión católica siempre existe la posibilidad de la eutanasia.",
+      "Los testigos de Jehová tienen prohibidas las transfusiones de sangre."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "31. Respecto a las canulas de traqueotomía, señala la FALSA:",
+    opciones: [
+      "Las cánulas con balón están indicadas para pacientes en ventilación mecánica.",
+      "Las cánulas sin balón están indicadas para pacientes con alto riesgo de broncoaspiración.",
+      "Las cánulas internas permiten sacarlas para limpieza de secreciones sin tener que retirar la cánula completa.",
+      "Las cánulas fenestradas permiten la fonación."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "32. Cuál es la vía de administración de fármacos de elección en pacientes paliativos?",
+    opciones: [
+      "Subcutánea",
+      "Oral",
+      "Intravenosa",
+      "Sublingual"
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "34. Se quiere administrar 100mg/día de morfina durante 4 días mediante infusor. ¿Cuántos ml se tienen que cargar sabiendo que la morfina es al 2%?",
+    opciones: [
+      "200 ml",
+      "20 ml",
+      "10 ml",
+      "2 ml"
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "36. En el documento de instrucciones previas se recoge:",
+    opciones: [
+      "Planes de herencia de sus bienes.",
+      "Rechazo de tratamientos que prolonguen la agonía.",
+      "Deseo de participar en ensayos clínicos.",
+      "La exigencia de aplicar medidas de obstinación terapéutica irreversibles."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "41. ¿Cuáles de las siguientes combinaciones se pueden administrar juntas por vía subcutánea y mediante perfusión continua?",
+    opciones: [
+      "Midazolam, metamizol, haloperidol.",
+      "Morfina, metoclopramida, dexametasona, buscapina.",
+      "Midazolam, haloperidol, ceftriaxona.",
+      "Morfina, midazolam, haloperidol."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "43. Respecto al autocuidado de los profesionales sanitarios en el área de cuidados paliativos, señala la FALSA:",
+    opciones: [
+      "Es importante tener buenos hábitos de sueño, actividad física, alimentación y ocio.",
+      "Es necesaria una formación y supervisión por superiores.",
+      "Aprender técnicas para consolar al paciente y la familia y asegurar su bienestar.",
+      "Realizar reuniones posteriores con el personal donde se compartan experiencias, puntos de vista, y se apoyen entre ellos."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "44. ¿Cuál de las siguientes afirmaciones sobre emociones que siente una familia en el proceso de enfermedad de su hijo es verdadera?",
+    opciones: [
+      "Si la familia siente esperanza, los profesionales sanitarios deben recordarle constantemente la situación fatal en la que se encuentran.",
+      "Las familias suelen sentir miedo y rabia, pero nunca angustia.",
+      "Las familias suelen sentir tristeza y miedo, pero no rabia.",
+      "Las emociones que se pueden sentir son muy variables y los profesionales pueden formarse para aprender a acompañarles independientemente de la emoción que sientan."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "49. En cuanto a la dimensión espiritual en Cuidados Paliativos:",
+    opciones: [
+      "Es algo interno y propio de todas las personas, que todos poseemos.",
+      "Sólo se aplica a personas de la religión católica.",
+      "Lo tienen exclusivamente las personas que hacen yoga o meditación.",
+      "Es un rasgo propio únicamente de adultos conscientes."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "50. En un enfermo paliativo en fase agónica, los estertores respiratorios son:",
+    opciones: [
+      "Contracciones espasmódicas y repentinas del diafragma.",
+      "Pausas de apnea prolongadas superiores a dos minutos que indican sedación profunda.",
+      "Ruidos anormales de la respiración debido a la acumulación de secreciones.",
+      "Una tos seca e irritativa provocada por la falta de hidratación oral."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "52. En cuanto a las afecciones desarrolladas por los profesionales que trabajan ofreciendo Cuidados Paliativos, la definición: 'cuando uno cree que hay una forma correcta de hacer algo pero se lo impiden (instituciones, familia…)', se corresponde con:",
+    opciones: [
+      "Angustia moral",
+      "Síndrome de Burnout",
+      "Fatiga por compasión",
+      "Agotamiento emocional"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "60. ¿Qué fármaco opioide es aproximadamente 100 veces más efectivo (potente) que la morfina y afecta a los mismos receptores?",
+    opciones: [
+      "Codeína",
+      "Fentanilo",
+      "Metamizol",
+      "Oxicodona"
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "61. ¿Cuál es la diferencia legal y clínica entre sedación paliativa y eutanasia?",
+    opciones: [
+      "Ambas buscan inducir la muerte directa del paciente.",
+      "La eutanasia no necesita de ningún tipo de consentimiento previo.",
+      "La sedación paliativa busca aliviar los síntomas refractarios, no provocar la muerte.",
+      "No hay diferencias clínicas ni legales entre ambas en la actualidad."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "62. Señala la afirmación correcta respecto al control de síntomas:",
+    opciones: [
+      "La morfina no debe utilizarse nunca en enfermedades de etiología no oncológica.",
+      "El uso de opioides programados correctamente siempre provoca depresión respiratoria letal.",
+      "La saturación de oxígeno medida por pulsioximetría se correlaciona exactamente con el nivel de disnea del paciente.",
+      "La buscapina (bromuro de butilescopolamina) resulta efectiva en la disminución de secreciones bronquiales (estertores)."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "63. Afirmación correcta sobre la claudicación familiar:",
+    opciones: [
+      "Pacto de silencio entre familiares para ocultar el diagnóstico al paciente.",
+      "Agotamiento e incapacidad por parte de los cuidadores del enfermo debido a la situación o las complicaciones de la enfermedad.",
+      "Delegación de la toma de decisiones relativas a los cuidados exclusivamente en el equipo médico.",
+      "Fase final del duelo anticipado donde la familia acepta la pérdida inminente."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "valoracion_paciente"
+  },
+  // ==========================================
+  // TEMA 1. CONCEPTOS DE CUIDADOS PALIATIVOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "101. Según la actualización del consenso y de la OMS sobre los Cuidados Paliativos, ¿cuál de las siguientes afirmaciones es correcta?",
+    opciones: [
+      "Se aplican exclusivamente en las últimas semanas de vida de los pacientes oncológicos.",
+      "Son la atención holística activa de personas de todas las edades con sufrimiento grave, mejorando la calidad de vida de pacientes, familias y cuidadores.",
+      "Tienen como objetivo principal acelerar la muerte para evitar el sufrimiento innecesario.",
+      "Solamente deben ser proporcionados por unidades hospitalarias de alta complejidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "102. En Cuidados Paliativos, ¿quién constituye la 'unidad a tratar' como núcleo fundamental?",
+    opciones: [
+      "El paciente y su médico de Atención Primaria.",
+      "Únicamente el paciente que padece la enfermedad incurable.",
+      "El paciente y su familia, adquiriendo esta última una relevancia especial en la atención domiciliaria.",
+      "El paciente y el equipo de enfermería."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "103. La instauración de medidas no indicadas, desproporcionadas o extraordinarias, con la intención de evitar la muerte en un paciente tributario de tratamiento paliativo se denomina:",
+    opciones: [
+      "Obstinación o encarnizamiento terapéutico.",
+      "Adecuación del esfuerzo terapéutico.",
+      "Sedación paliativa.",
+      "Limitación del esfuerzo terapéutico (LET)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "104. La 'Limitación del Esfuerzo Terapéutico' (LET) o 'Adecuación del esfuerzo' consiste en:",
+    opciones: [
+      "El proceso de toma de decisiones compartida de no iniciar o retirar una o más medidas de soporte vital, manteniendo siempre las terapias paliativas.",
+      "La retirada absoluta de todos los fármacos del paciente, incluidos los analgésicos.",
+      "La aplicación de tratamientos curativos experimentales a petición de la familia.",
+      "La administración deliberada de sedantes para provocar el fallecimiento del paciente."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "105. ¿Cuáles de las siguientes son características que definen clínicamente la 'Enfermedad Terminal'?",
+    opciones: [
+      "Enfermedad de inicio agudo, con pronóstico de supervivencia superior a un año y múltiples posibilidades curativas.",
+      "Enfermedad avanzada, progresiva e incurable, sin respuesta al tratamiento específico, con síntomas múltiples e impacto emocional.",
+      "Enfermedad crónica estable, controlada con medicación oral y sin impacto en la autonomía del paciente.",
+      "Toda enfermedad oncológica en el momento exacto de su diagnóstico inicial."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "106. Clínicamente, a aquel síntoma que NO puede ser controlado adecuadamente a pesar de los esfuerzos para hallar un tratamiento tolerable, en un plazo razonable, se le denomina:",
+    opciones: [
+      "Síntoma de difícil control.",
+      "Síntoma paroxístico.",
+      "Síntoma refractario.",
+      "Síntoma psicosomático."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "107. A diferencia del síntoma refractario, el 'Síntoma de difícil control' se define como:",
+    opciones: [
+      "Aquel que desaparece espontáneamente con placebo.",
+      "Aquel para cuyo alivio se precisa una intervención terapéutica intensiva (farmacológica, instrumental o psicológica).",
+      "Aquel que requiere inexorablemente de la sedación paliativa inmediata.",
+      "Aquel que se produce exclusivamente por causas espirituales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "108. Dentro de los requisitos legales y éticos para instaurar una 'Sedación paliativa', NO se encuentra:",
+    opciones: [
+      "Una indicación terapéutica correcta por presencia de síntomas refractarios.",
+      "El consentimiento explícito del enfermo, o de la familia si este fuera incompetente.",
+      "Información clara y completa registrada en la historia clínica.",
+      "La autorización previa obligatoria del juez de guardia."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "109. ¿Qué lugar tienen los Cuidados Paliativos dentro de las alternativas de tratamiento médico, según los apuntes del tema 1?",
+    opciones: [
+      "Son una de las múltiples alternativas de tratamiento electivo.",
+      "No son una alternativa de tratamiento, son obligatorios, y representan la medicina avanzada para la enfermedad grave.",
+      "Son una terapia alternativa y complementaria no demostrada científicamente.",
+      "Son únicamente medidas de confort ambiental proporcionadas por voluntarios."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "110. A la hora de valorar la 'Calidad de Vida' en el proceso final, esta engloba 4 dominios (físico, psicológico, social y espiritual). ¿Quién puede valorar de forma más apropiada la calidad de vida en este contexto?",
+    opciones: [
+      "El equipo médico tras analizar la analítica sanguínea.",
+      "El profesional de enfermería en base al índice de Barthel.",
+      "El propio paciente.",
+      "Los familiares de primer grado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "111. Superar la frase 'no hay nada más que hacer' implica adoptar una concepción terapéutica activa, guiada por el principio de:",
+    opciones: [
+      "Cuando no se puede curar, hay que 'cuidar'.",
+      "Si no hay cura biológica, se debe dar el alta hospitalaria forzosa.",
+      "Mantener los ensayos clínicos hasta el último suspiro.",
+      "Aislar al paciente para protegerle de la realidad de su diagnóstico."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "112. Dentro de la definición de sufrimiento intenso y enfermedad grave, ¿a qué nos referimos cuando el sufrimiento compromete la salud y 'no puede aliviarse sin intervención médica'?",
+    opciones: [
+      "Al sufrimiento agudo postoperatorio.",
+      "Al sufrimiento considerado como 'grave' o 'severo'.",
+      "Al síntoma de difícil control exclusivamente psicológico.",
+      "A la disonancia cognitiva familiar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "113. Según la postura de la OMS, los cuidados paliativos deben ser proporcionados:",
+    opciones: [
+      "Únicamente en el entorno de hospitalización de agudos.",
+      "Exclusivamente en el domicilio por la familia.",
+      "En todos los entornos de atención de salud (domicilio e instituciones) y en todos los niveles (de Primaria a Hospitalaria).",
+      "Sólo en hospicios religiosos de ámbito privado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "114. En cuanto a las patologías que pueden requerir Cuidados Paliativos (OMS), los apuntes dejan claro que están indicados para:",
+    opciones: [
+      "Pacientes con cáncer y otras enfermedades crónicas amenazantes, tanto adultos como niños.",
+      "Exclusivamente pacientes oncológicos adultos.",
+      "Solo para ancianos con demencias avanzadas.",
+      "Pacientes en situación de coma irreversible traumático exclusivamente."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 1,
+    pregunta: "115. El momento correcto para iniciar la planificación e integración de los Cuidados Paliativos en el paciente con una enfermedad amenazante es:",
+    opciones: [
+      "Exclusivamente en los últimos tres días de vida.",
+      "A partir del cese de las funciones renales.",
+      "Desde una fase temprana de la enfermedad, pudiendo dispensarse junto con otros tratamientos que prolonguen la vida.",
+      "Cuando la familia solicita la sedación terminal."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+
+  // ==========================================
+  // TEMA 2. HISTORIA DE LOS CUIDADOS PALIATIVOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "116. La 'Filosofía de los cuidados paliativos' establece ante la muerte un claro principio ético y clínico. Éste se basa en:",
+    opciones: [
+      "Alargar la vida mediante soporte vital avanzado a cualquier precio.",
+      "Acelerar la muerte para acortar el proceso de agonía (eutanasia sistemática).",
+      "Intentar estar presentes y aportar conocimientos y soporte, sin prolongar la vida artificialmente ni acelerar la muerte.",
+      "Fomentar la sedación profunda desde el mismo instante del diagnóstico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "117. ¿A quién se le considera la fundadora del Movimiento Hospice moderno y principal impulsora de los Cuidados Paliativos?",
+    opciones: [
+      "A Virginia Henderson.",
+      "A Elisabeth Kübler-Ross.",
+      "A Cicely Saunders.",
+      "A Florence Nightingale."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "118. Cicely Saunders abordó el cuidado del paciente terminal desde una perspectiva amplísima, ya que a lo largo de su vida se graduó y ejerció en cuatro disciplinas o roles diferentes, que fueron:",
+    opciones: [
+      "Farmacéutica, fisioterapeuta, médica y psiquiatra.",
+      "Enfermera, trabajadora social, voluntaria y médica.",
+      "Abogada, enfermera, trabajadora social y cirujana.",
+      "Teóloga, enfermera, oncóloga e historiadora."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "119. La relación personal que inspiró a Cicely Saunders a crear un sitio distinto donde la enfermedad no fuera tan dolorosa uniendo 'ciencia y humanidad', fue con un paciente judío polaco llamado:",
+    opciones: [
+      "R. Twycross.",
+      "David Tasma.",
+      "Dr. Barret.",
+      "M. Parks."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "120. ¿En qué año y ciudad se fundó el St. Christopher’s Hospice, considerado la cuna del movimiento de los Cuidados Paliativos modernos?",
+    opciones: [
+      "En Nueva York en 1985.",
+      "En París en 1842.",
+      "En Londres en 1967.",
+      "En Madrid en 1992."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "121. Durante sus investigaciones en el St. Joseph's Hospice en los años previos, Cicely Saunders introdujo una práctica clínica que revolucionó el control sintomático. ¿Cuál fue?",
+    opciones: [
+      "La radioterapia paliativa en domicilio.",
+      "La introducción de la morfina pautada, monitorizando el dolor y otros síntomas.",
+      "La administración de nutrición parenteral en las últimas horas de vida.",
+      "La realización de intervenciones quirúrgicas sin anestesia general."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "122. El concepto multidimensional acuñado por Cicely Saunders para describir que el dolor no sólo abarca lo físico, sino otras esferas de la persona, se denomina:",
+    opciones: [
+      "Dolor Somático Extenso.",
+      "Dolor Neuropático.",
+      "Dolor Irruptivo Sistémico.",
+      "Dolor Total."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "123. Dentro de la evaluación del 'Dolor Total', ¿a qué categoría pertenecen el miedo a la muerte, la inquietud, el futuro incierto y la desesperanza?",
+    opciones: [
+      "Aspectos físicos.",
+      "Aspectos sociales.",
+      "Aspectos espirituales.",
+      "Aspectos económicos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "124. Si un paciente padece angustia y dolor derivado de 'la pérdida de su posición social, pérdida de amigos y problemas burocráticos', estamos ante los componentes:",
+    opciones: [
+      "Emocionales del Dolor Total.",
+      "Sociales del Dolor Total.",
+      "Físicos del Dolor Total.",
+      "Cognitivos de la Enfermedad Terminal."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "125. Entre los principales factores sociales del contexto actual que demandaron el desarrollo moderno de los cuidados paliativos se encuentran:",
+    opciones: [
+      "El incremento de enfermedades infecciosas agudas curables.",
+      "El aumento de la natalidad y reducción de la esperanza de vida.",
+      "El envejecimiento de la población y el aumento de los enfermos crónicos.",
+      "La aparición exclusiva del virus de la inmunodeficiencia humana (VIH)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "126. A nivel institucional en España, la creación de la Sociedad Española de Cuidados Paliativos (SECPAL) se produjo en el año:",
+    opciones: [
+      "1967",
+      "1992",
+      "2005",
+      "2014"
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "127. Posteriormente, la Asociación Española de Enfermería en Cuidados Paliativos (AECPAL) se constituyó en:",
+    opciones: [
+      "1987",
+      "1992",
+      "2005",
+      "2019"
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "128. Según los datos del Atlas de Cuidados Paliativos en Europa 2019 mostrados en el Tema 2, la situación asistencial en España indica que:",
+    opciones: [
+      "España cuenta con el doble de equipos de la media europea (2 equipos por 100.000 habitantes).",
+      "Existen alrededor de 0,6 equipos por cada 100.000 habitantes, situándose por debajo de la media europea.",
+      "La atención pediátrica paliativa está plenamente cubierta en todo el territorio con más de 200 unidades.",
+      "No existe atención domiciliaria en paliativos en el Sistema Nacional de Salud."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "129. Respecto a la etimología, la palabra 'Paliar' deriva del latín 'Palliatus' y se relaciona desde su origen en el diccionario con:",
+    opciones: [
+      "Curar definitivamente una infección bacteriana.",
+      "Provocar el sueño artificial y la sedación irreversible.",
+      "Mitigar la violencia de ciertas enfermedades.",
+      "Aislar al paciente infeccioso para evitar epidemias."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 2,
+    pregunta: "130. El concepto de la atención al enfermo terminal y los Cuidados Paliativos no termina con el óbito del paciente. Históricamente y según la filosofía paliativa:",
+    opciones: [
+      "La atención posterior al fallecimiento es fundamental para los miembros de la familia o algunos amigos (Apoyo al duelo).",
+      "El equipo sanitario debe desvincularse completamente de la familia en el momento de certificar la muerte.",
+      "El trabajo social se encarga del duelo, la enfermería no tiene competencias tras la muerte.",
+      "Solo se atiende a la familia posteriormente si el fallecimiento ha sido traumático o en la UCI."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "historia_filosofia"
+  },
+  // ==========================================
+  // TEMA 3. ORGANIZACIÓN DE LA ASISTENCIA EN CUIDADOS PALIATIVOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "131. Según el Tema 3, ¿quién tiene derecho a recibir Cuidados Paliativos?",
+    opciones: [
+      "Exclusivamente los pacientes con cáncer en estadios terminales.",
+      "Todas las personas que tengan enfermedades avanzadas, progresivas y complejas, así como sus familias.",
+      "Solo los pacientes adultos mayores de 65 años con demencias severas.",
+      "Aquellos pacientes que han firmado un documento de voluntades anticipadas obligatoriamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "132. Dentro de los factores de complejidad de un paciente paliativo, ¿cuál de los siguientes es un factor directamente relacionado con los cuidadores/familia?",
+    opciones: [
+      "Síntomas difíciles y poca respuesta a las terapias.",
+      "Prevalencia elevada de la enfermedad en la comunidad.",
+      "Dificultad emocional, mala adaptación psicosocial y riesgo de duelo complicado.",
+      "Dificultad de acceso a las unidades de cuidados paliativos hospitalarias."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "133. ¿Cuál es el significado de las siglas HADO en el contexto de la asistencia sanitaria?",
+    opciones: [
+      "Hospitalización de Agudos Domiciliarios y Oncológicos.",
+      "Hospitalización A Domicilio.",
+      "Herramienta de Asistencia al Duelo Oncológico.",
+      "Hospital de Atención Diaria Organizada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "134. La Hospitalización a Domicilio (HADO) se define como una atención especializada en el domicilio proporcionada por equipos multidisciplinares 'expertos'. ¿Hacia qué tipo de pacientes va dirigida principalmente?",
+    opciones: [
+      "Pacientes inestables que requieren monitorización intensiva constante.",
+      "Pacientes ESTABLES que requieren cuidados hospitalarios durante un tiempo determinado.",
+      "Cualquier paciente que simplemente prefiera estar en su casa en lugar del centro de salud.",
+      "Pacientes pediátricos sanos para revisiones rutinarias."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "135. Entre los valores y beneficios de la HADO, los apuntes destacan que:",
+    opciones: [
+      "Despersonaliza la atención para hacerla más objetiva.",
+      "Humaniza la atención, prestando un cuidado centrado en el paciente y fomentando la continuidad asistencial.",
+      "Aumenta las infecciones nosocomiales de manera controlada.",
+      "Sustituye completamente la labor del médico de Atención Primaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "136. ¿Cuál de los siguientes es un CRITERIO DE INCLUSIÓN indispensable para ingresar a un paciente en el programa HADO?",
+    opciones: [
+      "No tener diagnóstico establecido.",
+      "Ausencia de familia o red de apoyo.",
+      "Paciente con condiciones sociofamiliares adecuadas y con un cuidador principal o institución responsable.",
+      "Requerir exclusivamente cuidados de nivel de Atención Primaria básica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "137. ¿Cuál de las siguientes situaciones supone un CRITERIO DE EXCLUSIÓN para la hospitalización a domicilio (HADO)?",
+    opciones: [
+      "Necesitar antibioterapia intravenosa.",
+      "Tener un diagnóstico de cáncer avanzado.",
+      "Mejoría clínica en el momento de la valoración o falta de un cuidador principal.",
+      "Aceptar voluntariamente las condiciones del programa por parte de la familia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "138. Si se evalúa a un paciente para HADO, pero se observa que presenta una 'situación clínica inestable' y no se dan 'las condiciones geográficas', la decisión correcta será:",
+    opciones: [
+      "Admitirlo en HADO igualmente asumiendo el riesgo.",
+      "Excluirlo del programa HADO, ya que son criterios formales de exclusión.",
+      "Admitirlo pero solo bajo el cuidado de celadores.",
+      "Enviar al paciente obligatoriamente a una residencia de ancianos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "139. En el trabajo en Cuidados Paliativos, ¿qué figura asume la carga principal de los cuidados en el domicilio y merece especial atención y apoyo?",
+    opciones: [
+      "La enfermera gestora de casos.",
+      "El trabajador social.",
+      "El cuidador principal (la familia).",
+      "El médico de Atención Primaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "140. Dentro de las 'Claves en los cuidados paliativos', se establece que la COMUNICACIÓN con el paciente y la familia actúa como:",
+    opciones: [
+      "Un mero trámite administrativo.",
+      "Una herramienta terapéutica fundamental.",
+      "Un factor de riesgo de claudicación.",
+      "Una barrera para la analgesia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "141. Además del Trabajo en equipo, la Comunicación y el Control de Síntomas, ¿cuál es el cuarto pilar clave de los Cuidados Paliativos según el Tema 3?",
+    opciones: [
+      "La curación etiológica.",
+      "El Apoyo Emocional, que incluye el abordaje del duelo.",
+      "La prolongación artificial de la vida.",
+      "La restricción de opioides."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "142. ¿Cuál es la diferencia teórica principal entre un 'Equipo' común y un 'Equipo Eficaz' en salud?",
+    opciones: [
+      "El equipo eficaz no requiere de un médico en plantilla.",
+      "En el equipo eficaz los individuos están más comprometidos con el resultado del equipo que con las acciones personales.",
+      "El equipo común trabaja sin protocolos clínicos.",
+      "El equipo eficaz delega todas las funciones en el voluntariado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "143. En la unidad pediátrica de crónicos y paliativos, ¿qué momento marca el inicio del abordaje tras la 'Detección' del paciente?",
+    opciones: [
+      "La derivación inmediata a psiquiatría infantil.",
+      "La reunión multidisciplinar presencial para establecer objetivos, reparto de roles y planes de adecuación.",
+      "El alta forzosa del sistema escolar.",
+      "La sedación preventiva del neonato."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "144. En el abordaje pediátrico, ¿quiénes componen principalmente el núcleo de atención o valoración primaria?",
+    opciones: [
+      "Solo los pediatras y psicólogos clínicos.",
+      "La enfermera, el pediatra y la familia.",
+      "Exclusivamente las trabajadoras sociales.",
+      "El personal de administración del hospital."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "145. Al establecer la toma de decisiones dentro de un equipo enfermero, el método más maduro y deseable (aunque variable según circunstancias) suele ser:",
+    opciones: [
+      "Por autoridad absoluta del médico.",
+      "Por acuerdo o consenso tras un debate analizando opciones.",
+      "Por la decisión exclusiva del más experto anulando al resto.",
+      "Dejando que la decisión la tome siempre la familia al 100% sin asesoramiento."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "146. Cuando surgen problemas en el equipo enfermero, la presencia de 'conversaciones negativas, falta de confianza y ataques interpersonales' indica:",
+    opciones: [
+      "Un alto nivel de resiliencia grupal.",
+      "Una fase de desarrollo óptimo del equipo multidisciplinar.",
+      "Síntomas de un equipo ineficaz o afectado por malestar laboral.",
+      "Un proceso de duelo patológico por parte de la familia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "147. Dentro de las funciones del programa HADO, ¿cómo colaboran con el registro de Voluntades Anticipadas?",
+    opciones: [
+      "Ofreciendo ayuda y asesoramiento para la elaboración del documento de instrucciones previas.",
+      "Obligando al paciente a firmarlo antes de darle el alta.",
+      "Prohibiendo a la familia su tramitación si el paciente no tiene cáncer.",
+      "Derivando el trámite exclusivamente a los juzgados civiles."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "148. El Plan de atención integral en paliativos garantiza una atención continuada. ¿Durante cuánto tiempo se proporciona esta atención, sumando hospital, domicilio y la colaboración del 061?",
+    opciones: [
+      "Solo en horario de mañana (8:00 a 15:00).",
+      "Las 24 horas del día.",
+      "Exclusivamente durante los fines de semana.",
+      "Un máximo de 2 horas diarias de visita."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "149. Además del control de dolor y sueroterapia, ¿qué otra técnica vital y delicada se puede instaurar, controlar y revisar por parte de los equipos HADO en el domicilio?",
+    opciones: [
+      "La sedación paliativa.",
+      "Cirugías oncológicas mayores.",
+      "Sesiones de radioterapia externa.",
+      "Trasplantes de órganos sólidos."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 3,
+    pregunta: "150. ¿Dónde se pueden proporcionar los cuidados paliativos según la estructura del sistema sanitario?",
+    opciones: [
+      "Únicamente en el hospital de agudos.",
+      "En el domicilio (AP, HADO), en el Hospital (Unidades específicas, Equipos de soporte) y en Centros Residenciales.",
+      "Solo en Unidades Móviles del 061.",
+      "Exclusivamente en clínicas de medicina alternativa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+
+  // ==========================================
+  // TEMA 4. VALORACIÓN DEL PACIENTE PALIATIVO
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "151. Según las estadísticas de pacientes adultos en cuidados paliativos citadas en los apuntes, ¿cuál es el grupo de patologías MÁS prevalente?",
+    opciones: [
+      "Cáncer (34%).",
+      "Enfermedades cardiovasculares (38,5%).",
+      "Enfermedades respiratorias crónicas (10,3%).",
+      "SIDA (menos del 5%)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "152. El 'Programa NECPAL' nació para dar respuesta a un reto fundamental en cuidados paliativos. ¿Cuál es ese reto?",
+    opciones: [
+      "La instauración de quimioterapias agresivas.",
+      "La atención paliativa precoz, integral e integrada a personas con enfermedades avanzadas en todos los servicios.",
+      "La retirada inmediata de analgesia en pacientes estables.",
+      "El traslado sistemático de ancianos a las UCI."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "153. En el instrumento NECPAL 4.0, el primer paso evaluativo obligatorio es la denominada 'Pregunta Sorpresa'. ¿Cómo se formula textualmente?",
+    opciones: [
+      "¿Se sorprendería si esta persona se cura en el próximo mes?",
+      "¿Cree usted que el paciente necesita un aumento de analgésicos hoy?",
+      "¿Se sorprendería si esta persona muriese a lo largo del año siguiente?",
+      "¿Estaría dispuesto a ser el cuidador de esta persona el resto de su vida?"
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "154. Para considerar a un paciente como 'NECPAL POSITIVO' indicando necesidad de cuidados paliativos, se requiere:",
+    opciones: [
+      "Que la Pregunta Sorpresa sea SÍ (me sorprendería).",
+      "Que la Pregunta Sorpresa sea NO, sumado al menos a 1 de los parámetros de declive o necesidad posteriores.",
+      "Que el paciente presente una pérdida de peso superior al 50% en un mes exclusivamente.",
+      "Que la familia solicite formalmente el alta médica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "155. Evaluando el 'Checklist situacional pronóstico' derivado de NECPAL, un paciente clasificado en el 'Estadio III' (con 5-6 parámetros afectados) presenta una mediana de supervivencia estimada de:",
+    opciones: [
+      "38 meses.",
+      "17.2 meses.",
+      "3.6 meses.",
+      "Más de 10 años."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "156. En pediatría, se utiliza una escala específica para identificar las necesidades paliativas, con una puntuación máxima de 27 y un punto de corte de 6,5. ¿Cómo se llama esta escala?",
+    opciones: [
+      "Escala de Zarit Infantil.",
+      "Escala PedCom.",
+      "Índice de Barthel Pediátrico.",
+      "Cuestionario de Edmonton (ESAS) para niños."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "157. Existe otra escala en pediatría denominada 'PaPaS', que evalúa la trayectoria de la enfermedad, carga de síntomas y preferencias. ¿Hasta qué edad está indicada su aplicación?",
+    opciones: [
+      "Hasta los 3 años de vida.",
+      "Exclusivamente en neonatos prematuros.",
+      "En niños y adolescentes hasta los 18 años.",
+      "No hay límite, se usa también en geriatría."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "158. Durante la valoración física en Cuidados Paliativos, ¿qué escala se recomienda para la evaluación continuada de síntomas (listado cerrado que aborda dolor, cansancio, náuseas, depresión, ansiedad...)?",
+    opciones: [
+      "El test de Pfeiffer.",
+      "El Cuestionario de Cage.",
+      "El Edmonton Symptom Assessment System (ESAS).",
+      "La escala visual analógica (EVA) exclusivamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "159. Para valorar específicamente la 'Sobrecarga del Cuidador' principal a nivel sociofamiliar, la herramienta estándar a utilizar es:",
+    opciones: [
+      "El Genograma estructurado a 3 generaciones.",
+      "El índice de Lawton y Brody.",
+      "La Escala de Zarit abreviada.",
+      "El cuestionario de Pfeiffer."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "160. En la corrección de la 'Escala de Zarit abreviada', ¿a partir de qué puntuación se considera que existe una 'Sobrecarga Intensa' en el cuidador?",
+    opciones: [
+      "Mayor o igual a 5 puntos.",
+      "Menor a 16 puntos.",
+      "Mayor o igual a 17 puntos.",
+      "Exactamente 100 puntos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "161. En cuanto a las escalas de Funcionalidad, el 'Índice de Karnofsky' consta de 11 categorías. ¿Qué situación clínica define un índice de Karnofsky de 50?",
+    opciones: [
+      "Actividad normal con esfuerzo.",
+      "Necesita ayuda importante y asistencia médica frecuente.",
+      "Moribundo irreversible.",
+      "Capaz de llevar actividad normal, con signos muy leves."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "162. ¿Qué escala de funcionalidad mide la capacidad de la persona para realizar 10 Actividades de la Vida Diaria (Alimentación, baño, vestido, deposición...) proporcionando una estimación cuantitativa de independencia?",
+    opciones: [
+      "El Índice de Barthel.",
+      "La escala de Menten.",
+      "El cuestionario ESAS.",
+      "El Eastern Cooperative Oncology Group (ECOG)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "163. La Palliative Performance Scale (PPS) es una herramienta funcional que presenta una buena correlación con el Karnofsky, basándose en la evaluación de 5 parámetros fundamentales. Estos son:",
+    opciones: [
+      "Presión arterial, frecuencia cardíaca, diuresis, saturación y dolor.",
+      "Capacidad de deambulación, evidencia de enfermedad, capacidad de autocuidado, ingesta y nivel de conciencia.",
+      "Nivel de estudios, ingresos económicos, apoyo familiar, vivienda y transporte.",
+      "Edad, sexo, patología de base, tratamientos previos y alergias."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "164. Para realizar una correcta evaluación cognitiva del paciente paliativo, descartando delirium o demencias asociadas, el instrumento de cribado recomendado (con un corte en 3 o más errores) es:",
+    opciones: [
+      "La Escala de Menten.",
+      "El índice de Barthel.",
+      "El Test de Pfeiffer.",
+      "El Genograma cognitivo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "165. ¿Qué herramienta de evaluación pronóstica clasifica a los pacientes en tres grupos de probabilidad de 'supervivencia a los 30 días' midiendo disnea, anorexia, Karnofsky y linfocitos?",
+    opciones: [
+      "El Palliative Prognosis Score (PaP Score).",
+      "La escala de Zarit.",
+      "El instrumento NECPAL 1.0.",
+      "El test de Tareas de Worden."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "166. A la hora de realizar la valoración de enfermería en el control de síntomas, existe una premisa obligatoria antes de instaurar cualquier tratamiento analgésico. Ésta es:",
+    opciones: [
+      "Administrar una dosis de morfina de prueba para ver la tolerancia.",
+      "Valorar antes de tratar (tipología, patrón, intensidad, impacto emocional y factores de alivio/agravamiento).",
+      "Obtener siempre un TAC de cuerpo entero para buscar metástasis.",
+      "Derivar al paciente al psicólogo clínico sin intervenir."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "167. En la 'Evolución de la enfermedad' pediátrica, ¿qué suceso clínico marca el inicio de la fase de 'Adecuación de medidas' o fase de terminalidad/irreversibilidad?",
+    opciones: [
+      "El diagnóstico inicial de la enfermedad.",
+      "El Punto de inflexión, marcado por el empeoramiento clínico y la necesidad de derivación a unidades paliativas.",
+      "La administración de la primera dosis de paracetamol.",
+      "La superación de los 18 años de edad cronológica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "168. Dentro del marco de la 'Valoración Integral', la evaluación de la dimensión Espiritual se realiza principalmente mediante:",
+    opciones: [
+      "La revisión de la analítica de orina.",
+      "El Índice de Karnofsky exclusivamente.",
+      "La Entrevista sobre la percepción subjetiva del paso del tiempo, necesidades espirituales y calidad de vida.",
+      "El cálculo del Índice de Masa Corporal (IMC)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "169. Según los apuntes, ¿cuál es el 'Reto principal de la enfermera' en la gestión global del cuidado paliativo?",
+    opciones: [
+      "Aumentar el número de ingresos hospitalarios de la unidad.",
+      "Prescribir todo el tratamiento médico sin consultar al equipo.",
+      "Participar en el control de síntomas, asegurar autonomía, ofrecer acompañamiento respetando valores y perseguir el bienestar en equipo.",
+      "Centrarse exclusivamente en la higiene corporal dejando los síntomas al médico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 4,
+    pregunta: "170. En el contexto de un 'Punto de inflexión' en paliativos pediátricos, ¿cuál es la responsabilidad comunicativa principal del médico responsable?",
+    opciones: [
+      "Ocultar el empeoramiento a la familia para evitar sufrimiento (conspiración de silencio).",
+      "Comunicar a la familia la nueva situación y adaptar sus expectativas a las posibilidades reales del paciente.",
+      "Informar únicamente por escrito mediante un informe de alta.",
+      "Delegar esta comunicación siempre y de forma exclusiva en el trabajador social."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  // ==========================================
+  // TEMA 5. VÍAS DE ADMINISTRACIÓN DE FÁRMACOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "171. En Cuidados Paliativos, ¿cuál es siempre la vía de elección principal para la administración de fármacos mientras el paciente la tolere?",
+    opciones: [
+      "La vía intravenosa, por su rapidez.",
+      "La vía oral, por ser cómoda, sencilla y segura.",
+      "La vía transdérmica, para evitar múltiples tomas.",
+      "La vía subcutánea mediante infusores elastoméricos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "172. Cuando se pierde la vía oral (por disfagia, náuseas severas o agonía), ¿cuál es la vía alternativa de primera elección en el paciente paliativo?",
+    opciones: [
+      "La vía intravenosa periférica.",
+      "La vía intramuscular.",
+      "La vía subcutánea.",
+      "La vía rectal."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "173. A la hora de instaurar una vía subcutánea, ¿cuál de las siguientes situaciones supone una CONTRAINDICACIÓN absoluta para su uso?",
+    opciones: [
+      "Mal control de síntomas por vía oral.",
+      "Necesidad de sedación en los últimos días.",
+      "Anasarca, coagulopatías graves o circulación periférica disminuida.",
+      "Oclusión intestinal maligna."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "174. Respecto a las ventajas de la vía subcutánea frente a la vía transdérmica (parches), los apuntes destacan que:",
+    opciones: [
+      "La vía subcutánea presenta una mayor variabilidad individual en la absorción.",
+      "La vía transdérmica presenta un retraso de 12-24 horas en alcanzar el estado estacionario, lo que dificulta el control rápido del dolor.",
+      "La vía transdérmica es más barata y rápida que la subcutánea.",
+      "No existe diferencia, ambas tienen la misma velocidad de acción analgésica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "175. Si necesitamos instaurar una hidratación por vía subcutánea (hipodermoclisis) para administrar grandes volúmenes, ¿cuáles son las zonas de punción más recomendables?",
+    opciones: [
+      "La zona deltoidea y el pecho.",
+      "El abdomen y la zona supraescapular.",
+      "Los muslos exclusivamente.",
+      "La zona infraclavicular."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "176. En la vía subcutánea existen límites de volumen para evitar complicaciones. En la administración en BOLO puntual, no se recomienda superar los:",
+    opciones: [
+      "10 - 12 ml.",
+      "2 - 3 ml.",
+      "5 - 7 ml.",
+      "15 - 20 ml."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "177. Cuando administramos un bolo de medicación por vía subcutánea a través de una palomilla o set, ¿cuál es el protocolo de lavado inmediato?",
+    opciones: [
+      "No es necesario lavar el catéter tras los bolos.",
+      "Lavar con 10 ml de heparina sódica.",
+      "Lavar con 0,5 ml de Suero Fisiológico.",
+      "Lavar con 5 ml de Suero Glucosado al 5%."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "178. En cuanto a las complicaciones o inconvenientes de la vía subcutánea, ¿en qué porcentaje de los casos aparecen reacciones locales (eritema, induración)?",
+    opciones: [
+      "En el 50% de los casos.",
+      "En el 5% de los casos.",
+      "En el 25% de los casos.",
+      "Prácticamente en el 100%, es inevitable."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "179. Para la infusión continua en vía subcutánea, se suelen realizar mezclas de fármacos en un infusor. Según los apuntes, ¿cuál de los siguientes grupos de fármacos SÍ son compatibles para mezclarse en infusión continua?",
+    opciones: [
+      "Morfina, Midazolam, Haloperidol y Metoclopramida.",
+      "Diazepam, Metamizol y Morfina.",
+      "Dexametasona, Haloperidol y Clorazepato dipotásico.",
+      "Metadona, Fentanilo y Ketamina."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "180. Señala qué fármaco, debido a su alto poder irritante, tendencia a cristalizar o incompatibilidad química, NO debe mezclarse nunca en infusión subcutánea y se prefiere administrar solo y diluido:",
+    opciones: [
+      "El Haloperidol.",
+      "El Midazolam.",
+      "La Dexametasona.",
+      "La Morfina."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "181. Existen fármacos explícitamente PROHIBIDOS para su administración por vía subcutánea porque provocan necrosis. ¿Cuál de los siguientes está totalmente contraindicado por esta vía?",
+    opciones: [
+      "Diazepam.",
+      "Buscapina (Bromuro de butilescopolamina).",
+      "Ondansetrón.",
+      "Tramadol."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "182. A la hora de insertar el dispositivo de vía subcutánea, el ángulo de punción variará según el material. Si utilizamos una 'Palomilla' clásica, el ángulo será de:",
+    opciones: [
+      "90º",
+      "15º",
+      "45º",
+      "0º (paralelo a la piel)"
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "183. La técnica de 'Hipodermoclisis' permite rehidratar a un paciente por vía subcutánea. Si administramos Suero Fisiológico al 0,9%, ¿cuál es el volumen máximo diario recomendado asumiendo que utilizamos 2 accesos?",
+    opciones: [
+      "1 Litro / 24h.",
+      "3 Litros / 24h (1.500 ml por punto de punción).",
+      "5 Litros / 24h.",
+      "No hay límite de volumen en vía subcutánea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "184. Si para la hipodermoclisis en lugar de Suero Fisiológico empleamos Suero Glucosado al 5% (SG5%), debemos tener precaución con la aparición de edemas y limitar el volumen máximo diario a:",
+    opciones: [
+      "1 Litro / 24h.",
+      "2 Litros / 24h (1 litro por punto de punción).",
+      "500 ml / 24h.",
+      "4 Litros / 24h."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "185. Los sistemas de infusión elastoméricos (bombas de presión positiva) presentan como característica clínica:",
+    opciones: [
+      "Ser manipulables libremente por el paciente.",
+      "Funcionar con pilas o baterías recargables.",
+      "Mantener una precisión exacta del 100% sin margen de error.",
+      "Ser discretos, silenciosos y tener una precisión del +/- 10%, sin requerir cambios ni programación."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "186. Teniendo un infusor elastomérico con un volumen total de 250 ml que debe durar 7 días exactos. ¿A qué velocidad se infundirá aproximadamente la medicación?",
+    opciones: [
+      "2,50 ml / hora.",
+      "1,49 ml / hora.",
+      "5,00 ml / hora.",
+      "0,50 ml / hora."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "187. ¿Con qué frecuencia protocolizada se recomienda realizar el cambio o rotación de la zona de punción de una vía subcutánea si no presenta complicaciones?",
+    opciones: [
+      "Cada 24 horas obligatoriamente.",
+      "Cada 4 a 7 días.",
+      "Cada 15 días.",
+      "Solamente si se produce necrosis cutánea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "188. La vía de administración transmucosa oral es muy útil en dolor irruptivo debido a su rápida absorción. ¿Qué fármaco opioide destaca en los apuntes por su efecto rápido (5 minutos) a través de esta vía?",
+    opciones: [
+      "Fentanilo.",
+      "Metadona.",
+      "Buprenorfina.",
+      "Codeína."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "189. En pacientes oncológicos, la vía subcutánea tiene como ventaja fisiológica frente a la intramuscular que:",
+    opciones: [
+      "La absorción es mucho más dolorosa pero inmediata.",
+      "Tiene menor riesgo de hematomas (tejido menos vascularizado) y de lesiones nerviosas, doliendo mucho menos.",
+      "La biodisponibilidad es del 10% en comparación con la IM.",
+      "Impide la formación de abscesos en el 100% de los casos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 5,
+    pregunta: "190. A la hora de calcular la medicación en un infusor, si un paciente tiene pautados 100 mg diarios de Morfina al 2% (20 mg/ml) para una bomba que durará 7 días, ¿cuántos ml de morfina cargaremos en total en la bomba?",
+    opciones: [
+      "10 ml.",
+      "25 ml.",
+      "35 ml.",
+      "70 ml."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+
+  // ==========================================
+  // TEMA 6. DOLOR Y ANALGESIA EN CUIDADOS PALIATIVOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "191. Según la Asociación Internacional para el Estudio del Dolor (IASP, 2020), ¿cómo se define el dolor?",
+    opciones: [
+      "Una alteración psicológica pura producto del estrés terminal.",
+      "Una experiencia sensorial y emocional desagradable asociada o similar a la asociada con daño tisular real o potencial.",
+      "Una sensación fisiológica puramente biológica producida por la activación de los nociceptores.",
+      "La consecuencia directa e inevitable del daño en el sistema nervioso central."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "192. Si el dolor de un paciente es causado directamente por una lesión en el sistema nervioso y lo describe como 'quemazón o punzante', y suele ir acompañado de hormigueos y alodinia, estamos ante un dolor de tipo:",
+    opciones: [
+      "Nociceptivo visceral.",
+      "Neuropático.",
+      "Nociceptivo somático.",
+      "Psicógeno puro."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "193. El dolor de características 'Crónicas' se diferencia clínicamente del agudo en que:",
+    opciones: [
+      "Su duración es superior a los 6 meses, no es simplemente la persistencia de un dolor agudo, e involucra factores psicológicos, conductuales y sociales.",
+      "Desaparece siempre tras ser tratado con analgésicos menores.",
+      "Dura como máximo 3 semanas.",
+      "Su intensidad se correlaciona directamente con la magnitud del daño tisular en todo momento."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "194. En el abordaje del dolor, la Escala Multidimensional de Lattinen evalúa varios parámetros para medir la afectación global. ¿Cuál de los siguientes parámetros SÍ se incluye en esta escala?",
+    opciones: [
+      "Nivel de glucosa en sangre.",
+      "Frecuencia cardíaca.",
+      "Horas de sueño, incapacidad y consumo de analgésicos.",
+      "Nivel de ingresos económicos del paciente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "195. En la Escalera Analgésica de la OMS, los fármacos del Primer Escalón (AINEs, Paracetamol, Metamizol) se caracterizan porque:",
+    opciones: [
+      "Tienen una clara relación dosis-respuesta ilimitada.",
+      "Provocan fuerte dependencia física y psicológica.",
+      "Presentan 'efecto techo' analgésico y no existe relación dosis-respuesta clara más allá de su límite.",
+      "Se utilizan exclusivamente para el dolor severo incapacitante."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "196. Según los principios de prescripción en la Escalera de la OMS, ¿cuál es una norma de oro respecto a la combinación de fármacos?",
+    opciones: [
+      "Se deben asociar siempre opioides mayores y menores para sumar sus efectos.",
+      "La posibilidad de usar fármacos coadyuvantes existe en cualquier escalón según la situación clínica.",
+      "Los coadyuvantes sólo se utilizan a partir del Tercer Escalón.",
+      "Se debe comenzar directamente por el Tercer Escalón siempre en pacientes oncológicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "197. Entre los 'Fármacos Coadyuvantes' (aquellos que sin ser analgésicos clásicos potencian la acción de estos o controlan dolores específicos), se encuentran:",
+    opciones: [
+      "La Codeína y el Tramadol.",
+      "Antidepresivos tricíclicos, anticonvulsivantes, esteroides y bifosfonatos.",
+      "La Morfina y el Fentanilo.",
+      "Los AINEs y el Paracetamol."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "198. Farmacológicamente, los Opioides Mayores (como Morfina o Fentanilo) presentan una característica fundamental respecto a la dosificación:",
+    opciones: [
+      "Tienen un efecto techo muy marcado a bajas dosis.",
+      "La analgesia es dosis-dependiente y NO tienen dosis techo, estando la dosis limitada sólo por los efectos colaterales.",
+      "No producen jamás farmacodependencia física.",
+      "Tienen una variabilidad interindividual nula, la misma dosis sirve a todos los pacientes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "199. ¿Cuál de los siguientes efectos secundarios de los opioides es el MÁS frecuente y persistente (con una incidencia del 40-70%) y requiere pautar tratamiento preventivo continuo?",
+    opciones: [
+      "Depresión respiratoria severa.",
+      "Prurito cutáneo.",
+      "Estreñimiento.",
+      "Alucinaciones y mioclonías."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "200. Respecto a los mitos sobre la Morfina en Cuidados Paliativos, es fundamental saber y transmitir al paciente que:",
+    opciones: [
+      "La morfina acorta la esperanza de vida drásticamente.",
+      "Tiene un techo terapéutico muy bajo.",
+      "En ningún caso va a disminuir la esperanza de vida, no tiene techo y mejora de forma evidente la calidad de vida.",
+      "Su uso indica que el paciente fallecerá invariablemente en 24 horas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "201. ¿A nivel de qué receptores del Sistema Nervioso Central ejercen principalmente su efecto analgésico y de depresión respiratoria los opioides mayores (agonistas puros)?",
+    opciones: [
+      "Receptores dopaminérgicos.",
+      "Receptores Mu (μ).",
+      "Receptores GABAérgicos.",
+      "Receptores serotoninérgicos 5-HT."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "202. Cuando se pauta un opioide mayor como la Morfina para el dolor basal, siempre se debe prescribir 'medicación de rescate' para el dolor irruptivo. ¿Qué dosis se recomienda clásicamente para este rescate?",
+    opciones: [
+      "La mitad (1/2) de la dosis diaria total.",
+      "Una sexta parte (1/6) de la dosis diaria total de morfina administrada.",
+      "Exactamente la misma dosis que toma cada 12 horas.",
+      "Una décima parte (1/10) de la dosis, pero sólo una vez a la semana."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "203. Si un paciente tiene pautados 60 mg de morfina SC al día, su dosis de rescate indicada ante un pico de dolor irruptivo será de:",
+    opciones: [
+      "10 mg.",
+      "5 mg.",
+      "30 mg.",
+      "2 mg."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "204. ¿Cuál de las siguientes afirmaciones constituye uno de los 'Principios generales para atender al paciente con dolor'?",
+    opciones: [
+      "Usar conjuntamente opioides potentes y débiles para cubrir todo el espectro.",
+      "Asegurar una analgesia a demanda (sólo cuando le duela intensamente).",
+      "Asegurar una analgesia REGULAR, con intervalos fijos ajustados a la vida media de los fármacos.",
+      "Evitar los coanalgésicos en pacientes frágiles."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "205. ¿Qué otra indicación clínica estrella (no analgésica) tiene la morfina, demostrando ser muy efectiva y mejorando la calidad de vida en pacientes terminales?",
+    opciones: [
+      "El tratamiento de la diarrea infecciosa aguda.",
+      "El control de los estertores premortem.",
+      "El tratamiento de la disnea en pacientes terminales.",
+      "El abordaje de las mioclonías yatrogénicas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "206. Una de las dificultades más frecuentes de los profesionales a la hora de establecer un tratamiento adecuado del dolor crónico es:",
+    opciones: [
+      "La preocupación excesiva por los efectos secundarios y el uso de dosis inferiores a las necesarias.",
+      "El uso indiscriminado de sedación profunda.",
+      "La aplicación excesiva de la escala de Karnofsky.",
+      "El exceso de confianza en la intensidad que manifiesta el enfermo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "207. ¿Cuál es un error común que debe evitarse según los principios de la analgesia paliativa descritos en el temario?",
+    opciones: [
+      "Adelantarse preventivamente a los efectos secundarios (ej. recetar laxantes con opioides).",
+      "Prescribir analgesia pautada por reloj.",
+      "Usar de forma conjunta opioides potentes y débiles.",
+      "Priorizar la vía oral para la administración de analgésicos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "208. El 'Dolor Irruptivo' se clasifica dentro del curso del dolor como:",
+    opciones: [
+      "Un dolor estable y persistente durante todo el día sin variaciones.",
+      "Una exacerbación transitoria del dolor que aparece de forma espontánea o relacionada con un desencadenante, a pesar de estar el dolor basal estabilizado.",
+      "Un dolor puramente psicógeno que simula daño tisular.",
+      "Un dolor provocado exclusivamente por intervenciones médicas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "209. Dentro del abordaje no farmacológico del dolor que complementa la escalera analgésica, la enfermería puede aplicar o recomendar:",
+    opciones: [
+      "La retirada absoluta de toda medicación si se usan terapias alternativas.",
+      "Enseñar y respetar posturas antiálgicas, masajes, calor/frío y técnicas de relajación/distracción.",
+      "Ejercicios de fuerza isométrica intensa diaria.",
+      "Mantener al paciente inmovilizado con restricciones mecánicas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 6,
+    pregunta: "210. En el Segundo Escalón Analgésico de la OMS, encontramos fármacos conocidos como opioides débiles. ¿Cuáles son los principales representantes de este grupo?",
+    opciones: [
+      "Ibuprofeno y Paracetamol.",
+      "Fentanilo y Metadona.",
+      "Codeína y Tramadol.",
+      "Morfina y Oxicodona."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  // ==========================================
+  // TEMA 7. CONTROL DE SÍNTOMAS EN EL PACIENTE PALIATIVO
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "211. A la hora de abordar el control de síntomas en el paciente paliativo, una premisa fundamental de la que debe partir la enfermería es:",
+    opciones: [
+      "Curar la etiología subyacente a cualquier precio.",
+      "Valorar antes de tratar, identificando la causa, el patrón y el impacto emocional del síntoma.",
+      "Aplicar directamente los fármacos sin necesidad de escalas si el paciente se queja.",
+      "Asumir que el sufrimiento físico en la fase terminal no se puede aliviar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "212. De todos los síntomas presentes en los pacientes de Cuidados Paliativos (tanto oncológicos como no oncológicos), ¿cuál es estadísticamente el más frecuente?",
+    opciones: [
+      "La disnea.",
+      "El dolor neuropático.",
+      "La astenia.",
+      "El estreñimiento severo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "213. En el tratamiento farmacológico de la astenia, si la esperanza de vida del paciente es INFERIOR a 3 meses, ¿qué fármaco se puede utilizar valorando el riesgo de trombosis (necesidad de tto anticoagulante asociado)?",
+    opciones: [
+      "Psicoestimulantes puros.",
+      "Progestágenos.",
+      "Opioides de liberación rápida.",
+      "Benzodiacepinas a altas dosis."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "214. Al evaluar una Úlcera por Presión (UPP), si observamos una 'Pérdida de espesor parcial de la dermis, que se presenta como una úlcera abierta poco profunda, rojo-rosada y sin esfacelos ni hematomas', nos encontramos ante una:",
+    opciones: [
+      "Categoría I.",
+      "Categoría II.",
+      "Categoría III.",
+      "Categoría IV."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "215. Para el alivio de la mucositis y estomatitis secundaria a la radioterapia/quimioterapia, los enjuagues bucales deben contener fundamentalmente:",
+    opciones: [
+      "Agua oxigenada pura y clorhexidina al 2%.",
+      "Agua, sal y bicarbonato, pudiendo añadir lidocaína al 2% como analgésico.",
+      "Corticoides tópicos de alta potencia sin diluir.",
+      "Zumos cítricos para estimular la salivación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "216. En el tratamiento de la disnea en pacientes terminales, ¿qué grupo farmacológico ha demostrado ser muy efectivo para aliviar la sensación de 'falta de aire'?",
+    opciones: [
+      "Los antibióticos macrólidos.",
+      "Los opioides (Morfina o Fentanilo).",
+      "Los AINEs (Ibuprofeno).",
+      "Los betabloqueantes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "217. Como medida no farmacológica (abordaje de enfermería) para tratar una crisis de disnea, está especialmente indicado:",
+    opciones: [
+      "Colocar al paciente en decúbito supino estricto.",
+      "Ofrecer intervenciones de flujo de aire (ej. ventilador o abanico) en la cara.",
+      "Aislar al paciente para que no se ponga más nervioso.",
+      "Restringir por completo la ingesta de líquidos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "218. El trastorno cognitivo más frecuente en cuidados paliativos (afectando hasta al 80% de los pacientes con cáncer avanzado) y que supone un factor de mal pronóstico a corto plazo es:",
+    opciones: [
+      "La esquizofrenia de inicio tardío.",
+      "La demencia tipo Alzheimer.",
+      "El delirio (Delirium o síndrome confusional agudo).",
+      "El trastorno obsesivo compulsivo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "219. Dentro de las urgencias metabólicas más frecuentes en pacientes oncológicos, encontramos una que cursa con debilidad, estupor, náuseas, poliuria y un nivel sérico corregido superior a 10,5 g/dl. Se trata de:",
+    opciones: [
+      "Hiponatremia.",
+      "Hipercalcemia.",
+      "Cetoacidosis diabética.",
+      "Hipopotasemia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "220. El 'Síndrome de la Vena Cava Superior', frecuente urgencia oncológica (cáncer de pulmón o linfoma), se presenta clínicamente con:",
+    opciones: [
+      "Edema facial y en brazos, disnea, mareo y confusión.",
+      "Dolor punzante exclusivo en miembros inferiores y claudicación intermitente.",
+      "Hemorragia digestiva masiva y melenas.",
+      "Parálisis flácida ascendente (tipo Guillain-Barré)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "221. Una verdadera emergencia médica que precisa un rápido diagnóstico y tratamiento (corticoides, cirugía o radioterapia) para evitar un daño neurológico irreversible en el paciente paliativo es:",
+    opciones: [
+      "El estreñimiento crónico.",
+      "La hipercalcemia leve.",
+      "La compresión medular (por metástasis epidurales).",
+      "La mucositis oral."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "222. La manifestación explícita o implícita de la pérdida de capacidad de la familia para ofrecer una respuesta adecuada a las demandas del enfermo a causa de un agotamiento o sobrecarga se denomina:",
+    opciones: [
+      "Claudicación familiar.",
+      "Conspiración de silencio.",
+      "Duelo patológico.",
+      "Negación anticipada."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "223. En el manejo del insomnio del paciente paliativo, una de las medidas ambientales correctas es:",
+    opciones: [
+      "Mantener al paciente en la cama todo el día aunque no duerma.",
+      "Ofrecer leche o una infusión caliente, reducir estímulos ambientales y aplicar técnicas de relajación/masajes.",
+      "Aumentar la iluminación de la habitación por la noche para evitar la desorientación.",
+      "Restringir completamente las visitas familiares a partir del mediodía."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "224. Entre las causas frecuentes que actúan como factores desencadenantes de la claudicación familiar NO se encuentra:",
+    opciones: [
+      "La ausencia del cuidador principal.",
+      "La diferencia de criterios entre familiares sobre los cuidados o la estancia.",
+      "La red social insuficiente.",
+      "La aceptación pacífica e intelectual de la enfermedad por parte de la familia."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "225. Frente a las náuseas y vómitos, ¿qué grupo de fármacos se utilizan habitualmente para su control en la vía subcutánea?",
+    opciones: [
+      "Antibióticos de amplio espectro.",
+      "Metoclopramida, Ondansetrón y Corticoides.",
+      "Laxantes osmóticos.",
+      "Broncodilatadores inhalados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "226. Si clasificamos el delirio (delirium) según su presentación clínica, ¿qué subtipos encontramos?",
+    opciones: [
+      "Somático, visceral y neuropático.",
+      "Hiperactivo (agitación), Hipoactivo (letargia) y Mixto.",
+      "Agudo, subagudo y crónico.",
+      "Leve, moderado y severo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "227. En relación al manejo del delirio o estado confusional por parte de enfermería, se debe:",
+    opciones: [
+      "Atar de inmediato al paciente sin mediar palabra.",
+      "Llevarle la contraria constantemente para reorientarlo a la fuerza.",
+      "Mantener una relación empática, facilitar actividades diarias (comida, paseo), evitar ruidos y explicar la situación a la familia.",
+      "Administrar grandes volúmenes de sueroterapia intravenosa rápida."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "228. Un síntoma que genera muchísima angustia familiar en las últimas horas de vida es la acumulación de secreciones (estertores). ¿Cuál es la indicación de enfermería respecto a la aspiración de secreciones?",
+    opciones: [
+      "Debe hacerse de forma enérgica cada hora para evitar el ahogo.",
+      "Es muy poco utilizada y se debe explicar a la familia que el ruido es más molesto para ellos que para el propio paciente; se prefiere utilizar fármacos anticolinérgicos.",
+      "Es el tratamiento de primera línea por encima de la buscapina.",
+      "Se debe instruir a la familia para que la realicen ellos en casa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "229. En las úlceras por presión, ¿qué signo clínico diferencia una UPP de Categoría IV de las anteriores?",
+    opciones: [
+      "Presenta solo un eritema no blanqueable.",
+      "Aparecen flictenas intactas llenas de suero.",
+      "Hay tejido con hueso expuesto, tendón o músculo directamente visible o palpable.",
+      "La piel está intacta pero dolorosa al tacto."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 7,
+    pregunta: "230. ¿Qué fármaco se recomienda comúnmente en infusión subcutánea combinada con opioides para tratar el hipo, las náuseas y los vómitos de origen periférico?",
+    opciones: [
+      "Diazepam.",
+      "Metoclopramida.",
+      "Omeprazol.",
+      "Furosemida."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+
+  // ==========================================
+  // TEMA 8. COMUNICACIÓN EN CUIDADOS PALIATIVOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "231. El protocolo de 6 pasos ampliamente utilizado como guía para dar malas noticias en el ámbito sanitario se conoce con el acrónimo inglés SPIKES. En España, este acrónimo se ha adaptado como:",
+    opciones: [
+      "NURSE.",
+      "EPICEE.",
+      "HADO.",
+      "ESAS."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "232. En el protocolo EPICEE, la primera 'E' (Entorno) hace referencia a preparativos vitales como:",
+    opciones: [
+      "Elaborar un informe por escrito para entregárselo a la familia.",
+      "Buscar un espacio adecuado con intimidad, sentarse, asegurar contacto ocular y disponer del tiempo necesario sin interrupciones.",
+      "Estar de pie en el pasillo para que la información sea rápida y directa.",
+      "Evaluar exclusivamente las constantes vitales del paciente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "233. ¿Qué busca la fase 'P' (Percepción) del protocolo EPICEE antes de dar la mala noticia?",
+    opciones: [
+      "Comprobar la percepción visual y auditiva del paciente mediante pruebas.",
+      "Averiguar qué sabe el paciente sobre su enfermedad y corregir información errónea previa.",
+      "Percibir si la familia está dispuesta a donar los órganos.",
+      "Preguntar al paciente cómo percibe la limpieza del hospital."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "234. En el protocolo EPICEE, ¿qué se debe hacer en la etapa de la 'I' (Invitación)?",
+    opciones: [
+      "Invitar a todos los familiares lejanos a la sala.",
+      "Averiguar hasta dónde quiere saber el paciente (pidiendo permiso para dar la mala noticia) y respetar su ritmo.",
+      "Invitar al paciente a que abandone el hospital y vaya a su casa.",
+      "Invitar a un sacerdote católico obligatoriamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "235. La etapa de 'Comunicar' (C) establece que la información debe transmitirse de manera progresiva. La regla de oro es:",
+    opciones: [
+      "Utilizar lenguaje técnico y médico complejo para demostrar autoridad.",
+      "Dar toda la información de golpe en un monólogo de 15 minutos.",
+      "Adaptarse al nivel de comprensión del paciente, dando la información en pequeños trozos para facilitar el procesamiento.",
+      "Evitar dar un diagnóstico concreto y usar solo eufemismos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "236. Para articular y expresar la 'Empatía' (segunda E de EPICEE), existe un método nemotécnico denominado NURSE. La letra 'N' (Naming / Nombrar) se refiere a:",
+    opciones: [
+      "Nombrar a la enfermera responsable de la planta.",
+      "Ponerle nombre a la emoción del paciente, por ejemplo: 'Parece que estás frustrado'.",
+      "Nombrar todos los fármacos que va a tomar.",
+      "Negar las emociones negativas del paciente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "237. Siguiendo el método NURSE, la 'U' (Understanding / Comprensión) se pondría en práctica mediante frases como:",
+    opciones: [
+      "'Puedo ver lo mucho que has abogado por tu hijo'.",
+      "'Dime más sobre lo que te preocupa'.",
+      "'Creo que entiendo que digas que estás preocupado por...' o 'No puedo ni imaginar por lo que estás pasando'.",
+      "'Te prometo que siempre seré honesto contigo'."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "238. Al finalizar de dar la mala noticia, la última 'E' de EPICEE corresponde a la 'Estrategia'. Para mitigar la angustia de la soledad y la incertidumbre, el profesional debe:",
+    opciones: [
+      "Abandonar la sala rápidamente para dejarles llorar solos.",
+      "Resumir lo hablado, comprobar qué han comprendido y formular un plan de trabajo y de seguimiento conjunto.",
+      "Derivar al paciente al psicólogo sin darle ninguna cita médica posterior.",
+      "Hacer firmar el alta voluntaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "239. ¿Qué fenómeno ocurre cuando los familiares tratan de proteger a sus seres queridos ocultando el diagnóstico o pronóstico, dificultando que el paciente participe en la toma de decisiones?",
+    opciones: [
+      "El síndrome de Burnout familiar.",
+      "El pacto de negación mutua.",
+      "La conspiración del silencio.",
+      "La claudicación anticipada."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "240. La 'Conspiración del silencio' genera efectos contraproducentes en el propio paciente porque:",
+    opciones: [
+      "Aumenta su esperanza de vida irrealmente.",
+      "Suele sospechar que tiene una enfermedad grave y al ocultársele la información se muestra temeroso, ansioso, confuso y aislado.",
+      "Le quita el dolor físico por completo (efecto placebo).",
+      "Mejora radicalmente su comunicación con el médico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "241. Para ayudar a salir de la conspiración de silencio a una familia, los pasos correctos a seguir por el profesional incluyen:",
+    opciones: [
+      "Entrar en la habitación y decírselo al paciente directamente ignorando a la familia.",
+      "Reconocer su existencia, escuchar y legitimar las razones de la familia, explicar la repercusión sobre el paciente y pedir permiso para hablar con él.",
+      "Amenazar a la familia con acciones legales si no le cuentan la verdad hoy mismo.",
+      "Pactar con la familia mentir al paciente en los informes clínicos oficiales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "242. Respecto a la importancia del Lenguaje No Verbal, el psicólogo Albert Mehrabian estableció una regla orientativa conocida como 'la regla de las tres V'. ¿Qué porcentaje de importancia le otorgaba al lenguaje visual (corporal y gestos)?",
+    opciones: [
+      "El 7%.",
+      "El 38%.",
+      "El 55%.",
+      "El 100%."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "243. Siguiendo la regla de Mehrabian, cuando existe una contradicción o incongruencia directa entre lo que una persona dice verbalmente y lo que expresa su canal no verbal:",
+    opciones: [
+      "Siempre predomina y es más fiable el canal verbal (las palabras).",
+      "Ambos se anulan y se considera que el paciente miente.",
+      "Generalmente las emociones se hacen más visibles en los elementos no verbales, por lo que predomina la comunicación no verbal.",
+      "Se requiere una prueba de polígrafo para descubrir la verdad."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "244. En el ámbito de los cuidados paliativos pediátricos, la comunicación presenta particularidades críticas, como que:",
+    opciones: [
+      "Los padres son los que toman las decisiones legales del niño y actúan a menudo como portavoces emocionales.",
+      "El niño no tiene derecho a participar en las decisiones sanitarias bajo ningún concepto hasta los 18 años.",
+      "Se debe informar primero al niño y luego a los padres.",
+      "El consentimiento informado en pediatría paliativa lo firma un juez de menores."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "245. Respecto a los derechos del niño en la comunicación de su enfermedad terminal, los apuntes afirman categóricamente que:",
+    opciones: [
+      "Solo los adolescentes mayores de 16 años pueden recibir información médica.",
+      "El niño, sin importar su edad, enfermedad o etapa de desarrollo, tiene derecho a participar en la medida de sus capacidades en las decisiones.",
+      "La ley prohíbe que el equipo médico hable del diagnóstico con un menor de edad.",
+      "Se le debe mentir piadosamente si los padres lo solicitan por escrito."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "246. Entre las habilidades para la escucha empática en el acompañamiento (Couselling), se encuentra el 'Uso terapéutico del silencio'. ¿Para qué sirve fundamentalmente?",
+    opciones: [
+      "Para que el médico pueda pensar en el siguiente paciente.",
+      "Para evitar responder a preguntas incómodas sobre el pronóstico.",
+      "Para dar tiempo al paciente a que procese la información, exprese sus emociones o llore sin sentirse apurado.",
+      "Para demostrar superioridad moral sobre la familia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "247. Al acompañar a familias y amigos en duelo o proceso de enfermedad grave, los apuntes recomiendan explícitamente:",
+    opciones: [
+      "Darles consejos constantes sobre lo que deben hacer para curar su tristeza.",
+      "Comparar su situación con la de otras familias ('conozco un caso igual al tuyo').",
+      "Permitir que llore y hable, escuchar sin preguntas incómodas, respetar su deseo de soledad si la pide y NO decirle frases hechas como 'sé fuerte'.",
+      "Decir siempre: 'no pasa nada, el tiempo lo cura todo'."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "248. Dar malas noticias tiene un impacto terapéutico real, ya que si el paciente y su entorno conocen la verdad (el diagnóstico y el pronóstico):",
+    opciones: [
+      "Aumentarán sus niveles de dolor físico (dolor total).",
+      "Perderán toda la esperanza y rechazarán el tratamiento paliativo.",
+      "Podrán tomar decisiones acordes a sus valores, solucionar asuntos personales y compartir el sufrimiento de forma acompañada.",
+      "Sufrirán invariablemente un episodio de delirium hiperactivo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "249. A la hora de comunicarse con personas mayores en cuidados paliativos, ¿qué barrera debe evitar siempre el profesional sanitario?",
+    opciones: [
+      "El lenguaje común y sencillo.",
+      "La discriminación por edad (edadismo), asumiendo que por ser ancianos no comprenden o no quieren saber su diagnóstico.",
+      "La atención multidisciplinar.",
+      "El contacto físico afectuoso."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 8,
+    pregunta: "250. Según Maguire y Faulkner, el abordaje sistemático para explorar y manejar las emociones del paciente (Empatía) incluye:",
+    opciones: [
+      "Identificar, Etiquetar, Legitimar/Normalizar, Respetar, Indagar y Apoyar.",
+      "Diagnosticar, Prescribir, Pautar, Inyectar y Derivar.",
+      "Silenciar, Distraer, Cambiar de tema y Minimizar.",
+      "Preguntar, Juzgar, Aconsejar y Cuestionar."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  // ==========================================
+  // TEMA 9. APOYO A LOS PROFESIONALES EN CUIDADOS PALIATIVOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "251. En el contexto del estrés laboral crónico de los profesionales sanitarios, el 'Síndrome de Burnout' se define fundamentalmente por:",
+    opciones: [
+      "Una empatía desmesurada que impide al profesional realizar técnicas invasivas.",
+      "La aparición de agotamiento emocional, despersonalización y falta de realización personal en el trabajo.",
+      "El rechazo exclusivo a atender a pacientes en situación de final de vida.",
+      "Un cuadro de estrés postraumático tras el fallecimiento de un paciente pediátrico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "252. ¿Qué término describe la situación en la que un profesional 'cree que hay una forma correcta de hacer algo, pero se lo impiden' (ya sea la organización, la familia o la sociedad)?",
+    opciones: [
+      "Fatiga por compasión.",
+      "Agotamiento emocional.",
+      "Angustia moral (Moral distress).",
+      "Síndrome de Estocolmo clínico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "253. La afección profesional caracterizada por 'una capacidad e interés reducidos en ser empático como mecanismo de supervivencia o autoprotección debido a la exposición al trauma', se denomina:",
+    opciones: [
+      "Síndrome de Burnout.",
+      "Angustia moral.",
+      "Fatiga por compasión.",
+      "Claudicación sanitaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "254. A pesar del alto nivel de agotamiento emocional que pueden sufrir las enfermeras de cuidados paliativos, su bienestar laboral se compensa porque presentan:",
+    opciones: [
+      "Una total ausencia de despersonalización en comparación con otras plantas.",
+      "Un nivel de realización personal significativamente más alto por la satisfacción de su trabajo.",
+      "Un menor número de horas de jornada laboral.",
+      "Inmunidad psicológica frente al duelo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "255. Analizando los 'Escenarios del final de la vida', ¿cuál es la 'Intención' principal de la Limitación del Esfuerzo Terapéutico (LET)?",
+    opciones: [
+      "Provocar la muerte de forma indolora.",
+      "Evitar la futilidad clínica (no retrasar la muerte de forma artificial).",
+      "Aliviar un síntoma refractario disminuyendo la consciencia.",
+      "Pausar temporalmente el tratamiento para ver si el paciente mejora solo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "256. Según la tabla de escenarios del final de la vida, ¿quién es el responsable ético-legal de tomar la decisión de aplicar una Sedación Paliativa?",
+    opciones: [
+      "El equipo médico de forma unilateral.",
+      "El médico, requiriendo siempre el consentimiento explícito, implícito o delegado del paciente.",
+      "El paciente de forma autónoma sin intervención médica.",
+      "El juez de guardia a petición de la familia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "257. En el escenario de la Eutanasia, a diferencia de la sedación, el resultado esperado y la intención de los fármacos es:",
+    opciones: [
+      "El alivio del sufrimiento y la pérdida de consciencia.",
+      "No retrasar la muerte de forma artificial.",
+      "Provocar la muerte directa del paciente en un contexto de padecimiento grave e incurable.",
+      "Mejorar la disnea refractaria a opioides."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "258. En cuanto al trabajo colaborativo, la principal diferencia entre un 'Equipo' simple y un 'Equipo Eficaz' radica en que en este último:",
+    opciones: [
+      "Los individuos están más comprometidos con el resultado del equipo que con sus acciones personales.",
+      "No existe la figura del líder ni del médico.",
+      "Todas las decisiones se toman por orden jerárquico estricto.",
+      "Los profesionales compiten entre sí para mejorar la eficiencia."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "259. Para asegurar la cohesión en un equipo de cuidados paliativos, el método de toma de decisiones más apropiado y recomendado suele ser:",
+    opciones: [
+      "Por votación de mayoría simple.",
+      "Por la autoridad del jefe de servicio.",
+      "Por consenso, tras presentar el problema, debatir y acordar una solución.",
+      "Por el criterio exclusivo del profesional más experto."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "260. ¿Cuál de los siguientes es un síntoma claro de disfunción o 'Equipo Ineficaz' en el ámbito sanitario?",
+    opciones: [
+      "La presencia de conversaciones negativas, ataques interpersonales y falta de confianza.",
+      "La derivación de pacientes complejos a especialistas.",
+      "El exceso de reuniones clínicas interdisciplinares.",
+      "El uso del consenso para resolver conflictos médicos."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "261. Entre las estrategias de autocuidado para el profesional de cuidados paliativos, se recomienda activamente:",
+    opciones: [
+      "Ignorar las emociones propias para no perder la objetividad.",
+      "Llevarse los problemas a casa para analizarlos con la familia.",
+      "Respetar las pausas y los descansos (Parar, Respirar, Pensar) y cuidar los hábitos de sueño y dieta.",
+      "Evitar el contacto con personas ajenas al ámbito hospitalario."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "262. Para prevenir el agotamiento a largo plazo en el equipo de trabajo, una pauta de comunicación muy efectiva es:",
+    opciones: [
+      "Tratar de hablar de las experiencias vividas al acabar la jornada laboral y antes de llegar a casa.",
+      "Prohibir hablar de los pacientes fallecidos en la sala de estar.",
+      "Reprimir el llanto ante los compañeros para mantener la moral alta.",
+      "Delegar todo el soporte emocional exclusivamente en el psiquiatra del equipo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "263. Respecto a las fuentes potenciales de estrés en paliativos, ¿qué se entiende por la fuente de 'Cercanía'?",
+    opciones: [
+      "Las discusiones con los compañeros de trabajo.",
+      "Las relaciones personales demasiado estrechas con la familia de un paciente.",
+      "El conflicto moral por tratamientos fútiles.",
+      "La falta de espacio físico en las unidades."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "264. En el abordaje del duelo y la carga emocional del equipo, ¿qué papel juegan las reuniones posteriores al fallecimiento de un paciente?",
+    opciones: [
+      "Sirven únicamente para rellenar la burocracia legal.",
+      "Permiten hablar del proceso asistido, exponer puntos de vista y ofrecer apoyo emocional entre los profesionales.",
+      "Están contraindicadas porque reabren el trauma del equipo.",
+      "Se utilizan para buscar culpables en caso de mala praxis."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "265. Dentro de las funciones del profesional en el inicio del duelo de la familia, se encuentra:",
+    opciones: [
+      "Minimizar sus sentimientos diciendo que 'el tiempo lo cura todo'.",
+      "Sedarlos médicamente para que no sufran el impacto inicial.",
+      "Facilitar la expresión de emociones ayudando a reconocer sentimientos naturales como la rabia o la culpa sin connotaciones morales.",
+      "Animarlos a olvidar rápidamente al fallecido para no cronificar el duelo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "266. En España, la ordenación jurídica que ampara la correcta aplicación de la Sedación Paliativa se basa en:",
+    opciones: [
+      "La Ley Orgánica 3/2021 de eutanasia.",
+      "La Lex artis (Práctica médica correcta).",
+      "El Código Penal exclusivamente.",
+      "Las directrices del Tribunal Supremo caso por caso."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "267. ¿Qué actitud debe evitar siempre el equipo enfermero al compartir información constructiva en paliativos?",
+    opciones: [
+      "Escuchar las propias emociones.",
+      "Permitir que las emociones dirijan de forma exclusiva las decisiones clínicas.",
+      "Pedir ayuda a otros compañeros.",
+      "Celebrar las buenas noticias."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "268. Según los apuntes, una de las mayores fuentes de gratificación en paliativos es 'encontrar significado y conexión'. Esto implica:",
+    opciones: [
+      "Distanciarnos emocionalmente de nuestros roles.",
+      "Evitar el contacto visual con los pacientes agonizantes.",
+      "Sentir orgullo y satisfacción por brindar atención durante un momento tan privado, personal y devastador.",
+      "Tratar a los pacientes como números de habitación."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "269. En el marco del autocuidado, una máxima fundamental que la enfermera de cuidados paliativos debe recordar siempre es:",
+    opciones: [
+      "El paciente siempre tiene la culpa de su sufrimiento.",
+      "Cuidarnos a nosotros mismos es cuidar a los demás.",
+      "El llanto frente al paciente está estrictamente prohibido y penalizado.",
+      "Es posible salvar a todos los pacientes si nos esforzamos lo suficiente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 9,
+    pregunta: "270. Si un profesional desarrolla una actitud cínica, trato frío y distanciamiento extremo hacia los pacientes y sus familias, probablemente esté sufriendo la dimensión del Burnout conocida como:",
+    opciones: [
+      "Falta de realización personal.",
+      "Despersonalización.",
+      "Agotamiento físico puro.",
+      "Empatía táctica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+
+  // ==========================================
+  // TEMA 10. CUIDADOS PALIATIVOS EN EL FINAL DE LA VIDA
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "271. En los cuidados al final de la vida, se afirma como principio rector que:",
+    opciones: [
+      "El fracaso médico es que el paciente fallezca bajo cualquier circunstancia.",
+      "El éxito consiste en mantener las constantes vitales un día más.",
+      "El fracaso no es que el enfermo se muera, sino que muera mal.",
+      "El objetivo es retirar siempre todos los fármacos en las últimas horas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "272. Durante la entrada en la 'Fase terminal' o de agonía, existen características clínicas marcadas. ¿Cuál de las siguientes es una de ellas?",
+    opciones: [
+      "Aumento brusco del apetito (hiperfagia).",
+      "Pérdida de la vía oral y mayor frecuencia de confusión o agitación.",
+      "Hiperactividad motora con conservación de la consciencia plena.",
+      "Mejora espontánea de la disnea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "273. Entre las barreras más comunes en los profesionales para diagnosticar que un paciente ha entrado en fase de agonía, encontramos:",
+    opciones: [
+      "El deseo de iniciar los trámites funerarios rápidamente.",
+      "El miedo a acortar la vida, la esperanza irreal de mejora y la falta de reconocimiento de los signos clave.",
+      "La excesiva comunicación y claridad de la familia.",
+      "El uso prematuro del protocolo EPICEE."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "274. A nivel de cuidados físicos de enfermería en un paciente en situación de agonía, ¿cuál es la pauta correcta respecto al manejo de las Úlceras por Presión (UPP)?",
+    opciones: [
+      "Realizar curas agresivas con desbridamiento cortante diario.",
+      "Cambiar los apósitos únicamente si están manchados y, sobre todo, si hay mal olor provocado por infección.",
+      "Mover al paciente cada hora obligatoriamente para curarlas.",
+      "Aplicar frío local para evitar su extensión."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "275. En la atención al paciente encamado en agonía, ¿qué indica el protocolo sobre los 'Cambios posturales'?",
+    opciones: [
+      "Deben realizarse estrictamente cada 2 horas aunque el paciente se queje de dolor.",
+      "No son necesarios para no incomodarle; es preferible mantenerlo en una postura cómoda con buen alineamiento corporal.",
+      "Se debe mantener al paciente sentado a 90 grados permanentemente.",
+      "Hay que alternar exclusivamente entre decúbito prono y decúbito supino."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "276. Si un paciente agónico presenta 'estertores respiratorios' por acumulación de secreciones que angustian a la familia, la actuación de enfermería prioritaria será:",
+    opciones: [
+      "Realizar aspiraciones orofaríngeas enérgicas continuas con sonda.",
+      "Aumentar masivamente la sueroterapia intravenosa para diluirlas.",
+      "Explicar a la familia que el ruido les molesta más a ellos que al paciente, evitar la aspiración por ser molesta y utilizar fármacos anticolinérgicos (Buscapina).",
+      "Pautar fisioterapia respiratoria intensiva."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "277. ¿Cuál es el cuidado recomendado para la higiene corporal de un paciente que se encuentra en las últimas horas de vida?",
+    opciones: [
+      "Baño completo en cama con agua fría dos veces al día.",
+      "Traslado a la ducha diariamente para mantener la dignidad.",
+      "Sólo se cambiarán sábanas y pañales si están manchados intensamente; el objetivo es procurar la mayor comodidad evitando cuidados molestos e inoportunos.",
+      "Se suspenderá por completo toda higiene, dejándole en la misma ropa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "278. Respecto al uso de sondas vesicales en los últimos días de vida, la directriz clínica principal establece que:",
+    opciones: [
+      "Están totalmente contraindicadas para evitar infecciones.",
+      "Deben ponerse por protocolo a todo paciente que entre en agonía.",
+      "Se utilizarán según criterios de comodidad: un sondaje puede ser mejor que movilizarlo frecuentemente para cambiar pañales, y ayuda si hay agitación por globo vesical.",
+      "Solo se colocan si el paciente requiere control de diuresis horaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "279. La 'Sedación en la agonía' se considera un caso particular de la sedación paliativa. ¿Cómo se define médicamente?",
+    opciones: [
+      "Disminución de la consciencia de forma reversible para dar descanso a la familia.",
+      "Disminución suficientemente profunda y previsiblemente irreversible de la conciencia en un paciente cuya muerte se prevé muy próxima.",
+      "Administración de fármacos letales a petición expresa del paciente.",
+      "Pausa terapéutica donde se retiran opioides para evitar toxicidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "280. El soporte ético que justifica la sedación paliativa es el 'Principio del doble efecto'. Según este principio:",
+    opciones: [
+      "El efecto deseado (alivio) se logra a costa de un efecto no deseado (pérdida de consciencia), asumiendo que la muerte no es el efecto de la sedación sino de la enfermedad.",
+      "El fármaco actúa simultáneamente curando la enfermedad y durmiendo al paciente.",
+      "El médico busca activamente acortar la vida del paciente aliviando su dolor al mismo tiempo.",
+      "El paciente consiente expresamente la eutanasia pasiva."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "281. Durante el procedimiento de sedación paliativa, ¿qué se debe hacer con la medicación y las vías del paciente?",
+    opciones: [
+      "Retirar todos los medicamentos, incluida la analgesia de base.",
+      "Retirar los medicamentos fútiles (innecesarios), pero MANTENER la analgesia basal y cambiar, si procede, a la vía subcutánea.",
+      "Mantener todos los fármacos de la enfermedad crónica intactos por vía oral.",
+      "Canalizar siempre una vía central obligatoriamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "282. Para evaluar el grado o nivel de profundidad de la sedación que estamos induciendo en el paciente, ¿qué escala clínica es la más recomendada y utilizada?",
+    opciones: [
+      "Escala de Zarit.",
+      "Escala visual analógica (EVA).",
+      "Escala de Ramsay.",
+      "Índice de Karnofsky."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "283. En la Escala de Ramsay para evaluación de sedación, ¿qué indica una puntuación de 6?",
+    opciones: [
+      "Paciente ansioso, agitado o impaciente.",
+      "Paciente cooperativo, orientado y tranquilo.",
+      "Paciente que no responde a un toque leve en la glabela o a un estímulo sonoro auditivo (sedación profunda).",
+      "Paciente que experimenta alucinaciones auditivas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "284. Según el 'Algoritmo para el uso de fármacos en la sedación' en el ámbito de DOMICILIO (Vía subcutánea), si el síntoma predominante refractario es el DELIRIUM, ¿cuál es el fármaco de 1ª opción?",
+    opciones: [
+      "Midazolam.",
+      "Levomepromazina.",
+      "Propofol.",
+      "Fenobarbital."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "285. Si por el contrario, el paciente está en domicilio y el síntoma refractario a sedar es la DISNEA o el DOLOR intenso, el fármaco de 1ª opción para la sedación subcutánea es:",
+    opciones: [
+      "Levomepromazina.",
+      "Haloperidol.",
+      "Midazolam.",
+      "Propofol."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "286. Al iniciar una sedación paliativa continua, es imperativo que el médico prescriba también medicación de 'Rescate'. ¿Para qué síntomas debe haber rescates pautados?",
+    opciones: [
+      "Sólo para el estreñimiento y los vómitos.",
+      "Sólo en caso de despertar espontáneo con lucidez.",
+      "Para dolor/disnea, inquietud/agitación, náuseas/vómitos y estertores audibles.",
+      "No se pautan rescates en sedación terminal bajo ningún concepto."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "287. En el contexto hospitalario, si el Midazolam o la Levomepromazina fallan o están contraindicados, ¿qué fármaco anestésico de uso exclusivo Intravenoso (IV) puede usarse como rescate profundo en el hospital?",
+    opciones: [
+      "Morfina.",
+      "Ketamina.",
+      "Propofol.",
+      "Fentanilo transdérmico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "etica_final_vida"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "288. Al comunicarse con la familia en los últimos días, un aspecto clave del protocolo psicológico indica que el profesional debe:",
+    opciones: [
+      "Dar por supuesto que la familia ya sabe que el paciente se muere por su aspecto físico.",
+      "Asegurarse de que la familia conoce el estado de muerte inminente usando un lenguaje claro, sin ambigüedades.",
+      "Minimizar la gravedad para que la familia pueda descansar mejor.",
+      "Prohibir la entrada a los familiares durante la fase de agonía."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "289. ¿Por qué es muy perjudicial aplicar medidas agresivas o rehidratación intravenosa intensiva cuando un paciente en agonía deja de ingerir líquidos?",
+    opciones: [
+      "Porque puede prolongar su sufrimiento; los cuidados orales básicos de la boca evitan la sensación de sed mucho mejor que la sueroterapia, previniendo edemas y estertores.",
+      "Porque puede curar al paciente y sacarlo del programa paliativo.",
+      "Porque interfiere químicamente con los analgésicos.",
+      "Porque los familiares pueden asustarse con el gotero."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 10,
+    pregunta: "290. Según el esquema general de atención, la intervención de cuidados paliativos NO termina tras la certificación del fallecimiento, ya que posteriormente el equipo debe ocuparse de:",
+    opciones: [
+      "La facturación de los gastos hospitalarios.",
+      "Aclarar dudas a la familia, facilitar ritos funerarios y proporcionar apoyo en el duelo para prevenir el duelo complicado.",
+      "Realizar autopsias sistemáticas para investigar la enfermedad.",
+      "Romper todo contacto con la familia inmediatamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  // ==========================================
+  // TEMA 11. ACOMPAÑAMIENTO PSICOLÓGICO Y PEDIATRÍA
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "291. Según la definición de la OMS, ¿cuándo deben comenzar los cuidados paliativos para niños?",
+    opciones: [
+      "Exclusivamente cuando la esperanza de vida es inferior a 6 meses.",
+      "Cuando se diagnostica la enfermedad y prosiguen al margen de si el niño recibe o no tratamiento contra la enfermedad.",
+      "Solo tras el fracaso definitivo de las líneas de quimioterapia o radioterapia.",
+      "Cuando el niño cumple los 6 años de edad y comprende el concepto de muerte."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "292. En ocasiones, la actitud de los padres de 'aislamiento' o 'no integración' en la unidad paliativa puede ser vista por los profesionales con doble cara. Sin embargo, ¿qué nos exige principalmente el protocolo ante estas actitudes?",
+    opciones: [
+      "Derivación inmediata a psiquiatría.",
+      "Respeto; entendiendo que sienten la presión de que 'no les queda otra'.",
+      "Confrontación directa para obligarles a integrarse.",
+      "Aislamiento recíproco por parte del equipo médico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "293. Respecto a la intervención de Psicología en el acompañamiento emocional en pediatría, uno de sus objetivos principales es:",
+    opciones: [
+      "Relegar a la enfermera de las tareas comunicativas.",
+      "Ayudar a integrar la información médica y apoyar la relación con los profesionales sanitarios.",
+      "Ocultar el diagnóstico adverso a los padres.",
+      "Sustituir el tratamiento farmacológico por terapia cognitivo-conductual exclusivamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "294. En el abordaje del 'Counselling' dentro del acompañamiento, el profesional debe evaluar múltiples áreas y prestar especial atención a:",
+    opciones: [
+      "Las narrativas que emergen.",
+      "Únicamente los síntomas físicos de dolor.",
+      "El nivel de ingresos económicos mensuales.",
+      "El expediente académico del paciente pediátrico."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "295. A la hora de comunicarse con la familia, el acompañamiento emocional en pediatría debe incluir a:",
+    opciones: [
+      "Solo a los padres (madre y/o padre), por ser los tutores legales.",
+      "Exclusivamente al paciente y su madre (cuidadora principal habitual).",
+      "Madre, padre, hermanos, abuelos, teniendo muy en cuenta los aspectos culturales y nuevos modelos familiares.",
+      "A los profesores de la escuela del niño y no a la familia extensa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "296. En situaciones de impacto o trauma, las reacciones corporales esperables en las personas adultas pueden incluir:",
+    opciones: [
+      "Hiperactividad constante y euforia desmedida.",
+      "Ausencia de reacciones (no sentir nada), sensación de parálisis, cansancio y desorientación.",
+      "Fiebre alta repentina y convulsiones crónicas.",
+      "Desarrollo inmediato de psicosis esquizofrénica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "297. Al acompañar a un menor que enfrenta un duelo o situación crítica, es vital recordar respecto a su desarrollo cognitivo que:",
+    opciones: [
+      "Los niños comprenden el concepto irreversible de la muerte desde los 2 años.",
+      "Hasta los 6 años, aproximadamente, no entienden que morir significa no volver (no entienden la irreversibilidad).",
+      "Nunca van a desarrollar conductas regresivas como chuparse el dedo o mojar la cama.",
+      "No sufren problemas de concentración en la escuela por esta causa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "298. Durante la intervención con menores y adolescentes, pueden aparecer comportamientos defensivos ante la crisis. Un ejemplo muy común en la adolescencia es:",
+    opciones: [
+      "Evitar mostrar los sentimientos, como no querer llorar.",
+      "Comprender intelectualmente pero nunca enfadarse con el entorno.",
+      "El rechazo total y absoluto al grupo de pares (amigos).",
+      "El desarrollo de amnesia anterógrada pura."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "299. ¿Qué profesionales se consideran parte integral del equipo que acompaña a los pacientes en cuidados paliativos pediátricos, además del personal médico y de enfermería?",
+    opciones: [
+      "Únicamente los trabajadores sociales y psicólogos.",
+      "Pediatras, auxiliares, psicólogos, escuela del hospital, profesionales de limpieza y asociaciones.",
+      "Exclusivamente el equipo de urgencias del 061.",
+      "Solo el personal voluntario sin formación sanitaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "300. Según la 'Guía de intervención en la comunicación con niños con enfermedades terminales', es imprescindible:",
+    opciones: [
+      "Utilizar frases hechas y eufemismos para evitar el impacto.",
+      "Mantener una intervención puramente paternalista para proteger al niño.",
+      "Evitar las frases hechas, evitar intervenciones paternalistas y tener en cuenta que el interlocutor es el propio niño.",
+      "Informar de todo exclusivamente a la familia, prohibiendo que el niño pregunte."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "301. Cuando el paciente terminal es un adolescente, la guía de comunicación incorpora tres consideraciones especiales adicionales frente a los niños. Estas son:",
+    opciones: [
+      "Promover el aislamiento, evitar temas escolares y restringir las visitas.",
+      "Reconocer sus necesidades sexuales, metabolizar la agresividad y promover la autonomía.",
+      "Obligarlos a tomar decisiones médicas, responsabilizarlos económicamente y tratarles como adultos plenos.",
+      "Exigirles fortaleza constante, negarles analgesia preventiva y ocultar la gravedad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "302. Un punto clave que debe tener claro el profesional al realizar acompañamiento psicológico en pediatría es que:",
+    opciones: [
+      "Se trabaja con personas que padecen un trastorno psiquiátrico de base severo.",
+      "Se acompaña a personas mentalmente sanas en momentos de crisis (en los peores momentos de su vida).",
+      "El objetivo clínico primordial es la curación farmacológica del trauma.",
+      "Las reacciones de los padres se deben tratar siempre con psicofármacos pesados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "303. En el bloque de 'Recomendaciones para familias y amigos' a la hora de acompañar, existe una directriz muy específica para el comportamiento verbal:",
+    opciones: [
+      "Decir siempre 'fue mejor así', 'no sufrió' o 'no llores' para reconfortarlos.",
+      "Ofrecer múltiples consejos sobre lo que tienen que hacer, aunque no lo pidan.",
+      "Comparar la situación con otras muertes de familiares para que no se sientan solos.",
+      "Escuchar evitando hacer preguntas incómodas y no dar consejos si no se los piden."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "304. Dentro de estas mismas recomendaciones de acompañamiento (estrategias 'Actúe'), se aconseja:",
+    opciones: [
+      "Distanciarse en los días posteriores para no molestar.",
+      "Mantener el contacto, ofrecer ayuda en tareas cotidianas/trámites y animar a que desarrolle su rutina diaria.",
+      "Desaconsejar terminantemente la rutina diaria para centrarse en el duelo.",
+      "Evitar facilitar momentos de intimidad para que no piensen en la muerte."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "305. El papel específico de Enfermería en el acompañamiento emocional destaca, entre otros aspectos, por:",
+    opciones: [
+      "Ser el profesional que realiza la psicoterapia cognitivo-conductual oficial.",
+      "Ser el profesional sanitario que más tiempo pasa con el niño y su familia, ofreciendo escucha activa y prestando atención a la información no verbal.",
+      "Ser el único encargado de comunicar diagnósticos fatales a los padres.",
+      "Dedicar tiempo exclusivamente a técnicas invasivas y relegar la comunicación al psicólogo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "306. A la hora de trabajar e interactuar con el entorno escolar de un niño en Cuidados Paliativos, el equipo debe:",
+    opciones: [
+      "Prohibir que el niño acuda al colegio debido al riesgo de infección.",
+      "Entender a la Escuela del Hospital y a los compañeros de colegio del niño como parte del equipo y del sistema de soporte y duelo.",
+      "Ocultar la información médica a los profesores para evitar la lástima.",
+      "Forzar al niño a rendir académicamente al mismo nivel que antes de la enfermedad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "307. Los sentimientos de un adulto en duelo o crisis pueden resultar erráticos. De las siguientes opciones, ¿qué sentimiento es totalmente normal en este proceso?",
+    opciones: [
+      "Incredulidad, angustia, irritación, culpa e incluso sentir que no merece la pena vivir.",
+      "Alegría incontrolable que perdura durante años.",
+      "Capacidad inmediata de olvidar a la persona fallecida sin repercusiones emocionales.",
+      "Falta total de respuesta empática permanente (psicopatía)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "308. ¿Qué frase representa un claro ejemplo del principio 'Uso terapéutico del silencio' y escucha activa en el acompañamiento a una madre?",
+    opciones: [
+      "Interrumpir su llanto para decirle 'sé fuerte, tu hijo no querría verte así'.",
+      "Permitir que llore y hable, respetando su deseo de estar en soledad si lo pide, porque a veces un abrazo vale más que cualquier comentario.",
+      "Contarle en detalle el caso de otro paciente para que vea que hay situaciones peores.",
+      "Cambiar rápidamente de tema para distraer su mente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "309. Una particularidad de los Cuidados Paliativos pediátricos según la OMS es que afirman la vida y:",
+    opciones: [
+      "Centran sus esfuerzos en acelerar la muerte para evitar el sufrimiento infantil a toda costa.",
+      "Rechazan el uso de radioterapia concurrente si el niño ya está en fase paliativa.",
+      "Consideran la muerte como un proceso normal, no intentando acelerarla ni retrasarla.",
+      "Abogan por la separación física de los padres durante los últimos días para reducir el trauma familiar."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "conceptos_fundamentales"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 11,
+    pregunta: "310. En pediatría, las intervenciones de Terapia de Grupo o Terapia Familiar (para supervivientes, hermanos...) se encuadran dentro de:",
+    opciones: [
+      "Las técnicas farmacológicas de sedación paliativa.",
+      "La intervención psicológica/familiar del equipo.",
+      "La labor administrativa del trabajador social para gestiones burocráticas.",
+      "Las responsabilidades exclusivas del capellán del hospital."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+
+  // ==========================================
+  // TEMA 12. ATENCIÓN AL DUELO Y PEDIATRÍA FINAL
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "311. Respecto a la teoría del duelo, en nuestra cultura existen ciertos MITOS arraigados que el profesional debe reconocer como FALSOS. Un ejemplo clásico de mito es:",
+    opciones: [
+      "El duelo es un proceso personal e intransferible.",
+      "Expresar las emociones ayuda a canalizar el sufrimiento.",
+      "El tiempo lo cura todo, y expresar el dolor es señal de inadecuación o hace daño a los demás.",
+      "El duelo no tiene una duración exacta para todas las personas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "312. Existe una pequeña excepción a la regla de 'Expresar siempre el dolor libremente'. Se debe tener cuidado en cómo se expresa el dolor extremo:",
+    opciones: [
+      "Delante del equipo médico de paliativos.",
+      "Ante niños y personas con discapacidad para no generarles un miedo inmanejable.",
+      "Ante el psicólogo clínico durante la terapia.",
+      "En el propio domicilio si hay vecinos cerca."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "313. Al producirse la recidiva (recaída) de una enfermedad terminal pediátrica, es frecuente que el menor responda emocionalmente con:",
+    opciones: [
+      "Euforia y aceptación intelectual inmediata.",
+      "Aislamiento social, enfado (ej. culpabilizar a los padres o al personal médico) y mutismo (deja de preguntar).",
+      "Desarrollo de nuevas aficiones desvinculadas de la familia.",
+      "Agradecimiento constante por los esfuerzos terapéuticos previos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "314. En la fase paliativa terminal, se pueden observar comportamientos oscilantes en el adolescente. ¿Qué mecanismo psicológico demuestra un paciente que, aunque sufre un dolor severo, formula planes como 'comprar un kit de camping para cuando me cure'?",
+    opciones: [
+      "Aceptación plena de la pérdida inminente.",
+      "Negación (impulso de vida).",
+      "Duelo congelado.",
+      "Delirium hiperactivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "315. Un comportamiento muy característico en los adolescentes cuando saben que van a morir en los próximos días es:",
+    opciones: [
+      "Huir del hospital sin avisar.",
+      "Desconectar digitalmente y borrar todas sus redes sociales por ira.",
+      "Repartir objetos entre sus seres queridos, dar las claves de sus dispositivos (Tablet, móvil) o crear grupos de WhatsApp para organizar su compañía.",
+      "Rechazar el contacto con sus padres por completo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "316. En los familiares directos, el 'Duelo anticipado' se caracteriza emocionalmente por sentimientos complejos como la 'Dualidad'. ¿En qué consiste esta dualidad?",
+    opciones: [
+      "Querer al médico pero odiar a las enfermeras simultáneamente.",
+      "Saber que el tratamiento es curativo pero no querer seguir yendo al hospital.",
+      "Querer que se acabe el sufrimiento del paciente (deseando su descanso) pero al mismo tiempo no querer que fallezca el ser querido.",
+      "Aceptar intelectualmente la muerte pero rechazar firmar los consentimientos de sedación."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "317. En la vivencia del duelo de los HERMANOS del paciente pediátrico, un riesgo psicológico que el equipo debe vigilar es la:",
+    opciones: [
+      "Amnesia disociativa que borra al hermano de sus recuerdos.",
+      "Idealización del hermano fallecido, sintiendo que sus propios esfuerzos nunca llegarán a ser valorados, pudiendo llevar a un duelo congelado por tratar de ayudar a sus padres.",
+      "Aparición ineludible de trastornos psicóticos esquizoides.",
+      "Alegría patológica al convertirse en hijos únicos temporalmente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "318. Clínicamente, ¿cómo se diferencian los conceptos de Aflicción y Duelo?",
+    opciones: [
+      "Son exactamente lo mismo y se usan como sinónimos médicos.",
+      "La Aflicción se asocia al 'Impacto' inicial, mientras que el Duelo engloba el proceso completo de la 'Pérdida'.",
+      "El duelo sólo se aplica a las familias y la aflicción al personal sanitario.",
+      "La aflicción dura años y el duelo apenas unos días."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "319. Según la literatura citada en los apuntes, ¿cuál es la duración temporal estimada de las fases de un proceso de duelo no patológico (incluyendo shock, negación, culpa, enfado, tristeza y soledad)?",
+    opciones: [
+      "De 1 a 3 meses.",
+      "Aproximadamente 6 meses invariablemente.",
+      "Entre 1 y 3 años.",
+      "Más de 10 años en todos los casos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "320. Al valorar a un cuidador, identificaremos un 'Duelo Patológico' u obstaculizado si observamos indicadores tales como:",
+    opciones: [
+      "Reestructuración de proyectos futuros a los 2 años del fallecimiento.",
+      "Estado prolongado de shock, ausencia de respuesta ante la pérdida, intenso dolor que no disminuye, culpa exagerada y cambios abruptos de comportamiento.",
+      "Llorar espontáneamente al recordar un aniversario.",
+      "Capacidad de reír al recordar una anécdota del fallecido a los 6 meses."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "321. El psicólogo J. William Worden define cuatro 'Tareas del Duelo' que la persona debe elaborar. La Tarea 1 consiste en:",
+    opciones: [
+      "Aceptar la realidad de la pérdida, tanto a nivel intelectual como emocional.",
+      "Expresar el dolor para cronificarlo y no olvidar.",
+      "Aislarse socialmente durante 6 meses para asimilar el golpe.",
+      "Sustituir inmediatamente al difunto adoptando una nueva mascota o teniendo otro hijo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "322. Siguiendo el modelo de Worden, la 'Tarea 2' del duelo indica que es fundamental:",
+    opciones: [
+      "Olvidar los detalles traumáticos de la muerte.",
+      "Ocultar las emociones para no afectar a los demás familiares.",
+      "Expresar las emociones y el dolor, siendo consciente de las emociones que surgen y dándose permiso para sentirlas.",
+      "Medicar con antidepresivos mayores cualquier lloro."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "323. La 'Tarea 3' del duelo (Worden) supone un reto conductual y de supervivencia práctica. Ésta consiste en:",
+    opciones: [
+      "Adaptarse al medio sin el ser querido, lo que implica adquirir nuevos roles y habilidades prácticas.",
+      "Vender todas las posesiones del fallecido en las primeras semanas.",
+      "Mantener intacta la habitación del fallecido a modo de santuario de por vida.",
+      "Negar intelectualmente que la muerte haya ocurrido."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "324. La resolución y culminación del proceso de duelo según Worden ('Tarea 4') se alcanza cuando la persona logra:",
+    opciones: [
+      "Borrar todos los recuerdos del fallecido para no sentir dolor.",
+      "Recolocar emocionalmente al fallecido y continuar con la vida, encontrando maneras de recordarlo sin que ello le impida seguir viviendo.",
+      "Desvincularse de la familia extensa para iniciar una nueva vida desde cero.",
+      "Superar el umbral de los 5 años desde la muerte, independientemente de sus sentimientos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "325. Para facilitar un correcto duelo a las familias de niños con enfermedades terminales, los equipos médicos deben asegurar una necesidad comunicativa vital:",
+    opciones: [
+      "Utilizar terminología altamente técnica para que no comprendan la gravedad.",
+      "Proporcionar una comunicación coordinada y consistente, ayudando a conectar los puntos con un lenguaje sin ambigüedades.",
+      "Limitar el acceso al personal médico para fomentar la independencia de los padres.",
+      "Centrarse exclusivamente en los hermanos sanos ignorando al paciente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "comunicacion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "326. En el proceso final, las familias adoptan el simbolismo y el 'legado' de la persona fallecida como mecanismo de adaptación. ¿Cuál es un ejemplo de esto citado en los apuntes?",
+    opciones: [
+      "Rechazar frontalmente cualquier mención al nombre del paciente en casa.",
+      "Comprender e interpretar que el paciente, desde la actitud y la sonrisa que tuvo o actos como hacerse un tatuaje en su recuerdo, les envía un mensaje de fortaleza para seguir adelante.",
+      "Tirar las cenizas de forma inmediata sin realizar ningún ritual.",
+      "Culpar a la medicina alternativa del fallecimiento exclusivamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "327. Durante la fase de fallecimiento, el equipo sanitario se ve afectado emocionalmente por el duelo familiar. Según el material de estudio, trabajar con familias en duelo puede provocar en los profesionales:",
+    opciones: [
+      "Un aumento exclusivo de sus capacidades técnicas quirúrgicas.",
+      "Absoluta indiferencia, debido a la rutina hospitalaria.",
+      "El despertar de temores propios sobre la muerte, el recuerdo de pérdidas personales y sentimientos de impotencia o culpa.",
+      "Mejora automática del clima laboral por el alivio de la carga de trabajo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "328. Para prevenir el duelo complicado y el burnout en el propio equipo sanitario que atiende a niños terminales, se recomiendan estrategias organizativas como:",
+    opciones: [
+      "Prohibir tajantemente llorar en las instalaciones del hospital.",
+      "Realizar reuniones posteriores para hablar del proceso asistido y exponer los puntos de vista multidisciplinares y emocionales.",
+      "Aumentar inmediatamente la carga de pacientes para mantener la mente ocupada.",
+      "Forzar al equipo a asistir a todos los ritos funerarios de los pacientes fallecidos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "organizacion_asistencial"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "329. Una de las funciones de enfermería en la gestión inicial del duelo de los padres justo tras el fallecimiento consiste en:",
+    opciones: [
+      "Sugerir a los padres que dejen de llorar para no asustar al resto de la planta.",
+      "Ayudar a reconocer sentimientos iniciales (como rabia, culpa o alivio) pero sin aplicarles connotaciones morales, para facilitar la elaboración del duelo.",
+      "Recomendar medicación ansiolítica profunda para los padres en la misma habitación del hospital.",
+      "Dejar sola a la familia de inmediato sin mediar palabra, asumiendo que requieren privacidad total y absoluta siempre."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "valoracion_paciente"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 12,
+    pregunta: "330. Analizando los tipos de dolor, un dolor descrito con características de 'ardor, quemazón, hormigueo o alodinia', causado por la lesión directa de los nervios, ¿cómo se clasifica etiológicamente?",
+    opciones: [
+      "Dolor nociceptivo somático.",
+      "Dolor psicógeno puro.",
+      "Dolor irruptivo inflamatorio.",
+      "Dolor neuropático."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "control_sintomas"
+  },
+  // ==========================================
+  // TEMA 13. CUIDADOS ENFERMERÍA GENERALES Y ESPECÍFICOS
+  // ==========================================
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "331. ¿En qué lugar anatómico se realiza habitualmente la apertura quirúrgica para una traqueostomía según los apuntes?",
+    opciones: [
+      "Entre el 2º y 4º anillo traqueal.",
+      "Por encima del cartílago cricoides.",
+      "En el primer anillo traqueal exclusivamente.",
+      "Por debajo del sexto anillo traqueal."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "332. ¿Cuál de las siguientes es una indicación fundamental para la realización de una traqueostomía?",
+    opciones: [
+      "Tratamiento del asma leve.",
+      "Intubación prevista de menos de 48 horas.",
+      "Ventilación mecánica prolongada, obstrucción grave de la vía aérea o necesidad de mejor manejo de secreciones.",
+      "Prevención de infecciones respiratorias altas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "333. En el manejo de traqueostomías, ¿en qué pacientes está indicada la 'cánula con balón'?",
+    opciones: [
+      "En pacientes estables sin riesgo de aspiración.",
+      "En pacientes pediátricos exclusivamente.",
+      "En pacientes que requieren fonación constante en todo momento.",
+      "En pacientes con riesgo de aspiración o que precisen ventilación asistida (garantiza el aislamiento de la vía aérea)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "334. ¿Qué ventaja particular ofrecen las cánulas de traqueostomía 'fenestradas'?",
+    opciones: [
+      "Evitan el riesgo de hemorragia.",
+      "Permiten el paso de aire a través de unos orificios en la parte superior, lo que facilita la fonación.",
+      "No requieren limpieza ni recambio en ningún momento.",
+      "Son las únicas que permiten la ventilación mecánica a altas presiones."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "335. A la hora de insertar la 'cánula interna' de una traqueostomía, la técnica correcta descrita es:",
+    opciones: [
+      "Insertarla a presión directa sin realizar giros.",
+      "Insertarla en la externa, realizar un medio giro y hacer coincidir las marcas para un clampado correcto.",
+      "Suturarla a la cánula externa directamente.",
+      "Lubricarla con antiséptico y pegarla con esparadrapo a la piel."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "336. De las complicaciones de una traqueostomía, ¿cuál se considera una complicación 'tardía'?",
+    opciones: [
+      "Dilatación traqueal, isquemia, necrosis traqueal y obstrucción por secreciones.",
+      "Neumotórax.",
+      "Hemorragia inmediata post-cirugía.",
+      "Lesión del nervio laríngeo en la incisión."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "337. Las siglas PEG (relativas al soporte nutricional) corresponden a:",
+    opciones: [
+      "Punción Entérica Gástrica.",
+      "Perfusión Endovenosa Gástrica.",
+      "Gastrostomía Endoscópica Percutánea.",
+      "Perfil de Enfermería Gástrica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "338. En cuanto al calibre de las sondas PEG (medido en French), ¿qué medidas son las más habituales para los pacientes pediátricos?",
+    opciones: [
+      "De 15 a 24 FR.",
+      "De 9 a 10 FR.",
+      "Menores de 5 FR.",
+      "De 22 a 28 FR."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "339. Sobre los tipos de sondas PEG, la 'Sonda PEG de botón' destaca porque:",
+    opciones: [
+      "Es voluminosa y de muy difícil manejo domiciliario.",
+      "Produce mayores complicaciones como úlceras por presión.",
+      "Es discreta, produce menos complicaciones (UPP) y precisa una alargadera para administrar nutrición o medicación.",
+      "No requiere ningún cuidado de limpieza."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "340. En los cuidados del estoma de una PEG durante el 'Postoperatorio inmediato (los primeros 15 días)', la indicación de enfermería establece:",
+    opciones: [
+      "Limpiar solo con agua y jabón y dejar al aire.",
+      "Limpiar diariamente con suero fisiológico (SSF) y gasa estéril, secar bien, aplicar solución antiséptica y cubrir con gasas estériles.",
+      "Evitar girar la sonda bajo ningún concepto.",
+      "Mantener la zona constantemente húmeda para favorecer la cicatrización."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "341. Una vez que el estoma de la PEG está 'ya curado' (pasados los primeros 15 días), el cuidado de la zona cambia a:",
+    opciones: [
+      "Limpieza diaria con agua y jabón, buen secado y pudiendo dejar el estoma al aire o cubierto con una gasa.",
+      "Limpieza exclusiva con povidona yodada cada 8 horas.",
+      "Retirada de la sonda por las noches.",
+      "Lavado a presión con suero fisiológico cada 4 horas."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "342. Tanto en el postoperatorio inmediato como cuando el estoma de la PEG ya está curado, existe una maniobra común obligatoria de mantenimiento diario para evitar adherencias. ¿Cuál es?",
+    opciones: [
+      "El cambio de la válvula de botón.",
+      "El giro de la sonda de 360º.",
+      "La retirada parcial de la sonda 2 centímetros.",
+      "El pinzamiento constante durante 12 horas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "343. En el manejo de la PEG, ¿qué signo de alarma en relación a la temperatura corporal nos indica que debemos avisar al médico?",
+    opciones: [
+      "Febrícula de 37.5 ºC.",
+      "Fiebre de más de 38.3 ºC.",
+      "Temperatura mantenida de 36.5 ºC.",
+      "Hipotermia por debajo de 35 ºC."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "344. Constituye un 'Signo de Alarma' en un paciente portador de PEG relacionado con su función gastrointestinal:",
+    opciones: [
+      "Realizar una deposición normal y de consistencia blanda al día.",
+      "No haber hecho deposición durante más de 3 días o tener diarrea con más de 4 deposiciones líquidas al día.",
+      "Ausencia total de náuseas o vómitos.",
+      "Ruídos hidroaéreos normales a la auscultación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "345. Un 'Reservorio Subcutáneo' (Port-a-Cath) es un catéter central radiopaco que se implanta quirúrgicamente para que su extremo distal quede localizado exactamente:",
+    opciones: [
+      "A nivel de la vena subclavia izquierda.",
+      "En el interior de la aurícula izquierda.",
+      "A nivel de la vena cava superior, justo antes de su entrada en la aurícula derecha.",
+      "En la vena yugular interna exclusivamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "346. Físicamente, ¿de qué materiales suele estar compuesto un reservorio venoso central subcutáneo?",
+    opciones: [
+      "Base de plástico simple y membrana de poliuretano rígido.",
+      "Base preferentemente de titanio, membrana autosellante de silicona y catéter radioopaco de silicona.",
+      "Base de acero inoxidable y catéter de teflón.",
+      "Exclusivamente de PVC blando."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "347. Tras la implantación de un reservorio subcutáneo en quirófano, ¿cuándo se puede empezar a utilizar?",
+    opciones: [
+      "Hay que esperar obligatoriamente 15 días para su cicatrización.",
+      "Una vez implantado, puede utilizarse inmediatamente si es preciso, o transcurridas 48-72 horas.",
+      "A las 24 horas exactas de la punción.",
+      "Solamente cuando hayan retirado los puntos de sutura externos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "348. Cuando un paciente con reservorio subcutáneo requiere de 'perfusiones continuas', la recomendación respecto al cambio de la aguja (tipo Huber) es:",
+    opciones: [
+      "Cambiar la aguja cada 24 horas estrictamente.",
+      "Mantener la aguja sin cambiar hasta el final del tratamiento oncológico.",
+      "Se recomienda cambiar la aguja cada 7 días.",
+      "Cambiar la aguja en cada turno de enfermería (cada 8 horas)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "349. Durante el uso y manipulación del reservorio, si vamos a administrar distintas medicaciones secuenciales por la misma vía, la acción correcta de enfermería es:",
+    opciones: [
+      "Mezclar ambas medicaciones en la misma jeringa de 50 ml.",
+      "Lavar el sistema con suero fisiológico o glucosado, según proceda, entre distintas medicaciones.",
+      "Administrarlas rápidamente una tras otra sin interrupción.",
+      "Esperar 4 horas entre una medicación y la siguiente para evitar precipitados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
+  },
+  {
+    asignatura: "paliativos",
+    tema: 13,
+    pregunta: "350. Entre las pautas de cuidados generales del reservorio cuando NO se está utilizando (sellado), el protocolo indica fundamentalmente:",
+    opciones: [
+      "Manipularlo lo menos posible, preservándolo de golpes, y mantener la zona limpia y seca.",
+      "Realizar fricciones diarias vigorosas sobre la piel de la zona para evitar rechazos.",
+      "Dejar las llaves de tres vías conectadas permanentemente aunque no se usen.",
+      "Extraer 10 cc de sangre diariamente para comprobar la permeabilidad de la membrana."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "vias_administracion"
   },
 
   // EJEMPLO SALUD MENTAL
@@ -10230,11 +14141,70 @@ const BANCO_PREGUNTAS = [
 // Los nodos (nombres entre corchetes, paréntesis, etc) deben coincidir con "conceptoMapa" de las preguntas si quieres que se coloreen.
 const MAPAS_MENTALES = {
   paliativos: `
-graph TD
-    A[Cuidados Paliativos] --> B(Manejo del Dolor)
-    A --> C(Apoyo Emocional)
-    B --> D[dolor_irruptivo]
-    B --> E[escalon_analgesico]
+mindmap
+  root("Atención de Enfermería en Cuidados Paliativos")
+    Conceptos Fundamentales
+      Definición OMS
+        Mejora calidad de vida
+        Prevención y alivio del sufrimiento
+        Atención holística y activa
+      Enfermedad Terminal
+        Avanzada progresiva e incurable
+        Falta de respuesta a tratamiento
+        Pronóstico inferior a 6 meses
+      Objetivos Generales
+        Cuidar cuando no se puede curar
+        Promover autonomía y dignidad
+        Unidad a tratar enfermo y familia
+    Historia y Filosofía
+      Cicely Saunders
+        Fundadora St. Christophers Hospice 1967
+        Enfermera Trabajadora Social y Médica
+        Concepto de Dolor Total
+      Dolor Total
+        Aspectos físicos
+        Aspectos emocionales
+        Aspectos sociales
+        Aspectos espirituales
+    Organización Asistencial
+      Entornos de Atención
+        Domicilio Atención Primaria HADO
+        Hospital Unidades de CP Equipos Soporte
+      HADO Hospitalización a Domicilio
+        Atención especializada en casa
+        Requiere cuidador principal
+        Pacientes estables con alta complejidad
+      Equipo Interdisciplinar
+        Médico y Enfermera
+        Psicólogo y Trabajador Social
+    Valoración del Paciente
+      Instrumentos
+        NECPAL Identificación precoz
+        ESAS Síntomas físicos
+        Karnofsky PPS Funcionalidad
+        Zarit Sobrecarga cuidador
+      Dimensiones
+        Física y Cognitiva
+        Psicoemocional y Social
+        Espiritual y Duelo
+    Vías de Administración
+      Vía de Elección
+        Vía Oral Preferente
+        Vía Subcutánea Alternativa principal
+      Vía Subcutánea
+        Fácil eficaz y segura
+        Uso en domicilio
+        Indicada en disfagia o vómitos
+      Otras Vías
+        Transdérmica
+        Transmucosa Fentanilo
+        Intravenosa Casos agudos
+    Ética en el Final de la Vida
+      Escenarios
+        Adecuación esfuerzo terapéutico AMT
+        Sedación paliativa
+        Planificación anticipada
+        Evitar obstinación terapéutica
     `,
   salud_mental: `
 mindmap

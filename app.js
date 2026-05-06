@@ -22,9 +22,7 @@ const state = {
     },
     
     // Estadísticas del usuario (se cargarán de localStorage)
-    stats: {
-        superateUnlocked: false
-    }
+    stats: {}
 };
 
 // --- INICIALIZACIÓN ---
@@ -79,8 +77,11 @@ function loadStats() {
                 temasAprobados: [],
                 simulacrosAprobados: 0,
                 repasosImportantesAprobados: 0,
-                conceptosAcertados: []
+                conceptosAcertados: [],
+                superateUnlocked: false
             };
+        } else if (typeof state.stats[asig].superateUnlocked === 'undefined') {
+            state.stats[asig].superateUnlocked = false;
         }
     });
 }
@@ -308,7 +309,7 @@ function startTest() {
     let pool = BANCO_PREGUNTAS.filter(q => q.asignatura === state.subject);
     
     if (state.testMode === 'tema') {
-        pool = pool.filter(q => q.tema === state.testTopic);
+        pool = pool.filter(q => String(q.tema) === String(state.testTopic));
         pool = shuffleArray(pool);
     } else if (state.testMode === 'importante') {
         pool = pool.filter(q => q.esExamen);
@@ -604,7 +605,7 @@ function processPostTestStats(isAprobado) {
         }
         
         if (state.stats[keyConsecutivos] >= 5) {
-            state.stats.superateUnlocked = true;
+            state.stats[state.subject].superateUnlocked = true;
         }
     } else if (state.testMode === 'simulacro' && !isAprobado) {
         state.stats[keyConsecutivos] = 0; 
@@ -667,10 +668,19 @@ function renderAchievements(targetSubject = state.subject || 'paliativos') {
 
     // Imágenes personalizadas por asignatura
     const LOGRO_IMAGES = {
+        paliativos: {
+            temas: 'pal_logro_temas.png',
+            simulacros: 'pal_logro_simulacros.png',
+            repasos: 'pal_logro_repasos.png',
+            platino: 'pal_logro_platino.png',
+            superate: 'pal_logro_superate.png'
+        },
         salud_mental: {
             temas: 'logro_temas.png',
             simulacros: 'logro_simulacros.png',
-            repasos: 'logro_repasos.png'
+            repasos: 'logro_repasos.png',
+            platino: 'logro_platino.png',
+            superate: 'logro_superate.png'
         }
     };
 
@@ -744,22 +754,22 @@ function renderAchievements(targetSubject = state.subject || 'paliativos') {
         );
 
 
-    // Check Platino
-    let allGolds = true;
-    Object.keys(CONFIG_ASIGNATURAS).forEach(asig => {
-        const m = checkMedals(asig);
-        if (m.temas !== 'oro' || m.simulacros !== 'oro' || m.repasos !== 'oro') {
-            allGolds = false;
-        }
-    });
+    // Check Platino (Por asignatura)
+    let allGolds = (medals.temas === 'oro' && medals.simulacros === 'oro' && medals.repasos === 'oro');
 
     const platino = document.getElementById('trophy-platinum');
+    if (imgs.platino) {
+        platino.querySelector('.trophy-img').src = imgs.platino;
+    }
     if (allGolds) platino.classList.remove('locked');
     else platino.classList.add('locked');
 
-    // Check Supérate
+    // Check Supérate (Por asignatura)
     const superate = document.getElementById('trophy-superate');
-    if (state.stats.superateUnlocked) superate.classList.remove('locked');
+    if (imgs.superate) {
+        superate.querySelector('.trophy-img').src = imgs.superate;
+    }
+    if (s.superateUnlocked) superate.classList.remove('locked');
     else superate.classList.add('locked');
 }
 
@@ -798,8 +808,8 @@ function renderRepositoryList() {
     if (filter === 'examen') {
         pool = pool.filter(q => q.esExamen);
     } else if (filter.startsWith('tema_')) {
-        const t = parseInt(filter.split('_')[1]);
-        pool = pool.filter(q => q.tema === t);
+        const tVal = filter.substring(5); // todo lo que va después de 'tema_'
+        pool = pool.filter(q => String(q.tema) === tVal);
     }
 
     const sort = document.getElementById('repo-sort').value;

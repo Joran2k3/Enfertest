@@ -1,4 +1,4 @@
-const CACHE_NAME = 'enfertest-v1';
+const CACHE_NAME = 'enfertest-v6';
 const urlsToCache = [
   './',
   './index.html',
