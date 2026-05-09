@@ -681,6 +681,13 @@ function renderAchievements(targetSubject = state.subject || 'paliativos') {
             repasos: 'logro_repasos.png',
             platino: 'logro_platino.png',
             superate: 'logro_superate.png'
+        },
+        clinica_ii: {
+            temas: 'cli_logro_temas.png',
+            simulacros: 'cli_logro_simulacros.png',
+            repasos: 'cli_logro_repasos.png',
+            platino: 'cli_logro_platino.png',
+            superate: 'cli_logro_superate.png'
         }
     };
 

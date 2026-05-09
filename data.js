@@ -34,7 +34,7 @@ const CONFIG_ASIGNATURAS = {
     preguntasSimulacro: 60,
     notaAprobado: 5,
     resta: true,
-    idTemas: [1, 2, 3, 4, 5, 6]
+    idTemas: ["Vascular_1", "Vascular_2", "Vascular_3", "Vascular_4", "Respiratorio_1", "Respiratorio_2", "Respiratorio_3", "Respiratorio_4", "Respiratorio_5", "Examen_Mayo_2024_2025"]
   }
 };
 
@@ -14134,6 +14134,3874 @@ const BANCO_PREGUNTAS = [
     esExamen: false,
     conceptoMapa: "urgencias_cuidados"
   },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "1. Según la clasificación de Fontaine para la isquemia arterial crónica, ¿qué síntoma indica el Grado II?",
+    opciones: [
+      "Isquemia asintomática detectable solo por índice tobillo-brazo.",
+      "Claudicación intermitente (dolor muscular al caminar que cede en reposo).",
+      "Dolor isquémico continuo en reposo.",
+      "Presencia de lesiones tróficas o gangrena."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "2. ¿Cuál de las siguientes patologías se clasifica como una enfermedad obstructiva de las vías respiratorias?",
+    opciones: [
+      "Enfisema pulmonar.",
+      "Embolia Pulmonar (TEP).",
+      "Hipertensión pulmonar.",
+      "Sarcoidosis."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "3. Las sibilancias son ruidos adventicios que aparecen principalmente en la espiración. ¿Con qué patología obstructiva están directamente relacionadas?",
+    opciones: [
+      "Asma bronquial.",
+      "Atelectasia lobar.",
+      "Neumonía neumocócica.",
+      "Fibrosis quística en fase inicial."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "4. En la fase de hepatización roja de una neumonía, ¿cuál de los siguientes hallazgos anatomopatológicos se hace presente?",
+    opciones: [
+      "Aparición exclusiva de macrófagos alveolares.",
+      "Hemorragia y presencia de eritrocitos en los exudados alveolares.",
+      "Formación de tapones de fibrina sólidos en bronquios.",
+      "Infiltración masiva de eosinófilos en el parénquima pulmonar."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "5. Al realizar la exploración física torácica a un paciente con un neumotórax, ¿qué hallazgo esperamos encontrar a la percusión?",
+    opciones: [
+      "Matidez (ruido mate).",
+      "Sonido hipersonoro o timpanismo.",
+      "Claro pulmonar normal.",
+      "Submatidez basal."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "6. Un aneurisma se define como la dilatación localizada y permanente de una arteria. ¿A partir de qué umbral de aumento sobre su diámetro normal se considera clínicamente aneurisma?",
+    opciones: [
+      "Cuando existe una dilatación superior al 20%.",
+      "Cuando la dilatación es mayor al 50% del diámetro normal.",
+      "Con un aumento del 30%.",
+      "Cuando el diámetro supera en 10 cm al original."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "11. En un sistema de drenaje torácico clásico de tres cámaras (tipo Pleur-evac), ¿cuál es la función de la tercera cámara conectada al sistema?",
+    opciones: [
+      "Actuar como botella de sello de agua para evitar el retorno a la pleura.",
+      "Cámara hidráulica para humidificar el aire.",
+      "Cámara de control de la aspiración (o succión).",
+      "Compartimento recolector para medir el débito de líquidos."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "14. Tras una cirugía de derivación vascular (bypass) en un paciente con ateromatosis severa, ¿qué cuidados postoperatorios de enfermería se deben tener en cuenta?",
+    opciones: [
+      "Protección estricta de las extremidades inferiores.",
+      "Control riguroso del aspirado gástrico.",
+      "Vigilancia intensiva de la aparición de los pulsos periféricos y la temperatura.",
+      "Todas las opciones anteriores son cuidados correctos aplicables a este paciente."
+    ],
+    correcta: 3, // Adaptada a la lógica clínica, ya que el examen original marca D.
+    esExamen: true,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "17. Al valorar las características del esputo de un paciente, observamos una coloración amarillo-verdosa y amarronada. ¿A qué tipo de secreción corresponde?",
+    opciones: [
+      "Esputo perlado.",
+      "Esputo sanguinolento.",
+      "Esputo mucopurulento.",
+      "Esputo seroso."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "18. A lo largo del día la tensión arterial puede verse alterada. ¿Cuáles de los siguientes son factores de riesgo directos para desarrollar Hipertensión Arterial (HTA)?",
+    opciones: [
+      "El sedentarismo y la falta de actividad física.",
+      "Los factores genéticos.",
+      "El consumo excesivo de grasas y sodio.",
+      "Todas las respuestas son factores de riesgo de HTA."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "21. ¿Cuál de las siguientes partes anatómicas del “árbol bronquial” se caracteriza por contener en su pared una estructura cartilaginosa recubierta de epitelio para evitar su colapso?",
+    opciones: [
+      "El parénquima pulmonar profundo.",
+      "Los bronquiolos terminales.",
+      "El bronquio principal.",
+      "Los acinos pulmonares."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "28. El diafragma es el músculo principal de la ventilación. ¿Cuál es su comportamiento biomecánico durante la fase de inspiración?",
+    opciones: [
+      "Se aplana, desciende y disminuye la presión de la cavidad abdominal.",
+      "Se aplana, desciende (expandiendo el tórax) y aumenta la presión abdominal.",
+      "Asciende bruscamente hacia el tórax reduciendo la capacidad vital.",
+      "No se moviliza, dejando todo el trabajo a los músculos intercostales externos."
+    ],
+    correcta: 1, // Corregido en base al mapa mental ("baja y aumenta presión abdominal")
+    esExamen: true,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "30. En la exploración con ecodoppler, ¿qué valor del Índice Tobillo-Brazo (ITB) nos indica claramente un riesgo y presencia de isquemia crónica por enfermedad arterial?",
+    opciones: [
+      "Un ITB inferior a 0,9 (<0,9).",
+      "Un ITB situado entre 0,9 y 1,4.",
+      "Un ITB exacto de 1,4.",
+      "Un ITB superior a 1,5."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "33. Durante la observación torácica detectamos respiración paradójica. ¿En qué consiste este signo clínico?",
+    opciones: [
+      "En un movimiento de la pared torácica contrario al fisiológico (se hunde en inspiración).",
+      "En el movimiento asimétrico y unilateral del diafragma.",
+      "En una disnea súbita que mejora exclusivamente en decúbito supino.",
+      "En la combinación de hiperventilación profunda seguida de periodos de apnea prolongada."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "34. La hipertensión arterial no tratada lesiona progresivamente diferentes órganos diana. Si afecta de manera aguda a los vasos del cerebro, ¿qué evento crítico puede producir?",
+    opciones: [
+      "Enfermedad de Parkinson fulminante.",
+      "Un Accidente Cerebrovascular (ACV) o Ictus isquémico/hemorrágico.",
+      "Aparición de tumores cerebrales gliales.",
+      "Meningoencefalitis bacteriana."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "35. ¿Qué característica fisiopatológica define concretamente a la patología conocida como 'Aterosclerosis'?",
+    opciones: [
+      "Es una alteración crónica de la pared endotelial con acúmulo de lípidos y formación de placas de ateroma en la túnica íntima.",
+      "Es una alteración congénita de las válvulas del sistema venoso profundo.",
+      "Es la calcificación de la capa adventicia de las arterias, sin importar el colesterol.",
+      "Es la dilatación de las paredes venosas provocada por bipedestación prolongada."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "39. Durante la valoración de la tos del paciente, podemos diferenciar distintas características por su tonalidad. ¿Cuál de las siguientes es una descripción clásica de la tonalidad de la voz/tos?",
+    opciones: [
+      "Tos perruna.",
+      "Tos aguda continua.",
+      "Tos estacional alérgica.",
+      "Tos seca paroxística."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "40. En relación a la etiología más frecuente de una bronquitis aguda, ¿qué microorganismos son los responsables mayoritarios de los cuadros virales?",
+    opciones: [
+      "Staphylococcus pneumoniae y gramnegativos.",
+      "Virus respiratorio sincitial únicamente.",
+      "Virus de la Influenza (A y B) y rinovirus.",
+      "Bordetella pertussis."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "41. Ante un paciente ingresado con dolor severo por fracturas costales, señala la intervención de cuidados que es INCORRECTA y está desaconsejada:",
+    opciones: [
+      "Asistir en técnicas suaves de fisioterapia respiratoria adaptada.",
+      "Administrar soporte de oxígeno si existiera hipoxemia asociada.",
+      "Realizar vendajes torácicos circulares y restrictivos para limitar el dolor costal.",
+      "Dispensar la analgesia pautada, llegando incluso al bloqueo nervioso intercostal si procede."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "42. Además del diafragma, ¿cuál es el músculo esquelético agonista fundamental encargado de facilitar la inspiración normal?",
+    opciones: [
+      "Los músculos propios de la laringe.",
+      "El músculo dorsal ancho.",
+      "El músculo intercostal externo.",
+      "La musculatura recta abdominal."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "44. ¿Cuál es la diferencia fisiopatológica fundamental entre un aneurisma verdadero y un pseudoaneurisma o aneurisma falso?",
+    opciones: [
+      "El aneurisma verdadero afecta dilatando las 3 capas de la arteria, mientras que el falso es un hematoma extravascular comunicado con la luz.",
+      "El pseudoaneurisma solo afecta dilatando la capa media y el verdadero la íntima.",
+      "El aneurisma verdadero se forma en arterias y el pseudoaneurisma en la red venosa profunda.",
+      "No existe ninguna diferencia anatómica, solo radiológica en el TAC."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "49. Al valorar una úlcera en extremidades inferiores, ¿qué características clínicas nos indican que es de origen VENOSO y no isquémico arterial?",
+    opciones: [
+      "Presentan prurito perilesional, edema, bordes irregulares y fondo fibrinoide.",
+      "Cursan con dolor isquémico insoportable que empeora al elevar la pierna.",
+      "Ocasionan un aumento brusco del dolor en la pantorrilla al caminar (claudicación).",
+      "Se sitúan habitualmente en la punta de los dedos con tejido totalmente necrótico negro."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "51. En relación a la Trombosis Venosa Profunda (TVP), señala la afirmación FALSA:",
+    opciones: [
+      "Suele presentar eritema, aumento de temperatura local y edema con fóvea inicial.",
+      "La inmovilidad prolongada es uno de los principales factores de estasis según la triada de Virchow.",
+      "Las TVP son muchísimo más comunes en el sistema venoso de la extremidad superior que en las extremidades inferiores.",
+      "Puede desencadenar un tromboembolismo pulmonar si el coágulo se desprende."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "56. El tratamiento estándar para mejorar el estancamiento sanguíneo en la Insuficiencia Venosa Crónica es la elastocompresión. ¿Qué mejora hemodinámica proporciona el vendaje terapéutico?",
+    opciones: [
+      "Aumenta la presión tisular y favorece el intercambio capilar y el retorno venoso.",
+      "Activa sustancias pro-inflamatorias que lisan el trombo (fibrinólisis química).",
+      "Disminuye drásticamente el aporte de flujo sanguíneo arterial para no sobrecargar el sistema.",
+      "Causa dilatación refleja y aumenta la movilidad estructural de las articulaciones."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "58. En una consulta de Atención Primaria, tomamos la tensión arterial a un paciente adulto sin medicación. Según las directrices del estándar europeo de las guías 2020, ¿qué valores indican HTA de Grado 1?",
+    opciones: [
+      "Sistólica de 160-179 mmHg y/o diastólica de 100-109 mmHg.",
+      "Sistólica superior a 140 mmHg en una única toma aislada con ansiedad (bata blanca).",
+      "Sistólica de 130-139 mmHg y diastólica de 85-89 mmHg (considerada PA normal-alta).",
+      "Sistólica de 140-159 mmHg y/o diastólica de 90-99 mmHg."
+    ],
+    correcta: 3, // Adaptada a las notas de Wuolah para mayor precisión
+    esExamen: true,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "60. La ateromatosis (formación de placas en las paredes arteriales) es una enfermedad sistémica. De las siguientes opciones, ¿qué enfermedad puede tener su causa primaria en el daño y estenosis por una placa de ateroma?",
+    opciones: [
+      "La enfermedad pulmonar obstructiva crónica (EPOC).",
+      "La insuficiencia renal crónica, derivada de la estenosis de la arteria renal.",
+      "El fracaso y la insuficiencia hepática crónica.",
+      "El asma bronquial intermitente."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "61. En pacientes de urgencias con traumatismos torácicos severos (ej. accidentes de tráfico) que sufren fracturas en las costillas inferiores flotantes (11 y 12), ¿qué complicación o lesión asociada debemos vigilar estrechamente?",
+    opciones: [
+      "La sección masiva de los vasos aórticos grandes.",
+      "La formación inminente de un neumotórax apical derecho.",
+      "La lesión o desgarro de órganos abdominales contiguos como la zona hepática o esplénica.",
+      "La fractura secundaria irradiada del hueso hioides."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "62. Al inspeccionar el estado trófico de las extremidades inferiores en un paciente diabético con sospecha de patología arterial severa, ¿cuál de los siguientes hallazgos nos alarma a favor de la úlcera/isquemia arterial?",
+    opciones: [
+      "La escasez o caída del vello, sumada a palidez cutánea y uñas engrosadas.",
+      "El crecimiento acelerado de las uñas de los pies.",
+      "El aumento marcado de la sudoración distal con hiperemia.",
+      "La aparición exclusiva de manchas color ocre o atrofia blanca perimaleolar."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "63. Ante un paciente en riesgo quirúrgico tras una osteosíntesis, ¿cuáles de las siguientes medidas están indicadas para PREVENIR el Tromboembolismo Pulmonar (TEP)?",
+    opciones: [
+      "La administración subcutánea de Heparina de Bajo Peso Molecular (HBPM).",
+      "La aplicación de vendaje o medias de compresión elástica.",
+      "Fomentar la deambulación precoz tan pronto como lo tolere.",
+      "Todas las medidas anteriores son correctas para prevenir estasis venoso y el TEP."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "64. Durante el interrogatorio clínico, se buscan factores o estímulos desencadenantes de crisis en el paciente con asma bronquial. ¿Cuál de estos es un desencadenante reconocido?",
+    opciones: [
+      "La atopia y la inhalación de alérgenos.",
+      "Los estados emocionales alterados o el estrés intenso.",
+      "El uso de determinados fármacos (como los AINEs).",
+      "Todas las respuestas anteriores pueden desencadenar una crisis hiperreactiva asmática."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "65. ¿Cuál es el significado clínico exacto del término 'atelectasia' en neumología?",
+    opciones: [
+      "La dilatación irreversible de la estructura bronquial acompañada de hipersecreción mucopurulenta.",
+      "El colapso de una parte o de todo el pulmón causado por la oclusión de la luz del bronquio que impide la entrada de aire.",
+      "La ruptura repentina de vesículas pulmonares provocando aire libre en la cavidad torácica.",
+      "La disfunción valvular cardíaca que conlleva líquido en los espacios alveolares."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "66. (Interactiva) Al instruir a un paciente asmático sobre el manejo crónico de su enfermedad en el domicilio, le indicamos el uso del medidor de Peak-Flow. ¿Cuál es su finalidad?",
+    opciones: [
+      "Sustituir a los fármacos corticoides si se encuentra en niveles normales.",
+      "Valorar su capacidad vital forzada y servir como única alternativa válida a la espirometría para diagnosticar EPOC.",
+      "Medir el pico de flujo espiratorio para valorar la obstrucción, anticipar crisis y realizar un seguimiento objetivo del asma.",
+      "Realizar el entrenamiento inspiratorio tras una intervención quirúrgica de bypass."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "67. (Interactiva) Existen ciertos escenarios donde las intervenciones mecánicas sobre la caja torácica no son seguras. ¿Cuál es una contraindicación clara para aplicar técnicas manuales de fisioterapia respiratoria (clapping o vibración)?",
+    opciones: [
+      "La existencia de telangiectasias postquirúrgicas leves.",
+      "La presencia actual de hemoptisis activa en el paciente.",
+      "Una neumonía bacteriana consolidada y estable.",
+      "El aumento en la expulsión de tos productiva purulenta."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Examen_Mayo_2024_2025",
+    pregunta: "68. (Interactiva) En urgencias ingresa un paciente joven con inflamación y grave daño tisular en los pulmones sin causa infecciosa evidente. Se le diagnostica 'Síndrome de EVALI'. ¿A qué hace referencia esta patología emergente?",
+    opciones: [
+      "A una respuesta autoinmune letal por consumo de corticoides a largo plazo.",
+      "Al atrapamiento progresivo de aire por sobreesfuerzo agudo en deportistas.",
+      "A la afectación pulmonar química severa causada por la inhalación de componentes de cigarrillos electrónicos y vapers.",
+      "Al síncope cardiorrespiratorio mediado por dolor intenso."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "patologias_y_signos"
+  },
+  // ==========================================
+  // TEMA 1: TRASTORNOS DEL SISTEMA CIRCULATORIO (VASCULAR)
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "69. En relación a la anatomía de los vasos sanguíneos, ¿cuál es la característica estructural única que poseen las venas y que no está presente en las arterias?",
+    opciones: [
+      "Una túnica media mucho más gruesa y elástica.",
+      "Válvulas unidireccionales que impiden el flujo retrógrado de la sangre.",
+      "Células endoteliales separadas unas de otras con fenestraciones.",
+      "Una túnica adventicia compuesta exclusivamente por cartílago."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "70. Fisiológicamente, al poseer unas paredes delgadas y poder distenderse para alojar grandes volúmenes de sangre en el sistema circulatorio, las venas se consideran:",
+    opciones: [
+      "Vasos de resistencia.",
+      "Vasos de intercambio gaseoso.",
+      "Vasos de capacitancia o reservorio.",
+      "Vasos de alta presión arterial."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "71. El proceso normal de envejecimiento provoca cambios degenerativos en el sistema vascular. ¿Qué alteración hemodinámica produce el aumento de rigidez y calcificación de la pared arterial?",
+    opciones: [
+      "Una disminución de la presión arterial sistólica.",
+      "Un aumento de la resistencia vascular periférica (y por tanto aumento de la presión arterial).",
+      "Una vasodilatación extrema y constante.",
+      "Un colapso venoso profundo reversible."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "72. Al valorar la circulación periférica de un paciente, ¿cuál de los siguientes es el síntoma más característico y primario de la patología arterial periférica?",
+    opciones: [
+      "Claudicación intermitente (dolor con la actividad que cesa en reposo).",
+      "Edema con fóvea positivo bilateral.",
+      "Eritema y calor local intenso en la zona distal.",
+      "Prurito constante y descamación en la tibia."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "73. Al inspeccionar el estado cutáneo de las extremidades inferiores en un paciente con insuficiencia circulatoria arterial, observaremos frecuentemente:",
+    opciones: [
+      "Piel hidratada, con abundante vello y coloración sonrosada.",
+      "Palidez, cianosis, disminución del vello, piel brillante y uñas engrosadas.",
+      "Hiperpigmentación parda masiva (dermatitis ocre) sin otras alteraciones.",
+      "Aumento severo de la temperatura en el pie afectado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "74. En la valoración del edema, ¿qué características clínicas definen un edema de grado 2+?",
+    opciones: [
+      "Fóvea ligera sin distorsión visible que desaparece inmediatamente.",
+      "Fóvea llamativamente profunda que puede durar más de 1 minuto.",
+      "Fóvea más profunda que en 1+ sin distorsión visible, que desaparece al cabo de 10-15 segundos.",
+      "Fóvea profunda que persiste durante 5 minutos con extremidad muy distorsionada."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "75. Al realizar la exploración física, la limitación del flujo sanguíneo por arteriopatías oclusivas afectará de forma directa e inmediata a:",
+    opciones: [
+      "La aparición o mantenimiento de los pulsos periféricos.",
+      "El diámetro de las venas yugulares.",
+      "El índice de masa corporal del paciente.",
+      "La saturación de oxígeno a nivel cerebral exclusivamente."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "76. Dentro de los diagnósticos de enfermería relacionados con trastornos vasculares periféricos, el síntoma de 'Dolor' está principalmente relacionado con:",
+    opciones: [
+      "El exceso de líquido acumulado en el espacio intersticial.",
+      "La compresión nerviosa directa por hipertrofia muscular.",
+      "La limitación del aporte de oxígeno a los tejidos por parte de los vasos periféricos.",
+      "La rotura espontánea de capilares superficiales."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "77. La ecografía Doppler (Eco-Doppler) es una prueba diagnóstica no invasiva que se utiliza fundamentalmente para:",
+    opciones: [
+      "Determinar la densidad mineral ósea.",
+      "Visualizar la estructura de los vasos y las ondas de velocidad y dirección del flujo sanguíneo.",
+      "Medir la presión intraocular del paciente.",
+      "Extraer líquido sinovial de la articulación de la rodilla."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "78. Tras la realización de una angiografía con contraste a través de la arteria femoral, ¿cuál es uno de los cuidados postoperatorios prioritarios de enfermería?",
+    opciones: [
+      "Animar a la deambulación inmediata.",
+      "Comprimir de 10 a 15 minutos (o más si está anticoagulado) la zona de punción, manteniendo la cama a 0º y vigilando los pulsos distales.",
+      "Restringir por completo la ingesta de líquidos durante 24 horas.",
+      "Realizar masajes intensos sobre el sitio de punción para disolver hematomas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "79. A la hora de utilizar contrastes radiológicos a base de yodo para las pruebas vasculares, se debe preguntar al paciente preventivamente por posibles alergias a:",
+    opciones: [
+      "El polen y las gramíneas.",
+      "Los frutos secos.",
+      "El marisco.",
+      "Los antibióticos macrólidos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "80. Para la preparación de un paciente que se va a someter a un Angio-TAC de miembros inferiores con contraste, se requiere protocolariamente:",
+    opciones: [
+      "Una dieta hiperproteica las 24 horas previas.",
+      "El rasurado completo de ambas piernas.",
+      "Estar en ayunas un mínimo de 6 horas y contar con un estudio previo de función renal.",
+      "La colocación de una sonda vesical obligatoria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "81. El Índice Tobillo-Brazo (ITB) es una herramienta muy útil en atención primaria que permite de forma rápida y objetiva:",
+    opciones: [
+      "Medir el riesgo de hemorragia cerebral.",
+      "Diagnosticar la arteriopatía periférica, cuantificar su gravedad y valorar su evolución.",
+      "Evaluar la fuerza muscular de la extremidad.",
+      "Comprobar el retorno venoso exclusivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "82. En el procedimiento para calcular el Índice Tobillo-Brazo (ITB), el paciente debe permanecer en decúbito supino un mínimo de 2-3 minutos. Posteriormente la fórmula a aplicar es:",
+    opciones: [
+      "Presión Diastólica de la pierna dividida entre la Presión Sistólica del brazo.",
+      "Presión Sistólica (PAS) mayor de la pierna dividida entre la Presión Sistólica (PAS) mayor del brazo.",
+      "Presión Sistólica (PAS) del brazo dividida entre la Presión Sistólica (PAS) de la pierna.",
+      "Media de las tensiones del brazo sumadas a la media del tobillo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "83. Al interpretar los resultados del Índice Tobillo-Brazo (ITB), un valor entre 0,69 y 0,40 se clasifica como una enfermedad arterial de gravedad:",
+    opciones: [
+      "Leve.",
+      "Moderada.",
+      "Grave (crítica).",
+      "Normal o sana."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "84. Si tras realizar un Índice Tobillo-Brazo (ITB) el resultado es menor de 0,4 (<0,4), la interpretación clínica es:",
+    opciones: [
+      "Presencia de enfermedad arterial periférica en grado leve.",
+      "Total normalidad de la circulación periférica.",
+      "Posible calcificación arterial que da un falso negativo.",
+      "Enfermedad arterial periférica en grado grave."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "85. ¿En qué grupo de pacientes NO está particularmente indicado realizar un Índice Tobillo-Brazo (ITB) a modo de cribado o seguimiento?",
+    opciones: [
+      "Pacientes jóvenes deportistas sin antecedentes médicos relevantes.",
+      "Pacientes diabéticos.",
+      "Pacientes fumadores de larga evolución.",
+      "Pacientes con diagnóstico de síndrome metabólico."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "86. Las arteriolas ejercen un control muy fuerte sobre la distribución del flujo y la presión arterial. Esto se debe fundamentalmente a que:",
+    opciones: [
+      "Carecen por completo de capa muscular, estando formadas solo por endotelio.",
+      "Poseen en sus paredes una capa de músculo liso proporcionalmente mayor a su espesor, permitiendo precisos cambios de diámetro.",
+      "Disponen de válvulas venosas muy rígidas.",
+      "Son vasos de gran calibre con mucha capa elástica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "87. A la hora de palpar el abdomen de un paciente vascular en el examen físico, la presencia de soplos nos puede alertar sobre alteraciones patológicas de:",
+    opciones: [
+      "Las arterias renales, ilíacas o aórticas.",
+      "La vena cava superior exclusivamente.",
+      "La arteria pedia y tibial posterior.",
+      "El hígado y la vesícula biliar puramente mecánicos."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "88. Según las características fisiológicas, las arterias más cercanas al corazón (como la aorta) necesitan acomodarse al volumen de sangre bombeado. Para ello predominan en su túnica media:",
+    opciones: [
+      "Las fibras musculares lisas estriadas.",
+      "Las válvulas semilunares de colágeno.",
+      "Las fibras de elastina (arterias elásticas), permitiendo el retroceso durante la diástole.",
+      "Las terminaciones nerviosas nociceptivas en exclusiva."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "89. ¿Cuál de los siguientes es un factor de riesgo CLAVE para el desarrollo de los trastornos vasculares que influye además directamente sobre la vasoconstricción?",
+    opciones: [
+      "El tabaquismo.",
+      "El consumo de dietas ricas en vitamina C.",
+      "El género femenino en la segunda década de la vida.",
+      "El ejercicio aeróbico regular."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "90. Los capilares responsables de proporcionar una mayor permeabilidad, situados en órganos que precisan alta filtración o absorción y cuyas células endoteliales presentan poros, se denominan:",
+    opciones: [
+      "Capilares continuos.",
+      "Capilares discontinuos (sinusoides).",
+      "Capilares fenestrados.",
+      "Vénulas postcapilares cerradas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "91. El sistema venoso profundo del cuerpo aloja habitualmente a un gran porcentaje del volumen sanguíneo total. ¿Qué proporción le corresponde aproximadamente?",
+    opciones: [
+      "Entre un 5-10%.",
+      "Exactamente un 50%.",
+      "Entre un 90-95%.",
+      "Menos del 2%."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "92. Entre los objetivos de enfermería para un paciente con trastornos de la perfusión periférica, NO se encuentra:",
+    opciones: [
+      "El aumento del riego sanguíneo arterial a las extremidades.",
+      "La disminución de la congestión venosa.",
+      "La prevención activa de la vasoconstricción local.",
+      "La instauración mantenida de posiciones en declive severo constantes de más de 45º."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "93. Fisiológicamente, ¿qué túnica vascular se encarga de revestir el interior del vaso, proporcionando una superficie lisa que minimiza la fricción de la sangre?",
+    opciones: [
+      "La túnica adventicia.",
+      "La túnica media.",
+      "La túnica íntima (endotelio).",
+      "La serosa muscular."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "94. ¿Cuál de los siguientes no es un síntoma ni una manifestación visual habitual de los trastornos isquémicos arteriales avanzados de las piernas?",
+    opciones: [
+      "Cambios en el color de la piel hacia palidez al elevar la extremidad.",
+      "Cicatrización enlentecida o úlceras isquémicas que no curan.",
+      "Aparición masiva e incontrolable de varículas y telangiectasias calientes.",
+      "Sensación de frialdad y hormigueo en la extremidad."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "95. Además de diagnosticar la arteriopatía periférica, el Índice Tobillo-Brazo (ITB) alterado se considera en sí mismo:",
+    opciones: [
+      "Un indicador de buena salud renal.",
+      "Un marcador independiente de alto riesgo cardiovascular general.",
+      "Un predictor específico de insuficiencia venosa crónica.",
+      "Una contraindicación para caminar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "96. Si al evaluar el edema con fóvea apreciamos una fóvea profunda que persiste durante 2 a 5 minutos, con una extremidad muy distorsionada, lo clasificaremos como:",
+    opciones: [
+      "Grado 1+.",
+      "Grado 2+.",
+      "Grado 3+.",
+      "Grado 4+."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "97. Para la técnica del ITB, tras tomar la presión en ambas arterias pedias y tibiales posteriores del mismo pie, ¿qué valor anotaremos protocolariamente?",
+    opciones: [
+      "Se suma el valor de la pedia y la tibial y se divide entre 2.",
+      "Se escoge la de menor valor por prudencia.",
+      "Se escoge la de mayor valor de cada pierna.",
+      "Da igual cuál se coja mientras se haga con doppler sonoro."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_1",
+    pregunta: "98. La angiografía se describe como el patrón oro para muchas patologías. Un inconveniente propio de los contrastes intravenosos usados es que pueden provocar reacciones leves como:",
+    opciones: [
+      "Sensación brusca de calor, náuseas y leve prurito.",
+      "Hipotermia severa incontrolable.",
+      "Vasoconstricción pulmonar y parálisis frénica.",
+      "Sordera temporal de 24 horas."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+
+  // ==========================================
+  // TEMA 2: HIPERTENSIÓN, HIPOTENSIÓN Y SÍNCOPE
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "99. Según los apuntes basados en las guías recientes (2020), se define la Hipertensión Arterial (HTA) cuando la fuerza que ejerce la sangre supera las cifras de:",
+    opciones: [
+      "120 mmHg de PAS y 80 mmHg de PAD.",
+      "130 mmHg de PAS y los 85 mmHg de PAD en sujetos que no tomen medicación.",
+      "140 mmHg de PAS y 90 mmHg de PAD en ancianos únicamente.",
+      "160 mmHg de PAS de forma sostenida independientemente de la PAD."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "100. En el paciente hipertenso, la Presión Arterial Media (PAM), que proporciona el valor de presión con el que la sangre llega a los tejidos, se sitúa típicamente en reposo por encima de los:",
+    opciones: [
+      "60 mmHg.",
+      "80 mmHg.",
+      "100 mmHg.",
+      "150 mmHg."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "101. Dentro de la clasificación de la HTA en la consulta médica, una presión sistólica de 130-139 mmHg y/o diastólica de 85-89 mmHg se categoriza exactamente como:",
+    opciones: [
+      "Presión arterial normal.",
+      "Presión arterial normal-alta.",
+      "Hipertensión Grado 1.",
+      "Hipertensión Grado 2."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "102. Para una correcta medición protocolizada de la tensión arterial en la consulta, ¿a qué ritmo de presión debe realizarse el desinflado del esfigmomanómetro?",
+    opciones: [
+      "A un ritmo brusco y continuo para evitar el dolor por isquemia en el brazo.",
+      "A un ritmo de 10 mmHg por segundo.",
+      "A un ritmo constante de 3 mmHg por segundo.",
+      "La velocidad de desinflado no altera la medición clínica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "103. La regulación de la presión arterial a muy corto plazo (segundos o minutos) ante cambios repentinos de postura se lleva a cabo gracias a:",
+    opciones: [
+      "El sistema renina-angiotensina-aldosterona.",
+      "Los barorreceptores del arco aórtico y seno carotídeo conectados con el centro vasomotor del tronco encefálico.",
+      "La regulación renal del volumen de líquido extracelular.",
+      "La secreción pancreática de insulina."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "104. A nivel metabólico y neurológico, ¿cuál de los siguientes factores provoca clínicamente una VASOCONSTRICCIÓN aumentando la resistencia vascular?",
+    opciones: [
+      "El descenso de oxígeno (O2).",
+      "La liberación de histamina.",
+      "La estimulación del Sistema Nervioso Simpático, el aumento de O2 y el frío.",
+      "La estimulación exclusiva del Sistema Nervioso Parasimpático y el calor."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "105. Existen sustancias orgánicas que favorecen la VASODILATACIÓN local. ¿Cuál de las siguientes cumple esta función relajando el músculo liso?",
+    opciones: [
+      "La angiotensina II.",
+      "La vasopresina.",
+      "La endotelina.",
+      "El óxido nítrico y la histamina."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "106. La mayoría de los diagnósticos de hipertensión (más del 90%) corresponden a un cuadro de origen multifactorial, sin una sola patología evidente responsable. Esta se denomina:",
+    opciones: [
+      "Hipertensión secundaria.",
+      "Hipertensión primaria, esencial o idiopática.",
+      "Hipertensión refractaria medicamentosa.",
+      "Eclampsia severa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "107. ¿Cómo se conoce clínicamente al fenómeno de elevación transitoria de las cifras de tensión arterial producida en la consulta debido al estrés del paciente?",
+    opciones: [
+      "Crisis de feocromocitoma.",
+      "Hipertensión secundaria aguda.",
+      "Hipertensión de bata blanca.",
+      "Efecto ortostático inverso."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "108. Aunque la HTA suele ser asintomática, cuando alcanza estadios graves o avanzados puede presentar sintomatología clínica característica como:",
+    opciones: [
+      "Dolor de cabeza, visión borrosa, epistaxis (sangrado nasal espontáneo) y náuseas.",
+      "Bradicardia persistente de 30 lpm, hipotermia y diarrea.",
+      "Prurito intenso en extremidades y pérdida capilar capilar.",
+      "Tos perruna continua, dolor costal punzante y aleteo nasal."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "109. ¿Qué efecto perjudicial directo tiene el estrés crónico sobre la presión arterial del paciente?",
+    opciones: [
+      "Disminuye la frecuencia cardíaca mediante el nervio vago y paraliza la diástole.",
+      "Activa el Sistema Nervioso Simpático, liberando noradrenalina y causando una fuerte vasoconstricción.",
+      "Aumenta la retención de agua directamente en el glomérulo por acción de la histamina.",
+      "Dilata las arterias carótidas produciendo síncopes de repetición."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "110. En el tratamiento farmacológico de la HTA, el mecanismo de acción de la familia de los fármacos 'Tiazídicos' (ej. clorotiazida) se basa en:",
+    opciones: [
+      "Relajar directamente el músculo liso vascular.",
+      "Bloquear los receptores alfa-adrenérgicos a nivel central.",
+      "Inhibir la entrada de calcio en la célula muscular.",
+      "Aumentar la excreción de agua y Sodio (Na+) en el riñón, disminuyendo el volumen sanguíneo global."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "111. Los fármacos denominados IECA (como el captopril o el enalapril) actúan disminuyendo la presión arterial gracias a que:",
+    opciones: [
+      "Son diuréticos ahorradores de potasio potentes.",
+      "Inhiben la conversión de angiotensina a angiotensina II, bloqueando la liberación de aldosterona y reduciendo la retención de agua y sodio.",
+      "Bloquean los receptores beta-adrenérgicos del corazón reduciendo su frecuencia.",
+      "Producen una parálisis temporal de la capa muscular de las venas cavas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "112. Ante una elevación aguda e intensa de la PA, ¿qué diferencia fundamental existe entre una 'Emergencia hipertensiva' y una 'Urgencia hipertensiva'?",
+    opciones: [
+      "La Urgencia hipertensiva es letal en cuestión de minutos, la Emergencia no.",
+      "En la Emergencia hipertensiva SI existe afectación grave de órganos diana y riesgo vital, requiriendo descenso precoz intravenoso en hospital.",
+      "La Emergencia hipertensiva asienta sobre pacientes asintomáticos, la Urgencia cursa con ictus invariablemente.",
+      "Ambas son idénticas y se tratan con ansiolíticos orales y alta a domicilio."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "113. Clínicamente, el concepto de 'Hipotensión ortostática' se define por unos valores concretos al adoptar la bipedestación. Estos son:",
+    opciones: [
+      "Una caída de PAS mayor o igual a 20 mmHg o PAD mayor o igual a 10 mmHg en los 3 primeros minutos.",
+      "Un descenso de PAS de exactamente 5 mmHg tras estar de pie 10 minutos.",
+      "Un aumento brusco de la frecuencia cardíaca superior a 150 lpm sin cambio de presión.",
+      "Cualquier caída de la tensión diastólica al agacharse a recoger un objeto del suelo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "114. En la fisiopatología del mareo ortostático, ¿por qué disminuye drásticamente el gasto cardíaco y la presión arterial al ponernos rápidamente de pie?",
+    opciones: [
+      "Porque el volumen de sangre del sistema nervioso central sufre una hiperoxigenación transitoria.",
+      "Debido al rápido aumento de volumen sanguíneo venoso infradiafragmático por efecto de la gravedad, disminuyendo el retorno venoso al corazón.",
+      "Porque los barorreceptores dejan de enviar señales temporalmente provocando un bloqueo AV de tercer grado.",
+      "Por la absorción inmediata de todo el sodio circulante en el riñón."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "115. Al diferenciar el mareo/síncope por hipotensión ortostática de un cuadro cardíaco grave como un infarto agudo de miocardio, destaca especialmente que en el ortostatismo:",
+    opciones: [
+      "El paciente presenta cianosis severa y vómitos en escopetazo.",
+      "No se acompaña de dolor precordial (dolor a nivel del tórax izquierdo).",
+      "Siempre hay pérdida total de control de esfínteres por más de 10 minutos.",
+      "El paciente requiere reanimación cardiopulmonar en el 100% de los casos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "116. El síncope se define médicamente como una pérdida transitoria de consciencia asociada a pérdida de tono postural. Su principal rasgo resolutivo es:",
+    opciones: [
+      "Su recuperación espontánea en poco tiempo, sin necesidad de cardioversión eléctrica o farmacológica.",
+      "Que requiere invariablemente una descarga de desfibrilador para revertir al ritmo sinusal normal.",
+      "Que deja secuelas neurológicas permanentes en forma de hemiparesias.",
+      "La amnesia total de los 5 años previos a la caída."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "117. El Síncope neuromediado 'Vasovagal' es el más frecuente y suele presentar 3 fases clásicas. Durante la 'Fase 1' (pródromos), el paciente suele relatar:",
+    opciones: [
+      "Convulsiones crónico-tónicas de las extremidades superiores.",
+      "Dolor abdominal difuso irradiado a la espalda baja de horas de evolución.",
+      "Mareo, debilidad, diaforesis (sudoración fría), náuseas y visión borrosa justo antes de caer.",
+      "Ceguera total e incapacidad para hablar durante días."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "118. Un anciano acude a consulta y relata haber sufrido un mareo repentino y pérdida de consciencia tras abrocharse con fuerza el último botón de la camisa y anudarse la corbata apretada al cuello. Este caso es sugerente de:",
+    opciones: [
+      "Síncope de origen cardíaco.",
+      "Síncope por hipersensibilidad del seno carotídeo.",
+      "Síncope situacional por micción.",
+      "Accidente isquémico transitorio bulbar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "119. La educación sanitaria por parte de enfermería para abortar un episodio sincopal incipiente (cuando el paciente siente los pródromos) incluye maniobras de contracción isométrica para aumentar la PA. ¿Qué maniobra es correcta?",
+    opciones: [
+      "Saltar repetidamente en el sitio para activar el gasto cardíaco.",
+      "Relajarse completamente y respirar en una bolsa de papel pequeña.",
+      "Cruzar las piernas y tensionar fuertemente los músculos glúteos y de las piernas para empujar la sangre hacia arriba.",
+      "Tumbarse boca abajo y levantar bruscamente la cabeza."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "120. En la valoración de la respuesta autonómica (simpática vs parasimpática) en el síncope vasovagal, ¿qué efecto hemodinámico produce el reflejo desencadenante al activar el nervio vago?",
+    opciones: [
+      "Aumenta masivamente la frecuencia cardíaca y la presión arterial causando la caída.",
+      "Disminuye la frecuencia cardíaca y la contractilidad, provocando vasodilatación, caída de la RVP y bajada de la perfusión cerebral.",
+      "Estimula las glándulas suprarrenales liberando grandes picos de cortisol sistémico.",
+      "Cierra los bronquios produciendo una asfixia transitoria inmediata."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "121. Una de las alteraciones de los pulsos y tensiones que indica daño orgánico grave y crónico por la HTA mal controlada se detecta en la microcirculación de las arterias del ojo. Esto se conoce como:",
+    opciones: [
+      "Cataratas hipertensivas secundarias.",
+      "Retinopatía hipertensiva.",
+      "Glaucoma agudo de ángulo cerrado.",
+      "Uveítis isquémica crónica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "122. Si un paciente tiene pautados fármacos Betabloqueantes (como propranolol, atenolol o bisoprolol) para tratar la HTA, el efecto principal esperado y que enfermería debe vigilar monitorizando el pulso es:",
+    opciones: [
+      "Un aumento compensatorio de la frecuencia cardíaca (taquicardia refleja).",
+      "Una disminución de la frecuencia cardíaca al bloquear los receptores simpáticos.",
+      "Una diuresis masiva de hasta 4 litros diarios con pérdida de potasio.",
+      "La aparición inmediata de edemas pretibiales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "123. ¿Cuál de los siguientes no es un mecanismo desencadenante fisiológico habitual en un síncope de tipo 'Situacional'?",
+    opciones: [
+      "La micción a media noche (levantarse a orinar).",
+      "Los accesos de tos intensos o prolongados.",
+      "La bipedestación prolongada bajo el sol combinada con extracción de sangre.",
+      "La defecación con excesiva maniobra de Valsalva."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "124. Dentro de las recomendaciones preventivas para los pacientes que sufren episodios de hipotensión postural (ortostática), figura prominentemente:",
+    opciones: [
+      "Llevar una dieta completamente estricta y libre de sal bajo cualquier concepto.",
+      "Evitar permanecer estático de pie mucho tiempo, elevar la cabecera de la cama 10 cm y utilizar medias de compresión.",
+      "Evitar el ejercicio suave aeróbico y adoptar el reposo en cama permanente.",
+      "El consumo profiláctico de vasodilatadores coronarios sublinguales cada mañana."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "125. En la patogenia del sistema vascular, un aumento marcado en la ingesta de sodio (Na+) incrementa la presión arterial a largo plazo porque:",
+    opciones: [
+      "El sodio actúa como relajante muscular impidiendo que el corazón bombee correctamente.",
+      "Produce retención osmótica de agua (H2O), con el consiguiente aumento del volumen sanguíneo y la presión arterial.",
+      "Inactiva por completo el sistema renina-angiotensina de por vida.",
+      "Cristaliza el músculo liso provocando un aneurisma sistémico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "126. Uno de los riesgos orgánicos mayores (órganos diana) que conlleva la hipertensión arterial mal perfundida a largo plazo sobre la estructura renal provoca la degeneración de glomérulos y túbulos. Esto desencadena:",
+    opciones: [
+      "Una infección aguda del tracto urinario (pielonefritis).",
+      "Una insuficiencia renal crónica con alteración severa en la regulación de la tensión.",
+      "El desarrollo de cólicos nefríticos por cristales de oxalato.",
+      "Una incontinencia de estrés irresoluble."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "alteraciones_tension_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "127. A nivel estadístico, ¿qué porcentaje del volumen global de los síncopes en la clínica general corresponde a un origen reflejo o neuromediado (vasovagal/situacional), siendo este el más habitual y benigno?",
+    opciones: [
+      "Apenas un 2-5%.",
+      "Entre el 36% y el 62%.",
+      "Más del 95%.",
+      "Exclusivamente el 10%."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_2",
+    pregunta: "128. En la exploración física de un síncope prolongado originado por un problema cardíaco agudo grave (10-30% de los casos), pueden aparecer signos ominosos secundarios a la caída del flujo a nivel cerebral. ¿Qué signo se relaciona con un déficit de perfusión crítico superior a unos pocos segundos?",
+    opciones: [
+      "La aparición inmediata de placas de psoriasis en el rostro.",
+      "Cianosis distal leve únicamente en las manos.",
+      "Presencia de convulsiones cortas e incontinencia de esfínteres a los pocos minutos por anoxia prolongada.",
+      "Rubor generalizado y aumento progresivo del apetito."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "hipotension_y_sincope"
+  },
+  // ==========================================
+  // TEMA 3: ENFERMEDADES ARTERIALES CRÓNICAS Y AGUDAS
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "129. ¿Qué define fisiopatológicamente a la aterosclerosis?",
+    opciones: [
+      "La dilatación permanente del sistema venoso profundo.",
+      "La acumulación de materiales grasos (lípidos) y tejido fibroso dentro de las paredes arteriales (túnicas íntima y media).",
+      "El espasmo reversible de las arterias coronarias.",
+      "La inflamación autoinmune exclusiva de los capilares venosos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "130. Según las fases de formación de la aterosclerosis descritas en los apuntes, ¿cuál es el primer evento (Fase 1) que desencadena el proceso?",
+    opciones: [
+      "La disfunción o daño endotelial causado por factores como tabaco o colesterol.",
+      "La calcificación masiva de la arteria.",
+      "La rotura de la placa inestable.",
+      "La migración de células espumosas a la túnica adventicia."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "131. En la Fase 4 de la aterosclerosis, los macrófagos (leucocitos) fagocitan tanto colesterol que acaban transformándose en:",
+    opciones: [
+      "Células caliciformes.",
+      "Células plasmáticas.",
+      "Células espumosas (llenas de lípidos).",
+      "Eritrocitos nucleados."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "132. Existen dos tipos de placas de ateroma. La placa 'Vulnerable' se caracteriza porque:",
+    opciones: [
+      "Deja pasar poca sangre pero tiene un núcleo de colesterol muy alejado de la luz.",
+      "Pasa más sangre pero existe mayor riesgo de obstrucción brusca porque la gran cantidad de colesterol está cercano a la luz vascular.",
+      "Es totalmente inofensiva y reabsorbible con dieta.",
+      "Se calcifica siempre en menos de 24 horas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "133. Según la clasificación de Leriche-Fontaine de la isquemia crónica, el Estadio IIb hace referencia a:",
+    opciones: [
+      "Isquemia asintomática con ITB menor de 0.9.",
+      "Claudicación intermitente que NO limita el modo de vida del paciente (puede caminar más de 150 metros).",
+      "Claudicación intermitente limitante para el paciente (aparece a menos de 150 metros).",
+      "Presencia de dolor continuo en reposo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "134. ¿Qué actitud postural antálgica suele adoptar instintivamente un paciente en Estadio III de Fontaine (dolor isquémico en reposo)?",
+    opciones: [
+      "Mantener la pierna completamente elevada por encima del corazón.",
+      "Dormir con la pierna colgando de la cama (lo que acaba provocando edema).",
+      "Realizar ejercicios isométricos constantes durante la noche.",
+      "Aplicar vendajes elásticos de alta compresión."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "135. La isquemia arterial aguda por 'Trombosis' (60% de los casos) se diferencia etiológicamente de la embolia en que la trombosis:",
+    opciones: [
+      "Es la oclusión brusca de una arteria sana por material originado en otro territorio.",
+      "Se produce siempre tras una fractura ósea (grasa).",
+      "Supone la afectación previa de la pared arterial (placa) a la que se le añade un factor que precipita la oclusión.",
+      "Afecta exclusivamente a capilares venosos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "136. En una Isquemia Arterial Aguda, el cuadro clínico se describe clásicamente con las '5P'. ¿Cuáles son?",
+    opciones: [
+      "Polidipsia, Poliuria, Polifagia, Prurito y Palpitaciones.",
+      "Pain (dolor), Pallor (palidez), Paralysis (impotencia funcional), Paresthesia (parestesias) y Pulselessness (ausencia de pulsos).",
+      "Presión, Palidez, Petequias, Pústulas y Parestesias.",
+      "Placas, Prurito, Pulsos saltones, Parada y Ptosis."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "137. Durante las fases tardías de una isquemia arterial aguda, ¿qué cambios experimenta la sintomatología inicial?",
+    opciones: [
+      "El dolor se vuelve mucho más agudo e intermitente.",
+      "La palidez cambia a cianosis, el dolor se transforma en 'anestesia', y aparece rigidez muscular y gangrena.",
+      "Los pulsos distales reaparecen de forma saltónica.",
+      "Se produce un aumento masivo de la temperatura local."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "138. En caso de embolia arterial aguda, ¿cuál suele ser la fuente embolígena identificable más frecuente?",
+    opciones: [
+      "El hígado graso.",
+      "Las placas de psoriasis.",
+      "El corazón (frecuentemente asociada a fibrilación auricular).",
+      "Las varices esofágicas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "139. Ante la sospecha de una isquemia aguda de extremidad en urgencias, ¿qué intervención está totalmente CONTRAINDICADA mientras se espera valoración médica?",
+    opciones: [
+      "Proteger los puntos de apoyo del pie.",
+      "Aplicar calor directo local sobre la extremidad y elevarla.",
+      "Administrar analgesia.",
+      "Colocar la extremidad en un declive moderado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "140. Para tratar la isquemia aguda se pauta habitualmente Heparina Intravenosa de inmediato. ¿Cuál es su objetivo principal?",
+    opciones: [
+      "Disolver rápidamente la placa de ateroma calcificada.",
+      "Producir vasodilatación inmediata de la vena femoral.",
+      "Proteger la circulación colateral y tratar de evitar la propagación distal del trombo.",
+      "Eliminar el dolor al actuar como analgésico central."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "141. En el tratamiento quirúrgico de la isquemia aguda embólica se emplea con frecuencia la 'Técnica de Fogarty'. ¿En qué consiste?",
+    opciones: [
+      "En extirpar por completo el segmento arterial dañado y poner un tubo de Goretex.",
+      "En introducir un catéter con un balón desinflado a través del émbolo, inflarlo y arrastrar el coágulo hacia el exterior.",
+      "En inyectar espuma esclerosante para cerrar la arteria.",
+      "En aplicar un láser endovascular para vaporizar el trombo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "142. ¿Cómo se define médicamente un aneurisma?",
+    opciones: [
+      "Obstrucción arterial aguda por un coágulo de grasa.",
+      "Dilatación permanente y localizada de una arteria con al menos un 50% de aumento de diámetro en relación con el normal.",
+      "Estrechamiento progresivo de la túnica íntima venosa.",
+      "Acumulación de fibrina en las válvulas venosas profundas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "143. Si un paciente presenta un aneurisma donde la sangre entra a través de un desgarro en la túnica íntima y separa las capas de la pared arterial creando un canal falso, se trata de un:",
+    opciones: [
+      "Aneurisma sacular.",
+      "Aneurisma fusiforme.",
+      "Pseudoaneurisma.",
+      "Aneurisma disecante."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "144. ¿Cuál es el síntoma clásico de sospecha clínica ante un Aneurisma de la Aorta Abdominal (suelen ser mayores de 7 cm)?",
+    opciones: [
+      "Tos perruna y sibilancias al respirar.",
+      "Disfonía progresiva.",
+      "Palpación de una masa pulsátil en el abdomen acompañada de dolor intenso en la espalda.",
+      "Ceguera transitoria y ptosis palpebral."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "145. Respecto a la anatomía clínica de las úlceras isquémicas (arteriales), ¿dónde suelen localizarse con mayor frecuencia?",
+    opciones: [
+      "En el tercio medio del muslo.",
+      "En el área perimaleolar interna exclusivamente.",
+      "En localizaciones dístales extremas (dedos de los pies, talón) o sobre zonas de traumatismo crónico.",
+      "En la región lumbar y sacra."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "146. A la hora de valorar el lecho de una úlcera arterial (isquémica), lo más común es encontrar:",
+    opciones: [
+      "Un fondo rojo muy sangrante y bordes lisos.",
+      "Exudado purulento masivo constante y tejido de granulación exuberante.",
+      "Base profunda y pálida, con tejido fibrinoide o tejido necrótico negro.",
+      "Formación de costras blanquecinas indoloras."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "147. En el tratamiento de una úlcera isquémica en un 'miembro sin pulso' (sin revascularización previa), ¿qué intervención de enfermería está fuertemente desaconsejada?",
+    opciones: [
+      "Mantener la lesión cubierta y protegida.",
+      "El desbridamiento cortante agresivo del tejido no viable (aumenta el riesgo de necrosis húmeda y sepsis).",
+      "La aplicación de antisépticos locales si hay infección clara.",
+      "El control del dolor con analgésicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "148. ¿Cuál es la principal recomendación respecto a la cura local de las heridas y úlceras arteriales crónicas no infectadas?",
+    opciones: [
+      "Lavarlas siempre a alta presión con yodo puro.",
+      "Limpiarlas con suero fisiológico o agua potable, evitando el uso reiterado de antisépticos ya que son citotóxicos y retardan la cicatrización.",
+      "Dejarlas totalmente descubiertas al aire libre las 24 horas del día.",
+      "Friccionar enérgicamente con gasas secas para arrancar la fibrina diariamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "149. ¿Por qué es fundamental restaurar el flujo arterial (revascularización) antes de intentar curar definitivamente una úlcera isquémica grave?",
+    opciones: [
+      "Para que el antibiótico en pomada pueda ser absorbido.",
+      "Porque sin flujo capilar nutricional es biológicamente imposible la cicatrización, llevando habitualmente a la amputación.",
+      "Para evitar el dolor del desbridamiento.",
+      "Para poder aplicar medias de compresión fuerte posteriormente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "150. A la hora de valorar la gravedad en los grados de isquemia crónica (Fontaine IV), ¿qué indica que una gangrena seca se ha complicado convirtiéndose en gangrena húmeda?",
+    opciones: [
+      "La desaparición espontánea del dolor.",
+      "Que el tejido necrótico se ha sobreinfectado, poniendo en peligro vital al paciente.",
+      "Que el sistema venoso ha empezado a suplir al arterial.",
+      "El desprendimiento limpio y sano del tejido dañado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "151. Tras una revascularización quirúrgica exitosa, el objetivo del cuidado de la herida isquémica (ahora bien perfundida) pasa a ser:",
+    opciones: [
+      "Mantenerla lo más seca posible con polvos astringentes.",
+      "Aplicar curas agresivas diarias con povidona yodada.",
+      "Tratarla con productos que promuevan la cura en ambiente húmedo para estimular el tejido de granulación y la epitelización.",
+      "Mantener vendajes isquemiantes preventivos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "152. Si una úlcera ya revascularizada se encuentra en fase de epitelización limpia (sin restos ni infección), ¿con qué frecuencia se recomienda espaciar la cura de los apósitos avanzados?",
+    opciones: [
+      "Cada 8 horas.",
+      "Cada 12 horas.",
+      "Cada 24 horas estrictamente.",
+      "Cada 72-96 horas, para disminuir el trauma de los cambios y mejorar la calidad de vida."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "153. ¿Cuál de los siguientes signos visuales es característico en una extremidad con isquemia arterial crónica avanzada?",
+    opciones: [
+      "Aumento exagerado del vello en el pie.",
+      "Ausencia de vello, piel pálida, seca, brillante y uñas engrosadas.",
+      "Piel muy caliente y enrojecida de forma persistente.",
+      "Venas superficiales dilatadas, tortuosas y abultadas permanentemente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "154. En un paciente postoperado de cirugía arterial en miembros inferiores, si enfermería detecta una ausencia súbita del pulso pedio que previamente era palpable, se debe:",
+    opciones: [
+      "Anotarlo en la gráfica y esperar al siguiente turno.",
+      "Elevar la pierna a 90 grados inmediatamente.",
+      "Informar de inmediato al cirujano/médico responsable por sospecha de obstrucción del injerto.",
+      "Añadir una manta eléctrica directa sobre la incisión para provocar vasodilatación."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "155. En la exploración, las úlceras isquémicas duelen más cuando:",
+    opciones: [
+      "El paciente está caminando (se alivia al sentarse).",
+      "Se mantiene la extremidad en declive prolongado.",
+      "Se eleva la extremidad, reduciendo el flujo sanguíneo dependiente de la gravedad.",
+      "Se aplican vendajes fríos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "156. En los aneurismas aórticos disecantes, un síntoma clásico del desgarro arterial inicial es:",
+    opciones: [
+      "Aparición gradual de fatiga en varios meses.",
+      "Dolor repentino e intensísimo, irradiado a omóplatos, extremidades o cuello.",
+      "Parestesias exclusivas en la mano derecha.",
+      "Prurito torácico severo y ronchas cutáneas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologia_obstructiva_arterial"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "157. ¿Qué tipo de vendaje está SIEMPRE contraindicado en presencia de patología isquémica arterial significativa (Ej. ITB < 0.6)?",
+    opciones: [
+      "El vendaje de algodón suelto protector.",
+      "Los vendajes de sujeción para apósitos de espuma.",
+      "El vendaje o media de terapia compresiva multicapa.",
+      "El uso de calcetines de hilo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_3",
+    pregunta: "158. La Trombosis venosa (asociada en muchas ocasiones al TEP) presenta un cuadro opuesto a la isquemia arterial. En la trombosis arterial, la extremidad está pálida y fría; en la trombosis venosa profunda la extremidad suele presentar:",
+    opciones: [
+      "Claudicación intermitente al caminar.",
+      "Edema blando con fóvea, eritema, calor local y red venosa colateral visible.",
+      "Ausencia total de pulsos femorales.",
+      "Gangrena seca rápida en los dedos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+
+  // ==========================================
+  // TEMA 4 / TEMA 20: ENFERMEDADES VENOSAS
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "159. Repasando la anatomía, ¿qué sistema venoso de las extremidades inferiores soporta y moviliza la mayor parte del retorno venoso (90-95%)?",
+    opciones: [
+      "El sistema venoso superficial (safena interna y externa).",
+      "El sistema linfático troncular.",
+      "El sistema venoso profundo (tibiales, femorales, ilíacas), situado bajo la aponeurosis.",
+      "Las venas perforantes exclusivamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "160. Clínicamente, la Trombosis Venosa Superficial (Tromboflebitis) se diferencia de la profunda en que presenta:",
+    opciones: [
+      "Una reacción inflamatoria perivenosa muy intensa, palpable como un cordón venoso sólido, enrojecido y doloroso.",
+      "Un edema masivo que abarca toda la extremidad hasta la ingle.",
+      "Una altísima tasa de embolismo pulmonar fulminante sin otros signos.",
+      "Una palidez cadavérica de la piel circundante."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "161. En la Enfermedad Tromboembólica Venosa (ETV), la TVP (Trombosis Venosa Profunda) es muy temida principalmente por su riesgo directo de causar:",
+    opciones: [
+      "Aneurisma de aorta abdominal.",
+      "Tromboembolismo Pulmonar (TEP), que presenta una alta mortalidad.",
+      "Ictus isquémico embólico directo al cerebro (en pacientes sin foramen oval).",
+      "Claudicación intermitente inmediata."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "162. ¿Qué factores patogénicos componen la famosa Triada de Virchow, causante de la formación de trombos?",
+    opciones: [
+      "Bradicardia, hipotensión y fiebre.",
+      "Aterosclerosis, dislipidemia y tabaquismo.",
+      "Lesión endotelial, estasis sanguíneo (lentitud del flujo) y estados de hipercoagulabilidad.",
+      "Edema, cianosis y dolor irradiado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "163. Durante la exploración física de una posible TVP, la aparición de dolor en la pantorrilla (gemelo) al realizar una dorsiflexión forzada del pie con la rodilla flexionada se conoce como:",
+    opciones: [
+      "Signo de Murphy.",
+      "Signo de Homans.",
+      "Signo de Babinski.",
+      "Signo de Leriche."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "164. Entre los factores que provocan estasis sanguíneo favoreciendo la TVP, los apuntes destacan especialmente:",
+    opciones: [
+      "El ejercicio aeróbico de alta intensidad.",
+      "El consumo de dietas bajas en sal.",
+      "La inmovilidad prolongada (ej. postoperatorios, encamamiento) que multiplica por 10 el riesgo.",
+      "El consumo de Aspirina infantil."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "165. ¿Cuál de las siguientes condiciones supone un estado de 'hipercoagulabilidad' clínica (tercer factor de Virchow)?",
+    opciones: [
+      "Trombocitopenia severa.",
+      "El uso de anticonceptivos orales (estrógenos), embarazo y postparto.",
+      "El déficit crónico de vitamina K.",
+      "La ingesta de anticoagulantes orales (Sintrom)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "166. El tratamiento de fase aguda de la TVP incluye la administración de Heparina intravenosa o subcutánea. Su función es:",
+    opciones: [
+      "Disolver el coágulo existente en cuestión de minutos (fibrinolítico).",
+      "Evitar que el coágulo crezca y prevenir la formación de nuevos coágulos, permitiendo que el cuerpo degrade el trombo poco a poco.",
+      "Aumentar la viscosidad sanguínea para anclar el trombo a la pared.",
+      "Paralizar la musculatura de la pantorrilla para evitar desprendimientos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "167. A largo plazo, el fracaso del drenaje venoso y la incompetencia de las válvulas da lugar a la Insuficiencia Venosa Crónica (IVC). ¿Cuál es la alteración tisular subyacente que provoca los daños en la piel?",
+    opciones: [
+      "La falta absoluta de oxígeno (anoxia total) en los primeros minutos.",
+      "La hipertensión venosa constante que causa extravasación de líquido, eritrocitos y moléculas al espacio intersticial (hipoxia tisular e inflamación).",
+      "La acumulación exclusiva de ácido láctico por el trabajo muscular.",
+      "El crecimiento tumoral secundario en la túnica media."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "168. Al evaluar las lesiones dérmicas de un paciente con IVC severa, observamos una coloración parda o marrón oscura en el tercio distal de la pierna. Esto es debido a:",
+    opciones: [
+      "La isquemia directa del tejido graso.",
+      "La extravagación de eritrocitos y la consiguiente acumulación de hemosiderina (dermatitis ocre).",
+      "Una infección fúngica crónica inevitable.",
+      "La acumulación de alquitrán por el tabaquismo capilar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "169. Según la clasificación de las varices, el Grado I se corresponde clínicamente con:",
+    opciones: [
+      "Grandes dilataciones que afectan a las venas safenas.",
+      "Varices complicadas con úlcera activa.",
+      "Telangiectasias o varículas (dilataciones capilares muy pequeñas intradérmicas que pueden causar pesadez).",
+      "Tromboflebitis profunda asintomática."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "170. El tratamiento quirúrgico clásico de las varices denominado 'Stripping' o safenectomía, consiste en:",
+    opciones: [
+      "Inyectar una microespuma que seca y destruye la vena.",
+      "Extraer la vena safena mayor en su totalidad mediante incisiones en ingle y maléolo e introduciendo un fleboextractor para tirar de ella.",
+      "Ligaduras múltiples con anestesia local preservando la vena safena principal.",
+      "Introducir un balón de derivación para dilatar las válvulas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "171. Frente al Stripping, la técnica quirúrgica CHIVA (Conservación Hemodinámica de la Insuficiencia Venosa Ambulatoria) tiene la ventaja de que:",
+    opciones: [
+      "Requiere ingreso hospitalario de larga duración por su complejidad.",
+      "Sacrifica por completo todo el sistema venoso superficial para asegurar la curación.",
+      "Es mínimamente invasiva (incisiones de 3mm), de rápida recuperación y NO sacrifica el eje de la vena safena.",
+      "Solamente es útil para telangiectasias faciales."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "172. En cuanto a las complicaciones avanzadas de la IVC, las 'Úlceras Venosas' son las úlceras vasculares más frecuentes (80% del total). ¿En qué localización anatómica suelen aparecer típicamente?",
+    opciones: [
+      "En los pulpejos de los dedos de los pies y talones.",
+      "En el área glútea y sacra.",
+      "En el tercio inferior de la pierna, predominantemente en la zona supramaleolar interna.",
+      "En la cara anterior de la rodilla."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "173. A diferencia de la úlcera arterial, la úlcera de etiología VENOSA se caracteriza por:",
+    opciones: [
+      "Tener un fondo muy seco, pálido y necrótico negro.",
+      "Tener bordes muy regulares en sacabocados y doler intensamente al elevar la pierna.",
+      "Presentar forma y bordes irregulares, fondo rojizo con tejido de granulación (o fibrina) y un abundante nivel de exudado.",
+      "Aparecer sobre piel totalmente pálida y fría sin vello."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "174. Ante la aparición de una úlcera vascular, antes de iniciar cualquier tratamiento compresivo de etiología venosa, es OBLIGATORIO asegurar que el paciente:",
+    opciones: [
+      "No tiene antecedentes de varicela.",
+      "Tiene pulsos distales palpables y un Índice Tobillo-Brazo (ITB) superior a 0.75-0.8.",
+      "Es capaz de caminar 5 kilómetros diarios ininterrumpidos.",
+      "Ha suspendido toda medicación analgésica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "175. El tratamiento Gold Standard (de primera elección con nivel de evidencia alto) para favorecer la curación de la úlcera venosa no complicada es:",
+    opciones: [
+      "La Terapia Compresiva (vendaje multicapa) usada de forma rutinaria para combatir la hipertensión venosa.",
+      "El desbridamiento quirúrgico diario en quirófano.",
+      "La aplicación de antibióticos tópicos en pomada y mantener la pierna colgando.",
+      "La inyección directa de vasodilatadores arteriales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "176. A la hora de realizar la técnica de vendaje compresivo multicapa en una pierna, la ejecución correcta debe ser:",
+    opciones: [
+      "Iniciándose en la rodilla y descendiendo hacia los dedos en línea recta.",
+      "Iniciándose en la base de los dedos y ascendiendo en espiral, solapando cada vuelta un 50% de la anterior.",
+      "Aplicando la máxima tensión elástica en la pantorrilla y nula en el tobillo.",
+      "Sin colocar jamás algodón o vendaje protector debajo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "177. En los cuidados del lecho de una úlcera venosa, ante la sospecha clínica firme de una gran sobrecarga bacteriana (infección local), el protocolo recomienda:",
+    opciones: [
+      "Lavarla con yodo puro sin diluir en cada cura.",
+      "Usar apósitos avanzados con acción bactericida (como los apósitos de plata o cadexómero yodado).",
+      "Raspar agresivamente hasta el hueso.",
+      "Aplicar una pomada antibiótica oleosa gruesa que ocluya el poro."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "178. Debido a la gran cantidad de exudado que producen frecuentemente las úlceras venosas crónicas, para evitar la maceración de la piel perilesional debemos:",
+    opciones: [
+      "Dejar la herida al aire sin tapar.",
+      "Utilizar apósitos de alta absorción vertical (espumas de poliuretano o alginatos) y aplicar productos barrera en la piel sana circundante.",
+      "Aplicar calor seco directo con un secador de pelo.",
+      "Aspirar el líquido con una jeringuilla intramuscular diariamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "179. En la prevención de recidivas tras conseguir la cicatrización de una úlcera venosa, la medida más coste-efectiva a largo plazo es:",
+    opciones: [
+      "El reposo en cama estricto de por vida.",
+      "El uso continuado de medias de compresión graduadas (al menos hasta la rodilla).",
+      "La toma diaria de antibióticos profilácticos.",
+      "Las transfusiones mensuales de plaquetas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "180. El comportamiento del dolor es un gran rasgo diferencial entre úlceras. Mientras la úlcera arterial duele al elevar la pierna, la úlcera venosa típica:",
+    opciones: [
+      "Suele presentar un dolor tipo pesadez que se alivia claramente al elevar la extremidad.",
+      "Causa un dolor isquémico punzante intolerable en cualquier postura.",
+      "Es completamente indolora en todas sus fases.",
+      "Solo duele si el paciente consume cítricos."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "181. Dentro del tratamiento de las varices mediante 'Escleroterapia con microespuma', el procedimiento básico implica:",
+    opciones: [
+      "La extirpación mecánica de la vena varicosa en múltiples tramos de 5 cm.",
+      "La punción ecoguiada de la vena inyectando una espuma esclerosante que destruye la pared endotelial de la vena enferma secándola.",
+      "El sondaje de la vena cava superior hasta llegar a la safena.",
+      "La aplicación externa de ultrasonidos hasta coagular la sangre sin pinchar la piel."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "182. El uso de pomadas antibióticas no se recomienda de forma rutinaria sobre las úlceras venosas porque:",
+    opciones: [
+      "La base grasa de la pomada impide que la piel transpire y altera el nivel de humedad local, favoreciendo la maceración del tejido.",
+      "Son extremadamente dolorosas al contacto con la fibrina.",
+      "Producen hipotensión arterial sistémica refleja.",
+      "El antibiótico calcifica el lecho de la úlcera en pocos días."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "183. ¿Qué signo clínico evidente apoya fuertemente el origen VENOSO de una úlcera de pierna frente a un origen arterial o diabético?",
+    opciones: [
+      "La aparición repentina de pulsos saltones en la arteria pedia.",
+      "La coexistencia de venas superficiales dilatadas, tortuosas, edema maleolar importante y cambios de coloración dérmica (dermatitis ocre).",
+      "La formación de callosidades plantares sin dolor (mal perforante).",
+      "La existencia exclusiva de gangrena seca en el quinto dedo del pie."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "184. Si tras la valoración de una úlcera con abundante placa amarillenta en el lecho decidimos aplicar un apósito de alginato o hidrofibra, nuestro objetivo es principalmente:",
+    opciones: [
+      "Aportar gran cantidad de humedad a una herida totalmente seca.",
+      "Absorber verticalmente grandes cantidades de exudado para limpiar la herida sin macerar los bordes.",
+      "Destruir directamente la bacteria Pseudomonas aeruginosa mediante plata.",
+      "Producir analgesia inmediata por bloqueo del nervio tibial."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "185. ¿Cuál es el riesgo de administrar compresión a una pierna que cursa simultáneamente con IVC (úlceras venosas) y una afectación isquémica arterial grave no diagnosticada?",
+    opciones: [
+      "Se producirá una hiperemia reactiva beneficiosa.",
+      "Se detendrá el retorno venoso colapsando el corazón derecho.",
+      "La presión colapsará el ya debilitado flujo arterial microcirculatorio, provocando necrosis y riesgo inminente de gangrena/amputación.",
+      "No existe ningún riesgo, la compresión siempre es favorable en extremidades."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "186. Cuando un vendaje multicapa para una úlcera venosa está correctamente aplicado y el nivel de exudado está controlado sin signos de infección aguda, la cura y recambio del vendaje puede espaciarse como máximo hasta:",
+    opciones: [
+      "Las 24 horas siguientes (cambio diario obligatorio).",
+      "Los 3 días (72 horas).",
+      "Los 7 días (una semana de duración máxima).",
+      "Un mes completo (30 días)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "187. ¿En qué estrato o tejido vascular se desarrolla el daño anatómico principal de las 'varices tronculares' (Grado III)?",
+    opciones: [
+      "Exclusivamente en los capilares subdérmicos (telangiectasias de <1mm).",
+      "En el fracaso absoluto de las válvulas de grandes ejes venosos como las venas safenas mayor o menor.",
+      "En la válvula tricúspide cardiaca.",
+      "En el músculo gemelo sin afectar la pared de la vena."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermedades_venosas"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Vascular_4",
+    pregunta: "188. Para el tratamiento oral farmacológico adyuvante en una úlcera venosa con objetivo de mejorar la microcirculación y favorecer la cicatrización, las Guías Clínicas respaldan el uso de un agente hemorreológico llamado:",
+    opciones: [
+      "Amoxicilina.",
+      "Aspirina a dosis antiinflamatorias.",
+      "Pentoxifilina.",
+      "Sintrom (Acenocumarol) a dosis plenas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  // ==========================================
+  // BLOQUE RESPIRATORIO - TEMA 1: VALORACIÓN Y PRUEBAS DIAGNÓSTICAS
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "189. En la valoración del patrón respiratorio normal de un adulto en reposo, ¿cuál es la relación temporal adecuada entre la inspiración y la espiración?",
+    opciones: [
+      "La inspiración dura el doble que la espiración (I:E = 2:1).",
+      "Ambas fases duran exactamente lo mismo (I:E = 1:1).",
+      "La inspiración debe durar la mitad de la espiración (I:E = 1:2).",
+      "La inspiración es un proceso pasivo mucho más largo que la espiración."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "190. Durante la percusión torácica en la exploración física, ¿qué tipo de sonido nos indica la presencia de aire libre en la cavidad torácica, como ocurre en un neumotórax?",
+    opciones: [
+      "Sonido mate.",
+      "Sonido resonante normal.",
+      "Sonido timpánico o hipersonoro.",
+      "Sonido submate."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "191. Al realizar una espirometría para medir volúmenes pulmonares estáticos, ¿qué volumen se corresponde con los 500 ml de aire movilizado en una respiración normal en reposo?",
+    opciones: [
+      "El volumen de reserva espiratoria (VRE).",
+      "El volumen corriente o tidal (VC).",
+      "El volumen residual (VR).",
+      "La capacidad vital (CV)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "192. Existe una porción de aire en el aparato respiratorio (aproximadamente 1200 ml) que queda atrapada en los pulmones incluso después de una espiración máxima forzada para evitar el colapso alveolar. Se denomina:",
+    opciones: [
+      "Espacio muerto anatómico.",
+      "Capacidad residual funcional (CRF).",
+      "Volumen de reserva espiratoria (VRE).",
+      "Volumen residual (VR)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "193. ¿Qué concepto fisiológico define al 'Espacio muerto anatómico' (aproximadamente 150 ml)?",
+    opciones: [
+      "El aire contenido en alveolos que han perdido su perfusión sanguínea por un trombo.",
+      "El aire contenido en la parte de la vía aérea que no participa en el intercambio gaseoso (tráquea, bronquios).",
+      "La suma total de la capacidad pulmonar que el paciente no puede utilizar.",
+      "El volumen de aire que se queda atrapado exclusivamente en el asma."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "194. En una espirometría forzada, el parámetro FEV1 (o VEF1) mide el volumen espiratorio forzado en el primer segundo. Para evaluar si un patrón es obstructivo, se utiliza el Índice de Tiffeneau. ¿Cuál es su valor normal aproximado?",
+    opciones: [
+      "Entre el 50-60%.",
+      "Menos del 40%.",
+      "Entre el 75-80%.",
+      "Exactamente el 100% en adultos sanos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "195. Al analizar la espirometría de un paciente con sospecha de enfermedad respiratoria, observamos que el FEV1 está más disminuido que la CVF, provocando que el Índice de Tiffeneau sea menor del 70%. Esto es indicativo de un patrón:",
+    opciones: [
+      "Totalmente fisiológico y normal por la edad.",
+      "Patrón restrictivo puro.",
+      "Patrón obstructivo.",
+      "Hiperinsuflación psicógena compensada."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "196. En pediatría, la frecuencia respiratoria (FR) normal disminuye a medida que el niño crece. ¿Cuál es la FR fisiológica de un recién nacido (neonato)?",
+    opciones: [
+      "12 - 20 rpm.",
+      "30 - 60 rpm.",
+      "20 - 30 rpm.",
+      "Menos de 15 rpm."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "197. Si observamos en un paciente un patrón respiratorio anormal caracterizado por respiraciones rápidas, profundas y laboriosas continuas, destinado a compensar una acidosis metabólica, estamos ante una:",
+    opciones: [
+      "Respiración de Cheyne-Stokes.",
+      "Respiración de Biot.",
+      "Respiración de Kussmaul.",
+      "Respiración agónica (Gasping)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "198. El patrón respiratorio de Cheyne-Stokes, frecuente en insuficiencia cardíaca severa o estados agónicos por deficiente irrigación del centro respiratorio, se caracteriza visualmente por:",
+    opciones: [
+      "Suspensiones transitorias y únicas de la respiración durante el sueño.",
+      "Periodos alternos donde la respiración va aumentando y disminuyendo en profundidad (rápida y profunda), alternándose con fases de apnea.",
+      "Respiraciones superficiales constantes con uso exclusivo de musculatura abdominal.",
+      "Inspiraciones entrecortadas y espiraciones audibles sibilantes continuas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "199. Un paciente diagnosticado de Insuficiencia Cardíaca Congestiva refiere despertarse bruscamente de madrugada con sensación de asfixia, que mejora al sentarse al borde de la cama. Esta manifestación clínica se denomina:",
+    opciones: [
+      "Trepopnea.",
+      "Disnea paroxística nocturna (asma cardíaca).",
+      "Disnea de grado IV exclusiva.",
+      "Apnea obstructiva periférica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "200. Según los grados de disnea, cuando el paciente presenta falta de aire y dificultad respiratoria que le impide realizar actividades rutinarias o vestirse, apareciendo incluso en 'esfuerzos leves', hablamos de un grado:",
+    opciones: [
+      "Grado I.",
+      "Grado II.",
+      "Grado III.",
+      "Grado IV."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "201. A la hora de valorar la cianosis, ¿qué indica una 'Cianosis central' y cómo se corrige habitualmente?",
+    opciones: [
+      "Indica un problema circulatorio de estasis periférico y se corrige calentando las extremidades.",
+      "Indica hipoxemia (incremento de hemoglobina reducida en sangre arterial por hipoventilación) y se corrige administrando oxigenoterapia.",
+      "Indica una trombosis venosa y no responde al oxígeno.",
+      "Es una coloración patológica del cristalino del ojo producida por toxinas hepáticas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "202. La hemoptisis es la expulsión de sangre del tracto respiratorio por la tos. Según el volumen de pérdida hemática, se considera 'hemoptisis masiva' (con riesgo de asfixia por inundación) cuando supera los:",
+    opciones: [
+      "50 ml en 24 horas.",
+      "150 ml en 24 horas.",
+      "250 ml en 24 horas.",
+      "1000 ml en 24 horas (o 150-200 ml/hora)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "203. Si ingresa un paciente con un cuadro de hemoptisis moderada/severa activa, una intervención fundamental en los cuidados de enfermería para proteger la vía aérea sana es:",
+    opciones: [
+      "Mantener al paciente en decúbito ipsilateral (acostado sobre el lado del pulmón afectado que sangra).",
+      "Realizar ejercicios de clapping y vibración torácica vigorosa para expulsar la sangre.",
+      "Forzarle a caminar por la habitación para movilizar secreciones.",
+      "Colocarlo en decúbito prono con la cabeza ladeada."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "204. ¿Cómo se caracteriza típicamente el 'dolor pleurítico' derivado de la inflamación de la pleura parietal?",
+    opciones: [
+      "Es un dolor continuo y opresivo en el centro del pecho que irradia al brazo izquierdo.",
+      "Es un dolor agudo que se acentúa notablemente con la inspiración profunda y con la tos.",
+      "Es un dolor quemante que sube desde el estómago hacia la garganta.",
+      "Es un dolor abdominal bajo que desaparece al realizar la maniobra de Valsalva."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "205. Al realizar la exploración física del cuello y los dedos, un signo crónico visible que indica hipoxia mantenida en el tiempo, caracterizado por el ensanchamiento distal de los dedos (dedos en palillo de tambor), es:",
+    opciones: [
+      "La acropaquia.",
+      "La asterixis.",
+      "El edema maleolar.",
+      "La cianosis periférica."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "206. En relación con las pruebas diagnósticas funcionales en domicilio y centro de salud, el 'Peak-Flow Meter' (Medidor de flujo máximo) se utiliza primariamente para:",
+    opciones: [
+      "Calcular exactamente el volumen residual atrapado en los alvéolos.",
+      "Detectar precozmente la obstrucción de la vía aérea en pacientes asmáticos y monitorizar su respuesta al tratamiento.",
+      "Medir los niveles de dióxido de carbono exhalado.",
+      "Realizar el diagnóstico definitivo de una bronquitis bacteriana."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "207. ¿Cuál es el paso técnico OBLIGATORIO que debe realizar el paciente al utilizar un medidor de Peak-Flow manual antes de la maniobra de soplado explosivo?",
+    opciones: [
+      "Realizar primero una espiración vaciando todo el aire lentamente.",
+      "Efectuar una inspiración máxima forzada, colocar la boquilla y soplar rápido y fuerte sin bloquear con la lengua.",
+      "Mantener la respiración durante 15 segundos antes de soplar.",
+      "Soplar suave y progresivamente durante un mínimo de 6 segundos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "208. En la lectura e interpretación de una gasometría arterial, ¿qué rango de valores define la normalidad del pH sanguíneo?",
+    opciones: [
+      "7.00 a 7.15",
+      "7.20 a 7.30",
+      "7.35 a 7.45",
+      "7.50 a 7.65"
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "209. Si en una gasometría de un paciente agudizado observamos un pH de 7.28, una pCO2 de 58 mmHg (aumentada) y un bicarbonato (HCO3) en compensación ligeramente elevado, el trastorno ácido-base primario es:",
+    opciones: [
+      "Alcalosis metabólica.",
+      "Alcalosis respiratoria.",
+      "Acidosis respiratoria.",
+      "Acidosis metabólica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "210. Durante un cuadro de ansiedad aguda con hiperventilación severa, el paciente 'barre' o expulsa en exceso el CO2 de sus pulmones, lo que típicamente genera en la sangre arterial:",
+    opciones: [
+      "Acidosis láctica.",
+      "Alcalosis respiratoria.",
+      "Acidosis metabólica.",
+      "Uremia masiva."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "211. El esputo producido por la expectoración puede darnos pistas etiológicas. Si es extremadamente fluido y transparente, casi como agua, se clasifica como:",
+    opciones: [
+      "Purulento.",
+      "Mucoso.",
+      "Seroso.",
+      "Herrumbroso."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "212. ¿Qué técnica fisioterápica instrumental se emplea en pacientes hospitalizados para fomentar inspiraciones profundas mantenidas, previniendo así atelectasias postoperatorias?",
+    opciones: [
+      "El drenaje postural invertido.",
+      "La percusión manual (clapping) exclusiva.",
+      "La espirometría por incentivo (espirómetro de volumen o flujo).",
+      "El medidor de Peak-Flow."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "213. La broncoscopia o fibrobroncoscopia es una técnica invasiva. Tras su realización, ¿qué precaución es vital antes de reiniciar la tolerancia oral de líquidos al paciente?",
+    opciones: [
+      "Realizar una gasometría arterial de control.",
+      "Esperar a la recuperación completa del reflejo nauseoso o de deglución por el efecto de la anestesia local faríngea.",
+      "Administrar un bolo de corticoides intravenosos.",
+      "Fomentar que tosa fuertemente y de forma repetida durante 10 minutos."
+    ],
+    correcta: 1, // Basado en cuidados estándar de enfermería tras endoscopias, implícito en la técnica
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "214. ¿Cuál de los siguientes ruidos adventicios auscultatorios se describe clásicamente como sonidos continuos y musicales que se producen por el estrechamiento de los bronquios (broncospasmo), predominantes en la espiración?",
+    opciones: [
+      "Crepitantes finos.",
+      "Estertores de burbuja gruesa.",
+      "Sibilancias.",
+      "Roce pleural."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "215. Si un paciente tiene una traqueostomía y observamos que la frecuencia respiratoria baja a 8 respiraciones por minuto y entra en letargo extremo, decimos que padece:",
+    opciones: [
+      "Taquipnea fisiológica.",
+      "Eupnea compensada.",
+      "Bradipnea con alteración del nivel de consciencia.",
+      "Polipnea profunda."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "216. Dentro de la capacidad vital (CV) del pulmón de un individuo, encontramos la suma de los siguientes volúmenes:",
+    opciones: [
+      "El volumen corriente exclusivamente.",
+      "El volumen residual más el espacio muerto.",
+      "El volumen corriente (VC), más el volumen de reserva inspiratoria (VRI) y espiratoria (VRE).",
+      "Solamente los volúmenes de reserva espiratoria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "217. ¿Para qué patología específica o situación está clínicamente contraindicada la espirometría forzada debido al aumento agudo de la presión intratorácica que genera?",
+    opciones: [
+      "En el asma leve controlada.",
+      "En el seguimiento de la EPOC crónica.",
+      "En presencia de un aneurisma torácico, abdominal o cerebral conocido reciente.",
+      "En pacientes que padecen alergias primaverales estacionales."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_1",
+    pregunta: "218. En el contexto de los cuidados generales de la tos productiva, ¿cuál de estas medidas NO farmacológicas es esencial para fluidificar y facilitar la expulsión de secreciones?",
+    opciones: [
+      "La supresión absoluta de la ingesta hídrica.",
+      "La hidratación correcta y abundante (oral o parenteral) si no existe contraindicación clínica.",
+      "La administración exclusiva de antitusígenos potentes.",
+      "Inmovilización estricta en decúbito supino plano."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+
+  // ==========================================
+  // BLOQUE RESPIRATORIO - TEMA 2: TRASTORNOS CRÓNICOS (EPOC, ASMA, FQ)
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "219. En fisiopatología respiratoria, los síndromes OBSTRUCTIVOS crónicos se diferencian de los restrictivos en que los primeros:",
+    opciones: [
+      "Presentan una pérdida severa de capacidad pulmonar total impidiendo el llenado.",
+      "Dificultan fundamentalmente el vaciado del pulmón (salida del aire), generando atrapamiento de aire y aumento del volumen residual.",
+      "Afectan exclusivamente a la estructura ósea de la caja torácica (como la cifoescoliosis).",
+      "Siempre tienen un Índice de Tiffeneau por encima del 95%."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "220. La Fibrosis Quística (FQ) es una enfermedad hereditaria que cursa con un aumento de producción de moco espeso y viscoso. ¿Qué afectación multisistémica es la más representativa además de la pulmonar?",
+    opciones: [
+      "La disfunción valvular cardíaca primaria.",
+      "La insuficiencia hepática aguda.",
+      "La obstrucción de los conductos exocrinos del páncreas.",
+      "La degeneración del nervio óptico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "221. Para confirmar el diagnóstico bioquímico de la Fibrosis Quística, el 'gold standard' clásico en laboratorio o screening que evalúa la función glandular sudorípara es:",
+    opciones: [
+      "La prueba del sudor (determinación de cloro y sodio).",
+      "Una espirometría forzada simple.",
+      "La medición de gasometría capilar.",
+      "El cultivo de orina."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "222. El Asma Bronquial se define como una enfermedad inflamatoria crónica de las vías aéreas. Una de sus características fisiopatológicas más definitorias frente a la EPOC pura es:",
+    opciones: [
+      "Su irreversibilidad completa a pesar del tratamiento con broncodilatadores.",
+      "Su aparición exclusiva tras el consumo abusivo de tabaco durante décadas.",
+      "Que cursa con hiperreactividad bronquial y broncoespasmo total o parcialmente REVERSIBLE, de forma episódica.",
+      "Que los alvéolos se destruyen de forma rápida y permanente (enfisema puro)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "223. En la clínica del Asma, existe una 'tríada característica' de síntomas que conforman el episodio asmático típico. ¿Cuáles son?",
+    opciones: [
+      "Sibilancias espiratorias persistentes, disnea crónica episódica y tos crónica.",
+      "Hemoptisis franca, fiebre alta en picos y dolor abdominal.",
+      "Estridor inspiratorio, bradicardia extrema y afonía.",
+      "Hipotensión arterial grave, visión doble y crepitantes basales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "224. Durante una crisis asmática severa, si realizamos una gasometría y encontramos hipercapnia (retención de CO2 y acidosis respiratoria), esto nos indica clínicamente:",
+    opciones: [
+      "Que el paciente está hiperventilando adecuadamente y mejorando su oxigenación.",
+      "Una señal de gravedad extrema, probablemente por fatiga de la musculatura respiratoria que no logra expulsar el aire viciado.",
+      "Que los bronquios se han dilatado completamente por la medicación.",
+      "Un estado fisiológico normal en la fase inicial del ataque de asma."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "225. A nivel de diagnóstico funcional (Espirometría), en el asma se utiliza el 'Test de broncodilatación' para probar la reversibilidad. La prueba se considera positiva si:",
+    opciones: [
+      "El FEV1 empeora más de un 10% tras la medicación.",
+      "El FEV1 se mantiene exactamente igual.",
+      "Hay un aumento del FEV1 mayor del 11-15% (junto a una mejoría absoluta en ml) tras la administración de un broncodilatador inhalado.",
+      "El volumen residual desaparece completamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "226. Como fármacos de primera línea para el 'alivio de los síntomas' de rescate inmediato (apertura del broncoespasmo) en la crisis asmática aguda se emplean principalmente:",
+    opciones: [
+      "Los corticoesteroides inhalados de mantenimiento continuo a dosis bajas.",
+      "Los broncodilatadores Beta-adrenérgicos de acción rápida o corta (ej. Salbutamol, terbutalina).",
+      "Los anticuerpos monoclonales anti-IgE inyectables.",
+      "Los antihistamínicos orales sedantes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "227. La patología denominada 'Bronquiectasias' se define por:",
+    opciones: [
+      "La constricción alérgica transitoria del músculo bronquial en primavera.",
+      "La dilatación anormal e IRREVERSIBLE de los bronquios por destrucción de sus componentes musculares y elásticos parietales.",
+      "La formación de abscesos purulentos en la cavidad de la pleura (empiema).",
+      "La inflamación aguda de la laringe por virus sincitial."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "228. Clínicamente, el paciente que sufre de bronquiectasias sintomáticas presenta como característica más habitual:",
+    opciones: [
+      "Tos seca irritativa sin esputo a lo largo de toda su vida.",
+      "Tos crónica con expectoración muy abundante y frecuentemente purulenta, que empeora al levantarse de cama.",
+      "Disnea de esfuerzo sin tos ni secreciones de ningún tipo.",
+      "Episodios de dolor precordial irradiado al maxilar inferior."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "229. En el diagnóstico definitivo radiológico y estructural de las Bronquiectasias, la técnica de elección (gold standard) para visualizar las paredes dilatadas en 'anillo de sello' o 'rail de vía' es:",
+    opciones: [
+      "La espirometría forzada simple.",
+      "El electrocardiograma continuo de 24h.",
+      "La Tomografía Computerizada de Alta Resolución (TCAR) de tórax.",
+      "La ecografía doppler de troncos supraórticos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "230. La Enfermedad Pulmonar Obstructiva Crónica (EPOC) engloba tradicionalmente dos grandes síndromes o fenotipos clínicos. Estos son:",
+    opciones: [
+      "El asma alérgico y el asma intrínseco.",
+      "El enfisema pulmonar y la bronquitis crónica.",
+      "La fibrosis quística y la neumonía atípica.",
+      "El neumotórax espontáneo y el derrame pleural masivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "231. Fisiopatológicamente, el paciente con fenotipo predominantemente 'Enfisematoso' en la EPOC sufre de:",
+    opciones: [
+      "Una hipersecreción de moco incontrolable con glándulas hipertróficas sin daño alveolar.",
+      "La hiperinsuflación por destrucción de los tabiques alveolares, con pérdida de elasticidad pulmonar y atrapamiento aéreo.",
+      "Una rigidez extrema del tórax provocada por escoliosis severa.",
+      "Dilatación de la arteria aorta ascendente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "232. Al realizar una inspección torácica a un paciente con enfisema severo (atrapamiento crónico de aire), ¿qué hallazgo anatómico compensatorio es clásico observar?",
+    opciones: [
+      "Un hundimiento pronunciado del esternón (pectus excavatum).",
+      "Un aumento del diámetro anteroposterior del tórax (tórax en barril).",
+      "Asimetría torácica severa, respirando solo con el lado izquierdo.",
+      "Un tórax completamente aplanado y sin volumen residual."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "233. ¿Qué factor de riesgo es la causa etiológica primaria y directamente responsable de la inmensa mayoría (y el más modificable) de los casos de EPOC a nivel mundial?",
+    opciones: [
+      "Las infecciones fúngicas recurrentes en la edad adulta.",
+      "El déficit congénito de vitamina C.",
+      "La inhalación del humo del tabaco (fumadores activos y pasivos).",
+      "La dieta rica en grasas trans y colesterol."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "234. En una minoría de los casos de EPOC (alrededor del 1%) con afectación precoz en individuos jóvenes que no han fumado, existe un defecto genético causante que inactiva enzimas protectores. ¿De qué déficit hablamos?",
+    opciones: [
+      "Déficit del factor VIII de la coagulación.",
+      "Déficit de la proteína CFTR.",
+      "Déficit de alfa-1-antitripsina.",
+      "Déficit de la hormona paratiroidea."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "235. La 'Bronquitis crónica' (fenotipo de EPOC) se define clínicamente por la hipersecreción bronquial. Sus criterios diagnósticos temporales son:",
+    opciones: [
+      "Tos intermitente que dura exclusivamente los meses de primavera.",
+      "Tos seca y fiebre persistente por más de 14 días seguidos.",
+      "Presencia de tos y/o esputo durante un mínimo de 3 meses al año durante al menos 2 años consecutivos.",
+      "Expectoración hemoptoica durante 1 semana al año provocada por ejercicio."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "236. Si en la espirometría forzada post-broncodilatador el paciente mantiene una relación FEV1/CVF disminuida por debajo del 70%, diagnosticamos firmemente que padece:",
+    opciones: [
+      "Un patrón restrictivo puro compensado.",
+      "Una limitación al flujo aéreo (obstrucción) no reversible del todo, confirmando EPOC.",
+      "Un asma extrínseco leve ocasional e hiperreactivo.",
+      "Un volumen corriente superior a la media atlética."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "237. En las fases muy avanzadas de la EPOC con retención crónica de carbónico (hipercapnia importante), puede aparecer un signo neurológico periférico consistente en un temblor distal grueso al extender las manos con ojos cerrados. Esto se denomina:",
+    opciones: [
+      "Signo de Babinski.",
+      "Temblor esencial senil.",
+      "Asterixis o flapping tremor (indicativo de encefalopatía hipercápnica).",
+      "Espasmo carpopedal por hipocalcemia transitoria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "238. Al revisar la etiología de los síndromes RESTRICTIVOS, nos encontramos causas musculares y esqueléticas (extraparenquimatosas) que limitan la expansión del tórax impidiendo el llenado, tales como:",
+    opciones: [
+      "La inflamación recurrente de la mucosa bronquial por asma ocupacional.",
+      "La cifoescoliosis severa, la ELA o la Miastenia gravis.",
+      "La destrucción del acino pulmonar exclusiva de fumadores de más de 30 paquetes/año.",
+      "La reacción anafiláctica a alérgenos que ocluye la glotis."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "239. ¿Qué parámetro estático, medible por pletismografía, es fundamental en un paciente restrictivo ya que siempre va a encontrarse típicamente DISMINUIDO al no poder llenar sus pulmones correctamente?",
+    opciones: [
+      "El Índice Tobillo Brazo (ITB).",
+      "La Capacidad Pulmonar Total (CPT).",
+      "El Índice de Tiffeneau (FEV1/CVF).",
+      "La frecuencia de pulso paradójico en esfuerzo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "fisiologia_mecanica"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "240. En una insuficiencia respiratoria severa crónica por EPOC, cuando las presiones de oxígeno se mantienen constantemente por debajo de 60 mmHg (hipoxemia mantenida en reposo), la medida terapéutica que ha demostrado detener la progresión de la morbimortalidad y se receta a domicilio es:",
+    opciones: [
+      "La intubación orotraqueal domiciliaria a demanda.",
+      "La Oxigenoterapia Crónica Domiciliaria (OCD) mantenida bastantes horas al día.",
+      "La antibioterapia intravenosa profiláctica semanal ininterrumpida.",
+      "El entrenamiento de alta intensidad con levantamiento de pesas anaeróbico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "241. Dentro de los cuidados de enfermería para mejorar la expulsión y el aclaramiento de las secreciones en pacientes con FQ o Bronquiectasias, la técnica manual postural que usa la gravedad se denomina:",
+    opciones: [
+      "Test de broncodilatación.",
+      "Respiración con labios fruncidos de reposo.",
+      "Drenaje postural asistido con clapping o vibración.",
+      "Extracción mecánica por punción intercostal en vacío."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "242. Los pacientes con Fibrosis Quística sufren con mucha frecuencia infecciones crónicas y colonización de sus vías respiratorias por bacterias agresivas que marcan su pronóstico vital. La más representativa y peligrosa es:",
+    opciones: [
+      "El virus del papiloma humano.",
+      "La Escherichia coli uropatógena.",
+      "La Pseudomonas aeruginosa.",
+      "El Treponema pallidum."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "243. Respecto a la nutrición de un paciente con EPOC severa, es muy frecuente e indicativo de mal pronóstico (aumento de la mortalidad) la presencia de:",
+    opciones: [
+      "Obesidad mórbida extrema con IMC >40 de aparición brusca por los aerosoles.",
+      "Anorexia y caquexia severa, con Índice de Masa Corporal (IMC) por debajo de 21 kg/m2 derivado del gran esfuerzo metabólico de respirar.",
+      "Hambre patológica desmedida (polifagia) por hiperactividad parasimpática.",
+      "Dietas exclusivas basadas en líquidos transparentes serosos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "244. ¿Qué signo visual al inspirar (uso de musculatura en esfuerzo extremo) o espirar, es frecuente detectar en la inspección de enfermería en pacientes sufriendo un broncoespasmo moderado-grave?",
+    opciones: [
+      "Relajación completa de los músculos intercostales y caída del esternón.",
+      "La contracción pasiva y silente de la musculatura abdominal sin expandir tórax.",
+      "Utilización de la musculatura accesoria (escalenos, esternocleidomastoideo) y posible aleteo nasal.",
+      "Palidez estática exclusiva en la punta de la nariz."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "245. En pacientes en estadios terminales de Fibrosis Quística o EPOC que esperan un trasplante pulmonar y sufren de insuficiencia respiratoria muy grave, existe una terapia de soporte intermedio vital a través de una mascarilla sellada, conocida como:",
+    opciones: [
+      "Traqueostomía valvular de flujo pasivo.",
+      "Respiración de presión negativa estática.",
+      "Ventilación Mecánica No Invasiva (VMNI) como BiPAP o CPAP.",
+      "Bypass coronario-pulmonar en derivación venosa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "246. En la evaluación de la variabilidad del PEF (Peak Expiratory Flow) para diagnosticar asma en domicilio sin espirometría, ¿qué porcentaje de variación diaria (mañana vs noche) es fuertemente sugerente o diagnóstica de hiperrespuesta bronquial asmática?",
+    opciones: [
+      "Menos de un 5%.",
+      "Una variabilidad mayor del 20%.",
+      "Una diferencia estricta de 5 mililitros exactos.",
+      "La variabilidad del PEF no diagnostica asma en ningún caso, sólo la espirometría con gases."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "247. Al analizar un patrón respiratorio 'Mixto' en la espirometría (que combina daño obstructivo por tabaquismo y restrictivo por afectación del parénquima), la característica espirométrica es:",
+    opciones: [
+      "Frecuencia respiratoria perfecta, FEV1 elevado y CPT normal.",
+      "Tiene el VEF1 disminuido, la CVF (capacidad vital) disminuida y la relación VEF1/CVF también disminuida.",
+      "Los volúmenes pulmonares están intactos pero no se puede hacer la maniobra por dolor.",
+      "Presenta un aumento brutal de la Capacidad Pulmonar Total por encima del 150% siempre."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_2",
+    pregunta: "248. Entre los cuidados y educación sanitaria para pacientes asmáticos con el fin de evitar crisis y reagudizaciones, es prioritario:",
+    opciones: [
+      "Fomentar la convivencia estrecha con animales de pelo denso si hay atopia diagnosticada para generar tolerancia forzada.",
+      "Prescribir siempre AAS (Aspirina) para aliviar su inflamación bronquial.",
+      "Identificar los alérgenos ambientales para evitarlos y comprobar que la técnica de uso de sus inhaladores (corticoide o broncodilatador) es perfecta.",
+      "Prohibir la ingesta de lácteos en absolutamente todos los casos sin diagnóstico previo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  // ==========================================
+  // BLOQUE RESPIRATORIO - TEMA 3: ALTERACIONES AGUDAS (Neumonía, TEP, IRA, TBC)
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "249. La Bronquitis Aguda es una inflamación de los bronquios autolimitada (duración < 2 semanas). En la inmensa mayoría de los casos, su etiología principal es:",
+    opciones: [
+      "Bacteriana (Neumococo exclusivamente).",
+      "Fúngica (Aspergillus).",
+      "Vírica (Virus respiratorio sincitial, gripe, rinovirus).",
+      "Química (Inhalación de cloro)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "250. La Neumonía es una inflamación aguda del parénquima pulmonar. ¿Cuál es la vía por la que los microorganismos colonizan habitualmente los bronquios burlando las defensas?",
+    opciones: [
+      "Únicamente por transmisión cutánea directa.",
+      "Aspiración de secreciones orofaríngeas, inhalación de aerosoles infecciosos, diseminación hematógena o por contigüidad.",
+      "Transmisión sexual exclusivamente.",
+      "Por ingesta de alimentos sólidos contaminados en el estómago."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "251. Al clasificar las Neumonías Adquiridas en la Comunidad (NAC), el 'Síndrome Típico' se caracteriza clínicamente por:",
+    opciones: [
+      "Comienzo progresivo y subagudo durante semanas sin escalofríos.",
+      "Aparición de flictenas pruriginosas en tórax.",
+      "Comienzo súbito, fiebre > 38.5 ºC, escalofríos, dolor costal y tos productiva.",
+      "Ausencia total de fiebre y tos seca constante."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "252. ¿Qué característica temporal define de forma estricta a una 'Neumonía Intrahospitalaria o Nosocomial'?",
+    opciones: [
+      "Aparece a partir de las 48 horas del ingreso hospitalario y no estaba en periodo de incubación al ingresar.",
+      "Aparece siempre en las primeras 12 horas del ingreso en urgencias.",
+      "Se adquiere en el domicilio pero se trata en el hospital.",
+      "Aparece exactamente 30 días después del alta médica."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "253. La Neumonitis/Neumonía Química se produce por una agresión tóxica severa a la vía aérea. Un ejemplo clínico clásico de esto es:",
+    opciones: [
+      "La inhalación de polen primaveral.",
+      "La sobredosis intravenosa de heroína.",
+      "La aspiración de jugo gástrico o la inhalación de gases/vapores tóxicos (amoniaco, cloro).",
+      "La mordedura de un insecto venenoso."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "254. Al realizar la exploración física torácica de un paciente con Neumonía, los 'signos de condensación pulmonar' clásicos que encontraremos son:",
+    opciones: [
+      "Matidez a la percusión, aumento del frémito vocal, crepitantes y asimetrías torácicas.",
+      "Timpanismo generalizado a la percusión y abolición total del pulso.",
+      "Sibilancias puras generalizadas en ambos campos con tórax en barril.",
+      "Bradicardia refleja y sequedad extrema de piel."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "255. Según el protocolo de tratamiento empírico de la neumonía en un paciente ingresado en UCI (estado crítico), se administra precozmente una pauta de antibióticos intravenosos consistente típicamente en:",
+    opciones: [
+      "Ibuprofeno y Paracetamol exclusivamente.",
+      "Ceftriaxona y Macrólido intravenoso.",
+      "Amoxicilina oral a dosis bajas.",
+      "Aerosoles de Salbutamol únicamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "256. Fisiopatológicamente, ¿cómo se define el trastorno conocido como 'Atelectasia'?",
+    opciones: [
+      "Aumento permanente del tamaño alveolar por destrucción del tabique.",
+      "Colapso pulmonar que dificulta el intercambio gaseoso, producido por oclusión total de la luz bronquial e imposibilidad del paso de aire.",
+      "Acumulación masiva de pus en la pleura visceral.",
+      "Dilatación venosa irreversible del parénquima."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "257. Una de las causas intraluminales más frecuentes para desarrollar una Atelectasia aguda en la clínica diaria es:",
+    opciones: [
+      "La escoliosis congénita.",
+      "La formación de un tapón de moco denso, coágulos de sangre o aspiración de cuerpos extraños.",
+      "La obesidad mórbida.",
+      "El exceso de surfactante alveolar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "258. En la radiografía de tórax de una Atelectasia severa (que afecta a un bronquio principal), un signo mecánico evidente derivado del colapso del volumen pulmonar es:",
+    opciones: [
+      "La desviación del mediastino hacia el lado SANO.",
+      "La desviación del mediastino hacia el lado AFECTADO y la elevación del diafragma.",
+      "El descenso masivo de ambas clavículas.",
+      "La fractura espontánea de arcos costales superiores."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "259. En el Tromboembolismo Pulmonar (TEP), el coágulo u origen embólico que obstruye la circulación arterial pulmonar procede en la inmensa mayoría de los casos de:",
+    opciones: [
+      "Un aneurisma aórtico abdominal disecado.",
+      "Una trombosis venosa profunda (TVP) en las extremidades inferiores.",
+      "Una placa de ateroma de las arterias carótidas.",
+      "Una endocarditis en el ventrículo izquierdo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "260. El origen tromboembólico venoso que desencadena el TEP se explica a través de la Triada de Virchow, que comprende:",
+    opciones: [
+      "Lesión endotelial (pared de los vasos), Alteraciones de la coagulación (hipercoagulabilidad) y Estasis venoso.",
+      "Hipotensión, Bradicardia y Acidosis metabólica.",
+      "Edema maleolar, Cianosis central y Disnea de esfuerzo.",
+      "Poliglobulia extrema, Fiebre tifoidea y Deshidratación."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "261. ¿Cuál de las siguientes situaciones médicas supone un altísimo riesgo de desarrollar estasis venoso y por tanto TEP?",
+    opciones: [
+      "Realizar maratones semanalmente.",
+      "La inmovilidad prolongada (como un postoperatorio de fractura), que llega a multiplicar por 10 el riesgo.",
+      "Dormir sobre el lado izquierdo.",
+      "La hiperactividad infantil."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "262. El cuadro clínico de un TEP agudo se instaura de forma muy rápida y brusca. Sus signos vitales y síntomas principales son:",
+    opciones: [
+      "Aparición de disnea brusca, taquipnea, taquicardia no explicada y dolor pleurítico.",
+      "Bradicardia de 30 lpm, sequedad bucal y temblor esencial.",
+      "Ceguera transitoria y parálisis de nervios craneales.",
+      "Fiebre persistente de 40 ºC y diarrea aguda."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "263. A nivel electrocardiográfico (EKG), el TEP puede generar signos evidentes de sobrecarga en el corazón derecho, dando lugar a un patrón típico denominado:",
+    opciones: [
+      "Patrón de Brugada tipo 1.",
+      "Patrón de bloqueo de rama izquierda puro.",
+      "Patrón S1Q3T3.",
+      "Fibrilación ventricular sostenida invariable."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "264. Analíticamente, en una gasometría arterial se diagnostica una Insuficiencia Respiratoria Aguda (IRA) franca cuando los valores marcan:",
+    opciones: [
+      "PaO2 superior a 95 mmHg con pCO2 inferior a 35 mmHg.",
+      "PaO2 por debajo de 60 mmHg y/o PaCO2 por encima de 50 mmHg.",
+      "pH estrictamente superior a 7.50 con bicarbonato normal.",
+      "Un déficit aislado de saturación del 92% en pulsioximetría sin alterar gases."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "265. Dentro de la clasificación de las Insuficiencias Respiratorias, la IRA 'Tipo II' se caracteriza gasométricamente porque:",
+    opciones: [
+      "La PaO2 es baja pero la PaCO2 se mantiene completamente normal.",
+      "Es una insuficiencia hipercápnica además de hipoxémica (PaO2 baja y PaCO2 elevada).",
+      "Sólo presenta alcalosis metabólica severa.",
+      "El CO2 baja por debajo de 20 mmHg por hiperventilación extrema."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "266. En una IRA grave, la acumulación y retención masiva de CO2 (hipercapnia) produce manifestaciones neurológicas peligrosas como:",
+    opciones: [
+      "Ceguera aguda por desprendimiento de retina.",
+      "Depresión del SNC, papiledema (por aumento de presión intracraneal), somnolencia (depresión del centro respiratorio) y acidosis respiratoria.",
+      "Crisis convulsivas epilépticas con hipertonicidad inagotable.",
+      "Insomnio intratable y excitación maniaca incesante."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "267. La Tuberculosis Pulmonar (TBC) es una enfermedad de declaración obligatoria transmitida por vía aérea, cuyo agente etiológico es el bacilo:",
+    opciones: [
+      "Haemophilus influenzae.",
+      "Pseudomonas aeruginosa multirresistente.",
+      "Mycobacterium tuberculosis (bacilo aerobio estricto, ácido alcohol-resistente BAAR).",
+      "Streptococcus pneumoniae (Neumococo atípico)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "268. En la TBC primaria o primoinfección, es característico que:",
+    opciones: [
+      "Exista una destrucción pulmonar masiva en las primeras 48 horas.",
+      "La mayoría de los pacientes pasen inadvertidos y asintomáticos, pudiendo dejar cicatrices en la Rx como los nódulos de Ranke/focos de Ghon.",
+      "La prueba del Mantoux dé un resultado permanentemente negativo de por vida.",
+      "Se produzca siempre un derrame pericárdico fatal inmediato."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "269. Cuando se produce una reactivación del bacilo, aparece la 'TBC secundaria o cavitaria'. ¿Qué área del pulmón es especialmente susceptible a su crecimiento destructivo (cavernas)?",
+    opciones: [
+      "Las bases pulmonares en contacto con el diafragma.",
+      "Los lóbulos superiores (vértices pulmonares).",
+      "El hilio pulmonar exclusivamente.",
+      "La pleura parietal externa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "270. La clínica evolutiva de la Tuberculosis Pulmonar sintomática se caracteriza principalmente por:",
+    opciones: [
+      "Náuseas constantes, dolor epigástrico y vómitos explosivos.",
+      "Anorexia, pérdida de peso progresiva, sudoración nocturna profusa, fiebre/febrícula vespertina y tos productiva que puede derivar a hemoptisis.",
+      "Dolor isquémico irradiado al brazo izquierdo y sudoración fría profusa.",
+      "Ganancia rápida de peso y apneas obstructivas del sueño."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "271. Para el diagnóstico de contacto con TBC, la prueba de Mantoux (PPD) consiste en inyectar el antígeno y realizar la lectura cutánea. ¿Qué se valora y cuándo?",
+    opciones: [
+      "Se valora exclusivamente la rojez (eritema) a los 10 minutos.",
+      "Se mide el diámetro de la INDURACIÓN (hinchazón dura palpable) a las 48-72 horas.",
+      "Se evalúa la aparición de una úlcera sangrante a la semana de la inyección.",
+      "Se mide la temperatura local de la piel a las 24 horas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "272. A la hora de interpretar la prueba de Mantoux, es fundamental descartar los 'Falsos Positivos'. Una causa clásica de falso positivo al PPD es:",
+    opciones: [
+      "Padecer SIDA en fase terminal.",
+      "Haber estado previamente vacunado con la vacuna BCG (Bacilo de Calmette-Guérin).",
+      "Tomar antibióticos como la Amoxicilina.",
+      "Padecer asma bronquial estacional."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "273. Si ante una primera prueba de Mantoux negativa existe sospecha de que el sistema inmune ha fallado en dar respuesta (falso negativo), se puede repetir la prueba para provocar un refuerzo inmunitario. Esto se denomina:",
+    opciones: [
+      "Prueba de exclusión de Ranke.",
+      "Efecto de inhibición cruzada.",
+      "Efecto Booster o sumación.",
+      "Técnica de desensibilización tuberculosa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "274. El tratamiento estándar farmacológico curativo de primera línea para la TBC activa suele durar 6 meses en total y consiste en una combinación inicial durante los dos primeros meses de:",
+    opciones: [
+      "Un único antibiótico de amplio espectro (Amoxicilina).",
+      "Cuatro fármacos (RIPE): Rifampicina, Isoniazida, Pirazinamida y Etambutol.",
+      "Corticoides inhalados a dosis altas combinados con oxígeno puro.",
+      "Radioterapia torácica paliativa combinada con Isoniazida."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "275. En un paciente hospitalizado con diagnóstico confirmado de TBC Pulmonar, una medida de enfermería inexcusable en el plan de cuidados es:",
+    opciones: [
+      "Instaurar aislamiento respiratorio en habitación individual bien ventilada (con mascarillas adecuadas) para evitar contagios por aerosoles.",
+      "Trasladar al paciente a rehabilitación grupal gimnasio diariamente para evitar atrofias.",
+      "Retirar la mascarilla al paciente cuando reciba visitas para mejorar su estado de ánimo.",
+      "Administrar únicamente dieta absoluta líquida para no forzar la deglución."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_3",
+    pregunta: "276. Para el diagnóstico etiológico certero en el laboratorio, se solicita un examen y cultivo del esputo del paciente (baciloscopia). ¿Cómo debe ser la recogida óptima?",
+    opciones: [
+      "Una sola muestra recogida después de la comida principal del día.",
+      "Tres muestras recogidas en tres días consecutivos, preferiblemente por la mañana al despertar.",
+      "Un hisopado faríngeo superficial en cualquier momento de la tarde.",
+      "Un lavado gástrico como única alternativa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+
+  // ==========================================
+  // BLOQUE RESPIRATORIO - TEMA 4: ALTERACIONES PLEURALES (Pleuritis, Derrame, Drenaje)
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "277. Repasando la anatomía de la pleura (membrana serosa de dos hojas), ¿qué característica funcional diferencia a la pleura parietal de la visceral?",
+    opciones: [
+      "La pleura parietal recubre íntimamente el pulmón, mientras la visceral recubre las costillas.",
+      "La pleura parietal tiene fibras sensibles al dolor (terminaciones nerviosas), mientras la visceral carece de ellas.",
+      "La pleura visceral segrega 2 litros diarios de líquido, la parietal lo reabsorbe entero.",
+      "Ambas capas son idénticas en inervación e irrigación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "anatomia_y_fisiologia"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "278. En un paciente con Pleuritis Seca (inflamación aguda), la manifestación clínica central que orienta el diagnóstico es:",
+    opciones: [
+      "Un dolor torácico agudo e intenso en 'punta de dedo' que aumenta notoriamente con los movimientos respiratorios y al toser.",
+      "Cianosis extrema que solo se corrige con intubación inmediata.",
+      "Tos productiva herrumbrosa constante y bradicardia.",
+      "Un soplo aórtico irradiado al cuello con parestesias."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "279. Durante la auscultación pulmonar en un episodio de pleuritis seca en la zona afectada, el sonido adventicio característico producido por el roce de ambas hojas pleurales inflamadas es:",
+    opciones: [
+      "Las sibilancias de alta frecuencia.",
+      "El roce pleural o frote pleural.",
+      "Los crepitantes finos en bases.",
+      "El estridor laringotraqueal."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "280. El derrame pleural se clasifica etiológicamente en exudado o trasudado. Un 'Trasudado' (filtración de plasma bajo en proteínas a través de capilares intactos) suele estar causado mecánicamente por:",
+    opciones: [
+      "Aumento de la permeabilidad capilar por inflamación severa en una tuberculosis.",
+      "Aumento de la presión hidrostática (ej. insuficiencia cardiaca) o descenso de la presión oncótica (ej. cirrosis hepática).",
+      "Bloqueo linfático exclusivo secundario a un linfoma torácico masivo.",
+      "Rotura quirúrgica accidental del conducto torácico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "281. Por el contrario, un Derrame Pleural tipo 'Exudado' surge por el aumento de la permeabilidad capilar favoreciendo el paso de proteínas. Sus causas más comunes son procesos inflamatorios como:",
+    opciones: [
+      "Neumonías, Tuberculosis, neoplasias malignas o embolias.",
+      "La obesidad mórbida simple.",
+      "Una sobrehidratación excesiva con suero salino intravenoso 24 horas.",
+      "La disminución benigna de la albúmina en la dieta."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "282. Clínicamente, el dolor pleurítico inicial de un derrame pleural tiende paradójicamente a disminuir a medida que aumenta la cantidad de líquido porque:",
+    opciones: [
+      "El líquido comprime y atrofia permanentemente las terminaciones nerviosas intercostales.",
+      "El exceso de líquido separa las dos hojas pleurales inflamadas, impidiendo su doloroso roce mutuo.",
+      "El cuerpo se habitúa a la lesión mediante tolerancia endorfínica.",
+      "Las hojas pleurales se fusionan en un callo óseo indoloro."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "283. En la exploración física percutiva y auscultatoria de la base pulmonar inundada por un derrame pleural moderado/severo, encontraremos invariablemente:",
+    opciones: [
+      "Timpanismo extremo y murmullo vesicular aumentado con soplos.",
+      "Tono mate a la percusión, disminución del frémito vocal y murmullo vesicular ausente/disminuido.",
+      "Hiperresonancia y sibilancias polifónicas continuas.",
+      "Ninguna alteración, la exploración física no refleja la acumulación de líquido."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "284. Para analizar la naturaleza exacta del líquido pleural, evacuarlo y aliviar la disnea, el procedimiento invasivo médico indicado es:",
+    opciones: [
+      "La fibrobroncoscopia con lavado alveolar completo.",
+      "La toracocentesis (punción de la pared torácica).",
+      "La pericardiocentesis ecoguiada.",
+      "La traqueotomía de emergencia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "285. A la hora de evacuar de urgencia un neumotórax o colocar un tubo de drenaje pleural, la zona anatómica más segura se define como el 'Triángulo de seguridad', cuyos límites son:",
+    opciones: [
+      "Lado anterior: pectoral mayor; Posterior: dorsal ancho; Inferior: línea mamilar (5º espacio intercostal).",
+      "Lado medial: esternón; Lado lateral: pezón; Lado superior: clavícula.",
+      "Lado posterior: escápula; Lado inferior: 12ª costilla flotante; Lado interno: apófisis vertebrales.",
+      "Entre la tráquea y el lóbulo tiroideo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "286. En los sistemas de drenaje torácico cerrados (ej. Pleur-evac), el objetivo mecánico primordial del mecanismo de 'Sello de agua' (Cámara 2) es:",
+    opciones: [
+      "Medir exactamente en mililitros el líquido exudado.",
+      "Inyectar suero salino al interior del pulmón para lavar la pleura.",
+      "Permitir la salida del aire o líquido de la cavidad pleural e impedir su retorno (entrada) hacia el tórax del paciente.",
+      "Calentar e hidratar el aire ambiente para evitar el enfriamiento pulmonar."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "287. Cuando el líquido acumulado en la pleura no es simple trasudado, sino un derrame purulento por infección bacteriana grave de la cavidad, la patología recibe el nombre específico de:",
+    opciones: [
+      "Quilotórax.",
+      "Hemotórax masivo.",
+      "Empiema.",
+      "Mesotelioma benigno."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_4",
+    pregunta: "288. Al visualizar una placa de Rx de tórax buscando un derrame pleural inferior, el signo radiológico inicial clásico que confirma la acumulación de líquido en la base es:",
+    opciones: [
+      "La visualización de cavernas circulares apicales oscuras.",
+      "El borramiento u obliteración blanquecina del ángulo costofrénico (opacidad de la base).",
+      "Un hiperclaridad masiva que empuja las costillas ensanchando los espacios.",
+      "La aparición del signo de 'anillo de sello' en todos los lóbulos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+
+  // ==========================================
+  // BLOQUE RESPIRATORIO - TEMA 5: TUMORES DE PULMÓN
+  // ==========================================
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "289. Las neoplasias pulmonares malignas se desarrollan principalmente por el daño genético a las células. ¿Cuál es el factor de riesgo ambiental/químico causante directo de la inmensa mayoría de estos cánceres?",
+    opciones: [
+      "La inhalación de polen o esporas primaverales a lo largo de los años.",
+      "El humo del tabaco (fumadores activos y pasivos) por la gran cantidad de carcinógenos químicos que dañan el endotelio bronquial.",
+      "El consumo excesivo de carne roja procesada.",
+      "Las infecciones urinarias recurrentes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "290. Anatómicamente, más del 90% de los tumores malignos pulmonares (broncogénicos) se desarrollan a partir de la transformación de las células del:",
+    opciones: [
+      "Epitelio del bronquio.",
+      "Espacio intersticial y alveolo terminal exclusivamente.",
+      "Tejido cartilaginoso de soporte bronquial.",
+      "Pleura parietal externa."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "291. En la clasificación anatomopatológica de los 'Carcinomas de células no pequeñas' (80% del total), ¿cuál es el subtipo que presenta mayor prevalencia global en ambos sexos, suele tener localización periférica y gran tendencia metastásica?",
+    opciones: [
+      "Carcinoma Microcítico (de células pequeñas).",
+      "Adenocarcinoma.",
+      "Carcinoma Epidermoide o escamoso.",
+      "Mesotelioma epitelial benigno."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "292. Por sus características, el tumor de tipo 'Epidermoide' suele tener una evolución más lenta y una localización puramente central. Debido a esto, una de sus grandes complicaciones mecánicas locales es:",
+    opciones: [
+      "La perforación gástrica secundaria.",
+      "La rotura espontánea de la arteria aorta.",
+      "Provocar atelectasias severas por la oclusión y obstrucción del crecimiento hacia la luz de la pared bronquial principal.",
+      "Generar osteoporosis masiva por absorción de calcio costal."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "293. El grupo de los 'Carcinomas de células pequeñas' (o microcíticos) abarca el 15-20% restante de los cánceres de pulmón. Destacan ominosamente por:",
+    opciones: [
+      "Ser totalmente inofensivos y reabsorberse solos en 5 años.",
+      "Tener un crecimiento extremadamente agresivo y rápido, diseminándose a través de vía linfática y sanguínea con muy alta frecuencia.",
+      "Quedar siempre encapsulados, sin producir metástasis en el 100% de casos.",
+      "Afectar únicamente a mujeres menores de 20 años no fumadoras."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "294. En la clasificación por estadios mediante el sistema TNM, si encontramos en un paciente un tumor extenso con evidencia de múltiples metástasis óseas y cerebrales a distancia, lo encuadraremos en el:",
+    opciones: [
+      "Estadio 0 (tumor in situ).",
+      "Estadio I (resecable tempranamente).",
+      "Estadio IIIa (solo ganglios regionales).",
+      "Estadio IV (diseminación metastásica, tratamiento fundamentalmente paliativo/soporte)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "295. Debido a su situación anatómica, los tumores de localización CENTRAL (situados en bronquios principales) suelen presentar signos clínicos precoces muy obvios para el paciente, tales como:",
+    opciones: [
+      "La total ausencia de tos o problemas respiratorios.",
+      "Tos continua irritativa o productiva acompañada de estridor espiratorio y hemoptisis.",
+      "Un dolor pleurítico insoportable al rozar la pleura parietal externa.",
+      "Fracturas costales espontáneas repetidas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "296. A diferencia de los centrales, los tumores de localización PERIFÉRICA (ej. el adenocarcinoma periférico) tardan más en dar síntomas respiratorios obstructivos, pero en fases avanzadas destacan clínicamente por:",
+    opciones: [
+      "Producir sangrados nasales diarios profusos (epistaxis).",
+      "Generar dolor torácico por invasión y afectación directa de la pleura parietal/pared costal, y frecuentemente derrame pleural maligno.",
+      "Provocar siempre atelectasia completa del pulmón contrario intacto.",
+      "El desarrollo fulminante de enfisema panacinar en toda la caja torácica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "297. Si el cáncer de pulmón crece e invade de forma destructiva las estructuras nerviosas adyacentes del tórax (ej. el nervio laríngeo recurrente), el paciente puede desarrollar como complicación clínica:",
+    opciones: [
+      "Hipoacusia (sordera transitoria).",
+      "Ceguera en un ojo (amaurosis fugax).",
+      "Disfonía persistente o ronquera por la parálisis de la cuerda vocal.",
+      "Parálisis de ambas piernas (paraplejia motora)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "298. Una urgencia oncológica producida por la compresión y obstrucción tumoral masiva sobre la gran vena que retorna la sangre de la mitad superior del cuerpo desencadena el 'Síndrome de Vena Cava Superior'. ¿Cuáles son sus signos externos más alarmantes?",
+    opciones: [
+      "Hipotensión severa en piernas y atrofia muscular abdominal.",
+      "Ingurgitación yugular extrema, aparición de red venosa dilatada en cuello y escote, y edema/hinchazón llamativa de la cara.",
+      "Pérdida de sangre en heces (melenas) incontrolable.",
+      "Isquemia aguda de la pierna con palidez extrema (5P)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "299. El Síndrome de Pancoast ocurre cuando un tumor maligno crece en una zona pulmonar muy específica y lesiona las raíces nerviosas cérvico-torácicas (braquiales y simpáticas). ¿Dónde se localiza dicho tumor?",
+    opciones: [
+      "En el lóbulo medio del pulmón derecho puramente.",
+      "En la base o fondo de saco pleural tocando el diafragma.",
+      "En el VÉRTICE (apical) del pulmón, originando un intenso dolor irradiado al hombro o brazo.",
+      "Alrededor de la válvula pulmonar del corazón."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "300. Íntimamente ligado al tumor apical de Pancoast, la destrucción de la cadena simpática cervical desencadena el 'Síndrome de Horner' ipsilateral, cuyos signos oftalmológicos en el rostro del paciente son:",
+    opciones: [
+      "Ojos saltones exorbitados (exoftalmos) y taquicardia.",
+      "Miosis (pupila contraída), ptosis palpebral (párpado caído), anhidrosis (falta de sudoración facial) y enoftalmos.",
+      "Pupila dilatada fija al máximo (midriasis reactiva) y rubor facial general.",
+      "Estrabismo divergente crónico y pérdida del cristalino."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "301. En el cáncer pulmonar, es frecuente la aparición de 'Síndromes Paraneoplásicos' (respuestas sistémicas a hormonas o sustancias secretadas por el propio tumor en el cuerpo). Algunos ejemplos clásicos asociados en analítica y exploración física incluyen:",
+    opciones: [
+      "Infección urinaria recurrente por estafilococos.",
+      "Hipercalcemia, hiponatremia, hipopotasemias y alteraciones neuromusculares (neuropatías) así como acropaquias.",
+      "Urticaria masiva reversible al calor.",
+      "Aumento drástico de la memoria a corto plazo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "302. A la hora de confirmar el diagnóstico anatómico y realizar una biopsia de un tumor bronquial central sospechoso de obstruir la vía, la prueba intervencionista de elección es:",
+    opciones: [
+      "El electrocardiograma de esfuerzo con contraste de yodo.",
+      "La Espirometría forzada manual en el centro de salud.",
+      "La Broncoscopia (fibrobroncoscopio flexible), ya que permite observación directa, toma de biopsias y cepillado para citología.",
+      "La Toracocentesis con trocar ciego."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "303. En el tratamiento quirúrgico con intención curativa (resección tumoral en estadios tempranos I o II de células no pequeñas), si el cirujano decide extirpar la totalidad de los lóbulos de un pulmón entero, la técnica se denomina:",
+    opciones: [
+      "Resección segmentaria parcial.",
+      "Lobectomía aislada.",
+      "Traqueostomía total.",
+      "Neumonectomía."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "304. Por contraposición, si el cáncer diagnosticado tras la biopsia es un 'Carcinoma Microcítico' (de células pequeñas), debido a su altísima diseminación el abordaje terapéutico de primera línea no suele ser quirúrgico, sino que se basa intensivamente en:",
+    opciones: [
+      "Quimioterapia sistémica combinada (y radioterapia, dado su gran quimiosensibilidad inicial).",
+      "Masaje torácico manual de alta presión (clapping oncológico).",
+      "Vaciado linfático de las piernas e ingle.",
+      "Solo corticoides inhalados a demanda tipo Salbutamol."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "305. Para evaluar la posible existencia de metástasis ganglionares mediastínicas antes de plantear la cirugía (evaluar estadio N del TNM), el procedimiento quirúrgico de exploración endoscópica del mediastino se llama:",
+    opciones: [
+      "Gastroscopia percutánea.",
+      "Toracocentesis ciega.",
+      "Mediastinoscopia (permite observar y tomar muestras de los ganglios del mediastino).",
+      "Cateterismo aórtico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "306. Dentro del grupo del cáncer de pulmón no microcítico, existe una categoría llamada 'Carcinoma de células grandes'. Sus características patológicas más representativas son:",
+    opciones: [
+      "Se origina en la periferia, es de crecimiento muy lento y de células muy bien diferenciadas y maduras.",
+      "Se origina exclusivamente en las cuerdas vocales, produciendo asfixia en horas.",
+      "Se origina en la periferia, es de crecimiento rápido, altamente indiferenciado (células gigantes o claras).",
+      "Surge puramente en las vías digestivas bajas y afecta al pulmón por contacto."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "patologias_y_signos"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "307. Los tumores de pulmón tienen gran facilidad para diseminarse a través de la vía hematógena y generar focos metastásicos lejanos. ¿Qué prueba radiológica metabólica se utiliza frecuentemente para buscar estas metástasis óseas y orgánicas (estadificando M)?",
+    opciones: [
+      "La ecografía Doppler de tronco supraórticos venosos.",
+      "El Índice Tobillo-Brazo (ITB).",
+      "Estudios isotópicos como la Gammagrafía ósea o la Tomografía por Emisión de Positrones (PET).",
+      "La gasometría venosa periférica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "diagnostico_y_cuidados"
+  },
+  {
+    asignatura: "clinica_ii",
+    tema: "Respiratorio_5",
+    pregunta: "308. En los cuidados de enfermería a pacientes oncológicos en estadio terminal (Estadio IV con diseminación metastásica), el enfoque y los objetivos del equipo asistencial cambian a un modelo de intervención prioritaria basada en:",
+    opciones: [
+      "Forzar al paciente a someterse a múltiples neumonectomías bilaterales experimentales curativas.",
+      "Interrumpir por completo la hidratación, oxigenoterapia y sedación del paciente.",
+      "Tratamiento paliativo, soporte de oxigenoterapia, control severo del dolor, manejo de disnea intensa y soporte psicológico a la familia para el afrontamiento.",
+      "Fisioterapia respiratoria agresiva con clapping extremo en lesiones óseas metástasicas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "intervenciones"
+  },
 ];
 
 // --- MAPAS MENTALES (MERMAID) ---
@@ -14276,5 +18144,50 @@ mindmap
       Gestión de Agitación
       Prevención Suicidio
       Límites Profesionales
-    `
+    `,
+  clinica_ii: `
+mindmap
+  root("Enfermeria Clinica II: Sistema Vascular y Respiratorio")
+    ("Sistema Vascular")
+      ("Anatomia y Fisiologia")
+        ("Arterias: vasos de distribucion y resistencia")
+        ("Venas: vasos de capacitancia con valvulas")
+        ("Capilares: intercambio de nutrientes y gases")
+        ("Capas: tunica adventicia, media e intima")
+      ("Patologia Obstructiva Arterial")
+        ("Aterosclerosis: placas de ateroma")
+        ("Isquemia Cronica: Claudicacion intermitente Fontaine")
+        ("Isquemia Aguda: Trombosis y Embolia 5P")
+        ("Aneurismas: dilatacion mayor 50 porciento del diametro")
+      ("Alteraciones de la Tension Arterial")
+        ("Hipertension HTA")
+          ("Grado 1: 140-159 / 90-99 mmHg")
+          ("Factores riesgo: Sedentarismo, genetica, grasas")
+          ("Complicaciones: ACV, danio renal, retinopatia")
+          ("Crisis: Emergencia vs Urgencia")
+        ("Hipotension y Sincope")
+          ("Hipotension ortostatica: caida PA al levantarse")
+          ("Sincope vasovagal: perdida consciencia y tono")
+          ("Prodromos: mareo, vision borrosa, sudoracion")
+      ("Diagnostico y Cuidados")
+        ("Indice Tobillo-Brazo ITB: riesgo isquemia menor 0.9")
+        ("Pruebas: Eco-doppler, Angiografia, AngioTAC")
+        ("Cuidados post-cirugia: vigilancia de pulsos y temperatura")
+    ("Sistema Respiratorio")
+      ("Fisiologia Mecanica")
+        ("Diafragma: baja y aumenta presion abdominal en inspiracion")
+        ("Musculo agonista: Intercostal externo")
+        ("Frecuencia normal adulto: 12-20 rpm")
+      ("Patologias y Signos")
+        ("Obstructivas: Asma, Enfisema, Bronquitis")
+        ("Sibilancias: sonidos continuos en espiracion Asma")
+        ("Neumoterax: percusion hipersonora o timpanismo")
+        ("Esputo mucopurulento: color amarillo-verdoso")
+        ("Respiracion paradojica: movimiento toracico contrario")
+      ("Intervenciones")
+        ("Drenaje toracico: camara de control de aspiracion")
+        ("Fisioterapia respiratoria: prevencion postoperatoria")
+        ("Peak-flow: seguimiento del asma")
+        ("Contraindicacion espirometria: aneurisma")
+      `,
 };

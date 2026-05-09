@@ -1,10 +1,10 @@
-const CACHE_NAME = 'enfertest-v7';
+const CACHE_NAME = 'enfertest-v10';
 const urlsToCache = [
   './',
   './index.html',
-  './styles.css?v=7',
-  './app.js?v=7',
-  './data.js?v=7',
+  './styles.css?v=10',
+  './app.js?v=10',
+  './data.js?v=10',
   './manifest.json',
   'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js',
   'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
