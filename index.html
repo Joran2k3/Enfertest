@@ -316,7 +316,15 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js').catch(err => {
+                navigator.serviceWorker.register('./sw.js', {
+                    // Fuerza al navegador a comprobar siempre la versión más reciente
+                    // del sw.js en la red, sin servir el propio SW desde caché HTTP.
+                    // Esto es clave para que iOS y Android detecten actualizaciones.
+                    updateViaCache: 'none'
+                }).then(reg => {
+                    // Forzar comprobación de actualización cada vez que se abre la app
+                    reg.update();
+                }).catch(err => {
                     console.log('ServiceWorker registration failed: ', err);
                 });
             });
