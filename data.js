@@ -1,4 +1,4 @@
-﻿// data.js - Banco de preguntas y configuración de EnferTest
+// data.js - Banco de preguntas y configuración de EnferTest
 
 const CONFIG_ASIGNATURAS = {
   paliativos: {
@@ -42,7 +42,8 @@ const CONFIG_ASIGNATURAS = {
       "Módulo III - Tema 4",
       "Módulo III - Tema 5",
       "Módulo IV",
-      "Módulo V"
+      "Módulo V",
+      "Interactivas (Activos y Comunidad)"
     ]
   },
   clinica_ii: {
@@ -18104,7 +18105,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "7. Que é un activo en saúde segundo os modelos de promoción da saúde?",
     opciones: [
       "Calquera factor ou recurso que mellore a capacidade dun individuo ou comunidade para manter un óptimo estado de saúde e benestar.",
@@ -18300,7 +18301,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "21. A que nos referimos cando falamos de 'activos físicos' en saúde comunitaria?",
     opciones: [
       "A accións individuais de cada un para promocionar a propia saúde.",
@@ -18412,7 +18413,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 17 (Acción comunitaria)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "29. Cal das seguintes é considerada unha fase estruturada dentro do ciclo do Plan de Acción Comunitaria?",
     opciones: [
       "Fase 0: Conformar o equipo motor e a rede unicamente (coñecerse).",
@@ -18454,7 +18455,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 16 (Salutoxénese)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "32. A Salutoxénese é un modelo teórico desenvolvido por Aaron Antonovsky que, a diferenza da patoxénese, céntrase no estudo de:",
     opciones: [
       "Os Activos en saúde e os factores que xeran saúde e benestar ao longo da vida.",
@@ -18663,7 +18664,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "7. Que é un activo en saúde segundo os modelos de promoción da saúde?",
     opciones: [
       "Calquera factor ou recurso que mellore a capacidade dun individuo ou comunidade para manter un óptimo estado de saúde e benestar.",
@@ -18859,7 +18860,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "21. A que nos referimos cando falamos de 'activos físicos' en saúde comunitaria?",
     opciones: [
       "A accións individuais de cada un para promocionar a propia saúde.",
@@ -18971,7 +18972,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 17 (Acción comunitaria)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "29. Cal das seguintes é considerada unha fase estruturada dentro do ciclo do Plan de Acción Comunitaria?",
     opciones: [
       "Fase 0: Conformar o equipo motor e a rede unicamente (coñecerse).",
@@ -19013,7 +19014,7 @@ const BANCO_PREGUNTAS = [
   },
   {
     asignatura: "comunitaria",
-    tema: "Interactivas - Tema 16 (Salutoxénese)",
+    tema: "Interactivas (Activos y Comunidad)",
     pregunta: "32. A Salutoxénese é un modelo teórico desenvolvido por Aaron Antonovsky que, a diferenza da patoxénese, céntrase no estudo de:",
     opciones: [
       "Os Activos en saúde e os factores que xeran saúde e benestar ao longo da vida.",
