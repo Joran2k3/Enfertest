@@ -1,9 +1,9 @@
-// sw.js — EnferTest v11
+// sw.js — EnferTest v12
 // Estrategia: Network-First para archivos propios (garantiza actualizaciones automáticas).
 //             Cache-First para recursos externos lentos (fonts, mermaid).
 // skipWaiting + clients.claim → el nuevo SW toma control de inmediato sin recargar.
 
-const CACHE_NAME = 'enfertest-v11';
+const CACHE_NAME = 'enfertest-v12';
 
 // Recursos externos que pueden servirse desde caché sin problema (no cambian con versiones)
 const EXTERNAL_CACHE = [

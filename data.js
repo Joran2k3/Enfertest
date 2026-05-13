@@ -1,4 +1,4 @@
-// data.js - Banco de preguntas y configuración de EnferTest
+﻿// data.js - Banco de preguntas y configuración de EnferTest
 
 const CONFIG_ASIGNATURAS = {
   paliativos: {
@@ -27,7 +27,24 @@ const CONFIG_ASIGNATURAS = {
     preguntasSimulacro: 30,
     notaAprobado: 5,
     resta: true,
-    idTemas: [1, 2, 3, 4, 5, 6]
+    idTemas: [
+      "Módulo I - Tema 1 (Evolución y Principios)",
+      "Módulo I - Tema 2 (Especialidad)",
+      "Módulo I - Tema 3 (Atención Primaria)",
+      "Módulo I - Tema 4 (Metodología Enfermera)",
+      "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+      "Módulo II - Tema 2 (Calidad y Seguridad)",
+      "Módulo II - Tema 3 (Consulta de Enfermería)",
+      "Módulo II - Tema 4 (Atención Domiciliaria)",
+      "Módulo III - Tema 1 (Adolescencia)",
+      "Módulo III - Tema 2 (Adulto)",
+      "Módulo III - Tema 3 (Procesos crónicos)",
+      "Módulo III - Tema 4 (Atención a la mujer)",
+      "Módulo III - Tema 5 (Personas ancianas)",
+      "Módulo IV - Cuidados a la familia",
+      "Módulo V - Cuidados a la familia",
+      "Módulo V - Participación y Diagnóstico Comunitario"
+    ]
   },
   clinica_ii: {
     nombre: "Clínica II",
@@ -18002,6 +18019,7768 @@ const BANCO_PREGUNTAS = [
     esExamen: false,
     conceptoMapa: "intervenciones"
   },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria)",
+    pregunta: "1. Cal distos produtos precisa ser homologado por farmacia para poder ser prescrito por medicina ou enfermaría?",
+    opciones: [
+      "Tiras de glicemia",
+      "Sondas",
+      "Bolsas de ostomías",
+      "Medias de alta compresión"
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "2. Cal non é un principio da enfermaría holística?",
+    opciones: [
+      "Equidade",
+      "Comunicación",
+      "Individualismo extremo centrado só na patoloxía",
+      "Todas son correctas"
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria)",
+    pregunta: "3. Unidade básica territorial da Atención Primaria.",
+    opciones: [
+      "Área de saúde",
+      "Distrito sanitario",
+      "Zona de saúde",
+      "Centro de saúde"
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "4. Que recomendación se lle daría a unha persoa con pé diabético?",
+    opciones: [
+      "Calcetíns axustados.",
+      "Recomendar dúas veces por semana utilizar tacóns.",
+      "Poñer crema entre os dedos dos pés.",
+      "Secar ben os espazos interdixitais."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Enlace y Continuidad)",
+    pregunta: "5. Relacionado cun beneficio da continuidade domiciliaria:",
+    opciones: [
+      "Empeora a comunicación.",
+      "Uso ineficiente de recursos.",
+      "Non se relaciona coa atención domiciliaria.",
+      "Permite ao paciente estar máis tempo na casa evitando a hospitalización."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Enlace y Continuidad)",
+    pregunta: "6. Cal non é unha función da enfermeira comunitaria de enlace?",
+    opciones: [
+      "Proporcionar atención individualizada dende un entorno sociosanitario.",
+      "Centrarse únicamente no paciente, sen ter en conta á familia ou contorno.",
+      "Ser referente para os coidados entre a APS e a atención hospitalaria.",
+      "Valorar as capacidades do individuo, familia e comunidade."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    pregunta: "7. Que é un activo en saúde segundo os modelos de promoción da saúde?",
+    opciones: [
+      "Calquera factor ou recurso que mellore a capacidade dun individuo ou comunidade para manter un óptimo estado de saúde e benestar.",
+      "Apenas os hospitais e centros de especialidades rexionais.",
+      "O orzamento anual que se destina ao Ministerio de Sanidade.",
+      "As enfermidades prevalentes nunha comunidade concreta."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "8. En relación coa comunicación non verbal que término se utiliza para a distancia ou espaciación entre as persoas:",
+    opciones: [
+      "Proxémica",
+      "Paralingüística",
+      "Kinestésica",
+      "Simbólica"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "9. Suceso imprevisto que causa a morte ou graves danos físicos ou psicolóxicos, ou ten risco de causalo:",
+    opciones: [
+      "Evento sentinela",
+      "Evento adverso",
+      "Incidente",
+      "Neglixencia clínica"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria - EpS)",
+    pregunta: "10. Taller comunitario onde as enfermeiras fan unha comunicación unidireccional sen deixar que a xente comparta experiencias:",
+    opciones: [
+      "Comunicación bancaria",
+      "Comunicación problematizadora",
+      "Comunicación bidireccional",
+      "Comunicación participativa"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "11. 'Actividades ou intervencións coa finalidade de prestar atención sanitaria á persoa e familia no domicilio, en función das necesidades, asumindo con eles a corresponsabilidade do coidado continuo e integral, en coordinación cos demais membros do equipo e con outros servizos sanitarios e sociais':",
+    opciones: [
+      "Atención domiciliaria",
+      "Hospitalización a domicilio",
+      "Visita domiciliaria",
+      "Avaliación de dependenza"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso de Enfermería)",
+    pregunta: "12. Cal das seguintes non é unha guía de aplicación enfermeira (foco de actuación estandarizado na consulta)?",
+    opciones: [
+      "Febre",
+      "Ostomía",
+      "Queimaduras e feridas",
+      "Material sanitario"
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 6 (Cirugía menor)",
+    pregunta: "13. Cal das seguintes características descartaría a realización dunha cirurxía menor ambulatoria na consulta de AP:",
+    opciones: [
+      "Aspiración de pelo ou tecido subcutáneo.",
+      "Presenza de necrose, escara ou tecido desvitalizado para desbridar.",
+      "Drenaxe dun absceso superficial.",
+      "Lesión con características clínicas susceptibles de malignidade."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Atención a la mujer)",
+    pregunta: "14. Considérase prevención primaria no cáncer de mama:",
+    opciones: [
+      "Mamografías a partir dos 50 anos.",
+      "Autoexploración mensual a partir dos 20 anos.",
+      "Promoción de hábitos de vida saudables.",
+      "Tratamento ante unha biopsia positiva."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "15. No seguimento infantil, a que idade xa non se adoita realizar de xeito rutineiro a medición do perímetro craneal para valorar o crecemento?",
+    opciones: [
+      "Ao nacemento",
+      "Aos 4 anos",
+      "Aos 2 meses",
+      "Aos 12 meses"
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "16. Segundo o calendario oficial, que vacina ou vacinas se corresponden estritamente coa administración aos dous meses de vida?",
+    opciones: [
+      "Hexavalente e neumocócica conxugada",
+      "Tripla vírica",
+      "Varicela e neumocócica",
+      "Varicela e hexavalente"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "17. Un paciente de 58 anos acode á consulta de enfermería para facer un seguimento de HTA. Tras tomarlle a tensión observamos que ten unha presión de 140/90 mmHg. Ten antecedentes hipertensivos e está con tratamento pero refire que non coñece moi ben os hábitos que leva. Que recomendación inicial de autocoidado lle darías?",
+    opciones: [
+      "Reducir a actividade física e o consumo de líquidos diarios.",
+      "Dieta sen sal e realización de actividade física un mínimo de 30 minutos ao día.",
+      "Manter un repouso absoluto ata a vindeira consulta médica.",
+      "Aumentar o consumo de graxas saudables sen importar a inxesta de sodio."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "18. Sinale a afirmación verdadeira sobre a sífile:",
+    opciones: [
+      "Treponema Pallidum é a bacteria (axente infeccioso) que a causa.",
+      "É unha enfermidade vírica autolimitada.",
+      "Non se transmite a través de relacións sexuais.",
+      "A súa única prevención é a vacinación profiláctica infantil."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Atención a la mujer / Género)",
+    pregunta: "19. ¿Por qué é importante incorporar a perspectiva de xénero ás intervencións comunitarias?",
+    opciones: [
+      "Porque permite coñecer as desigualdades en canto ao acceso, a división do traballo e o uso do tempo libre entre ambos sexos.",
+      "Porque o xénero non ten impacto ningún nos determinantes sociais da saúde.",
+      "Para tratar exclusivamente enfermidades biolóxicas do aparello reprodutor.",
+      "Porque elimina a necesidade de facer educación para a saúde."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "20. Cal é o obxectivo principal de aplicar o test AUDIT na consulta de primaria?",
+    opciones: [
+      "Medir o nivel de estrés psicosocial.",
+      "Medir a cantidade milimétrica exacta de alcol que se consome.",
+      "Calcular a afectación hepática por cirrose.",
+      "Detectar o consumo de alcol de risco ou prexudicial."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    pregunta: "21. A que nos referimos cando falamos de 'activos físicos' en saúde comunitaria?",
+    opciones: [
+      "A accións individuais de cada un para promocionar a propia saúde.",
+      "A artistas musicais locais que poidan influír na cultura e identidade.",
+      "A espazos verdes, instalacións deportivas e edificios públicos.",
+      "A talleres de promoción da saúde e hábitos de vida saudables."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "22. Paciente de 65 anos con tratamento anticoagulante oral (Sintrom) despois dun diagnóstico de fibrilación auricular. Acode á consulta e quere saber máis acerca da súa alimentación e a relación desta co seu tratamento. Que lle aconsellamos?",
+    opciones: [
+      "Dieta moi rica en vitamina K a base de vexetais de folla verde escuro tódolos días.",
+      "Dieta equilibrada e consistente, evitando grandes variacións ou atracóns de alimentos moi ricos en vitamina K.",
+      "Dieta rica en froita e verdura para potenciar o efecto do anticoagulante sumando o efecto da vitamina K.",
+      "Alimentación estritamente a base de ultraprocesados para eliminar o risco da vitamina K natural."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Personas ancianas)",
+    pregunta: "23. Cál distos test NON se usaría nun paciente de 60 anos do cal queremos avaliar exclusivamente a súa función cognitiva ao presentar olvidos?",
+    opciones: [
+      "Test de Lobo (MEC).",
+      "Test de Mini Mental.",
+      "Test de Barthel.",
+      "Test de Pfeiffer."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "24. Cal distos elementos se debe ter en conta para a correcta instauración da alimentación complementaria infantil?",
+    opciones: [
+      "Non existe unhas normas estándar e ríxidas debido á cultura e a variabilidade da rexión.",
+      "Introducir unha rutina e hábitos de comida sen respectar a autodemanda do neno.",
+      "Introducir todos os tipos de alimentos novos xuntos o mesmo día.",
+      "Aconsellar a sobrealimentación preventiva do neno."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "25. Segundo a Estratexia Galega de cronicidade, os pacientes pluripatolóxicos con enfermidades crónicas de alta complexidade que necesitan coidados moi especializados e continuados encóntranse no nivel da pirámide de Kaiser:",
+    opciones: [
+      "Nivel 1: Autoxestión.",
+      "Nivel 2: Xestión de enfermidade.",
+      "Nivel 0: Poboación sa.",
+      "Nivel 3: Xestión de casos."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso de Enfermería)",
+    pregunta: "26. Unha das principais ventaxas para a enfermeira ao utilizar rutineiramente a metodoloxía e o Proceso de Atención de Enfermaría (PAE) é:",
+    opciones: [
+      "Que serve unicamente como resgardo legal da institución, sen impacto clínico.",
+      "Que dificulta e non favorece a comunicación entre profesionais por exceso de burocracia.",
+      "Que aumenta a variabilidade clínica non baseada na evidencia.",
+      "A satisfacción profesional ao xerar servizos máis eficientes, propios e autónomos."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "27. Lois ten hipertensión diagnosticada a tratamento con dieta e antihipertensivos orais. Actualmente ten a TA controlada, tolera a medicación e non presenta alteracións orgánicas significativas. Como lle aconsellarías a cita de seguimento en Atención Primaria?",
+    opciones: [
+      "Cada 6 meses coa súa enfermeira de referencia.",
+      "Cada 3 meses coa súa enfermeira de referencia.",
+      "Control estrito semanal ou mensual con enfermaría.",
+      "Control unicamente anual con cardioloxía."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "28. A que nos referimos en Saúde Pública cando falamos da 'probabilidade de padecer un problema ou evento cardiovascular nun tempo determinado'?",
+    opciones: [
+      "Risco cardiovascular global.",
+      "Factor de risco cardiovascular.",
+      "Determinante social de risco cardiovascular.",
+      "Ningunha das anteriores."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 17 (Acción comunitaria)",
+    pregunta: "29. Cal das seguintes é considerada unha fase estruturada dentro do ciclo do Plan de Acción Comunitaria?",
+    opciones: [
+      "Fase 0: Conformar o equipo motor e a rede unicamente (coñecerse).",
+      "Fase 2: Explorar e investigar a comunidade (diagnóstico).",
+      "Fase 1: Actuar e avaliar directamente.",
+      "Fase 3: Elaborar en solitario as solucións sociosanitarias sen priorizar."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Personas ancianas)",
+    pregunta: "30. Indique cal das seguintes medidas para previr caídas e accidentes na casa dunha persoa maior é INCORRECTA e perigosa:",
+    opciones: [
+      "Colocar unha alfombra grosa e solta na sala de estar para maior comodidade.",
+      "Instalar unha cadeira antiescorregante para a ducha para persoas que lles custe estar de pé.",
+      "Poñer unha varanda ou pasamáns sólido no aseo e nas escaleiras.",
+      "Asegurar unha boa iluminación nocturna do traxecto ata o baño."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "31. Un adolescente acode á túa consulta. Durante a anamnese detectas un consumo lúdico de alcol alto. Como profesional de enfermaría, que acción NON deberías facer baixo ningún concepto?",
+    opciones: [
+      "Informarlle de que non existe ningún nivel de consumo de alcol que sexa seguro á súa idade.",
+      "Aplicarlle un Test AUDIT para valorar oxetivamente o nivel de risco.",
+      "Recomendarlle que, se bebe, realice un 'consumo responsable de alcol' en lugar de indicarlle o non consumo.",
+      "Promover unha actitude crítica e negativa cara os patróns de consumo en atracón da contorna."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 16 (Salutoxénese)",
+    pregunta: "32. A Salutoxénese é un modelo teórico desenvolvido por Aaron Antonovsky que, a diferenza da patoxénese, céntrase no estudo de:",
+    opciones: [
+      "Os Activos en saúde e os factores que xeran saúde e benestar ao longo da vida.",
+      "A orixe biolóxica e o mecanismo fisiolóxico estrito das enfermidades.",
+      "Os factores de risco ambientais illados.",
+      "A prevención cuaternaria e os danos producidos polos medicamentos."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia - ITS)",
+    pregunta: "33. En canto á prevención de Infeccións de Transmisión Sexual (ITS) dende a consulta de enfermaría, a mensaxe de saúde pública baseada na evidencia é:",
+    opciones: [
+      "O uso exclusivo de métodos anticonceptivos orais prevén do contaxio viral das ITS.",
+      "Sempre hai que empregar un método barreira (preservativo) durante as relacións para asegurarnos que non se contraen ITS.",
+      "A hixiene postcoital inmediata substitúe ao uso do preservativo.",
+      "As vacinas existentes preveñen na súa totalidade contra tódalas ITS coñecidas."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto - Vacunación)",
+    pregunta: "34. Sobre a patoloxía do Tétanos e a súa xestión clínica, sinale a afirmación CORRECTA:",
+    opciones: [
+      "O signo clínico principal inicial é a forte contracción e espasmo dos músculos faciais e da mandíbula, producindo a coñecida 'risa sardónica'.",
+      "O seu axente etiolóxico principal é un virus ARN de transmisión hemática.",
+      "A única prevención válida contra o tétanos é pechar inmediatamente calquera ferida sucia con sutura, sen necesidade de profilaxe antitetánica.",
+      "Todas as afirmacións anteriores son correctas."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia - VPH)",
+    pregunta: "35. Con respecto á vacinación preventiva do Virus do Papiloma Humano (VPH) recollida no calendario vacunal actual, sinale a afirmación certa:",
+    opciones: [
+      "A vacina só e exclusivamente se administra a nenas ao cumprir os 12 anos.",
+      "A vacina adminístrase sistematicamente a nenas e a nenos (varóns) aos 12 anos de idade.",
+      "A pauta da vacina está SEMPRE composta por tres doses, independentemente da idade.",
+      "A vacina do VPH só se administra en idade adulta se existe citoloxía previa positiva."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Principios y Equidad)",
+    pregunta: "36. En relación ao dereito e o acceso á asistencia sanitaria pública por parte de persoas estranxeiras non regularizadas (inmigrantes) en España, sinale a afirmación verdadeira:",
+    opciones: [
+      "Só os nenos inmigrantes menores de idade teñen algún dereito a ser atendidos.",
+      "Só e exclusivamente se é un caso de extrema urxencia vital teñen dereito a recibir calquera tipo de atención.",
+      "Nos casos de urxencias, menores de 18 anos, e en mulleres embarazadas (atención ao embarazo, parto e postparto), o dereito a ser atendidos está totalmente garantido.",
+      "A lexislación estipula que ningún inmigrante non regularizado ten dereito á atención de saúde pública."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos - Pie diabético)",
+    pregunta: "37. Durante a valoración e exploración osteoarticular dun pé diabético en consulta, sinale o parámetro que é INCORRECTO avaliar nesta categoría específica (corresponde a outra área como a circulatoria):",
+    opciones: [
+      "A presenza de Edema maleolar ou distal.",
+      "O grao e limitación de movemento articular.",
+      "A existencia de prominencias óseas marcadas por desgaste.",
+      "As deformacións óseas estruturais do pé (ej. dedas en martelo)."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos - Pie diabético)",
+    pregunta: "38. Na exploración da sensibilidade protectora do pé diabético mediante o uso do microfilamento de Semmes-Weinstein, o protocolo metodolóxico correcto indica que:",
+    opciones: [
+      "Poderase poñer o dispositivo en posición tanxencial, sendo válida a resposta do paciente unicamente antes de que o fío dobre.",
+      "A presión co microfilamento realizarase perpendicularmente principalmente en puntos plantares clave como: a falanxe distal da 1ª deda, e a base do 1º e do 5º metatarsiano.",
+      "A exploración usarase para avaliar a dor aguda punzando o lecho ungueal do paciente.",
+      "O test debe aplicarse especificamente sobre as zonas que presenten durezas, callosidades ou úlceras abertas."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "39. Unha enfermeira acode por primeira vez ao domicilio dun paciente ao que acaba de dárselle a alta, realiza a anamnese recollendo patróns funcionais, revisa in situ o tratamento crónico e realiza algo de educación para a saúde coa familia. En que fase da atención domiciliaria (ATDOM) nos atopamos estruturalmente?",
+    opciones: [
+      "Fase preparatoria previa á visita no centro de saúde.",
+      "Fase de introdución ou toma de contacto na porta da familia.",
+      "Fase de desenvolvemento dos coidados da propia visita.",
+      "Fase de avaliación posterior e rexistro na historia clínica."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria - EpS)",
+    pregunta: "40. Cando as actividades teñen como obxectivo directo que a poboación adquira coñecementos e participe de forma activa para adoptar costumes saudables e atopar solucións aos seus propios problemas de saúde, referímonos especificamente a:",
+    opciones: [
+      "Un procedemento puramente asistencial de Promoción da Saúde teórica.",
+      "Técnicas illadas de Prevención secundaria da enfermidade.",
+      "A Educación para a Saúde (EpS).",
+      "Asistencialismo terapéutico de Rehabilitación comunitaria."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  }, {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria)",
+    pregunta: "1. Cal distos produtos precisa ser homologado por farmacia para poder ser prescrito por medicina ou enfermaría?",
+    opciones: [
+      "Tiras de glicemia",
+      "Sondas",
+      "Bolsas de ostomías",
+      "Medias de alta compresión"
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "2. Cal non é un principio da enfermaría holística?",
+    opciones: [
+      "Equidade",
+      "Comunicación",
+      "Individualismo extremo centrado só na patoloxía",
+      "Todas son correctas"
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria)",
+    pregunta: "3. Unidade básica territorial da Atención Primaria.",
+    opciones: [
+      "Área de saúde",
+      "Distrito sanitario",
+      "Zona de saúde",
+      "Centro de saúde"
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "4. Que recomendación se lle daría a unha persoa con pé diabético?",
+    opciones: [
+      "Calcetíns axustados.",
+      "Recomendar dúas veces por semana utilizar tacóns.",
+      "Poñer crema entre os dedos dos pés.",
+      "Secar ben os espazos interdixitais."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Enlace y Continuidad)",
+    pregunta: "5. Relacionado cun beneficio da continuidade domiciliaria:",
+    opciones: [
+      "Empeora a comunicación.",
+      "Uso ineficiente de recursos.",
+      "Non se relaciona coa atención domiciliaria.",
+      "Permite ao paciente estar máis tempo na casa evitando a hospitalización."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Enlace y Continuidad)",
+    pregunta: "6. Cal non é unha función da enfermeira comunitaria de enlace?",
+    opciones: [
+      "Proporcionar atención individualizada dende un entorno sociosanitario.",
+      "Centrarse únicamente no paciente, sen ter en conta á familia ou contorno.",
+      "Ser referente para os coidados entre a APS e a atención hospitalaria.",
+      "Valorar as capacidades do individuo, familia e comunidade."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    pregunta: "7. Que é un activo en saúde segundo os modelos de promoción da saúde?",
+    opciones: [
+      "Calquera factor ou recurso que mellore a capacidade dun individuo ou comunidade para manter un óptimo estado de saúde e benestar.",
+      "Apenas os hospitais e centros de especialidades rexionais.",
+      "O orzamento anual que se destina ao Ministerio de Sanidade.",
+      "As enfermidades prevalentes nunha comunidade concreta."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "8. En relación coa comunicación non verbal que término se utiliza para a distancia ou espaciación entre as persoas:",
+    opciones: [
+      "Proxémica",
+      "Paralingüística",
+      "Kinestésica",
+      "Simbólica"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "9. Suceso imprevisto que causa a morte ou graves danos físicos ou psicolóxicos, ou ten risco de causalo:",
+    opciones: [
+      "Evento sentinela",
+      "Evento adverso",
+      "Incidente",
+      "Neglixencia clínica"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria - EpS)",
+    pregunta: "10. Taller comunitario onde as enfermeiras fan unha comunicación unidireccional sen deixar que a xente comparta experiencias:",
+    opciones: [
+      "Comunicación bancaria",
+      "Comunicación problematizadora",
+      "Comunicación bidireccional",
+      "Comunicación participativa"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "11. 'Actividades ou intervencións coa finalidade de prestar atención sanitaria á persoa e familia no domicilio, en función das necesidades, asumindo con eles a corresponsabilidade do coidado continuo e integral, en coordinación cos demais membros do equipo e con outros servizos sanitarios e sociais':",
+    opciones: [
+      "Atención domiciliaria",
+      "Hospitalización a domicilio",
+      "Visita domiciliaria",
+      "Avaliación de dependenza"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso de Enfermería)",
+    pregunta: "12. Cal das seguintes non é unha guía de aplicación enfermeira (foco de actuación estandarizado na consulta)?",
+    opciones: [
+      "Febre",
+      "Ostomía",
+      "Queimaduras e feridas",
+      "Material sanitario"
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 6 (Cirugía menor)",
+    pregunta: "13. Cal das seguintes características descartaría a realización dunha cirurxía menor ambulatoria na consulta de AP:",
+    opciones: [
+      "Aspiración de pelo ou tecido subcutáneo.",
+      "Presenza de necrose, escara ou tecido desvitalizado para desbridar.",
+      "Drenaxe dun absceso superficial.",
+      "Lesión con características clínicas susceptibles de malignidade."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Atención a la mujer)",
+    pregunta: "14. Considérase prevención primaria no cáncer de mama:",
+    opciones: [
+      "Mamografías a partir dos 50 anos.",
+      "Autoexploración mensual a partir dos 20 anos.",
+      "Promoción de hábitos de vida saudables.",
+      "Tratamento ante unha biopsia positiva."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "15. No seguimento infantil, a que idade xa non se adoita realizar de xeito rutineiro a medición do perímetro craneal para valorar o crecemento?",
+    opciones: [
+      "Ao nacemento",
+      "Aos 4 anos",
+      "Aos 2 meses",
+      "Aos 12 meses"
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "16. Segundo o calendario oficial, que vacina ou vacinas se corresponden estritamente coa administración aos dous meses de vida?",
+    opciones: [
+      "Hexavalente e neumocócica conxugada",
+      "Tripla vírica",
+      "Varicela e neumocócica",
+      "Varicela e hexavalente"
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "17. Un paciente de 58 anos acode á consulta de enfermería para facer un seguimento de HTA. Tras tomarlle a tensión observamos que ten unha presión de 140/90 mmHg. Ten antecedentes hipertensivos e está con tratamento pero refire que non coñece moi ben os hábitos que leva. Que recomendación inicial de autocoidado lle darías?",
+    opciones: [
+      "Reducir a actividade física e o consumo de líquidos diarios.",
+      "Dieta sen sal e realización de actividade física un mínimo de 30 minutos ao día.",
+      "Manter un repouso absoluto ata a vindeira consulta médica.",
+      "Aumentar o consumo de graxas saudables sen importar a inxesta de sodio."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "18. Sinale a afirmación verdadeira sobre a sífile:",
+    opciones: [
+      "Treponema Pallidum é a bacteria (axente infeccioso) que a causa.",
+      "É unha enfermidade vírica autolimitada.",
+      "Non se transmite a través de relacións sexuais.",
+      "A súa única prevención é a vacinación profiláctica infantil."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Atención a la mujer / Género)",
+    pregunta: "19. ¿Por qué é importante incorporar a perspectiva de xénero ás intervencións comunitarias?",
+    opciones: [
+      "Porque permite coñecer as desigualdades en canto ao acceso, a división do traballo e o uso do tempo libre entre ambos sexos.",
+      "Porque o xénero non ten impacto ningún nos determinantes sociais da saúde.",
+      "Para tratar exclusivamente enfermidades biolóxicas do aparello reprodutor.",
+      "Porque elimina a necesidade de facer educación para a saúde."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "20. Cal é o obxectivo principal de aplicar o test AUDIT na consulta de primaria?",
+    opciones: [
+      "Medir o nivel de estrés psicosocial.",
+      "Medir a cantidade milimétrica exacta de alcol que se consome.",
+      "Calcular a afectación hepática por cirrose.",
+      "Detectar o consumo de alcol de risco ou prexudicial."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 16 (Activos en saúde)",
+    pregunta: "21. A que nos referimos cando falamos de 'activos físicos' en saúde comunitaria?",
+    opciones: [
+      "A accións individuais de cada un para promocionar a propia saúde.",
+      "A artistas musicais locais que poidan influír na cultura e identidade.",
+      "A espazos verdes, instalacións deportivas e edificios públicos.",
+      "A talleres de promoción da saúde e hábitos de vida saudables."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "22. Paciente de 65 anos con tratamento anticoagulante oral (Sintrom) despois dun diagnóstico de fibrilación auricular. Acode á consulta e quere saber máis acerca da súa alimentación e a relación desta co seu tratamento. Que lle aconsellamos?",
+    opciones: [
+      "Dieta moi rica en vitamina K a base de vexetais de folla verde escuro tódolos días.",
+      "Dieta equilibrada e consistente, evitando grandes variacións ou atracóns de alimentos moi ricos en vitamina K.",
+      "Dieta rica en froita e verdura para potenciar o efecto do anticoagulante sumando o efecto da vitamina K.",
+      "Alimentación estritamente a base de ultraprocesados para eliminar o risco da vitamina K natural."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Personas ancianas)",
+    pregunta: "23. Cál distos test NON se usaría nun paciente de 60 anos do cal queremos avaliar exclusivamente a súa función cognitiva ao presentar olvidos?",
+    opciones: [
+      "Test de Lobo (MEC).",
+      "Test de Mini Mental.",
+      "Test de Barthel.",
+      "Test de Pfeiffer."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "24. Cal distos elementos se debe ter en conta para a correcta instauración da alimentación complementaria infantil?",
+    opciones: [
+      "Non existe unhas normas estándar e ríxidas debido á cultura e a variabilidade da rexión.",
+      "Introducir unha rutina e hábitos de comida sen respectar a autodemanda do neno.",
+      "Introducir todos os tipos de alimentos novos xuntos o mesmo día.",
+      "Aconsellar a sobrealimentación preventiva do neno."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "25. Segundo a Estratexia Galega de cronicidade, os pacientes pluripatolóxicos con enfermidades crónicas de alta complexidade que necesitan coidados moi especializados e continuados encóntranse no nivel da pirámide de Kaiser:",
+    opciones: [
+      "Nivel 1: Autoxestión.",
+      "Nivel 2: Xestión de enfermidade.",
+      "Nivel 0: Poboación sa.",
+      "Nivel 3: Xestión de casos."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso de Enfermería)",
+    pregunta: "26. Unha das principais ventaxas para a enfermeira ao utilizar rutineiramente a metodoloxía e o Proceso de Atención de Enfermaría (PAE) é:",
+    opciones: [
+      "Que serve unicamente como resgardo legal da institución, sen impacto clínico.",
+      "Que dificulta e non favorece a comunicación entre profesionais por exceso de burocracia.",
+      "Que aumenta a variabilidade clínica non baseada na evidencia.",
+      "A satisfacción profesional ao xerar servizos máis eficientes, propios e autónomos."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos)",
+    pregunta: "27. Lois ten hipertensión diagnosticada a tratamento con dieta e antihipertensivos orais. Actualmente ten a TA controlada, tolera a medicación e non presenta alteracións orgánicas significativas. Como lle aconsellarías a cita de seguimento en Atención Primaria?",
+    opciones: [
+      "Cada 6 meses coa súa enfermeira de referencia.",
+      "Cada 3 meses coa súa enfermeira de referencia.",
+      "Control estrito semanal ou mensual con enfermaría.",
+      "Control unicamente anual con cardioloxía."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "28. A que nos referimos en Saúde Pública cando falamos da 'probabilidade de padecer un problema ou evento cardiovascular nun tempo determinado'?",
+    opciones: [
+      "Risco cardiovascular global.",
+      "Factor de risco cardiovascular.",
+      "Determinante social de risco cardiovascular.",
+      "Ningunha das anteriores."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 17 (Acción comunitaria)",
+    pregunta: "29. Cal das seguintes é considerada unha fase estruturada dentro do ciclo do Plan de Acción Comunitaria?",
+    opciones: [
+      "Fase 0: Conformar o equipo motor e a rede unicamente (coñecerse).",
+      "Fase 2: Explorar e investigar a comunidade (diagnóstico).",
+      "Fase 1: Actuar e avaliar directamente.",
+      "Fase 3: Elaborar en solitario as solucións sociosanitarias sen priorizar."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Personas ancianas)",
+    pregunta: "30. Indique cal das seguintes medidas para previr caídas e accidentes na casa dunha persoa maior é INCORRECTA e perigosa:",
+    opciones: [
+      "Colocar unha alfombra grosa e solta na sala de estar para maior comodidade.",
+      "Instalar unha cadeira antiescorregante para a ducha para persoas que lles custe estar de pé.",
+      "Poñer unha varanda ou pasamáns sólido no aseo e nas escaleiras.",
+      "Asegurar unha boa iluminación nocturna do traxecto ata o baño."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "31. Un adolescente acode á túa consulta. Durante a anamnese detectas un consumo lúdico de alcol alto. Como profesional de enfermaría, que acción NON deberías facer baixo ningún concepto?",
+    opciones: [
+      "Informarlle de que non existe ningún nivel de consumo de alcol que sexa seguro á súa idade.",
+      "Aplicarlle un Test AUDIT para valorar oxetivamente o nivel de risco.",
+      "Recomendarlle que, se bebe, realice un 'consumo responsable de alcol' en lugar de indicarlle o non consumo.",
+      "Promover unha actitude crítica e negativa cara os patróns de consumo en atracón da contorna."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas - Tema 16 (Salutoxénese)",
+    pregunta: "32. A Salutoxénese é un modelo teórico desenvolvido por Aaron Antonovsky que, a diferenza da patoxénese, céntrase no estudo de:",
+    opciones: [
+      "Os Activos en saúde e os factores que xeran saúde e benestar ao longo da vida.",
+      "A orixe biolóxica e o mecanismo fisiolóxico estrito das enfermidades.",
+      "Os factores de risco ambientais illados.",
+      "A prevención cuaternaria e os danos producidos polos medicamentos."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia - ITS)",
+    pregunta: "33. En canto á prevención de Infeccións de Transmisión Sexual (ITS) dende a consulta de enfermaría, a mensaxe de saúde pública baseada na evidencia é:",
+    opciones: [
+      "O uso exclusivo de métodos anticonceptivos orais prevén do contaxio viral das ITS.",
+      "Sempre hai que empregar un método barreira (preservativo) durante as relacións para asegurarnos que non se contraen ITS.",
+      "A hixiene postcoital inmediata substitúe ao uso do preservativo.",
+      "As vacinas existentes preveñen na súa totalidade contra tódalas ITS coñecidas."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto - Vacunación)",
+    pregunta: "34. Sobre a patoloxía do Tétanos e a súa xestión clínica, sinale a afirmación CORRECTA:",
+    opciones: [
+      "O signo clínico principal inicial é a forte contracción e espasmo dos músculos faciais e da mandíbula, producindo a coñecida 'risa sardónica'.",
+      "O seu axente etiolóxico principal é un virus ARN de transmisión hemática.",
+      "A única prevención válida contra o tétanos é pechar inmediatamente calquera ferida sucia con sutura, sen necesidade de profilaxe antitetánica.",
+      "Todas as afirmacións anteriores son correctas."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia - VPH)",
+    pregunta: "35. Con respecto á vacinación preventiva do Virus do Papiloma Humano (VPH) recollida no calendario vacunal actual, sinale a afirmación certa:",
+    opciones: [
+      "A vacina só e exclusivamente se administra a nenas ao cumprir os 12 anos.",
+      "A vacina adminístrase sistematicamente a nenas e a nenos (varóns) aos 12 anos de idade.",
+      "A pauta da vacina está SEMPRE composta por tres doses, independentemente da idade.",
+      "A vacina do VPH só se administra en idade adulta se existe citoloxía previa positiva."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Principios y Equidad)",
+    pregunta: "36. En relación ao dereito e o acceso á asistencia sanitaria pública por parte de persoas estranxeiras non regularizadas (inmigrantes) en España, sinale a afirmación verdadeira:",
+    opciones: [
+      "Só os nenos inmigrantes menores de idade teñen algún dereito a ser atendidos.",
+      "Só e exclusivamente se é un caso de extrema urxencia vital teñen dereito a recibir calquera tipo de atención.",
+      "Nos casos de urxencias, menores de 18 anos, e en mulleres embarazadas (atención ao embarazo, parto e postparto), o dereito a ser atendidos está totalmente garantido.",
+      "A lexislación estipula que ningún inmigrante non regularizado ten dereito á atención de saúde pública."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos - Pie diabético)",
+    pregunta: "37. Durante a valoración e exploración osteoarticular dun pé diabético en consulta, sinale o parámetro que é INCORRECTO avaliar nesta categoría específica (corresponde a outra área como a circulatoria):",
+    opciones: [
+      "A presenza de Edema maleolar ou distal.",
+      "O grao e limitación de movemento articular.",
+      "A existencia de prominencias óseas marcadas por desgaste.",
+      "As deformacións óseas estruturais do pé (ej. dedas en martelo)."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Procesos crónicos - Pie diabético)",
+    pregunta: "38. Na exploración da sensibilidade protectora do pé diabético mediante o uso do microfilamento de Semmes-Weinstein, o protocolo metodolóxico correcto indica que:",
+    opciones: [
+      "Poderase poñer o dispositivo en posición tanxencial, sendo válida a resposta do paciente unicamente antes de que o fío dobre.",
+      "A presión co microfilamento realizarase perpendicularmente principalmente en puntos plantares clave como: a falanxe distal da 1ª deda, e a base do 1º e do 5º metatarsiano.",
+      "A exploración usarase para avaliar a dor aguda punzando o lecho ungueal do paciente.",
+      "O test debe aplicarse especificamente sobre as zonas que presenten durezas, callosidades ou úlceras abertas."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "39. Unha enfermeira acode por primeira vez ao domicilio dun paciente ao que acaba de dárselle a alta, realiza a anamnese recollendo patróns funcionais, revisa in situ o tratamento crónico e realiza algo de educación para a saúde coa familia. En que fase da atención domiciliaria (ATDOM) nos atopamos estruturalmente?",
+    opciones: [
+      "Fase preparatoria previa á visita no centro de saúde.",
+      "Fase de introdución ou toma de contacto na porta da familia.",
+      "Fase de desenvolvemento dos coidados da propia visita.",
+      "Fase de avaliación posterior e rexistro na historia clínica."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria - EpS)",
+    pregunta: "40. Cando as actividades teñen como obxectivo directo que a poboación adquira coñecementos e participe de forma activa para adoptar costumes saudables e atopar solucións aos seus propios problemas de saúde, referímonos especificamente a:",
+    opciones: [
+      "Un procedemento puramente asistencial de Promoción da Saúde teórica.",
+      "Técnicas illadas de Prevención secundaria da enfermidade.",
+      "A Educación para a Saúde (EpS).",
+      "Asistencialismo terapéutico de Rehabilitación comunitaria."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  // ==========================================
+  // MÓDULO I - TEMA 1: EVOLUCIÓN, PRINCIPIOS, OBJETIVOS Y COMPETENCIAS
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "1. Históricamente, ¿qué obra de Florence Nightingale (1860) orientada a los cuidados en el domicilio puede ser considerada como el primer tratado de enfermería comunitaria?",
+    opciones: [
+      "El visitador del pobre.",
+      "Notes on Nursing: what it is and is not.",
+      "Manual de Cuidados de Salud Pública.",
+      "Tratado de Epidemiología y Cuidado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "2. En 1859, William Rathbone introdujo una figura clave para la atención fuera del hospital en los distritos de Liverpool. ¿A qué figura nos referimos?",
+    opciones: [
+      "Las enfermeras de enlace.",
+      "Las enfermeras instrumentistas.",
+      "Las enfermeras de salud pública (enfermeras de distrito).",
+      "Las matronas de atención primaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "3. Años más tarde de la iniciativa en Inglaterra, la figura de la 'enfermera de salud pública' fue formalmente creada en EE.UU. por:",
+    opciones: [
+      "Virginia Henderson.",
+      "Marjory Gordon.",
+      "Lilian Wald.",
+      "Concepción Arenal."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "4. A partir de los años 70 (concreta en 1974), la OMS y la OPS proponen un cambio de nomenclatura y enfoque, pasando de llamar 'enfermeras de salud pública' a:",
+    opciones: [
+      "Asistentes Técnicos Sanitarios (ATS).",
+      "Enfermeras comunitarias.",
+      "Técnicos en cuidados auxiliares.",
+      "Enfermeras generalistas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "5. ¿Cuál fue el lema u objetivo principal establecido en la histórica Declaración de Alma-Ata en 1978?",
+    opciones: [
+      "Medicación sin daño.",
+      "Salud para todos en el año 2000.",
+      "Atención limpia es atención segura.",
+      "Erradicación de la viruela en el siglo XXI."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "6. Según los principios fundacionales de la Declaración de Alma-Ata, la salud se considera fundamentalmente:",
+    opciones: [
+      "Exclusivamente la ausencia de enfermedades físicas agudas.",
+      "Un servicio privatizado para la población trabajadora.",
+      "Un Derecho humano fundamental de la persona.",
+      "Una responsabilidad exclusiva del ámbito hospitalario."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "7. Para lograr los objetivos propuestos en la Conferencia de Alma-Ata (1978), los países participantes acordaron que era necesario desarrollar prioritariamente a nivel mundial:",
+    opciones: [
+      "Las cirugías robóticas.",
+      "La Atención Primaria de Salud (APS).",
+      "Los hospitales de tercer nivel.",
+      "Los centros geriátricos aislados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "8. En España (siglo XIX), ¿quién sentó las bases de la enfermería moderna publicando obras como 'El visitador del pobre' (1869) y uniendo el cuidado tradicional con la nueva concepción del cuidado?",
+    opciones: [
+      "Florence Nightingale.",
+      "Lilian Wald.",
+      "Concepción Arenal.",
+      "Marjorie Warren."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "9. Durante la Guerra Civil Española (1936-1939) y el período posterior, el desarrollo de la Enfermería de Salud Pública sufrió un gran retroceso, imponiéndose un enfoque biologicista con el desarrollo de la figura del:",
+    opciones: [
+      "Enfermero Comunitario.",
+      "Asistente Técnico Sanitario (ATS).",
+      "Especialista en EFyC.",
+      "Médico de Familia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "10. La integración de los estudios de enfermería en el ámbito universitario español (creación de la Diplomatura), hecho decisivo para incluir materias como Salud Pública en el currículo, se produjo en el año:",
+    opciones: [
+      "1950.",
+      "1977.",
+      "1986.",
+      "2008."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "11. El modelo de atención sanitaria predominante en la 2ª mitad del siglo XX se caracterizaba por:",
+    opciones: [
+      "Ser totalmente preventivo y participativo.",
+      "Tener un enfoque comunitario y centrarse en la salud integral.",
+      "El hospitalocentrismo, la subespecialización y centrarse en la enfermedad.",
+      "Estar financiado en un 80% para la Atención Primaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "12. En relación al modelo hospitalocentrista del s. XX, la 'Financiación de recursos inversos' evidenciaba que:",
+    opciones: [
+      "El 70% de los recursos económicos se destinaban al Hospital (que solo cubría el 20% de atenciones).",
+      "El 90% del presupuesto iba destinado a los centros de salud.",
+      "Los pacientes pagaban directamente a los médicos de distrito.",
+      "Los recursos se invertían equitativamente al 50% entre APS y hospitales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "13. En la década de los 80, derivado de Alma-Ata, comienza el nuevo modelo de APS en España. ¿Qué Ley de 1986 es fundamental en la regulación de la Sanidad?",
+    opciones: [
+      "La Ley General de Sanidad (14/1986).",
+      "La Ley de Cohesión y Calidad (16/2003).",
+      "La Ley de Dependencia (39/2006).",
+      "La Ley de Ordenación de las Profesiones Sanitarias (44/2003)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "14. A diferencia del modelo de la 2ª mitad del s. XX, el MODELO ACTUAL de Atención Primaria se caracteriza por ser:",
+    opciones: [
+      "Pasivo, centralizado y enfocado en la patología aguda.",
+      "Proximidad al ciudadano, participativo, preventivo y centrado en la salud.",
+      "Exclusivamente investigador, sin contacto clínico directo.",
+      "Hospitalocéntrico y subespecializado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "15. ¿Cuál de los siguientes NO es uno de los 5 principios rectores de la Enfermería Familiar y Comunitaria (EFyC)?",
+    opciones: [
+      "Participación comunitaria.",
+      "Equidad.",
+      "Hospitalización aguda exclusiva.",
+      "Promoción de la salud."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "16. En el marco de la formación, una 'competencia' se define como el conjunto de tres saberes. Estos son:",
+    opciones: [
+      "Saber leer, saber escribir, saber comunicar.",
+      "Saber saber (conocimientos), saber ser (actitud) y saber hacer (aptitud).",
+      "Saber médico, saber social, saber psicológico.",
+      "Saber prevenir, saber curar, saber rehabilitar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "17. Dentro de las dimensiones del saber de una competencia, el 'Saber ser' hace referencia directa a:",
+    opciones: [
+      "Los conocimientos teóricos memorizados.",
+      "La aptitud y las habilidades manuales.",
+      "La actitud, los valores y el comportamiento social.",
+      "La pericia técnica en la realización de curas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "18. En el ámbito legal español, las competencias avanzadas que debe poseer una enfermera especialista en EFyC están recogidas en:",
+    opciones: [
+      "La Orden SAS/1729/2010.",
+      "El Tratado de Alma-Ata.",
+      "La Ley General de Sanidad de 1986.",
+      "La Declaración de Astaná."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "19. Entre las agrupaciones de competencias avanzadas de la EFyC se encuentra la 'Salud pública y comunitaria', que incluye actividades como:",
+    opciones: [
+      "Exclusivamente la administración de fármacos por vía endovenosa.",
+      "El diseño de programas de EpS, y la vigilancia epidemiológica y medioambiental.",
+      "La realización de intervenciones quirúrgicas mayores.",
+      "La evaluación del aprendizaje teórico de los médicos residentes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "20. Según el programa de competencias clínicas de la EFyC, la 'Atención a la Salud Sexual, Reproductiva y de Género' capacita explícitamente a la enfermera para:",
+    opciones: [
+      "Delegar cualquier tipo de educación sexual al trabajador social.",
+      "Intervenir en la violencia de género, atender a poblaciones especiales y prevenir problemas oncológicos de mama y genitales.",
+      "Recetar terapia hormonal sustitutiva irreversible.",
+      "Limitar su atención a la menopausia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "21. Una de las 'Competencias docentes' de la EFyC incluye la capacidad y habilidad para:",
+    opciones: [
+      "Diseñar materiales educativos, textos divulgativos y utilizar TICs para facilitar el aprendizaje en la comunidad.",
+      "Impartir clases exclusivamente en facultades universitarias de medicina.",
+      "Prohibir el autoaprendizaje de los pacientes para evitar riesgos.",
+      "Diagnosticar patologías raras mediante ecografía."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "22. La competencia de 'Gestión de cuidados y servicios en el ámbito familiar y comunitario' tiene como objetivo de aprendizaje principal:",
+    opciones: [
+      "Reducir el personal de enfermería en los centros de salud.",
+      "Liderar y aplicar herramientas de gestión por procesos, gestionar equipos de trabajo y resolver conflictos en AP.",
+      "Realizar el triaje hospitalario de urgencias de nivel III.",
+      "Financiar directamente con recursos propios los materiales del centro."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "23. Según la Orden SAS/1729/2010, dentro de las 'Competencias en investigación', la enfermera de EFyC se capacitará para:",
+    opciones: [
+      "No cuestionar nunca las rutinas establecidas históricamente.",
+      "Basar su práctica clínica en la mejor evidencia disponible (práctica basada en la evidencia) y generar conocimiento científico.",
+      "Delegar toda la investigación al personal médico del centro.",
+      "Investigar únicamente sobre curas de heridas agudas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "24. Entre las 'Competencias Prioritarias' de la EFyC destaca el abordaje del principal reto epidemiológico del siglo XXI, que consiste en:",
+    opciones: [
+      "Tratar enfermedades infecciosas agudas importadas.",
+      "Responder eficazmente a las necesidades de la población con enfermedades crónicas prevalentes, dependencia y fragilidad.",
+      "Atender exclusivamente los accidentes de tráfico en jóvenes.",
+      "Promover la hospitalización inmediata de cualquier proceso leve."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "25. La inclusión del título de Grado en Enfermería en el año 2008 supuso un hito académico importante porque permitió a las enfermeras:",
+    opciones: [
+      "Acceder al 3º ciclo universitario (Doctorado e investigación avanzada).",
+      "Ser consideradas únicamente auxiliares médicos.",
+      "Dejar de impartir educación para la salud comunitaria.",
+      "Eximirse de realizar rotaciones clínicas en el hospital."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "26. Desde el punto de vista de las competencias, la práctica clínica de la Enfermería Familiar y Comunitaria se basa firmemente en:",
+    opciones: [
+      "La intuición individual no estandarizada.",
+      "La evidencia científica y el método clínico dentro del marco de equipos interdisciplinares.",
+      "El mandato exclusivo de la gestión hospitalaria.",
+      "Las rutinas heredadas del modelo de ATS de los años 60."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "27. De acuerdo a la OMS en los años 70, la enfermera especialista en EFyC no solo atiende a las personas, sino que debe intervenir en:",
+    opciones: [
+      "La bolsa de valores para financiar programas.",
+      "Órganos de salud pública, identificando elementos que influyen en la salud e implicándose con organizaciones, colegios y la comunidad.",
+      "Exclusivamente en los domicilios a puerta cerrada.",
+      "Las cirugías mayores del hospital comarcal."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Competencias)",
+    pregunta: "28. Un desarrollo acertado de las competencias actuales de la EFyC ayuda a identificar y resolver necesidades sociales actuales muy marcadas como:",
+    opciones: [
+      "El aumento del turismo sanitario.",
+      "La dependencia, la asistencia individualizada, y lograr una mayor autonomía personal y eficiencia del Sistema Sanitario.",
+      "La disminución de los procesos crónicos en la vejez.",
+      "El aislamiento de las zonas rurales sin intervención."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "29. ¿Qué perfil de paciente se contempla desde una 'perspectiva holística' en la Enfermería Familiar y Comunitaria?",
+    opciones: [
+      "Solo el aspecto biológico y las patologías crónicas.",
+      "Las dimensiones físicas, psiquiátricas/psicológicas y sociales de la persona.",
+      "Únicamente su situación económica y laboral.",
+      "Solamente los factores genéticos no modificables."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 1 (Evolución y Principios)",
+    pregunta: "30. Al promover el autocuidado y la prevención en todas las etapas de la vida, el principio subyacente de la EFyC es:",
+    opciones: [
+      "Aumentar la salud de los sanos, curar a los enfermos y paliar los efectos de la enfermedad.",
+      "Derivar sistemáticamente cualquier demanda al médico de familia.",
+      "Aumentar las derivaciones hospitalarias preventivas.",
+      "Realizar intervenciones puramente asistenciales pasivas."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+
+  // ==========================================
+  // MÓDULO I - TEMA 2: ESPECIALIDAD DE ENFERMERÍA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "31. En la década de los 80, impulsado por el modelo salutogénico y la Diplomatura de 1977, el enfoque asistencial en España cambió radicalmente desde la antigua 'asistencia ambulatoria' hacia:",
+    opciones: [
+      "La hospitalización domiciliaria intensiva.",
+      "El modelo de mutuas privadas.",
+      "La Atención Primaria actual.",
+      "El modelo de especialidades puramente quirúrgicas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "32. El desarrollo inicial de las especialidades enfermeras en España sufrió retrasos y complejidad debido a la lentitud en la adaptación de los organismos sanitarios y académicos, y a:",
+    opciones: [
+      "La falta absoluta de escuelas de enfermería.",
+      "El traspaso progresivo de las competencias sanitarias a las Comunidades Autónomas (CCAA).",
+      "La prohibición expresa de la Unión Europea.",
+      "La eliminación de la categoría de ATS."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "33. ¿Qué normativa estatal abrió por primera vez la puerta a la obtención del título de enfermero especialista en el año 1987?",
+    opciones: [
+      "La Ley General de Sanidad 14/1986.",
+      "El Real Decreto 137/1984.",
+      "El Real Decreto 992/1987, de 3 de julio.",
+      "La Orden SAS/1729/2010."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "34. Ya consolidadas en el Siglo XXI, el catálogo oficial de especialidades de enfermería aprobadas en España consta de un total de:",
+    opciones: [
+      "4 especialidades.",
+      "7 especialidades.",
+      "10 especialidades.",
+      "15 especialidades."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "35. De la siguiente lista, ¿cuál NO es una de las 7 especialidades de enfermería oficialmente aprobadas en el catálogo del s. XXI?",
+    opciones: [
+      "Enfermería de Urgencias y Emergencias.",
+      "Enfermería Pediátrica.",
+      "Enfermería del Trabajo.",
+      "Enfermería Geriátrica."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "36. La especialidad oficialmente denominada 'Enfermería obstétrico-ginecológica' se conoce tradicionalmente de forma coloquial como:",
+    opciones: [
+      "Enfermería maternal.",
+      "Matrona.",
+      "Doula clínica.",
+      "Enfermera neonatóloga."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "37. ¿Cuál de las siguientes SÍ forma parte del catálogo oficial de las 7 especialidades de enfermería en España?",
+    opciones: [
+      "Enfermería de Cuidados Intensivos.",
+      "Enfermería de Salud Mental.",
+      "Enfermería de Quirófano y Anestesia.",
+      "Enfermería Escolar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "38. Además de la EFyC, Salud Mental, Pediátrica, Geriátrica, Obstétrico-ginecológica y del Trabajo, ¿cuál es la séptima especialidad aprobada en España?",
+    opciones: [
+      "Enfermería Oncológica.",
+      "Enfermería de Cuidados Médico - Quirúrgicos.",
+      "Enfermería de Rehabilitación.",
+      "Enfermería de Gestión Sanitaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "39. El programa formativo de la residencia para conseguir la especialidad está diseñado para que el proceso de aprendizaje del residente sea fundamentalmente:",
+    opciones: [
+      "Pasivo y observacional.",
+      "Exclusivamente teórico y online.",
+      "Un proceso de aprendizaje activo.",
+      "Limitado a la simulación clínica sin contacto real."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "40. El fin del programa formativo consiste en lograr que las enfermeras residentes (EIR) posean al finalizar:",
+    opciones: [
+      "Capacidad para delegar todas sus funciones en TCAEs.",
+      "Los niveles de competencia necesarios para el ejercicio independiente de la especialidad.",
+      "Un título que les permita ejercer exclusivamente la medicina de familia.",
+      "La obligación de trabajar bajo supervisión constante el resto de su carrera."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "41. Además del ejercicio independiente, el programa formativo exige que las especialistas sean capaces de desarrollar a lo largo de toda su vida profesional:",
+    opciones: [
+      "Una formación continua.",
+      "Labores exclusivas de gestión económica.",
+      "La prescripción de estupefacientes mayores.",
+      "Un trabajo aislado sin contacto con otros profesionales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "42. Para adquirir las competencias clínicas y de campo necesarias, la enfermera residente en formación tiene la obligación de realizar:",
+    opciones: [
+      "Un examen tipo test mensual teórico sin práctica.",
+      "Rotaciones por diferentes centros, servicios y unidades, y unas actividades mínimas.",
+      "Prácticas exclusivas en una sola planta de hospitalización.",
+      "Únicamente labores administrativas de citación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "43. Con el objetivo de asentar el enfoque comunitario de la EFyC, ¿qué porcentaje de la formación de la residente se desarrollará en el ámbito de Atención Primaria (centro de salud, domicilio, dispositivos)?",
+    opciones: [
+      "El 20%.",
+      "El 40%.",
+      "El 60%.",
+      "El 80%."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "44. Este 60% de la formación práctica de la enfermera residente en EFyC se reparte entre las consultas del centro de salud, el domicilio del paciente y:",
+    opciones: [
+      "Las unidades de cuidados intensivos hospitalarios.",
+      "Los quirófanos de cirugía mayor ambulatoria.",
+      "Otros dispositivos, organizaciones e instituciones existentes en la comunidad.",
+      "Exclusivamente las ambulancias de soporte vital avanzado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "45. Para el acceso normativo a la especialidad enfermera en España, se contempló una vía de evaluación de méritos para profesionales en activo conocida como:",
+    opciones: [
+      "Vía de consolidación laboral pura.",
+      "Vía Universitaria Directa.",
+      "Vía Extraordinaria.",
+      "Vía de Homologación europea."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "46. La vía ordinaria de acceso a la especialidad se realiza mediante el sistema formativo de residencia conocido como:",
+    opciones: [
+      "EIR (Enfermero Interno Residente).",
+      "MIR (Médico Interno Residente).",
+      "FIR (Farmacéutico Interno Residente).",
+      "PIR (Psicólogo Interno Residente)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "47. La formación por vía EIR para obtener el título de Enfermera Especialista en Familiar y Comunitaria tiene una duración estipulada de:",
+    opciones: [
+      "1 año.",
+      "2 años.",
+      "4 años.",
+      "5 años."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "48. Para garantizar una formación interdisciplinar y enriquecedora durante esos 2 años, la formación de las especialistas en EFyC (y Medicina de Familia) está centralizada y coordinada desde:",
+    opciones: [
+      "Los decanatos de las facultades de enfermería.",
+      "Las Unidades Docentes Multiprofesionales (UDM).",
+      "Las gerencias de los hospitales comarcales.",
+      "Las mutuas privadas de salud laboral."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "49. El desarrollo de la especialidad EFyC en el S. XXI busca revertir la antigua inercia formativa que priorizaba casi en exclusiva:",
+    opciones: [
+      "Los aspectos preventivos de la comunidad.",
+      "La atención materno-infantil ambulatoria.",
+      "La técnica y el entorno estrictamente hospitalario (hospitalocentrismo).",
+      "El conocimiento de lenguas cooficiales."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "50. A pesar de los primeros Reales Decretos en 1987, la falta de desarrollo rápido de las especialidades se vinculó también a:",
+    opciones: [
+      "La negativa absoluta de la Organización Mundial de la Salud.",
+      "La lentitud de adaptación del sistema y el traspaso de competencias a las CCAA.",
+      "El cierre masivo de centros de salud rurales.",
+      "La privatización total de la sanidad en España en los 90."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "51. La consolidación de la Enfermería Familiar y Comunitaria como especialidad (EIR) pretende formar un profesional que responda a los principios de un modelo:",
+    opciones: [
+      "Basado en la enfermedad aguda y el intervencionismo.",
+      "Salutogénico, centrado en los activos de salud y en el empoderamiento del individuo.",
+      "Puramente administrativo y gestor a nivel de macrogestión.",
+      "Exclusivamente paliativo de final de vida."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "52. ¿Qué característica metodológica es imprescindible para el ejercicio de las competencias avanzadas adquiridas durante la residencia EIR?",
+    opciones: [
+      "La aplicación sistemática del Proceso Enfermero (PAE) y el uso de taxonomías.",
+      "La obediencia de protocolos sin adaptación individual.",
+      "La prescripción libre de cualquier tipo de antibiótico sin guía.",
+      "La evitación de la investigación clínica en el centro de salud."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "53. A través de la especialidad EFyC, se pretende que la enfermera asuma un rol activo frente a los cambios demográficos, especialmente respecto a:",
+    opciones: [
+      "El aumento de la natalidad descontrolada.",
+      "El envejecimiento poblacional y la consecuente cronicidad y pluripatología.",
+      "La disminución brusca de la dependencia en mayores de 65 años.",
+      "El descenso en la incidencia de cáncer a nivel global."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "54. En el catálogo oficial, la atención enfermera altamente especializada a las personas mayores fuera de la comunitaria general se engloba dentro de la:",
+    opciones: [
+      "Enfermería Pediátrica.",
+      "Enfermería Geriátrica.",
+      "Enfermería del Trabajo.",
+      "Enfermería de Cuidados Críticos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "55. A diferencia del ATS de mediados del s. XX, el Especialista en EFyC actual focaliza un porcentaje muy alto de su trabajo en:",
+    opciones: [
+      "La Promoción de la Salud y la Prevención de la Enfermedad.",
+      "La curación exclusiva de heridas infectadas en el hospital.",
+      "La administración masiva de curas paliativas en UCIs.",
+      "La esterilización del instrumental de cirugía menor."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "56. Las rotaciones del programa EIR de Comunitaria tienen el objetivo final de que el residente integre las esferas:",
+    opciones: [
+      "Exclusivamente biológicas de las patologías.",
+      "Físicas, psicológicas y sociales (perspectiva holística biopsicosocial) en la atención al paciente y la comunidad.",
+      "Solo del entorno educativo de los colegios.",
+      "Estrictamente económicas de la financiación del centro de salud."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "57. ¿En qué entorno formativo específico recae ese 'otro 40%' de la residencia EIR de Comunitaria (el porcentaje que no abarca la atención primaria y dispositivos comunitarios)?",
+    opciones: [
+      "Laboratorios de experimentación animal.",
+      "Rotaciones hospitalarias de distintos servicios para asegurar la continuidad de cuidados e interrelación clínica.",
+      "Centros de formación teórica en el ministerio.",
+      "Exclusivamente en residencias de salud mental cerrada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "58. El Real Decreto 992/1987 se considera el antecedente histórico de las especialidades, pero el despliegue efectivo de la EFyC con su programa formativo actual se consolida en:",
+    opciones: [
+      "Los años 60.",
+      "Los años 80.",
+      "La década de los 90.",
+      "El Siglo XXI."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "59. El reconocimiento de la EFyC como especialidad aporta a las enfermeras:",
+    opciones: [
+      "Una total dependencia jerárquica de la gerencia médica hospitalaria.",
+      "Menor responsabilidad en el registro de historias clínicas.",
+      "Reconocimiento social, práctica independiente, autonomía y una base sólida de conocimientos específicos.",
+      "La eliminación de la necesidad de realizar educación para la salud (EpS)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 2 (Especialidad)",
+    pregunta: "60. De forma integradora, el acceso mediante Unidades Docentes Multiprofesionales (UDM) subraya un principio fundamental de la Atención Primaria actual, que es:",
+    opciones: [
+      "El trabajo en aislamiento profesional para evitar injerencias.",
+      "La competitividad entre medicina y enfermería por el liderazgo.",
+      "El trabajo en equipos multidisciplinares e interdisciplinares buscando una atención coordinada y de calidad.",
+      "El sometimiento de la especialidad al criterio de las diputaciones."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  // ==========================================
+  // MÓDULO I - TEMA 3: ENFERMERÍA DE ENLACE, COORDINACIÓN Y APS
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "61. Según la histórica Declaración de Alma-Ata, la Atención Primaria de Salud (APS) se define como una asistencia esencial basada en métodos prácticos y científicamente fundados, que debe ser:",
+    opciones: [
+      "De acceso restringido solo para la población con enfermedades crónicas.",
+      "Puesta al alcance de todos los individuos y familias mediante su plena participación, a un coste que la comunidad y el país puedan soportar.",
+      "Financiada íntegramente por entidades privadas para asegurar la calidad.",
+      "Desarrollada únicamente en hospitales de tercer nivel tecnológico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "62. Al organizar el trabajo en un centro de salud, si los profesionales actúan con gran conexión y la toma de decisiones se realiza en conjunto y por consenso, estamos hablando de un equipo:",
+    opciones: [
+      "Multidisciplinario.",
+      "Jerárquico piramidal.",
+      "Interdisciplinario.",
+      "Unidisciplinario."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "63. En el ámbito de la gestión sanitaria, el concepto que hace referencia puramente a la relación beneficio-coste (por ejemplo, utilizar el método más barato para un fin) es:",
+    opciones: [
+      "Eficacia.",
+      "Efectividad.",
+      "Eficiencia.",
+      "Accesibilidad."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "64. Cuando decimos que la Atención Primaria tiene una característica de 'Longitudinalidad', nos referimos a:",
+    opciones: [
+      "Que los procesos están integrados entre distintos especialistas.",
+      "Que la atención sanitaria se lleva a cabo por el mismo profesional a lo largo del tiempo.",
+      "Que elimina todo tipo de barreras físicas.",
+      "Que se centra exclusivamente en el enfoque biopsicosocial."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "65. La 'Zona Básica de Salud' (ZBS) es la demarcación geográfica y poblacional que delimita el territorio de actuación del equipo de atención primaria. Su población suele oscilar entre:",
+    opciones: [
+      "500 - 1.000 habitantes.",
+      "5.000 - 25.000 habitantes.",
+      "200.000 - 250.000 habitantes.",
+      "Más de 1 millón de habitantes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "66. Por su parte, el 'Área de Salud' es el espacio geográfico superior del cual dependen organizativamente las zonas básicas. ¿A qué volumen de población atiende aproximadamente?",
+    opciones: [
+      "5.000 - 25.000 habitantes.",
+      "50.000 - 100.000 habitantes.",
+      "200.000 a 250.000 habitantes.",
+      "Exactamente a toda una Comunidad Autónoma al completo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "67. Dentro de los profesionales que componen el Equipo de Atención Primaria, ¿quiénes forman el llamado 'Equipo básico'?",
+    opciones: [
+      "Solo el médico de familia y el farmacéutico comunitario.",
+      "Médico de familia, Enfermera (EFyC), trabajador social, personal administrativo, celador o TCAE.",
+      "Fisioterapeuta, matrona y odontólogo.",
+      "Exclusivamente los trabajadores sociales y las enfermeras de enlace."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "68. En el contexto de las características de las prestaciones de salud, la prevención orientada a realizar la detección o diagnóstico precoz de un problema se denomina:",
+    opciones: [
+      "Prevención primaria.",
+      "Prevención secundaria.",
+      "Prevención terciaria.",
+      "Prevención cuaternaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "69. ¿Cómo se denomina el tipo de prevención que tiene como objetivo específico evitar los riesgos y daños derivados de las propias intervenciones sanitarias?",
+    opciones: [
+      "Prevención primaria.",
+      "Prevención secundaria.",
+      "Prevención terciaria.",
+      "Prevención cuaternaria."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "70. La 'Cartera de Servicios' en Atención Primaria es el conjunto de prestaciones que ofrece cada centro de salud. Su instauración tiene como gran ventaja:",
+    opciones: [
+      "Incentivar la atención exclusiva de problemas raros o ultra-raros.",
+      "Reducir la variabilidad clínica y fomentar la equidad en la prestación de servicios.",
+      "Aumentar el gasto económico sin criterios fijos.",
+      "Permitir que cada profesional actúe sin ningún marco de referencia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "71. Una de las figuras clave en la gestión comunitaria actual es la 'Enfermera gestora de casos' (Enfermería Comunitaria de Enlace). ¿Cuál es su objetivo principal?",
+    opciones: [
+      "Curar procesos infecciosos agudos en urgencias.",
+      "Realizar las altas médicas de los hospitales locales.",
+      "Cuidar y coordinar la asistencia a personas pluripatológicas, dependientes o con procesos terminales atendidas por diferentes proveedores.",
+      "Gestionar exclusivamente los presupuestos económicos del centro."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "72. Un paciente es clasificado como 'pluripatológico' y susceptible de entrar en programas de enlace cuando coexisten en él:",
+    opciones: [
+      "Una patología aguda de menos de 1 semana y un traumatismo.",
+      "Dos o más enfermedades crónicas definidas (con un año o más de evolución) que precisan asistencia continuada.",
+      "Cualquier tipo de alergia estacional simultánea a dos pólenes.",
+      "Trastornos del sueño y episodios aislados de fiebre."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "73. Entre los posibles logros de la Enfermería Comunitaria de Enlace se encuentra la 'desburocratización'. Esto significa que:",
+    opciones: [
+      "Aumenta la carga de papeles para el médico de cabecera.",
+      "Elimina las historias clínicas del sistema.",
+      "Consigue una agilización del sistema al coordinar mejor los recursos y las vías clínicas.",
+      "Transfiere todos los trámites administrativos a la familia del paciente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "74. El programa denominado 'Conecta 72' (o Programa 72) está diseñado para mejorar la continuidad asistencial al alta hospitalaria. ¿En qué consiste?",
+    opciones: [
+      "En garantizar una ambulancia en los 72 minutos posteriores al alta.",
+      "En realizar una consulta telefónica por parte de la enfermera de atención primaria en las primeras 72 horas postalta.",
+      "En visitar al paciente cada 72 días de forma ininterrumpida.",
+      "En pautar siempre un ingreso domiciliario de 72 horas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "75. ¿Cuál de los siguientes es un criterio correcto para la identificación y captación de pacientes que requieren 'gestión de casos'?",
+    opciones: [
+      "Personas jóvenes deportistas sin antecedentes.",
+      "Anciano frágil o paciente con cuidador en riesgo de claudicación.",
+      "Paciente que acude una sola vez al año por un resfriado.",
+      "Usuarios que no toman ninguna medicación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "76. La práctica profesional de la Enfermería Comunitaria de Enlace (ECE) fundamenta muchas de sus acciones en los PAI. ¿Qué significan estas siglas?",
+    opciones: [
+      "Plan de Atención Inmediata.",
+      "Procesos Asistenciales Integrados.",
+      "Prevención Autónoma Integral.",
+      "Programas de Acción Intensiva."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "77. Los 'Procesos Asistenciales Integrados' (PAI) aplicados por la Enfermera de Enlace tienen como propósito fundamental:",
+    opciones: [
+      "Crear un nuevo servicio de urgencias rural.",
+      "Aumentar la efectividad de las actuaciones clínicas a través de una mayor coordinación y garantía de continuidad asistencial.",
+      "Disminuir la participación del paciente en su autocuidado.",
+      "Sustituir por completo las consultas médicas de primaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "78. La captación de pacientes para la Enfermería de Enlace se produce fundamentalmente por derivación de Atención Primaria, por demanda propia, o a través de:",
+    opciones: [
+      "Sorteos demográficos aleatorios.",
+      "El enlace con la enfermera gestora de casos hospitalaria al producirse el alta.",
+      "Denuncias de los vecinos.",
+      "Los profesores de institutos exclusivamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "79. Uno de los grandes objetivos de la Enfermería Comunitaria de Enlace al gestionar el material clínico es:",
+    opciones: [
+      "Destruir directamente todo material sobrante.",
+      "Vender material médico a los familiares.",
+      "Gestionar la adquisición de material específico, potenciando circuitos de recogida y reutilización (optimización de recursos).",
+      "Prohibir el uso de camas articuladas en domicilios."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "80. Para el éxito de la gestión de casos domiciliarios en pacientes dependientes, la intervención enfermera de la gestora no solo se enfoca en el paciente, sino que es vital centrarse en:",
+    opciones: [
+      "La vida social de los vecinos del edificio.",
+      "El análisis del árbol genealógico completo hasta el s. XVIII.",
+      "La salud del cuidador principal, previniendo su sobrecarga y claudicación.",
+      "Los directores del hospital de referencia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "81. La característica de 'Integralidad' en el modelo actual de APS se refiere a abordar el proceso de atención desde una perspectiva:",
+    opciones: [
+      "Única y exclusivamente celular.",
+      "Biopsicosocial, cubriendo a la persona de forma global.",
+      "Mística y esotérica.",
+      "Centrada en patologías de un único órgano."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "82. Si un equipo sanitario tiene poca conexión, su estructura es muy jerárquica y cada profesional toma decisiones aisladas dentro de su disciplina, hablamos de un equipo:",
+    opciones: [
+      "Interdisciplinario.",
+      "Transdisciplinario.",
+      "Multidisciplinario.",
+      "Comunitario de acción."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "83. En relación a los parámetros de evaluación de intervenciones sanitarias, ¿qué término define la aplicación práctica que logra los resultados deseados combinando beneficio y coste en un contexto real?",
+    opciones: [
+      "Eficacia.",
+      "Efectividad.",
+      "Seguridad.",
+      "Disponibilidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "84. La educación para la salud (EpS) comunitaria tiene como fin último que la población:",
+    opciones: [
+      "Memorice términos médicos sin aplicarlos.",
+      "Acuda más veces a las urgencias hospitalarias de forma preventiva.",
+      "Adquiera conocimientos y participe activamente en la solución de sus problemas de salud, adoptando hábitos saludables.",
+      "Acepte pasivamente el tratamiento paternalista."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "85. Una de las bases de la práctica profesional de la Enfermera Comunitaria de Enlace es centrar sus intervenciones prioritariamente en:",
+    opciones: [
+      "Atletas de élite para optimizar su rendimiento.",
+      "Grupos de pacientes y familias vulnerables con casos complejos.",
+      "Pacientes jóvenes con gripes estacionales leves.",
+      "La gestión exclusiva de recetas farmacéuticas de mutualistas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "86. Al hablar de las prestaciones de Atención Primaria, evitar la aparición de la enfermedad promoviendo el uso de vacunas es un claro ejemplo de:",
+    opciones: [
+      "Rehabilitación pasiva.",
+      "Prevención primaria.",
+      "Prevención cuaternaria.",
+      "Cribado diagnóstico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "87. Entre las funciones básicas que desarrollan los profesionales del Equipo de Atención Primaria (EAP), además de la asistencia, docencia e investigación, destaca:",
+    opciones: [
+      "La cirugía mayor con ingreso.",
+      "La promoción de la salud y prevención de la enfermedad en su comunidad.",
+      "La realización de trasplantes.",
+      "La aprobación de leyes de salud pública."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "88. La labor de la Enfermera Comunitaria de Enlace busca, entre otras cosas, mantener a los pacientes crónicos en su entorno domiciliario el máximo tiempo posible, favoreciendo su:",
+    opciones: [
+      "Aislamiento absoluto del resto de la familia.",
+      "Hospitalización crónica garantizada.",
+      "Autonomía como base para la recuperación funcional y reinserción en la comunidad.",
+      "Dependencia estricta de una TCAE privada 24 horas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "89. Uno de los componentes principales para promover el autocuidado en las prestaciones de salud, según el temario, recae en la actuación sobre el:",
+    opciones: [
+      "Medio ambiente (dirigido a cuestiones preventivas generales).",
+      "El genoma humano.",
+      "Mercado de valores médicos.",
+      "Tratamiento exclusivo de enfermedades huérfanas."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 3 (Atención Primaria y Enlace)",
+    pregunta: "90. La existencia de la figura de enlace y gestión de casos surge para dar una respuesta efectiva ante el gran aumento demográfico de:",
+    opciones: [
+      "Población pediátrica sana.",
+      "Enfermedades crónicas, procesos degenerativos, incapacitantes y el envejecimiento poblacional.",
+      "Accidentes laborales agudos.",
+      "Embarazos múltiples."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+
+  // ==========================================
+  // MÓDULO I - TEMA 4: METODOLOGÍA ENFERMERA EN ATENCIÓN PRIMARIA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "91. El empleo de la Metodología Enfermera y el Método Científico es fundamental para la disciplina porque:",
+    opciones: [
+      "Permite cobrar honorarios adicionales.",
+      "Profesionaliza el cuidado, le otorga un cuerpo propio de conocimientos y la diferencia del cuidado informal.",
+      "Deshumaniza por completo el trato con el paciente.",
+      "Delega el diagnóstico exclusivamente en el estamento médico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "92. Cronológicamente en el desarrollo del Proceso Enfermero, ¿a qué autora pionera (1955) se le atribuyen las primeras nociones de enfermería basadas en el Proceso de Enfermería?",
+    opciones: [
+      "Virginia Henderson.",
+      "Lydia Hall.",
+      "Florence Nightingale.",
+      "Dorothea Orem."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "93. Posteriormente al trabajo de Hall, Yura y Walls (1967) estructuraron el Proceso de Enfermería. ¿En cuántas etapas lo definieron inicialmente ellas?",
+    opciones: [
+      "2 etapas.",
+      "3 etapas.",
+      "4 etapas.",
+      "5 fases."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "94. En el año 1973, la ANA (American Nurses Association) estableció la estructura clásica del Proceso Enfermero (PE) tal y como se enseña actualmente. ¿De cuántas fases consta?",
+    opciones: [
+      "3 fases.",
+      "4 fases.",
+      "5 fases.",
+      "6 etapas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "95. ¿Cuáles son, en orden correcto, las 5 fases del Proceso Enfermero definidas por la ANA en 1973?",
+    opciones: [
+      "Diagnóstico, Prescripción, Tratamiento, Ejecución y Alta.",
+      "Valoración, Diagnóstico, Planificación, Ejecución y Evaluación.",
+      "Valoración, Pronóstico, Resolución, Seguimiento y Revisión.",
+      "Planificación, Ejecución, Control, Evaluación y Modificación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "96. Según la definición histórica de Bes (1995), el Proceso Enfermero es un 'método para elevar a la categoría de ciencia lo que hasta ahora pertenecía al mundo de...':",
+    opciones: [
+      "Lo sobrenatural.",
+      "Lo doméstico.",
+      "La medicina estricta.",
+      "La improvisación absoluta."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "97. Alfaro (2000) aportó una de las definiciones más importantes del Proceso Enfermero. Lo describió como la aplicación del método científico a los cuidados y como un método fundamentalmente:",
+    opciones: [
+      "Sistemático, humanista y racional de organizar y prestar cuidados.",
+      "Caótico, espontáneo y compasivo.",
+      "Exclusivamente algorítmico y matemático.",
+      "Inflexible y dogmático sin valoración de resultados."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "98. El uso sistemático del Proceso Enfermero aporta importantes ventajas dirigidas al paciente. Entre ellas destaca:",
+    opciones: [
+      "La anulación de su autonomía.",
+      "La promoción de su autocuidado y la individualización de los cuidados.",
+      "El aumento de los tiempos de espera.",
+      "La generalización estandarizada sin atender a sus problemas específicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "99. Desde la perspectiva del paciente, aplicar la metodología enfermera con evidencia tiene el impacto directo de:",
+    opciones: [
+      "Despersonalizar la atención.",
+      "Aumentar la calidad de los cuidados, mejorando la seguridad y satisfacción del usuario.",
+      "Provocar mayor riesgo de efectos adversos.",
+      "Encargarle a él mismo sus registros clínicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "100. Para las propias enfermeras y la profesión, el uso continuo del Proceso Enfermero presenta como ventaja:",
+    opciones: [
+      "Hacer invisibles los cuidados que prestan para no sobrecargar el sistema.",
+      "Convertir la enfermería en una mera técnica subordinada.",
+      "Visibilizar el trabajo de la enfermería y promover el rol autónomo facilitando la toma de decisiones.",
+      "Aumentar la improvisación y la subjetividad en las urgencias."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "101. ¿Qué beneficio crucial obtiene la enfermera al disponer de registros clínicos estructurados bajo el Proceso Enfermero (NANDA, NOC, NIC)?",
+    opciones: [
+      "Le permite evaluar la calidad del proceso, facilita la comunicación con el equipo y garantiza la continuidad de cuidados.",
+      "Le da derecho a reducir sus horas de trabajo semanales.",
+      "Le permite diagnosticar enfermedades raras de origen genético.",
+      "Le exime de realizar educación para la salud comunitaria."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "102. Desde un punto de vista administrativo e institucional, para los 'gestores y organizaciones sanitarias' la metodología enfermera presenta la ventaja de:",
+    opciones: [
+      "Dificultar la compra de suministros.",
+      "Generar servicios más eficientes al sistematizar el cuidado, evitando la variabilidad no justificada.",
+      "Limitar el acceso de los pacientes a las camas.",
+      "Permitir aumentar las derivaciones al hospital."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "103. Otra de las ventajas organizativas a nivel de sistema que provee el uso del Proceso Enfermero es que la estandarización y documentación:",
+    opciones: [
+      "Sirve para proteger a la enfermera y a la institución desde una perspectiva legal.",
+      "Aumenta la tasa de errores de medicación.",
+      "Genera inseguridad en las auditorías.",
+      "Despenaliza automáticamente cualquier tipo de mala praxis."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "104. El cuidado enfermero basado en el método científico se apoya en dos grandes vertientes complementarias: la Ciencia (observación, estudio, investigación) y:",
+    opciones: [
+      "El Arte (habilidades, destrezas prácticas y experiencias).",
+      "La Religión (creencias populares).",
+      "El Empirismo ciego.",
+      "El Subjetivismo extremo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "105. El Proceso de Enfermería, según los apuntes, no es solo un método, sino que se concibe como un 'Modelo profesional'. ¿Qué significa esto?",
+    opciones: [
+      "Que es una teoría económica de facturación.",
+      "Que sirve como estándar de vestimenta clínica.",
+      "Que indica cómo se organizan y prestan los cuidados de enfermería a la persona, familia y comunidad.",
+      "Que es un algoritmo informático ajeno a la persona."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "106. Una ventaja vital para el avance de la profesión derivada del registro riguroso de los cuidados mediante el Proceso Enfermero es que aporta información veraz para:",
+    opciones: [
+      "Sancionar económicamente a los pacientes que no cumplen.",
+      "Desarrollar líneas de investigación específicas basadas en la práctica real.",
+      "Poder aplicar diagnósticos médicos complejos en solitario.",
+      "Reemplazar a los médicos de atención primaria por completo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "107. Entre los beneficios que obtiene el PACIENTE (usuario) al ser tratado bajo la estructura del PE se encuentra:",
+    opciones: [
+      "El aumento exponencial de ingresos hospitalarios de largo recorrido.",
+      "La generalización de cuidados idénticos sin importar su entorno.",
+      "La mejora en la continuidad de la atención entre diferentes profesionales y servicios.",
+      "La reducción de las consultas educativas por falta de tiempo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "108. Fomentar la promoción de la Enfermería en política sanitaria e intervenir en los órganos de toma de decisiones es una ventaja del uso de la metodología para:",
+    opciones: [
+      "Los familiares del paciente.",
+      "Los estudiantes de primer curso.",
+      "Los gestores, las organizaciones y el colectivo profesional a nivel institucional.",
+      "Las empresas farmacéuticas exclusivamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "109. 'Facilitar la interacción enfermera/paciente' es catalogado en el temario dentro de las ventajas del Proceso Enfermero orientadas a:",
+    opciones: [
+      "Las instituciones sanitarias.",
+      "Los propios pacientes y la relación terapéutica.",
+      "Los tribunales médicos.",
+      "El equipo directivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "110. En el aspecto de la evaluación, el uso del Proceso Enfermero permite que los resultados clínicos sean:",
+    opciones: [
+      "Invisibles, ya que no se registran nunca.",
+      "Totalmente subjetivos y basados en opiniones.",
+      "Medibles, evaluando la calidad del proceso y los resultados obtenidos frente a los objetivos.",
+      "Estrictamente confidenciales sin poder ser analizados por auditorías clínicas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "111. Al hablar de la metodología enfermera, la sistematización que esta provee ayuda a 'normalizar el cuidado'. ¿A qué se refiere esto organizativamente?",
+    opciones: [
+      "A que todos los pacientes deben recibir un suero independientemente del diagnóstico.",
+      "A evitar la variabilidad clínica injustificada, asegurando unos estándares mínimos de cuidado eficientes en todos los casos.",
+      "A tratar solo las patologías que se consideran normales.",
+      "A que la enfermera pierde su capacidad de pensamiento crítico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "112. Las bases científicas del Proceso de Enfermería se asientan sobre la idea de que es un método sistemático y humanista, tal y como lo recogió R. Alfaro. El término 'sistemático' implica que:",
+    opciones: [
+      "Se sigue un orden lógico, organizado y planificado de fases interrelacionadas (no hay improvisación ciega).",
+      "Se realiza siempre mediante máquinas y robots.",
+      "Se enfoca solo en sistemas orgánicos, ignorando el entorno social.",
+      "Se cobra por sistemas facturables de forma automática."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "113. Según los fundamentos teóricos, la primera etapa o noción histórica (Hall, 1955) fue vital porque sentó la idea de que la atención enfermera:",
+    opciones: [
+      "Debía subordinarse de manera absoluta y ciega a la figura médica.",
+      "Consistía en un proceso mental activo e intencional más allá de la mera ejecución técnica pasiva.",
+      "Se restringía al lavado e higiene.",
+      "Carecía de cualquier base científica y debía mantenerse así."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "114. La 'Valoración', como primera fase ineludible del PE establecida por la ANA (1973), es el cimiento de todo el proceso porque:",
+    opciones: [
+      "Sirve para recetar antibióticos directamente.",
+      "Proporciona la recolección sistemática de datos que permitirá emitir los diagnósticos de enfermería precisos.",
+      "Finaliza el cuidado y permite dar el alta.",
+      "Solo requiere preguntar el nombre y edad del paciente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "115. El Proceso de Enfermería, desde su componente de 'Ciencia', permite:",
+    opciones: [
+      "Generar competencias derivadas de la observación, el estudio riguroso y la investigación clínica continua.",
+      "Tratar a las personas basándose exclusivamente en el instinto maternal.",
+      "Desvincularse de cualquier tipo de responsabilidad clínica.",
+      "Mantener inamovibles los protocolos de 1950."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "116. El PE permite a la enfermera individualizar los cuidados. Esto significa que la metodología:",
+    opciones: [
+      "Se aplica en consultas de un solo paciente, sin permitir la intervención grupal o familiar.",
+      "Adapta un marco científico y estándar a las necesidades de salud, entorno y creencias únicas de cada individuo.",
+      "Hace que cada enfermera invente una técnica nueva de cura a diario.",
+      "Fuerza al paciente a cuidarse solo sin ninguna supervisión."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "117. Cuando el temario aborda el 'Cuerpo de la ciencia' propio de la enfermería (el PAE), resalta su importancia en la vertiente 'Docente' para:",
+    opciones: [
+      "Dar el alta administrativa en el centro de salud.",
+      "Educar a la población de forma estándar y facilitar la enseñanza estructurada de la disciplina a futuros profesionales.",
+      "Crear folletos publicitarios.",
+      "Rechazar la formación universitaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "118. La estructura de la metodología en la Atención Primaria no puede obviar el papel de taxonomías estandarizadas para poder evaluar y unificar. Las taxonomías fundamentales son:",
+    opciones: [
+      "DSM-V y CIE-10.",
+      "TNM (Tumor, Nódulo, Metástasis).",
+      "NANDA (Diagnósticos), NOC (Resultados) y NIC (Intervenciones).",
+      "Los baremos de la Ley de Dependencia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "119. La 'Planificación' dentro del modelo de las 5 fases de la ANA, consiste esencialmente en:",
+    opciones: [
+      "Tomar la temperatura y medir la presión arterial inicial.",
+      "Fijar metas y objetivos terapéuticos junto al paciente, y elegir las intervenciones enfermeras idóneas (NIC).",
+      "Evaluar si la herida ha cerrado al final del mes.",
+      "Determinar qué sala del hospital usar para cirugía."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo I - Tema 4 (Metodología Enfermera)",
+    pregunta: "120. Entre todas las contribuciones definitorias del Proceso Enfermero, su principal propósito final integrado es:",
+    opciones: [
+      "Servir puramente como herramienta de control horario del trabajador.",
+      "Garantizar la protección económica del estado en farmacia.",
+      "Proporcionar y estructurar unos cuidados racionales, seguros y de alta calidad para la mejora o mantenimiento de la salud de las personas.",
+      "Poder emitir recetas médicas completas de forma independiente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  // ==========================================
+  // MÓDULO II - TEMA 1: PROCESO DE ENFERMERÍA EN ATENCIÓN PRIMARIA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "121. La aplicación del Proceso de Enfermería en Atención Primaria difiere del ámbito hospitalario. Una de sus particularidades organizativas principales es:",
+    opciones: [
+      "La asistencia de urgencia ininterrumpida las 24 horas del día.",
+      "La organización de la atención por visitas intermitentes y programadas.",
+      "El seguimiento exclusivo de patologías quirúrgicas agudas.",
+      "La ausencia total de la familia en la toma de decisiones clínicas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "122. En Atención Primaria, la atención se caracteriza por mantenerse y hacer un seguimiento a lo largo del tiempo por el mismo profesional. A este rasgo fundamental se le denomina:",
+    opciones: [
+      "Transversalidad.",
+      "Hospitalocentrismo.",
+      "Longitudinalidad.",
+      "Accesibilidad geográfica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "123. Debido a la fuerte orientación de la Atención Primaria hacia la promoción de la salud y el autocuidado, el modelo teórico de enfermería más utilizado históricamente para sustentar la práctica es:",
+    opciones: [
+      "El modelo de adaptación de Callista Roy.",
+      "El modelo de sistemas de Betty Neuman.",
+      "El modelo de déficit de autocuidado de Dorothea Orem.",
+      "La teoría del entorno de Florence Nightingale pura."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "124. A la hora de estructurar la fase de valoración inicial del paciente en Atención Primaria, la herramienta estandarizada más frecuentemente empleada a nivel nacional son:",
+    opciones: [
+      "Las 14 Necesidades Básicas de Virginia Henderson o los 11 Patrones Funcionales de Marjory Gordon.",
+      "Exclusivamente las taxonomías de intervenciones NIC.",
+      "La escala de Norton modificada para todas las edades.",
+      "El test de Apgar familiar como único parámetro."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "125. Otra particularidad que condiciona el proceso enfermero en AP frente a la atención especializada es el enfoque de la asistencia, que posee un carácter multidimensional al dar especial importancia a:",
+    opciones: [
+      "La investigación genómica individual.",
+      "La familia y la influencia de la comunidad a través de sus órganos de representación.",
+      "El coste estricto de las pruebas de radiodiagnóstico.",
+      "El aislamiento del paciente para evitar contagios ambientales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "126. A pesar de las innumerables ventajas que tiene el Proceso de Atención de Enfermería (PAE), su implementación real en las consultas choca con dificultades diarias como:",
+    opciones: [
+      "El exceso de apoyo institucional que satura a los profesionales.",
+      "La falta de tiempo para el registro y las dificultades en el manejo de la taxonomía NANDA.",
+      "La prohibición legal de utilizar diagnósticos de enfermería en atención primaria.",
+      "La excesiva simplificación de los actuales gestores informáticos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "127. Según los apuntes, un factor que va en detrimento de la aplicación del Proceso de Enfermería y la valoración integral en los centros de salud es:",
+    opciones: [
+      "La realización prioritaria de tareas puramente técnicas y/o burocráticas.",
+      "La excesiva dotación de personal de enfermería.",
+      "La total ausencia de pacientes crónicos en los cupos.",
+      "El abuso de la educación para la salud comunitaria."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "128. Según los estudios que evalúan la disparidad de la implantación de la metodología enfermera en España, se han detectado variabilidades extremas entre comunidades, por ejemplo:",
+    opciones: [
+      "Todas las CCAA aplican el PAE en el 100% de los pacientes.",
+      "Cifras del 1,8% de uso en el SCS frente a un 47% en el SERMAS.",
+      "Ninguna comunidad española supera el 5% de aplicación metodológica.",
+      "El PAE solo se utiliza de manera obligatoria en hospitales privados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "129. Existen diversas sociedades científicas enfermeras (como SEEUE, SEEO, FAECAP) que han emitido declaraciones institucionales conjuntas. ¿Cuál es su postura oficial sobre el Proceso Enfermero?",
+    opciones: [
+      "Que debe ser sustituido por la clasificación internacional de enfermedades (CIE-10).",
+      "Recomiendan tajantemente el uso del proceso enfermero como método de trabajo estándar.",
+      "Sugieren que solo se emplee en las unidades de cuidados intensivos, no en primaria.",
+      "Consideran que su aplicación debe ser opcional y no registrada en la historia clínica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "130. Para favorecer la aplicación real del Proceso Enfermero en los centros de salud, se recomiendan estrategias de 'marketing' profesional que consisten fundamentalmente en:",
+    opciones: [
+      "Vender productos farmacéuticos en la sala de espera.",
+      "Visibilizar la labor autónoma de la enfermera de APS mediante carteles, trípticos y jornadas específicas.",
+      "Cobrar honorarios directos por la formulación de cada diagnóstico de enfermería.",
+      "Anunciarse en redes sociales ignorando la protección de datos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "131. Otra estrategia fundamental para implicar al equipo y motivarlo en la implementación de los diagnósticos NANDA es:",
+    opciones: [
+      "La amenaza constante de sanciones disciplinarias si no se registra.",
+      "La creación de grupos de trabajo, contando con una enfermera formada que ayude al resto, además de incentivos económicos o permisos.",
+      "Delegar todo el proceso de valoración en los estudiantes en prácticas.",
+      "Restringir el uso del ordenador para evitar la burocracia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "132. Según investigaciones académicas recientes (Taghavi y Saatchi, 2019), ¿qué factor genera un incremento exponencial en la aplicación de la metodología en la práctica clínica diaria?",
+    opciones: [
+      "El aumento indiscriminado del número de pacientes por día.",
+      "La formación rigurosa a las enfermeras en metodología desde el pregrado y en el postgrado.",
+      "La eliminación total de los protocolos escritos.",
+      "La derivación de pacientes a consultas médicas de manera sistemática."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "133. Desde el punto de vista de la gestión de entornos de práctica (Brito et al, 2011), ¿qué variable estructural es decisiva y favorece enormemente la realización reflexiva de diagnósticos enfermeros?",
+    opciones: [
+      "Tener menos población asignada al cupo por cada profesional.",
+      "Disponer de guardias nocturnas obligatorias.",
+      "No disponer de historia clínica electrónica.",
+      "Aumentar el número de tareas técnicas delegadas por otros profesionales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "134. La inclusión de la Metodología Enfermera de forma oficial en la 'Cartera de Servicios' de la Atención Primaria supone a nivel organizativo:",
+    opciones: [
+      "Una estrategia de gestión excelente que asegura su obligatoriedad, registro y reconocimiento.",
+      "Una traba administrativa sin repercusión clínica.",
+      "La limitación de la atención comunitaria únicamente a procesos agudos.",
+      "Un gasto innecesario que se debe evitar."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "135. Para la estandarización de los planes de cuidado a nivel informático en el Sistema Nacional de Salud, se requiere el uso de herramientas taxonómicas que permitan un lenguaje común universal, como son:",
+    opciones: [
+      "CIE-10, DSM-5 y SNOMED-CT.",
+      "NANDA (diagnósticos), NOC (resultados) y NIC (intervenciones).",
+      "Orem, Henderson y Gordon.",
+      "TNM, APGAR y Barthel."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "136. Según el consenso profesional recogido en los apuntes, la mejora en la aplicación del Proceso Enfermero en el siglo XXI debe ir inexorablemente ligada a:",
+    opciones: [
+      "El registro manual en papel para evitar fallos del servidor.",
+      "El desarrollo de gestores informatizados de cuidados que permitan implementar TODAS las fases del proceso y ofrecer feedback de análisis.",
+      "La supresión de las escalas de valoración por ser subjetivas.",
+      "El abandono de la taxonomía NANDA por su complejidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "137. ¿Qué característica fundamental DEBE tener la 'Historia Clínica' utilizada por el equipo de Atención Primaria para garantizar la visión integral del paciente?",
+    opciones: [
+      "Debe ser exclusivamente propiedad del médico de familia.",
+      "Debe estar oculta al trabajador social por confidencialidad extrema.",
+      "Debe ser un documento de carácter multiprofesional (compartido por todas las disciplinas del centro).",
+      "Debe destruirse anualmente para liberar espacio."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "138. Identifica la relación correcta entre el componente del Proceso Enfermero estandarizado y su acrónimo en la taxonomía internacional utilizada unánimemente en España:",
+    opciones: [
+      "NIC = Evaluación de Resultados obtenidos.",
+      "NANDA = Planificación de Intervenciones.",
+      "NOC = Clasificación de Resultados de Enfermería.",
+      "NANDA = Patrones funcionales de salud."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "139. El enfoque primordial y preventivo de la Atención Primaria, donde se promueve la autonomía personal frente a la medicalización constante, justifica perfectamente la elección prioritaria del marco conceptual enfermero basado en:",
+    opciones: [
+      "El curacionismo farmacológico agresivo.",
+      "La promoción de la salud y el fomento activo del autocuidado.",
+      "La institucionalización residencial precoz.",
+      "La hospitalización domiciliaria de alta complejidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "140. Cuando el profesional de EFyC emplea los gestores de cuidados informatizados de forma completa, tiene la posibilidad analítica de extraer datos para:",
+    opciones: [
+      "Elaborar juicios clínicos de medicina.",
+      "Obtener un feedback directo que le permite evaluar la calidad y el impacto en salud de sus propios cuidados enfermeros.",
+      "Sancionar económicamente al paciente incumplidor.",
+      "Reducir sus competencias profesionales al mínimo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "141. En el contexto de un Centro de Salud, ¿por qué es tan importante para la enfermería contar con incentivos (como permisos o comisiones) y líderes en el equipo a la hora de implantar el Proceso Enfermero?",
+    opciones: [
+      "Para que el proceso enfermero se haga solo una vez al año y se olviden.",
+      "Porque supone un cambio cultural y de hábitos de registro que requiere alta motivación, soporte técnico e implicación activa del personal.",
+      "Para conseguir que la gerencia hospitalaria tome el control del centro.",
+      "Para fomentar la competitividad insana entre los enfermeros."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "142. Si una enfermera comunitaria evalúa a un paciente crónico utilizando la estructura de 'Percepción-Manejo de la salud', 'Nutricional-Metabólico', 'Eliminación', etc., está basando su valoración en el modelo de:",
+    opciones: [
+      "Las 14 Necesidades de Henderson.",
+      "El modelo conceptual de Peplau.",
+      "Los 11 Patrones Funcionales de Salud de Marjory Gordon.",
+      "El modelo de adaptación celular."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "143. La escasa utilización real de los diagnósticos enfermeros NANDA en algunas áreas de primaria en el pasado (como refleja el 1,8% del SCS) se ha achacado frecuentemente a:",
+    opciones: [
+      "Que los diagnósticos médicos ya cubren todas las necesidades humanas.",
+      "El elevado coste de las licencias de uso por paciente.",
+      "La baja percepción de su utilidad práctica frente a la gran presión de tiempo asistencial y burocracia.",
+      "La ilegalidad de la taxonomía NANDA en la Unión Europea."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "144. En el modelo de Orem aplicado a la enfermería comunitaria, ¿cuál es el rol central de la enfermera ante un paciente con un 'déficit de autocuidado'?",
+    opciones: [
+      "Asumir permanentemente todas las tareas del paciente, incapacitándolo.",
+      "Suplir, ayudar, apoyar y enseñar al paciente hasta que recupere su capacidad e independencia para cuidarse.",
+      "Ignorar el déficit si no supone un riesgo vital inminente.",
+      "Delegar el caso directamente al trabajador social del centro."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "145. La organización de la atención por visitas programadas en un Centro de Salud permite a la enfermera comunitaria:",
+    opciones: [
+      "Evitar el seguimiento a largo plazo.",
+      "Planificar evaluaciones periódicas y reevaluar gradualmente los indicadores NOC (resultados) del plan de cuidados.",
+      "Atender únicamente urgencias vitales sin cita previa.",
+      "Desvincularse de la familia del usuario."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "146. A nivel formativo, los estudios concluyen que la educación en metodología debe consolidarse no solo en la universidad (pregrado), sino también de manera continua en:",
+    opciones: [
+      "Institutos de educación secundaria básica.",
+      "Foros exclusivos para médicos.",
+      "La formación de postgrado y formación continuada de los propios trabajadores en activo.",
+      "Asambleas políticas no sanitarias."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "147. Cuando hablamos del registro de intervenciones en la historia clínica electrónica mediante la taxonomía NIC, estamos detallando:",
+    opciones: [
+      "Los problemas de salud reales o potenciales detectados (etiqueta diagnóstica).",
+      "Las acciones y tratamientos directos que la enfermera ejecuta para alcanzar los objetivos de salud.",
+      "Los objetivos a largo plazo y escalas Likert de mejora.",
+      "El diagnóstico etiológico celular de la enfermedad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "148. Las jornadas, trípticos y carteles enfocados en el uso del PAE son herramientas de marketing interno que tienen el objetivo psicológico de:",
+    opciones: [
+      "Avergonzar públicamente a quienes no utilizan el ordenador.",
+      "Aumentar los presupuestos materiales del centro de salud.",
+      "Visibilizar la importancia de la labor enfermera, aumentar el sentido de pertenencia y motivar al equipo asistencial.",
+      "Prohibir la atención de pacientes urgentes."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "149. En la cartera de servicios, el abordaje mediante el proceso enfermero NO se limita a la persona enferma de forma individual, sino que las consultas abordan estructuralmente:",
+    opciones: [
+      "Poblaciones sanas (para promoción de salud) y el núcleo familiar (mediante planes de cuidado familiar).",
+      "Exclusivamente al individuo en estado terminal o paliativo.",
+      "Unidades de hospitalización quirúrgica.",
+      "Solamente las revisiones administrativas de bajas laborales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 1 (Proceso Enfermero en AP)",
+    pregunta: "150. Finalmente, la integración informática de las fases del Proceso Enfermero (NANDA, NOC, NIC) en la historia multiprofesional de Atención Primaria aporta un beneficio crucial en términos de:",
+    opciones: [
+      "Privacidad, ocultando los datos al resto del equipo médico.",
+      "Lenguaje estandarizado interprofesional, lo que facilita enormemente la continuidad asistencial entre turnos y niveles.",
+      "Diagnóstico farmacológico independiente.",
+      "Reducción del salario base del personal administrativo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+
+  // ==========================================
+  // MÓDULO II - TEMA 2: CALIDAD Y SEGURIDAD DEL PACIENTE
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "151. ¿Por qué se considera crítica y de vital importancia la vigilancia de la Calidad Asistencial y la Seguridad del Paciente específicamente en el entorno de Atención Primaria?",
+    opciones: [
+      "Porque es un área donde se realizan cirugías a corazón abierto a diario.",
+      "Porque es el nivel más próximo, es la puerta de entrada al sistema de salud y atiende a la persona de forma continua a lo largo de toda su vida.",
+      "Porque las infecciones nosocomiales de UCI nacen en los centros de salud.",
+      "Porque allí se concentra el 100% de la financiación sanitaria europea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "152. Según los datos epidemiológicos presentados en la asignatura, ¿qué preocupante puesto ocupan los 'daños causados a los pacientes' (eventos adversos) en la lista mundial de causas de morbi-mortalidad?",
+    opciones: [
+      "El 1º lugar, superando al cáncer.",
+      "El 5º lugar.",
+      "El 14º lugar.",
+      "No tienen incidencia estadística significativa, ocupan el lugar 100º."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "153. Sorprendentemente, los estudios revelan que entre el 5% y el 50% de los errores médicos cometidos en las consultas de Atención Primaria tienen un origen de carácter puramente:",
+    opciones: [
+      "Infeccioso por fómites.",
+      "Genético y hereditario.",
+      "Quirúrgico por mala praxis manual.",
+      "Administrativo (errores de registro, citación, pérdida de documentos)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "154. Históricamente, ¿quién definió en 1980 el concepto de Calidad como el 'modelo de asistencia esperado para maximizar el nivel de bienestar del paciente, balanceando beneficios y pérdidas'?",
+    opciones: [
+      "Florence Nightingale.",
+      "Avedis Donabedian.",
+      "Marjory Gordon.",
+      "Aaron Antonovsky."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "155. El concepto de calidad propuesto por el UK-NHS (Reino Unido, 1997) se resume de forma muy pragmática como:",
+    opciones: [
+      "Hacer siempre lo más barato, a la mayor cantidad de personas, sin importar el resultado.",
+      "Hacer las cosas adecuadas, a las personas adecuadas, en el momento preciso y hacerlo bien a la primera.",
+      "Tratar enfermedades raras exclusivamente en la etapa terminal.",
+      "Garantizar el ingreso hospitalario de cualquier patología leve por seguridad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "156. En la actualidad hay un consenso claro sobre las dimensiones de la Calidad Asistencial. La dimensión referida a proporcionar servicios de salud basados estrictamente en la evidencia científica a quienes los necesitan se llama:",
+    opciones: [
+      "Eficacia (Calidad científico-técnica).",
+      "Accesibilidad oportuna.",
+      "Sostenibilidad ecológica.",
+      "Adecuación cultural."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "157. A pesar de los grandes avances en seguridad e innovación de los centros de salud, la mayor complejidad de las tecnologías diagnósticas y terapéuticas implica inevitablemente que:",
+    opciones: [
+      "Han desaparecido por completo los errores médicos humanos.",
+      "No se puede garantizar al 100% la ausencia total de Eventos Adversos.",
+      "Los pacientes ya no necesitan dar su consentimiento informado.",
+      "El personal de enfermería no requiere actualización formativa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "158. Según las definiciones formales en Seguridad del Paciente, un 'Evento Adverso' (EA) es:",
+    opciones: [
+      "Cualquier complicación esperada derivada de la evolución natural de la enfermedad del paciente.",
+      "Un daño imprevisto e inesperado provocado directamente por la atención sanitaria y los tratamientos, no por la patología de base.",
+      "Un suceso natural incontrolable como un terremoto en el centro de salud.",
+      "El rechazo voluntario del paciente a tomar su medicación."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "159. Durante la preparación de un antibiótico intravenoso, una enfermera se equivoca de dosis, pero antes de administrarlo se da cuenta de su propio error y lo corrige, evitando que llegue al paciente. Esto se clasifica clínicamente como:",
+    opciones: [
+      "Evento Centinela irreversible.",
+      "Incidente (near miss o cuasi-incidente), pues la acción errónea no llegó a dañar por azar o prevención final.",
+      "Negligencia punible con despido inmediato.",
+      "Evento Adverso Catastrófico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "160. Por el contrario, ¿qué se entiende por 'Evento Centinela' en los sistemas de gestión de riesgos sanitarios?",
+    opciones: [
+      "Una infección urinaria leve sin complicaciones.",
+      "Una caída en casa del paciente sin secuelas.",
+      "Un suceso imprevisto gravísimo que causa la muerte o daños físicos/psicológicos permanentes, y que obliga a una evaluación e investigación inmediata por parte de la organización.",
+      "Un retraso de 10 minutos en la consulta programada."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "161. El Ministerio de Sanidad desarrolló en España un sistema informático estructurado para la notificación voluntaria de incidentes por parte de los profesionales. Su acrónimo es:",
+    opciones: [
+      "SERGAS.",
+      "PAI (Procesos Asistenciales Integrados).",
+      "SiNASP (Sistema de Notificación y Aprendizaje para la Seguridad del Paciente).",
+      "NANDA-I."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "162. ¿Cuál de los siguientes es un principio BÁSICO ineludible y fundamental para que los profesionales confíen y utilicen el sistema SiNASP sin miedo?",
+    opciones: [
+      "Es de carácter obligatorio y punitivo (conlleva sanciones directas de sueldo).",
+      "Es de acceso público para que la prensa pueda investigar a los sanitarios.",
+      "Está basado en la No punibilidad (no castigo), la voluntariedad y la orientación sistémica (buscar el fallo del sistema, no al culpable).",
+      "Solo permite declarar incidentes si el paciente fallece."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "163. El sistema SiNASP también garantiza la protección del declarante al ser de carácter 'Confidencial', lo que implica que el reporte se hace de forma:",
+    opciones: [
+      "Totalmente anónima o nominativa pero con estricta de-identificación posterior.",
+      "Publicando el nombre de la enfermera en el tablón de anuncios del centro.",
+      "Informando obligatoriamente a los familiares del culpable.",
+      "Registrando únicamente el DNI de los pacientes implicados."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "164. Para clasificar automáticamente la gravedad de los incidentes notificados en Atención Primaria a través del SiNASP, se utiliza una herramienta que cruza variables. ¿Cómo se denomina?",
+    opciones: [
+      "Test de Apgar Familiar.",
+      "Matriz SAC (Severity Assessment Code).",
+      "Escala visual analógica del dolor.",
+      "Índice de Barthel."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "165. En la matriz SAC, el nivel de riesgo asociado a un determinado incidente se cuantifica relacionando y cruzando dos ejes matemáticos principales:",
+    opciones: [
+      "El coste económico del error y el salario del profesional.",
+      "La edad biológica del paciente y el género.",
+      "La gravedad clínica de las consecuencias (desde Mínimo a Catastrófico) y la frecuencia o probabilidad de aparición (desde Muy infrecuente a Frecuente).",
+      "El tiempo de evolución de la enfermedad y el índice de masa corporal."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "166. A nivel de macrogestión política, la Organización Mundial de la Salud (OMS) ha impulsado campañas conocidas como 'Retos Mundiales por la Seguridad del Paciente'. El PRIMER reto (año 2005) tuvo como objetivo global:",
+    opciones: [
+      "La cirugía cardiovascular segura.",
+      "La reducción de prescripciones de antibióticos inyectables.",
+      "'Una atención limpia es una atención segura', centrado en la higiene de manos y prevención de infecciones cruzadas.",
+      "La erradicación global de la tuberculosis en el primer mundo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "167. El SEGUNDO Reto Mundial de la OMS por la Seguridad del Paciente, lanzado en el año 2008, popularizó protocolos de checklist y llevó por lema principal:",
+    opciones: [
+      "Salud para todos en el año 2010.",
+      "La cirugía segura salva vidas.",
+      "Vacunas seguras para la infancia.",
+      "Alimentos limpios, intestinos sanos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "168. El TERCER Reto Mundial de la OMS, lanzado en 2017 y prorrogado hasta nuestros días con el objetivo de reducir daños graves evitables en un 50% en cinco años, se titula:",
+    opciones: [
+      "Maternidad sin dolor.",
+      "Radioterapia controlada en el siglo XXI.",
+      "Medicación sin daño (abordando la seguridad en el uso de fármacos y polifarmacia).",
+      "Demos voz a los médicos especialistas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "169. Para concienciar y mantener el enfoque sobre este grave problema de salud pública, la Asamblea Mundial de la Salud acordó conmemorar anualmente el 'Día Mundial por la Seguridad del Paciente' en la fecha:",
+    opciones: [
+      "12 de mayo.",
+      "17 de septiembre.",
+      "25 de diciembre.",
+      "1 de enero."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "170. Como parte de la estrategia global y en consonancia con la campaña de 2023, la máxima prioridad de la OMS para mejorar la seguridad a largo plazo se centra en:",
+    opciones: [
+      "Expulsar a los familiares de los hospitales para evitar interferencias.",
+      "Involucrar activamente y empoderar a los pacientes y familiares (darles voz) en su proceso de atención sanitaria segura.",
+      "Ocultar los fallos médicos para no crear alarma social.",
+      "Retirar los consentimientos informados escritos por generar demasiada ansiedad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "171. A nivel autonómico, el SERGAS (mesogestión) y las direcciones locales implementan 'Prácticas Seguras' en Atención Primaria. Una de las más destacadas para evitar riesgos al alta hospitalaria es:",
+    opciones: [
+      "El programa 'Conecta 72' de continuidad de cuidados.",
+      "La prohibición de dar altas médicas los fines de semana.",
+      "El alta forzosa a los 10 días independientemente del cuadro clínico.",
+      "El aislamiento domiciliario generalizado tras cualquier tipo de cirugía menor."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "172. El protocolo 'Conecta 72' en Atención Primaria establece como intervención proactiva y segura que:",
+    opciones: [
+      "El paciente debe permanecer 72 días sin recibir visitas.",
+      "La enfermera del centro de salud debe realizar una consulta telefónica obligatoria de seguimiento en las primeras 72 horas tras el alta hospitalaria del usuario.",
+      "El médico debe recetar exactamente 72 dosis del nuevo fármaco.",
+      "Una ambulancia visitará el domicilio 72 horas después de la intervención solo si hay complicaciones graves reportadas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "173. En relación con las prácticas seguras orientadas a los pacientes crónicos del medio rural, que padecen gran dispersión geográfica, la Xunta de Galicia promovió como medida estructural:",
+    opciones: [
+      "El cierre de los consultorios rurales lejanos.",
+      "La creación de 35 equipos específicos de enfermería para reforzar el soporte y la atención domiciliaria de esos crónicos.",
+      "Obligar a las familias a trasladar a los mayores a las capitales de provincia.",
+      "Prohibir la administración de anticoagulantes fuera del entorno urbano."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "174. En el manejo seguro de medicamentos (Estrategia Nacional y Retos de la OMS), las enfermeras deben aplicar de forma rigurosa la norma estándar internacional para la administración conocida como:",
+    opciones: [
+      "La regla de los tres pasos rápidos.",
+      "El principio de confianza ciega en la farmacia comunitaria.",
+      "Los '5 Correctos' (The 5 Rights) de la medicación.",
+      "El método empírico de ensayo y error."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "175. ¿Cuáles son exactamente esos '5 correctos' que una enfermera debe verificar ineludiblemente antes de administrar un fármaco crónico a un anciano en su domicilio?",
+    opciones: [
+      "Color correcto, sabor correcto, tamaño correcto, precio correcto y envase correcto.",
+      "Paciente correcto, medicamento correcto, dosis correcta, vía de administración correcta y horario correcto.",
+      "Médico correcto, hospital correcto, receta correcta, celador correcto y supervisor correcto.",
+      "Diagnóstico correcto, pronóstico correcto, etiología correcta, sintomatología correcta y tratamiento correcto."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "176. El concepto 'Seguridad del Paciente' no se define únicamente como la mera ausencia de errores técnicos aislados, sino que constituye un modelo de abordaje sistémico basado en crear un marco de trabajo que:",
+    opciones: [
+      "Genere culturas organizacionales preventivas, procesos seguros sostenibles que mitiguen riesgos y atenúen el impacto de los daños cuando ocurren inevitablemente.",
+      "Fomente el miedo y los despidos fulminantes ante cualquier fallo, por pequeño que sea.",
+      "Traslade el 100% de la responsabilidad legal y penal al propio paciente en todo momento.",
+      "Elimine por completo el uso de tecnología para volver a la medicina naturista del siglo XIX."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "177. Dentro de las líneas que perfilan la Estrategia Gallega de Seguridad y Calidad Asistencial 2024-2028 (Horizonte de los centros de salud), la 'Identificación inequívoca' persigue:",
+    opciones: [
+      "Garantizar que los pacientes sean llamados por su apodo en la sala de espera para ser más cercanos.",
+      "Garantizar, como primera línea estratégica, la identificación de los pacientes antes de cualquier proceso diagnóstico o tratamiento para evitar confusiones catastróficas.",
+      "Identificar únicamente a los pacientes extranjeros sin regularizar.",
+      "Retirar las pulseras identificativas porque estigmatizan a las personas ancianas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "178. ¿Qué características propias y cambiantes en el perfil sociodemográfico de los pacientes actuales incrementan la complejidad de la atención e influyen directamente en los riesgos de seguridad en el Sistema Sanitario?",
+    opciones: [
+      "Son mucho más jóvenes, con excelente salud cardiovascular e nulo consumo farmacológico.",
+      "Presentan una mayor edad media, alta comorbilidad y cronicidad, y tienen mayor acceso a la información y exigencia hacia el sistema.",
+      "Aceptan pasivamente cualquier indicación sin preguntar jamás.",
+      "Tienen una esperanza de vida inferior a la del siglo XX."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "179. En la notificación SiNASP, cuando se menciona que permite un 'análisis local' y una 'orientación sistémica', se asume que la responsabilidad principal de la aparición de un EA no recae en la negligencia individual del último profesional que interviene, sino en:",
+    opciones: [
+      "La mala suerte y el destino ineludible del paciente.",
+      "Los fallos latentes acumulados en el diseño estructural, la falta de barreras de seguridad y la organización del propio sistema de salud.",
+      "El mal comportamiento intencionado y malicioso de la enfermera de turno.",
+      "La baja calidad de los materiales fabricados por las empresas privadas puramente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2 (Calidad y Seguridad)",
+    pregunta: "180. Una de las acciones más recomendadas y efectivas en las consultas de Enfermería Familiar y Comunitaria para reducir errores y evitar que la medicación cause daño ambulatorio a los polimedicados es:",
+    opciones: [
+      "Realizar habitualmente la 'conciliación de la medicación' durante las transiciones asistenciales, revisando todas las prescripciones y evitando duplicidades o interacciones.",
+      "Prohibir que los pacientes mayores tomen más de 3 pastillas al día en cualquier circunstancia clínica.",
+      "Sustituir automáticamente los medicamentos recetados por el especialista por remedios caseros locales.",
+      "Dejar que el propio cuidador informal decida empíricamente qué dosis le administra al anciano según lo vea de ánimos."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  // ==========================================
+  // MÓDULO II - TEMA 3: CONSULTA DE ENFERMERÍA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "181. Históricamente, ¿dónde y en qué año se considera que se inició el modelo de la primera Consulta de Enfermería (CE) llevada a cabo por especialistas para pacientes crónicos?",
+    opciones: [
+      "En el Hospital La Paz (Madrid) en 1986.",
+      "En el Johns Hopkins Hospital (Baltimore) en 1973.",
+      "En el Royal London Hospital en 1950.",
+      "En la Clínica Mayo en 1995."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "182. Tras la Declaración de Alma-Ata (1978), la reforma de la Atención Primaria impulsó que la Consulta de Enfermería pasara de un modelo puramente basado en la enfermedad a un modelo:",
+    opciones: [
+      "Centrado en el diagnóstico médico exclusivo.",
+      "Basado en el cuidado integral, continuo de la persona y la comunidad, y enfocado en la promoción de la salud.",
+      "Orientado a la cirugía mayor ambulatoria.",
+      "Estrictamente hospitalocéntrico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "183. Según Pimentel et al. (2019), para los profesionales de enfermería, la Consulta de Enfermería funciona fundamentalmente como:",
+    opciones: [
+      "Una carga administrativa impuesta por los gerentes.",
+      "La puerta de entrada hacia la autonomía profesional, la práctica independiente y el reconocimiento social.",
+      "Un trámite exclusivo para la expedición de recetas.",
+      "Un entorno donde se delega toda decisión al estamento médico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "184. En las definiciones más actualizadas, la Consulta de Enfermería tiene una doble perspectiva (Lugar y Acción). El usuario en este entorno se considera:",
+    opciones: [
+      "Un receptor pasivo de información paternalista.",
+      "Un sujeto activo y participativo en su proceso de salud-enfermedad enfocado hacia su autocuidado.",
+      "Un mero portador de una patología a erradicar.",
+      "Un cliente sin capacidad de decisión clínica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "185. Existen distintos modelos y tipos de consulta. La 'Consulta Programada' se caracteriza principalmente por:",
+    opciones: [
+      "Atender sin cita previa únicamente problemas de riesgo inminente.",
+      "El consenso entre usuario y enfermera para la citación, su carácter sistémico y continuado aplicando el método científico (PAE).",
+      "Ser la modalidad utilizada exclusivamente para el triaje.",
+      "Atender a pacientes derivados tras ser dados de alta del programa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "186. Por el contrario, la consulta 'A demanda' en Atención Primaria se define porque:",
+    opciones: [
+      "Requiere una planificación de varios meses y consenso con el equipo.",
+      "Se emplea para intervenciones quirúrgicas de larga duración.",
+      "No tiene cita previa, atiende problemas o necesidades puntuales a petición del usuario u otros profesionales, o sirve como captación.",
+      "Exige obligatoriamente un informe del especialista hospitalario."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "187. Cuando un paciente precisa atención de Enfermería muy rápida (entre 30 y 120 min) y a menudo requiere la realización de un triaje previo, nos encontramos ante una consulta de tipo:",
+    opciones: [
+      "Programada.",
+      "A demanda-programada.",
+      "Urgente.",
+      "Comunitaria externa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "188. Según Martínez Rivera y Pino Casado (2020), existe una modalidad de consulta llamada 'A demanda - programada', a la que el paciente accede por derivación desde la consulta programada. ¿En qué situación se utiliza?",
+    opciones: [
+      "Cuando es la primera visita del paciente al centro de salud en toda su vida.",
+      "Cuando el paciente ha alcanzado un alto grado de autonomía y autocuidado, o por el contrario, cuando no se han logrado los objetivos fijados para evitar adherencia asistencial.",
+      "Exclusivamente para pacientes en situación de final de la vida (paliativos).",
+      "Cuando se requiere la presencia simultánea de un trabajador social."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "189. Según las características de la Consulta de Enfermería descritas por Hernández (2017), ¿cuál de las siguientes opciones es cierta?",
+    opciones: [
+      "Solo puede ser prestada por personal médico residente.",
+      "Se atiende a las personas obligatoriamente de forma individual, nunca grupal.",
+      "Se atiende a personas sanas o enfermas y siempre utiliza un sistema de registro (historia clínica informatizada).",
+      "Carece de cualquier relación y atención directa con el usuario."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "190. Uno de los objetivos generales primordiales de la consulta de enfermería es ofertar cuidados de prevención, fomento, recuperación y rehabilitación para asegurar:",
+    opciones: [
+      "El control y seguimiento de los procesos crónicos y los factores de riesgo.",
+      "El diagnóstico y prescripción médica de patologías agudas complejas.",
+      "La contención del gasto farmacéutico del hospital.",
+      "La derivación del 100% de los pacientes al nivel especializado."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "191. Las funciones de Enfermería en la consulta se dividen en cuatro bloques. La función que engloba la atención directa y la Educación para la Salud (EpS) grupal es la función:",
+    opciones: [
+      "Investigadora.",
+      "Clínico-asistencial.",
+      "Gestora/Organizativa.",
+      "Formativa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "192. La planificación del trabajo, la gestión de las agendas y la evaluación de los resultados pertenecen a la función:",
+    opciones: [
+      "Asistencial.",
+      "Docente.",
+      "Investigadora.",
+      "Gestión/Organización."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "193. Además de la consulta en el centro, la enfermera realiza 'Actividades en la Comunidad'. Estas actividades programadas se desarrollan típicamente en lugares como:",
+    opciones: [
+      "Quirófanos de cirugía mayor y unidades de cuidados intensivos.",
+      "Centros escolares, entornos laborales, residencias de ancianos y asociaciones locales.",
+      "Exclusivamente en los pasillos de los hospitales de agudos.",
+      "Laboratorios de anatomía patológica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "194. En cuanto a la Metodología de Trabajo en la consulta de enfermería, el temario describe la priorización de 3 fases. La primera es la 'Valoración', que habitualmente se estructura mediante:",
+    opciones: [
+      "El sistema de triaje Manchester.",
+      "Los 11 patrones funcionales de salud de Marjory Gordon o las 14 necesidades de Henderson.",
+      "El test de Apgar modificado para adultos.",
+      "Exclusivamente la taxonomía NIC de intervenciones."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "195. En la segunda fase (Diagnóstico), si formulamos un 'Diagnóstico Real', nuestras actividades de enfermería irán orientadas primariamente a:",
+    opciones: [
+      "Controlar los signos/síntomas y a reducir o eliminar la causa del problema.",
+      "Prevenir o reducir los factores de riesgo antes de que aparezca el problema.",
+      "Delegar el problema al personal administrativo.",
+      "Promover la investigación cualitativa en el centro."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "196. Por su parte, en un 'Diagnóstico de Riesgo', las actividades de enfermería se enfocan en:",
+    opciones: [
+      "Curar la herida ya establecida y purulenta.",
+      "Prevenir, reducir o eliminar el/los factores de riesgo implicados.",
+      "Manejar el dolor agudo manifestado por el paciente.",
+      "Disminuir la movilidad física de forma permanente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "197. Según la estructura de la taxonomía NANDA utilizada en las consultas, los enunciados diagnósticos se relacionan fundamentalmente con:",
+    opciones: [
+      "Pronósticos vitales y curas quirúrgicas.",
+      "Factores relacionados, Características definitorias (CD) e Intervenciones (NIC).",
+      "Edades biológicas y género exclusivamente.",
+      "Las fases de duelo de Kübler-Ross."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "198. El sistema más elaborado, desarrollado y difundido internacionalmente para reflejar la tercera fase (Organización y Ejecución de Intervenciones) en la consulta es la clasificación:",
+    opciones: [
+      "CIE-10.",
+      "NANDA.",
+      "NIC.",
+      "NOC."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "199. La consulta de Enfermería se asienta fuertemente sobre el modelo de un proceso de interacción profesional y humano, destacando especialmente la relación:",
+    opciones: [
+      "Enfermera - Máquina - Red informática.",
+      "Enfermera - Paciente - Familia - Comunidad.",
+      "Médico - Enfermera - Farmacéutico.",
+      "Hospital - Gerencia - Contabilidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 3 (Consulta de Enfermería)",
+    pregunta: "200. Uno de los mayores retos y objetivos de las intervenciones programadas en la consulta comunitaria es que el paciente logre evitar lo que se denomina:",
+    opciones: [
+      "El alta temprana.",
+      "La adherencia asistencial (excesiva dependencia pasiva del sistema de salud).",
+      "El consumo de dietas equilibradas.",
+      "La longitudinalidad en el cuidado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+
+  // ==========================================
+  // MÓDULO II - TEMA 4: ATENCIÓN DOMICILIARIA EN ENFERMERÍA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "201. Aunque los cuidados en el hogar son tan antiguos como la civilización, en las últimas décadas ha existido una mayor demanda de Atención Domiciliaria (ATDOM) debido a factores demográficos como:",
+    opciones: [
+      "El aumento exponencial de la natalidad joven.",
+      "El incremento de la esperanza de vida, que da lugar a una mayor cantidad de procesos crónicos y pluripatológicos.",
+      "La erradicación total de enfermedades infecciosas.",
+      "La migración masiva de ancianos hacia otros continentes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "202. Desde el punto de vista social, un cambio estructural que ha impulsado la necesidad de profesionales en el cuidado domiciliario es:",
+    opciones: [
+      "La incorporación de la mujer al mercado laboral (tradicionalmente la cuidadora familiar), la aparición de núcleos familiares más reducidos y familias monoparentales.",
+      "El aumento del tamaño de las familias conviviendo en una misma casa.",
+      "La prohibición legal del cuidado informal por parte del estado.",
+      "La reaparición del modelo de familia extensa agraria."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "203. El auge de la atención domiciliaria también está íntimamente ligado a cambios recientes en la organización hospitalaria, destacando entre ellos:",
+    opciones: [
+      "La ampliación de los días de estancia para patologías leves.",
+      "La reducción de las estancias medias, el fomento de la cirugía ambulatoria y la hospitalización a domicilio.",
+      "El cierre definitivo de los hospitales de crónicos.",
+      "La negativa hospitalaria a tratar personas mayores de 65 años."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "204. Uno de los objetivos primordiales de la Atención Domiciliaria es mejorar la Educación para la Salud (EpS) del individuo y su familia para conseguir:",
+    opciones: [
+      "Fomentar actitudes positivas hacia sus necesidades en salud y mejorar su nivel de bienestar.",
+      "Incentivar el abandono escolar de los jóvenes para que cuiden de los mayores.",
+      "Limitar el acceso del paciente al centro de salud físico.",
+      "Aislar sanitariamente el domicilio del resto de la comunidad."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "205. Al clasificar los tipos de atención domiciliaria según su financiación, las visitas realizadas por el Centro de Salud con recursos propios de la administración pública se denominan:",
+    opciones: [
+      "Pública concertada.",
+      "Privada.",
+      "Pública directa.",
+      "Filantrópica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "206. ¿Cómo se denomina el tipo de asistencia domiciliaria que prestan personas a título personal u organizaciones altruistas (voluntariado, asociaciones, religiosos) sin ánimo de lucro y con un fin de apoyo psicosocial o humanitario?",
+    opciones: [
+      "Privada concertada.",
+      "Filantrópica.",
+      "Servicios Sociales del Estado.",
+      "Pública directa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "207. Desde el punto de vista metodológico, la Atención Domiciliaria de enfermería NO es una improvisación, sino un proceso racional estructurado en:",
+    opciones: [
+      "2 etapas clínicas informales.",
+      "3 fases de diagnóstico cerrado.",
+      "4 etapas metodológicas de trabajo (preparatoria, introducción, desarrollo, evaluación/registro).",
+      "5 fases de rehabilitación física pura."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "208. En la 'Fase preparatoria' (previa a la visita física al domicilio), la enfermera debe realizar tareas clave como recabar información de la Historia Clínica y:",
+    opciones: [
+      "Ejecutar los cuidados invasivos.",
+      "Formular los objetivos, programar la visita y preparar el material necesario (maletín).",
+      "Evaluar si los resultados NOC se han cumplido.",
+      "Despedirse de la familia y registrar el alta."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "209. La 'Fase de introducción al núcleo familiar' representa el primer encuentro entre el profesional y la familia en su terreno. Lo primero que se debe hacer por respeto ético y social es:",
+    opciones: [
+      "Entrar directamente sin avisar para valorar la higiene real.",
+      "Llamar suavemente a la puerta, saludar amablemente, presentarse, solicitar permiso para acceder y explicar el objetivo de la visita.",
+      "Revisar la nevera para comprobar la dieta.",
+      "Exigir firmar un contrato de pago por servicios privados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "210. Si durante la fase de introducción al domicilio detectamos desconfianza o rechazo inicial por parte de la familia, la actitud adecuada como profesionales es:",
+    opciones: [
+      "Amenazar con retirarles el servicio sanitario permanentemente.",
+      "Darse la vuelta y cancelar la visita sin mediación.",
+      "Empatizar, generar confianza, adaptar el lenguaje y exponer claramente las ventajas del procedimiento.",
+      "Llamar inmediatamente a la policía local."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "211. La 'Fase de desarrollo' en la visita domiciliaria es el momento central de actuación. Aquí la valoración de las necesidades se apoya ineludiblemente en:",
+    opciones: [
+      "La intuición sin base científica.",
+      "La observación directa, exploración y entrevista utilizando herramientas como los patrones de M. Gordon o las necesidades de Henderson.",
+      "Los dictados telefónicos del médico de guardia.",
+      "El análisis del patrimonio económico familiar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "212. Una valoración domiciliaria exhaustiva en la fase de desarrollo NO se limita solo al paciente, sino que es obligatorio valorar también:",
+    opciones: [
+      "Las condiciones de la vivienda (higiene, barreras arquitectónicas) y el entorno familiar (convivencia, capacidad de ayuda, cuidador principal).",
+      "El historial laboral completo de los vecinos de la comunidad.",
+      "El registro de propiedad inmobiliaria del domicilio.",
+      "La calidad educativa del colegio más cercano."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "213. Al valorar al individuo de forma específica durante la visita domiciliaria, es fundamental medir su grado de dependencia para:",
+    opciones: [
+      "Obligarle a contratar ayuda privada.",
+      "Las Actividades de la Vida Diaria (AVD), tanto básicas como instrumentales.",
+      "Retirarle la pensión de jubilación.",
+      "Poder administrar sedación farmacológica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "214. ¿Por qué es un elemento clave y parte básica de la valoración domiciliaria la figura del 'cuidador principal'?",
+    opciones: [
+      "Porque es el encargado legal de pagar las facturas sanitarias.",
+      "Porque asume el peso de los cuidados y puede que sea necesario canalizar recursos de apoyo para evitar su sobrecarga.",
+      "Porque no tiene ningún impacto en la salud del paciente anciano.",
+      "Porque debe asumir las tareas técnicas de la enfermera."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "215. Una vez identificados los problemas mediante taxonomía NANDA en la fase de desarrollo, el siguiente paso es la planificación de cuidados. Las intervenciones decididas se registrarán bajo la taxonomía:",
+    opciones: [
+      "CIE-10.",
+      "NIC.",
+      "NOC.",
+      "SNOMED."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "216. La última etapa del proceso de visita domiciliaria es la 'Fase de evaluación y registro'. Dado el carácter continuo de la ATDOM, es preciso evaluar el estado del paciente:",
+    opciones: [
+      "Solamente una vez al año de forma obligatoria.",
+      "Exclusivamente cuando el paciente lo solicite por escrito.",
+      "Tras la finalización de cada visita para introducir los cambios oportunos en el plan de cuidados.",
+      "Únicamente al darle el alta definitiva del programa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "217. Al registrar los datos de la visita domiciliaria en la Historia Clínica, la enfermera debe ser detallista y describir aspectos clave como:",
+    opciones: [
+      "Exclusivamente el nombre del tratamiento médico sin más detalles.",
+      "La situación general, los cambios observados, las actitudes del paciente/familia y los productos empleados, para facilitar la continuidad de cuidados al resto del equipo.",
+      "El número de familiares que están desempleados.",
+      "Las opiniones personales políticas de la familia para el trabajador social."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "218. Cuando hablamos de 'Atención Domiciliaria a iniciativa Programada', significa que la visita parte de:",
+    opciones: [
+      "La llamada urgente del usuario al centro de salud.",
+      "Una decisión consensuada y planificada previamente por el propio Equipo de Atención Primaria en base a un programa de salud crónico.",
+      "La solicitud telefónica exclusiva de un vecino.",
+      "El servicio de emergencias 112."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "219. Durante la fase de desarrollo en el domicilio, la ejecución de los cuidados abarca tanto la realización de técnicas de enfermería directa (curas, inyectables) como la ejecución de:",
+    opciones: [
+      "Cirugía mayor.",
+      "Educación para la salud (EpS) enfocada en capacitar al paciente y a la familia.",
+      "Prescripción médica de nuevos fármacos de control estricto.",
+      "Auditorías fiscales del hogar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 4 (Atención Domiciliaria)",
+    pregunta: "220. En relación a los criterios e indicadores para evaluar la eficacia del plan de cuidados en la cuarta etapa (evaluación), la taxonomía que estandariza los resultados a lograr es:",
+    opciones: [
+      "NANDA.",
+      "NIC.",
+      "NOC.",
+      "CIE-9."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },// ==========================================
+  // MÓDULO II - TEMA 5 (2.5): GESTIÓN DE CASOS Y CRONICIDAD
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "241. Según los apuntes, ¿cómo se define exactamente la 'Gestión de Casos' en Atención Primaria?",
+    opciones: [
+      "Un trámite exclusivamente administrativo para archivar historias clínicas.",
+      "Un proceso colaborativo de valoración, planificación, facilitación, coordinación de la atención, evaluación y promoción de opciones y servicios para satisfacer las necesidades de salud integral de la familia.",
+      "La derivación sistemática de todos los pacientes crónicos a centros privados.",
+      "Un proceso de triaje rápido para clasificar emergencias vitales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "242. El objetivo principal de la enfermera gestora de casos (o enfermera de enlace) radica en:",
+    opciones: [
+      "Sustituir la figura del médico de atención primaria prescribiendo todo el tratamiento.",
+      "Valorar las necesidades de cuidados de un paciente y su entorno, así como realizar la coordinación de los diferentes proveedores de cuidados.",
+      "Reducir las consultas domiciliarias para ahorrar costes al centro de salud.",
+      "Encargarse únicamente de las curas quirúrgicas en la consulta."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "243. La aparición y necesidad de la 'Gestión de Casos' responde a un patrón epidemiológico del siglo XXI caracterizado principalmente por:",
+    opciones: [
+      "El aumento exponencial de enfermedades infecciosas curables.",
+      "Una mayor natalidad y una población predominantemente joven e independiente.",
+      "El envejecimiento poblacional y el consecuente aumento de la dependencia y las enfermedades crónicas/degenerativas.",
+      "La desaparición casi total de las patologías crónicas gracias a las vacunas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "244. Según el modelo de estratificación del riesgo (Pirámide de Kaiser Permanente), ¿qué pacientes ocupan el Nivel 3 (la cúspide) y, por tanto, son los principales candidatos para la Gestión de Casos?",
+    opciones: [
+      "Población completamente sana sin factores de riesgo.",
+      "Pacientes con enfermedades crónicas simples que solo requieren autogestión.",
+      "Pacientes con patologías agudas de menos de 15 días de evolución.",
+      "Pacientes pluripatológicos con enfermedades crónicas de alta complejidad que necesitan cuidados muy especializados y continuados."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "245. En la práctica clínica diaria, uno de los criterios clave para la identificación y captación proactiva de pacientes para la gestión de casos es detectar a la figura del 'Anciano frágil'. ¿Qué impacto tiene este grupo poblacional en el sistema?",
+    opciones: [
+      "Representan el 50% de la población pero solo consumen el 5% de los recursos.",
+      "Constituyen apenas el 5% de la población, pero consumen aproximadamente el 65% de los recursos sanitarios.",
+      "No consumen recursos sanitarios porque no acuden al centro de salud.",
+      "Representan el 90% de la población general europea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "246. Además del anciano frágil y las personas grandes dependientes, otro criterio importante de captación para incluir a un paciente en la 'Gestión de Casos' es:",
+    opciones: [
+      "Pacientes con múltiples visitas repetidas al Servicio de Urgencias Hospitalario (SUH).",
+      "Personas menores de 25 años sin antecedentes.",
+      "Pacientes que acuden únicamente a renovar recetas una vez al año.",
+      "Mujeres en su primer trimestre de embarazo normal."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "247. La captación de estos pacientes complejos se puede dar por derivación del propio equipo, por demanda del usuario, o muy habitualmente a través de:",
+    opciones: [
+      "Las denuncias de las asociaciones de vecinos.",
+      "El enlace con la enfermera gestora de casos hospitalaria en el momento del alta médica del paciente.",
+      "Los registros del Instituto Nacional de Estadística exclusivamente.",
+      "Búsquedas aleatorias en redes sociales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "248. Para estructurar este abordaje complejo se utiliza la estratificación por Grupos de Morbilidad Ajustado (GMA). En esta escala del 1 al 7, ¿qué nivel representa a la Población Sana?",
+    opciones: [
+      "Nivel 1.",
+      "Nivel 3.",
+      "Nivel 5.",
+      "Nivel 7."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "249. Siguiendo esa misma estratificación (GMA), los pacientes más complejos clasificados en el Nivel 6 corresponden a:",
+    opciones: [
+      "Personas en proceso de embarazo y/o parto.",
+      "Personas con una patología aguda simple.",
+      "Enfermedades crónicas en 4 o más sistemas del organismo.",
+      "Exclusivamente a pacientes con neoplasias en tratamiento activo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "250. Una de las 'Buenas Prácticas' demostradas en la gestión de la cronicidad es que las intervenciones educativas sobre el paciente:",
+    opciones: [
+      "Son más eficaces si son oportunistas e improvisadas en el pasillo.",
+      "Son más eficaces cuando están debidamente planificadas y orientadas a la autogestión (empowerment) del paciente.",
+      "No tienen ningún tipo de impacto en la utilización de los recursos sanitarios.",
+      "Deben realizarse exclusivamente por parte de los celadores del centro."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "251. Existen evidencias científicas claras de que, si se realiza una atención intensa e individualizada a los pacientes crónicos mediante visitas domiciliarias proactivas, se consigue:",
+    opciones: [
+      "Aumentar los ingresos hospitalarios en un 50%.",
+      "Una disminución (descenso) de los ingresos hospitalarios de entre un 21% y un 48%.",
+      "Duplicar el gasto farmacéutico sin mejorar la supervivencia.",
+      "Desvincular por completo al cuidador principal de su responsabilidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "252. ¿Qué término se utiliza en el abordaje de la cronicidad para describir a un 'paciente preocupado por su salud, responsable, con conocimientos y habilidades, que establece objetivos terapéuticos con el profesional'?",
+    opciones: [
+      "Paciente pasivo.",
+      "Paciente adherente ciego.",
+      "Paciente activo (empoderado).",
+      "Paciente institucionalizado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "253. Para evitar que la familia claudique ante la gran carga que supone un paciente pluripatológico inmovilizado, la enfermera de enlace tiene como función primordial:",
+    opciones: [
+      "Prohibir legalmente que los familiares trabajen.",
+      "Identificar situaciones de déficit de apoyo e intervenir directamente sobre el cuidador principal.",
+      "Obligar a ingresar al anciano en una residencia privada inmediatamente.",
+      "Sustituir a la familia realizando ella misma el aseo básico diario del paciente de forma indefinida."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "254. A nivel sociodemográfico, ¿qué afirmación recogen los apuntes sobre la cronicidad y los estratos sociales?",
+    opciones: [
+      "La cronicidad afecta exclusivamente a las clases altas.",
+      "No existe ninguna relación entre la enfermedad crónica y el nivel de ingresos.",
+      "Existe una relación inversa entre cronicidad y nivel socioeconómico (menor nivel socioeconómico, mayor cronicidad).",
+      "Las clases bajas tienen mayor acceso a la gestión de casos privados."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "255. En la gestión de pacientes crónicos es habitual utilizar PAI. ¿A qué se refieren estas siglas?",
+    opciones: [
+      "Protocolos de Aislamiento Infeccioso.",
+      "Procesos Asistenciales Integrados.",
+      "Planes de Atención Inmediata.",
+      "Puntos de Asistencia Internacional."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "256. Entre los objetivos estratégicos de la 'Estrategia gallega para la atención a personas en situación de cronicidad' (derivada de la Declaración de Sevilla de 2011) se encuentra:",
+    opciones: [
+      "Aumentar la estandarización curativa de problemas agudos ignorando los crónicos.",
+      "Evitar la progresión de la cronicidad hacia estadios más complejos, disminuyendo el daño y la dependencia.",
+      "Fomentar la institucionalización temprana de todos los mayores de 65 años.",
+      "Reducir el rol de la enfermería y traspasar todo el seguimiento al estamento médico especialista."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "257. Además de la calidad asistencial, otro de los tres grandes pilares / objetivos que persigue la Estrategia Gallega de Cronicidad es:",
+    opciones: [
+      "Aumentar el gasto económico hospitalario por paciente.",
+      "Disminuir drásticamente las plantillas de atención primaria.",
+      "Aumentar la satisfacción del paciente y aumentar la implicación de los profesionales.",
+      "Aislar a los pacientes en sus domicilios sin seguimiento."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "258. Uno de los retos actuales es asegurar un 'Circuito diferenciado'. Esto significa que un paciente crónico complejo que sufre una reagudización:",
+    opciones: [
+      "Debería tener una atención prioritaria y coordinada al llegar a la atención hospitalaria para evitar estancias prolongadas o daños añadidos.",
+      "Debe esperar exactamente el mismo tiempo que un paciente leve en urgencias por equidad.",
+      "Se le debe prohibir el acceso a los hospitales públicos.",
+      "Debe ser tratado exclusivamente por teléfono."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "259. Para facilitar una evaluación objetiva del paciente crónico en su domicilio, la enfermera recurre a diversas escalas clínicas de valoración. ¿Por qué es fundamental este aspecto?",
+    opciones: [
+      "Para que el médico no tenga que realizar ninguna valoración clínica jamás.",
+      "Porque permiten medir parámetros de forma estandarizada e identificar objetivamente el nivel de dependencia y necesidades reales del individuo.",
+      "Para aumentar el tiempo de burocracia sin finalidad práctica.",
+      "Para justificar el despido de cuidadores informales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.5 (Gestión de Casos)",
+    pregunta: "260. A nivel conceptual, mientras que 'agudo' se asocia a episodios cortos orientados a la curación, la condición de 'crónico' o la cronicidad implica en esencia:",
+    opciones: [
+      "Una alteración reversible en menos de 2 semanas.",
+      "Un proceso de evolución muy rápida y letal.",
+      "Un factor acumulativo (comorbilidad), alteraciones patológicas irreversibles, larga duración y necesidad de un manejo y adaptación a largo plazo.",
+      "La curación total mediante intervenciones quirúrgicas de primer nivel."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+
+  // ==========================================
+  // MÓDULO II - TEMA 6 (2.6): PROCEDIMIENTOS Y CIRUGÍA MENOR
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "261. En el ámbito de la Atención Primaria, un 'Procedimiento clínico' se define formalmente como:",
+    opciones: [
+      "Una sugerencia informal sobre cómo tratar a un paciente.",
+      "Un documento o instrumento de protocolización que describe detalladamente, en forma de texto, los pasos específicos a seguir para realizar una actividad asistencial.",
+      "Un resumen verbal de las tareas del día.",
+      "Un contrato legal firmado entre paciente y aseguradora."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "262. La estructura mínima y básica con la que debe redactarse un procedimiento clínico estandarizado incluye obligatoriamente:",
+    opciones: [
+      "Solo el nombre del autor y la fecha de publicación.",
+      "El presupuesto económico exacto y la empresa suministradora.",
+      "Objetivos, materiales/recursos necesarios, descripción paso a paso y aclaraciones/precauciones.",
+      "La biografía del inventor de la técnica exclusivamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "263. De la siguiente lista de procedimientos frecuentes realizados por enfermería en el Centro de Salud, ¿cuál se clasificaría como un procedimiento eminentemente 'Diagnóstico'?",
+    opciones: [
+      "Las curas de úlceras por presión (UPP).",
+      "La aplicación de vendajes compresivos.",
+      "La administración de oxigenoterapia.",
+      "La realización de una Espirometría o un Electrocardiograma (EKG)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "264. En cambio, ¿cuál de los siguientes sería catalogado estrictamente como un procedimiento 'Terapéutico' de enfermería?",
+    opciones: [
+      "El test de Mantoux (tuberculina).",
+      "La determinación capilar del INR en pacientes con tratamiento anticoagulante.",
+      "El tratamiento de heridas y úlceras de extremidad inferior (UEI).",
+      "La medición de la agudeza visual con test de Snellen."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "265. Dentro de la Cartera de Servicios, la 'Cirugía Menor Ambulatoria (CMA)' en Atención Primaria se define por englobar intervenciones quirúrgicas que:",
+    opciones: [
+      "Requieren anestesia general e intubación endotraqueal.",
+      "Son simples, breves, se realizan en tejidos superficiales bajo anestesia local y tienen bajo riesgo de complicaciones.",
+      "Exigen un ingreso hospitalario mínimo de 3 días para control postoperatorio.",
+      "Se realizan en órganos internos pero con abordaje laparoscópico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "266. ¿En qué año fue introducida oficialmente la Cirugía Menor Ambulatoria en la cartera del Sistema Nacional de Salud español?",
+    opciones: [
+      "En 1978 (con Alma-Ata).",
+      "En 1986 (Ley General de Sanidad).",
+      "En 1995.",
+      "En 2010 (con la especialidad EFyC)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "267. Respecto a la infraestructura y los recursos físicos necesarios en el centro de salud para realizar una técnica de Cirugía Menor, ¿qué se exige normativamente?",
+    opciones: [
+      "No es necesario un quirófano convencional, basta con un espacio limpio, camilla, luz dirigible, mesa, lavabo y áreas estériles delimitadas.",
+      "Se requiere obligatoriamente una torre de anestesia con respirador y gases medicinales.",
+      "Solo se permite hacer en pasillos o salas de espera debidamente ventiladas.",
+      "Se exige una sala de reanimación post-anestésica (URPA) con 5 camas libres."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "268. En la preparación del campo y el instrumental estéril, la tijera curva, la tijera recta y las pinzas de disección se agrupan dentro de la categoría de instrumental de:",
+    opciones: [
+      "Hemostasia pura.",
+      "Disección, corte y exposición.",
+      "Exclusivamente sutura.",
+      "Anestesia troncular."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "269. En una cirugía de 'Exéresis (extirpación) de lesiones cutáneas benignas', el procedimiento habitual sigue un orden lógico. Tras preparar el campo quirúrgico, el primer paso clínico es:",
+    opciones: [
+      "Realizar la incisión profunda con el bisturí.",
+      "Infiltrar la solución anestésica local en la zona a intervenir.",
+      "Dar los puntos de sutura de aproximación.",
+      "Realizar el vendaje compresivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "270. Al realizar el cierre primario (sutura) de la incisión en cirugía menor, un principio técnico fundamental para garantizar una correcta cicatrización estética y sin complicaciones es:",
+    opciones: [
+      "Evitar dejar espacios muertos bajo la piel y procurar que no exista tensión excesiva en los bordes de la herida.",
+      "Apretar los nudos al máximo posible para estrangular la irrigación sanguínea de los bordes.",
+      "Dejar siempre la herida semicerrada para que drene sangre de forma continua.",
+      "Utilizar grapas metálicas de gran calibre en lesiones faciales."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "271. Otro de los procedimientos recogidos en la consulta de Cirugía Menor es la 'Crioterapia'. ¿En qué consiste esta técnica?",
+    opciones: [
+      "En extirpar una lesión utilizando calor extremo (electrobisturí).",
+      "En la destrucción de lesiones cutáneas superficiales mediante una congelación brusca localizada (generalmente nitrógeno líquido).",
+      "En el raspado manual de las verrugas sin usar temperatura.",
+      "En inyectar corticoides intralesionales para disolver la masa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "272. A diferencia de la escisión con bisturí frío, la 'Crioterapia' presenta como gran DESVENTAJA que:",
+    opciones: [
+      "Es un proceso extremadamente largo y doloroso que requiere anestesia epidural.",
+      "Destruye el tejido y, por tanto, imposibilita el estudio histológico (biopsia) posterior de la lesión.",
+      "Produce un sangrado incontrolable que requiere transfusión.",
+      "Solo puede aplicarse en hospitales de tercer nivel."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "273. Para el tratamiento agudo de acumulaciones de pus encapsuladas en tejido subcutáneo, la enfermera capacitada debe llevar a cabo un procedimiento específico denominado:",
+    opciones: [
+      "Drenaje de Abscesos (incisión, vaciado y posterior irrigación exhaustiva de la cavidad).",
+      "Crioterapia de contacto.",
+      "Sutura directa intradérmica.",
+      "Biopsia excisional con márgenes amplios."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "274. Como medida de prevención secundaria tras cualquier procedimiento de cirugía menor (exéresis, quistes), el protocolo de seguimiento básico en Atención Primaria exige:",
+    opciones: [
+      "No volver a ver al paciente nunca más.",
+      "Realizar una primera revisión de la herida a las 24 horas y pautar curas periódicas hasta la retirada de puntos.",
+      "Ingresar al paciente durante una semana en planta.",
+      "Quitar el apósito a la hora y dejar la herida al aire sin vigilancia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "275. En el control postoperatorio, si observamos que la herida presenta eritema progresivo, calor local, dolor pulsátil creciente y secreción purulenta, estamos ante una complicación por:",
+    opciones: [
+      "Dehiscencia aséptica.",
+      "Hematoma subcutáneo.",
+      "Infección de la herida quirúrgica.",
+      "Cicatriz hipertrófica temprana."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "276. Si debido a una excesiva tensión de los puntos o a un traumatismo, los bordes suturados de la herida ceden y se abren espontáneamente, a esta complicación se le llama:",
+    opciones: [
+      "Queloide masivo.",
+      "Dehiscencia de sutura.",
+      "Granuloma a cuerpo extraño.",
+      "Infección necrotizante."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "277. A largo plazo (meses), algunos pacientes tienen una predisposición a generar una cicatriz exuberante que sobrepasa los márgenes originales de la incisión de forma exagerada. Esta complicación se denomina:",
+    opciones: [
+      "Absceso crónico.",
+      "Hematoma tardío.",
+      "Cicatriz queloide.",
+      "Desgarro dérmico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "278. Antes de programar a un paciente para cirugía menor ambulatoria, debemos descartar contraindicaciones formales. Una contraindicación ABSOLUTA para operar en el centro de salud es:",
+    opciones: [
+      "Tener más de 50 años.",
+      "La presencia de una lesión cutánea con características o sospecha clínica de malignidad (ej. melanoma).",
+      "Una verruga vulgar de largo tiempo de evolución.",
+      "Un uñero (uña encarnada) doloroso."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "279. Durante la valoración preoperatoria para cirugía menor, detectamos que el paciente está a tratamiento con anticoagulantes sintéticos a altas dosis y padece alteraciones de la coagulación no controladas. ¿Qué debemos hacer?",
+    opciones: [
+      "Intervenir inmediatamente usando bisturí más grande para acabar pronto.",
+      "Considerarlo una contraindicación para la técnica en primaria, valorando su derivación o retraso hasta adecuar el tratamiento.",
+      "Hacer la incisión sin anestesia para comprobar si sangra.",
+      "Sustituir la cirugía por crioterapia agresiva generalizada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "280. A nivel ético, organizativo y legal, es obligatorio y esencial asegurar antes de cualquier procedimiento de cirugía menor:",
+    opciones: [
+      "La firma del Consentimiento Informado por parte del paciente tras recibir la explicación completa de riesgos y beneficios.",
+      "El pago de honorarios privados a la enfermera.",
+      "Que el paciente acuda en ayunas de 24 horas estricto.",
+      "La realización previa de un TAC craneal de seguridad."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "281. En la población pediátrica, la aplicación de la cirugía menor en Atención Primaria:",
+    opciones: [
+      "Es obligatoria y representa el 90% de las cirugías del centro.",
+      "Aún es bastante limitada en comparación con la población adulta, pero incluye procedimientos como drenajes, extracción de cuerpos extraños o inmovilizaciones.",
+      "Está totalmente prohibida por la OMS hasta los 18 años.",
+      "Solo se permite para realizar trasplantes de piel."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "282. ¿Qué instrumental indispensable compone el grupo de 'Sujeción e inmovilización' durante la escisión quirúrgica de un quiste sebáceo pequeño?",
+    opciones: [
+      "La botella de suero fisiológico.",
+      "El portaagujas y los separadores manuales tipo Farabeuf.",
+      "Las pinzas de disección (con o sin dientes).",
+      "Únicamente gasas estériles de algodón."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "283. ¿Qué premisa técnica fundamental debe observarse al aplicar Anestesia Local infiltrativa en zonas distales como los dedos de manos, pies, o apéndices (nariz, orejas)?",
+    opciones: [
+      "Utilizar siempre agujas de enorme calibre para mayor rapidez.",
+      "Evitar absolutamente anestésicos que contengan vasoconstrictores (como la adrenalina) por alto riesgo de isquemia y necrosis distal.",
+      "Usar exclusivamente anestesia epidural raquídea.",
+      "Aplicar la anestesia en chorro a gran presión directamente sobre la herida abierta."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "284. ¿Qué actitud asistencial se debe tomar de urgencia ante la sospecha de una complicación grave tras una cirugía menor (ej. necrosis extensa, pérdida de sensibilidad distal, infección descontrolada sistémica)?",
+    opciones: [
+      "Ocultar el problema en el historial clínico (SiNASP).",
+      "Evaluarlo urgentemente y derivarlo inmediatamente al especialista / hospital de referencia.",
+      "Retirar los puntos en el domicilio y aplicar pasta de dientes.",
+      "Esperar 15 días a la siguiente cita programada a ver si se resuelve solo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "285. Para garantizar las condiciones asépticas durante la intervención, la preparación de la mesa con el material instrumental mínimo requiere el uso fundamental de:",
+    opciones: [
+      "Agua del grifo y toallas de papel secamanos.",
+      "Material debidamente esterilizado, guantes estériles y tallas/paños fenestrados estériles para aislar el campo operatorio.",
+      "Ropa de calle del paciente y guantes de fregar no esterilizados.",
+      "Desinfectante de suelos para rociar directamente sobre la herida."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "286. En la exéresis clásica con bisturí de una lesión, la forma geométrica más recomendada para diseñar la incisión cutánea alrededor de la lesión, con el fin de facilitar un cierre estético posterior sin orejuelas, es:",
+    opciones: [
+      "Circular perfecta.",
+      "Cuadrada.",
+      "Incisión en forma de huso o elipse (ojal) siguiendo las líneas de mínima tensión cutánea.",
+      "Triangular."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Procedimientos y Cirugía Menor)",
+    pregunta: "287. Como conclusión limitante para Atención Primaria, se debe derivar al especialista hospitalario aquellas cirugías cutáneas que por su tamaño o localización:",
+    opciones: [
+      "Se encuentren exclusivamente en los antebrazos.",
+      "Superen en profundidad a la aponeurosis muscular o se encuentren en zonas anatómicas de altísimo riesgo (cara compleja, nervios superficiales...).",
+      "Requieran tan solo de dos o tres puntos de sutura simple.",
+      "Esten ubicadas en el tejido subcutáneo superficial de la espalda."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Repaso Clínico)",
+    pregunta: "288. Al redactar el procedimiento clínico de 'Extracción de tapones de cerumen', el apartado que detalla las jeringas óticas especiales, las bateas, el agua templada y los empapadores pertenece estructuralmente a:",
+    opciones: [
+      "El apartado de Objetivos poblacionales.",
+      "El apartado de Aclaraciones y evidencia.",
+      "El apartado de Recursos e Instrumental mínimo necesario.",
+      "La bibliografía histórica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Repaso Clínico)",
+    pregunta: "289. ¿Por qué es fundamental que la anestesia local empleada en el centro de salud respete un tiempo de latencia adecuado tras la infiltración y antes de hacer la incisión con bisturí?",
+    opciones: [
+      "Porque el anestésico tarda unos minutos en bloquear la conducción del impulso nervioso y lograr el efecto analgésico deseado.",
+      "Para que el médico tenga tiempo de rellenar los papeles del ordenador.",
+      "Para aumentar la ansiedad psicológica del paciente al ver el instrumental.",
+      "Porque el anestésico en AP actúa en menos de 1 segundo de forma instantánea."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo II - Tema 2.6 (Repaso Clínico)",
+    pregunta: "290. La resolución de necesidades por patologías o lesiones agudas limitadas (como un absceso, o una exéresis) a nivel ambulatorio con autonomía profesional es una clara manifestación de que la enfermería:",
+    opciones: [
+      "Es una profesión puramente dependiente que solo administra medicinas orales.",
+      "Ha desarrollado competencias avanzadas y asume responsabilidades directas en la curación de procesos prevalentes no complicados.",
+      "Ha perdido su enfoque biopsicosocial para convertirse en cirugía mayor.",
+      "Debería realizarse siempre en pabellones quirúrgicos de grandes hospitales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+  // ==========================================
+  // MÓDULO III - TEMA 1: INFANCIA Y ADOLESCENCIA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "301. En el contexto del Programa de Salud Infantil, las actividades orientadas a la adquisición de estilos de vida saludables para aportar calidad a la vida presente y futura del niño se enmarcan dentro de:",
+    opciones: [
+      "La prevención terciaria.",
+      "La promoción de la salud.",
+      "La rehabilitación pasiva.",
+      "La prevención secundaria (cribado)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "302. Aunque existen diversas etapas del desarrollo, a nivel de atención primaria, la infancia y el Programa de Salud Infantil abarca la etapa vital que va desde el nacimiento hasta:",
+    opciones: [
+      "Los 3 años de edad.",
+      "Los 7 años de edad.",
+      "Los 14 años de edad (límite de la edad pediátrica).",
+      "Los 18 años de edad."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "303. Para asegurar el éxito de la lactancia materna y evitar el abandono temprano, la enfermera del centro de salud debe revisar la información del alta y realizar apoyo sobre la técnica. ¿En qué momento es crítico realizar esta intervención?",
+    opciones: [
+      "Al cumplir el primer mes de vida.",
+      "Exclusivamente a los 6 meses del nacimiento.",
+      "En las primeras 72 horas tras el alta hospitalaria.",
+      "A las dos semanas de nacer el niño."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "304. Cuando la lactancia materna no es posible y se recurre a la lactancia artificial (leche de fórmula), la enfermera debe incidir especialmente en:",
+    opciones: [
+      "No añadir nunca agua a los polvos de leche.",
+      "La estricta higiene del proceso, recomendando lavado de manos y la ebullición de biberones y tetinas.",
+      "Sustituir la fórmula por leche de vaca entera natural desde el primer día.",
+      "Introducir cereales con gluten en todos los biberones desde el primer mes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "305. A partir del primer año de edad, el niño experimenta un cambio en su nutrición. La pauta recomendada para la alimentación en esta etapa es:",
+    opciones: [
+      "Debe seguir exclusivamente con lactancia materna a demanda sin introducir sólidos.",
+      "Debe sentarse a la mesa con la familia y consumir la misma comida (con algunas modificaciones de textura), evitando salados y picantes.",
+      "Debe comer completamente solo en su habitación para ganar independencia.",
+      "Debe ingerir únicamente papillas de cereales azucaradas comerciales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "306. Respecto a la frecuencia del consumo de alimentos para mantener un patrón infantil saludable, las guías clínicas aconsejan que el consumo de pescado sea de:",
+    opciones: [
+      "1 vez al mes.",
+      "3 veces por semana.",
+      "Todos los días en la cena de forma estricta.",
+      "Nunca antes de los 5 años por riesgo de alergias."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "307. La obesidad infantil es un importante problema de salud. A nivel de etiología, es crucial que la enfermera sepa que:",
+    opciones: [
+      "El 95% de los casos se deben a causas endógenas genéticas inmodificables.",
+      "El 95% de los casos se deben a causas exógenas (mala alimentación y sedentarismo).",
+      "Está producida casi en su totalidad por problemas de la glándula tiroides.",
+      "No tiene ninguna repercusión en la salud adulta."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "308. Al administrar vacunas sistemáticas por vía intramuscular en la consulta de pediatría, ¿cuál es la zona anatómica de elección en niños lactantes pequeños?",
+    opciones: [
+      "El músculo deltoides del brazo.",
+      "El cuadrante superoexterno del glúteo.",
+      "El músculo vasto externo del muslo.",
+      "El abdomen subcutáneo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "309. Tras administrar una vacuna, el niño sufre una reacción de anafilaxia sistémica severa. Desde el punto de vista clínico y preventivo, este suceso poco frecuente supone:",
+    opciones: [
+      "Una indicación para doblar la dosis en la próxima cita.",
+      "Una reacción leve normal que no debe registrarse.",
+      "Una contraindicación absoluta para las administraciones posteriores de esa vacuna específica.",
+      "Un síntoma de que el niño no padece ninguna alergia grave."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "310. Para la prevención primaria de la caries infantil (una patología muy prevalente), el método profiláctico que ha demostrado ser el MÁS eficaz y que enfermería debe recomendar es:",
+    opciones: [
+      "El uso tópico y adecuado de flúor.",
+      "Las extracciones dentales preventivas anuales.",
+      "El uso continuado de antibióticos orales.",
+      "El consumo de golosinas sin azúcar después del lavado."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "311. En los programas de educación para la salud bucodental comunitaria, se debe informar a las familias que la responsabilidad de efectuar la higiene bucal (el cepillado) recae en:",
+    opciones: [
+      "El propio niño desde que le sale el primer diente al mes de vida.",
+      "Los progenitores o adultos, hasta que el niño adquiera la destreza motora suficiente para hacerlo solo de modo correcto (aproximadamente a los 6-7 años).",
+      "Exclusivamente el odontólogo en las revisiones anuales.",
+      "Los profesores en el entorno escolar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "312. Dentro del pilar de la prevención de salud mental, el desarrollo psíquico del niño se evalúa en base a tres aspectos fundamentales: el desarrollo psicomotor, el desarrollo emocional/afectivo/sexual, y:",
+    opciones: [
+      "El nivel de ingresos de la unidad familiar.",
+      "El desarrollo físico muscular y óseo estricto.",
+      "El desarrollo de la personalidad (autoestima, temperamento, flexibilidad e independencia).",
+      "La altura percentil para la edad gestacional."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "313. Durante las consultas programadas del niño sano, la enfermera debe explorar objetivamente el desarrollo psicomotor. ¿Qué test o escalas estandarizadas son las más utilizadas en Atención Primaria para este fin?",
+    opciones: [
+      "El Test de Apgar Familiar y Escala de Zarit.",
+      "El Índice de Barthel y la escala de Lawton-Brody.",
+      "El Test de Pfeiffer y el MEC de Lobo.",
+      "El Test de Denver y el test de Haizea-Llevant."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "314. En la detección de signos de alarma que pudiesen indicar un problema en el desarrollo neurológico o de salud mental, es motivo de especial atención referir a un niño que presente:",
+    opciones: [
+      "Miedo temporal a la oscuridad a los 3 años.",
+      "Llanto breve al separarse de la madre.",
+      "Retraso en la adquisición del lenguaje (no balbuceo a los 12 meses o no pronuncia palabras aisladas a los 16 meses).",
+      "Ganas continuas de jugar con otros niños en el parque."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "315. Como actividad esencial de prevención secundaria (cribaje) orientada a evitar graves alteraciones endocrinas, se toma una muestra de sangre capilar del talón. ¿En qué días de vida del bebé debe realizarse de forma ideal?",
+    opciones: [
+      "En el mismo momento del parto intrauterino.",
+      "Entre el 1er y 2º mes de vida.",
+      "A los 6 meses de edad coincidiendo con las vacunas.",
+      "Entre los 3 y los 5 días posteriores al nacimiento."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "316. En la exploración física exhaustiva del lactante en su primer año de vida, la enfermera y pediatra realizan las maniobras de Ortolani y Barlow para detectar de forma precoz:",
+    opciones: [
+      "Un defecto del septo ventricular (Soplo cardíaco).",
+      "La displasia del desarrollo de la cadera.",
+      "La criptorquidia bilateral.",
+      "La presencia de estrabismo divergente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "317. La hipoacusia es un defecto sensorial con grave repercusión en la adquisición del lenguaje. Para detectarla de forma precoz en la etapa neonatal, se recomienda el uso universal de:",
+    opciones: [
+      "Campanillas y palmadas manuales fuertes cerca de los oídos.",
+      "El test de Snellen.",
+      "Pruebas electrofisiológicas objetivas (cribado auditivo neonatal).",
+      "Exclusivamente la respuesta subjetiva al llanto de la madre."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "318. Si durante las revisiones oculares pediátricas en la etapa preescolar la enfermera busca activamente un déficit de visión asimétrico, está intentando descartar la causa más común de pérdida de visión infantil en países desarrollados. Esta es:",
+    opciones: [
+      "Las cataratas seniles tempranas.",
+      "La ambliopía u 'ojo perezoso'.",
+      "La retinopatía diabética tipo 1.",
+      "El desprendimiento agudo de retina."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "319. La etapa de la adolescencia supone una adaptación psicosocial a profundos cambios físicos. Desde el punto de vista del desarrollo sanitario, los límites temporales generales consensuados para enmarcar esta etapa abarcan desde:",
+    opciones: [
+      "Los 10 hasta los 12 años.",
+      "Los 15 hasta los 29 años.",
+      "Los 18 hasta los 40 años.",
+      "Los 6 hasta los 14 años únicamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "320. A nivel epidemiológico y de salud pública en jóvenes (15 a 24 años), la paradoja clínica que se produce es que los problemas de salud por los que acuden más frecuentemente a consulta son leves (gripe, acné), PERO sus principales causas de muerte son prevenibles y drásticas. Estas son:",
+    opciones: [
+      "Infartos de miocardio, ictus y embolias.",
+      "Accidentes no intencionados, cáncer y el suicidio.",
+      "Desnutrición calórica aguda, malaria y cólera.",
+      "Neumonías nosocomiales exclusivamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "321. La principal causa individual de morbimortalidad evitable en el mundo desarrollado, cuyo consumo se inicia precozmente (media de 13 años) y frente a la que la enfermera debe aplicar Tolerancia Cero en la EpS adolescente es:",
+    opciones: [
+      "La ingesta de gluten.",
+      "El consumo de tabaco.",
+      "El consumo de proteínas de origen animal.",
+      "El consumo ocasional de sal yodada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "322. En cuanto al consumo de alcohol en jóvenes, además de iniciarse a los 13,4 años, el patrón psicosocial de mayor riesgo para el sistema nervioso, asociado al fin de semana y a las 'borracheras', se denomina clínicamente:",
+    opciones: [
+      "Consumo de cata recreativo.",
+      "Degustación mediterránea.",
+      "Consumo compulsivo o consumo 'en atracón'.",
+      "Consumo profiláctico cardiovascular."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "323. Según los informes europeos vigentes reflejados en el temario, ¿qué dos sustancias estupefacientes ilegales colocan a la juventud española (15-34 años) en los primeros y segundos puestos de consumo a nivel continental?",
+    opciones: [
+      "Heroína inyectable y fentanilo.",
+      "Cocaína (1º lugar) y cannabis (2º lugar).",
+      "Éxtasis líquido y LSD.",
+      "Anfetaminas y setas alucinógenas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "324. A nivel dietético y psicológico, las exigencias sociales y la inestabilidad de la adolescencia provocan trastornos de la conducta alimentaria (TCA) graves como la bulimia y anorexia nerviosa. El impacto de género de estos trastornos determina que:",
+    opciones: [
+      "Afecta por igual al 50% de hombres y mujeres.",
+      "El 90% de las pacientes afectadas son mujeres adolescentes.",
+      "Solo lo padecen varones deportistas de élite.",
+      "No existe en absoluto el TCA femenino en la etapa puberal."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "325. Dentro de la valoración enfermera en la salud mental del adolescente, existe una prioridad máxima debido a que constituye una de las cinco primeras causas de muerte evitable en esa franja etaria. Hablamos de la necesidad ineludible de evaluar siempre:",
+    opciones: [
+      "El nivel de colesterol LDL plasmático.",
+      "El rendimiento estricto en la prueba de Selectividad.",
+      "El riesgo de suicidio (explorando aislamiento, acoso escolar, depresión previa o consumo de sustancias).",
+      "La agudeza visual para prescribir gafas graduadas urgentes."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "326. En la intervención de los problemas sexuales de los adolescentes, las estadísticas revelan una disminución reciente del uso del preservativo. Esto acarrea como consecuencias inmediatas para la salud comunitaria:",
+    opciones: [
+      "El incremento de la esperanza de vida a largo plazo.",
+      "El aumento preocupante de los embarazos no deseados y la transmisión de ITS y ETS.",
+      "El fortalecimiento del suelo pélvico temprano.",
+      "La curación espontánea de las verrugas plantares benignas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "327. El hecho biológico puntual que marca la adquisición de la capacidad de reproducción (maduración de los caracteres sexuales secundarios y órganos genitales) se denomina clínicamente:",
+    opciones: [
+      "Adolescencia tardía.",
+      "Menopausia precoz.",
+      "Pubertad.",
+      "Crecimiento estatural rápido."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "328. En la exploración del RN varón, si a la inspección observamos que uno o ambos testículos no han descendido a la bolsa escrotal (pudiendo causar esterilidad/tumor a futuro), registramos en el PAE el diagnóstico médico de:",
+    opciones: [
+      "Fimosis congénita.",
+      "Epispadias leve.",
+      "Criptorquidia.",
+      "Hernia inguinal incarcerada."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Infancia)",
+    pregunta: "329. La recomendación oficial en lactantes para prevenir el Síndrome de Muerte Súbita se basa tradicionalmente en mantener un ambiente térmico seguro, evitar el tabaquismo materno y asegurar una correcta posición para dormir. Esta posición segura del bebé es:",
+    opciones: [
+      "Decúbito prono (boca abajo) sobre un colchón muy blando.",
+      "Decúbito supino (boca arriba) preferentemente.",
+      "Completamente envuelto y amarrado en mantas con la cabeza tapada.",
+      "Sentado en un portabebés con arneses todo el día."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 1 (Adolescencia)",
+    pregunta: "330. Las intervenciones preventivas de enfermería en el centro de salud hacia adolescentes suelen fracasar si se aplican desde un modelo autoritario de consulta física estricta, debido a que este colectivo es:",
+    opciones: [
+      "Completamente obediente a toda directriz médica paternalista.",
+      "'Despreocupado' por la enfermedad a largo plazo, haciendo necesario 'salir' a la comunidad (institutos, espacios jóvenes) para promover salud de forma activa.",
+      "Altamente tendente a sufrir cardiopatías isquémicas graves a los 16 años.",
+      "Totalmente analfabeto en lo digital y reacio a usar internet."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+
+  // ==========================================
+  // MÓDULO III - TEMA 2: ATENCIÓN DE ENFERMERÍA EN EL ADULTO
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "331. El programa del adulto destina gran parte de su atención y recursos a disminuir la morbimortalidad generada por las Enfermedades Cardiovasculares (ECV), ya que en el contexto poblacional de España ocupan:",
+    opciones: [
+      "El último lugar de riesgo tras las alergias respiratorias.",
+      "La principal y primera causa de mortalidad por delante de los tumores (cáncer).",
+      "El tercer lugar por detrás de los accidentes de tráfico en jóvenes.",
+      "Una prevalencia nula desde el descubrimiento de la penicilina."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "332. Cuando en la consulta se habla del 'Riesgo Cardiovascular (RCV)', clínicamente nos referimos a:",
+    opciones: [
+      "La probabilidad matemática de padecer una enfermedad u evento cardiovascular en un periodo de tiempo determinado (ej. a 10 años).",
+      "El número exacto de latidos del corazón por cada minuto medido en reposo.",
+      "Una escala para medir la fuerza con la que bombea sangre un corazón infartado.",
+      "El valor aislado del colesterol total circulante sin importar la edad ni el género."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "333. Para clasificar y medir este riesgo cardiovascular, recabamos factores intrínsecos de la persona y factores conductuales. ¿Cuál de los siguientes está considerado un factor de riesgo NO modificable?",
+    opciones: [
+      "El sedentarismo severo.",
+      "El abuso del consumo de alcohol.",
+      "El nivel de colesterol elevado.",
+      "Los antecedentes genéticos/familiares (historia familiar), la edad, el sexo y la raza."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "334. Entre los factores de riesgo vasculares modificables, la Hipertensión Arterial (HTA) es primordial. En pacientes jóvenes (menores de 50 años), ¿cuál de los parámetros atencionales se asocia más firmemente al daño arterial inicial?",
+    opciones: [
+      "La Presión Arterial Diastólica (PAD).",
+      "La Presión Venosa Central (PVC).",
+      "La Presión Intracraneal (PIC).",
+      "Únicamente los picos nocturnos de la Presión Arterial Sistólica (PAS)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "335. La DM (Diabetes Mellitus tipo 1 o 2) en el adulto se clasifica como un factor de riesgo de máxima prioridad debido a que su presencia fisiopatológica:",
+    opciones: [
+      "Inmuniza de forma cruzada contra los infartos coronarios.",
+      "Multiplica por dos el riesgo de desarrollar enfermedad aterosclerótica.",
+      "Solo afecta a los vasos capilares microscópicos de los dedos sin impacto sistémico.",
+      "Impide la subida de los niveles de tensión arterial de forma natural."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "336. Respecto al factor de riesgo cardiovascular de la Dislipemia, el consenso científico concluye que la reducción de las complicaciones y la mortalidad vascular se logra directamente al:",
+    opciones: [
+      "Reducir drásticamente los niveles de c-LDL circulante en el plasma.",
+      "Aumentar en gran medida los niveles de Triglicéridos consumiendo manteca animal.",
+      "Incrementar farmacológicamente el c-HDL sin modificar el resto del perfil lipídico.",
+      "Mantener un colesterol total por encima de los 350 mg/dl."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "337. La adiposidad es un problema multifactorial. Como parámetro enfermero vital durante el cribado cardiovascular para predecir patologías (DM, Aterosclerosis), no basta con medir el IMC, sino que es imprescindible cuantificar la adiposidad o grasa de distribución central midiendo:",
+    opciones: [
+      "El pliegue cutáneo del tríceps exclusivamente.",
+      "La altura del fémur y la longitud craneal.",
+      "El diámetro bitemporal del cráneo.",
+      "El perímetro abdominal del paciente."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "338. Para realizar el protocolo general de detección y cálculo del Riesgo Cardiovascular de forma automatizada mediante tablas de estratificación de supervivencia y mortalidad aterosclerótica, los modelos más recomendados actualmente en España para la franja de 40 a 89 años son:",
+    opciones: [
+      "La Escala Norton y la de Braden.",
+      "El modelo algorítmico SCORE-2 y el SCORE2-OP.",
+      "El Cuestionario de Salud de Goldberg.",
+      "El Test de APGAR Familiar Modificado."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "339. Para lograr resultados en salud sostenibles en el adulto, no se aconseja simplemente que el profesional emita órdenes paternalistas (modelo pasivo). El objetivo moderno en el manejo de crónicos o factores de riesgo se basa en:",
+    opciones: [
+      "Ocultar el diagnóstico para evitar estrés psicosocial.",
+      "La sobremedicalización hospitalaria inmediata para que el paciente no tenga que hacer dietas.",
+      "Favorecer la capacitación y empoderamiento del paciente, haciéndole corresponsable activo en el control de su propia patología (autocuidado).",
+      "Restringir por completo cualquier tipo de contacto con el entorno familiar del paciente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "340. Las Enfermedades Transmisibles o infecciosas constituyen otro gran bloque de actuación en Atención Primaria de adultos. A nivel epidemiológico en España causan una gran morbimortalidad, posicionándose como la:",
+    opciones: [
+      "Primera causa de mortalidad nacional absoluta.",
+      "Tercera causa de mortalidad general, suponiendo un importante 16,4% de las muertes.",
+      "No provocan mortalidad actualmente gracias a la penicilina.",
+      "Décima causa de mortalidad sin impacto clínico real."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "341. Una enfermedad infecciosa del sistema respiratorio muy prevalente es la Tuberculosis. Su agente causal principal biológico es:",
+    opciones: [
+      "El virus del papiloma humano intracelular.",
+      "El protozoo diplococo encapsulado.",
+      "El bacilo Mycobacterium tuberculosis.",
+      "El hongo Candida Albicans sistémico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "342. La Gripe, enfermedad aguda estacional grave causante de elevada morbilidad y absentismo, requiere prevención en las consultas para evitar su contagio interhumano. Su vía de transmisión predominante es:",
+    opciones: [
+      "Por transfusiones de sangre no controladas.",
+      "Exclusivamente por consumir carne de cerdo poco cocinada.",
+      "Aérea mediante secreciones expulsadas al hablar o toser (las llamadas gotitas de Flügge) y el contacto de manos con superficies contaminadas.",
+      "Mediante la mordedura de roedores salvajes."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "343. Si nos encontramos ante una infección respiratoria o del SNC grave por agentes como Neisseria meningitidis, ¿qué tipo de aislamiento de bioseguridad es crítico instaurar en el centro mientras derivamos o atendemos al paciente?",
+    opciones: [
+      "Aislamiento de contacto estricto cutáneo.",
+      "Aislamiento entérico por vía fecal-oral.",
+      "Aislamiento respiratorio.",
+      "Aislamiento protector inverso de flujo laminar."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "344. Las ETS (Enfermedades de Transmisión Sexual) continúan siendo prevalentes. ¿Qué bacteria concreta es la causante responsable de la Infección Gonocócica o Gonorrea?",
+    opciones: [
+      "Treponema Pallidum.",
+      "Neisseria gonorrhoeae.",
+      "Haemophilus Influenzae.",
+      "Clostridium botulinum."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "345. La transmisión de Infecciones de Transmisión Sexual de origen viral incluye patologías gravísimas. Los serotipos 1 y 2 del virus del Herpes simple originan concretamente:",
+    opciones: [
+      "Hepatitis autoinmune crónica.",
+      "Síndrome de Inmunodeficiencia Adquirida.",
+      "Herpes Genital.",
+      "Verrugas cutáneas masivas tipo molusco contagioso."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "346. En la atención de urgencia a una afección gastrointestinal de origen infeccioso (ej. toxiinfección alimentaria estival), el pilar de los cuidados iniciales de enfermería antes de derivar es el soporte de hidratación oral para prevenir el shock y:",
+    opciones: [
+      "Valorar la necesidad de derivación hospitalaria según la severidad de los síntomas y asegurar el reposo digestivo inmediato.",
+      "Realizar un lavado gástrico con sonda nasogástrica sin indicación médica previa.",
+      "Pautar opioides para el dolor abdominal intenso.",
+      "Aconsejar beber directamente de botellas compartidas con otros afectados para inmunización de rebaño."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "347. Ciertos patógenos responsables del contagio de enfermedades venéreas no son ni virus ni bacterias, sino parásitos artrópodos. El 'Pthirus pubis', que causa picor intenso en la zona genital, se conoce vulgarmente como:",
+    opciones: [
+      "Chinches de las camas.",
+      "Sarna capilar o piojos de la cabeza.",
+      "Ladillas o piojos del pubis.",
+      "Ácaro de la sarna."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "348. Si detectamos un brote de la zoonosis bacteriana conocida como 'Brucelosis' en una zona rural de España, es imperativo iniciar acciones comunitarias orientadas al saneamiento y manipulación del origen más frecuente de la infección, que es:",
+    opciones: [
+      "El consumo de agua de pozos tratada con cloro.",
+      "El consumo de verduras regadas con aguas no potables.",
+      "El consumo humano de lácteos y leches no pasteurizadas procedentes de animales infectados (ganado ovino o caprino).",
+      "La picadura de garrapatas de ciervos salvajes."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "349. En viajeros retornados a la consulta con fiebre y signos de patología tropical transmitida por artrópodos, debemos pensar en la enfermedad del Paludismo (Malaria). ¿Qué protozoo y qué vector biológico están involucrados respectivamente en esta grave infección?",
+    opciones: [
+      "Protozoo Toxoplasma y vector Mosca tsé-tsé.",
+      "Protozoo Plasmodium y vector hembra del Mosquito Anopheles.",
+      "Protozoo Leishmania y vector Pulga del gato doméstico.",
+      "Protozoo Tripanosoma y vector Chinche besucona."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "350. Durante la atención en el centro de salud de pacientes con infecciones hepáticas víricas (Hepatitis B o C), es fundamental el tratamiento sintomático y evitar a toda costa la sobrecarga del hígado. A esta estrategia general la denominamos:",
+    opciones: [
+      "Neumoprotección profiláctica.",
+      "Dieta rica en grasas trans y alcoholes suaves.",
+      "Hepatoprotección (evitar alcohol y fármacos hepatotóxicos).",
+      "Vigilancia de la tensión ocular."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "351. Para evitar el daño tisular superficial sin invadir capas orgánicas profundas, hay infecciones causadas por patógenos fúngicos (hongos) que atacan masivamente a la epidermis, las uñas y el pelo. En enfermería clínica comunitaria y dermatológica, este conjunto de lesiones recibe la denominación genérica de:",
+    opciones: [
+      "Psoriasis autoinmune no infecciosa.",
+      "Tiñas (micosis superficial cutánea).",
+      "Melanomas nodulares cutáneos.",
+      "Sarcoma de Kaposi en etapa terminal."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "352. Si abordamos los programas de salud en un Centro de Salud desde la perspectiva de la vacunación e inmunidad adquirida, a efectos de estratificar e identificar a la 'Población adulta', el calendario considera en España a los adultos mayores de:",
+    opciones: [
+      "Los 12 meses de edad.",
+      "Los 15 años de edad.",
+      "Los 21 años de edad cumplidos.",
+      "Los 65 años de edad (jubilación)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "353. A diferencia del férreo y cerrado calendario vacunal infantil estructurado por meses biológicos de vida, la prescripción de dosis de vacunas en la etapa adulta por parte de la enfermera debe regirse SIEMPRE bajo un criterio flexible basado en:",
+    opciones: [
+      "Los gustos personales del paciente en ese momento del año.",
+      "La evaluación clínica individual del riesgo de infección (considerando la edad del sujeto, AP vacunales previos, trabajo de riesgo, viajes y conductas).",
+      "Vacunar de nuevo sistemáticamente de todas las enfermedades conocidas a todas las mujeres que lleguen a los 30 años.",
+      "La prohibición total y absoluta de vacunar a embarazadas bajo ningún pretexto médico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "354. Dentro del grupo de pacientes a captar para aplicar intervenciones profilácticas contra las ECV (Riesgo cardiovascular), el factor de riesgo relativo al consumo excesivo de tabaco produce fisiológicamente en el tejido a largo plazo un grave impacto mediado por:",
+    opciones: [
+      "Inmunosupresión por carencia vitamínica en la dieta.",
+      "Una sobre-vascularización oxigenada que relaja el sistema venoso central.",
+      "Las lesiones directas sobre las paredes del endotelio, acelerando o promoviendo la base estructural de la enfermedad aterosclerótica sistémica letal.",
+      "Un descenso irreversible y crónico de la presión arterial (hipotensiones agudas constantes)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "355. Tras explicar en consulta la prevención del contagio dérmico contra los hongos (profilaxis para evitar Tiñas plantares, interdigitales y corporales), la enfermera incidirá en que es imperativo:",
+    opciones: [
+      "Lavarse la zona con lejía sin diluir para desinfectar.",
+      "Mantener la piel seca y limpia mediante un correcto secado de pliegues, uso de zapatillas protectoras (no descalzarse) en entornos húmedos comunitarios (piscinas) y el no uso compartido de toallas mojadas o peines.",
+      "Fomentar la descamación arrancando los trozos de piel con fuerza manual sin usar jabones asépticos.",
+      "Tener contacto estrecho y piel con piel con mascotas callejeras sin vacunar o con parches alopécicos o calvas evidentes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "356. ¿Qué enfermedad transmitida principalmente por contacto sexual carece de vacuna en el calendario actual, es causada por un retrovirus agresivo que deprime las células CD4 y constituye una epidemia mundial que requiere extrema prevención comunitaria (uso de preservativo)?",
+    opciones: [
+      "La Hepatitis C vírica.",
+      "El Virus de la Inmunodeficiencia Humana (VIH).",
+      "El Virus del Papiloma Humano oncogénico (VPH).",
+      "La sífilis avanzada neuro-meníngea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "357. Los determinantes etiológicos de las infecciones respiratorias como la 'Gripe' generan enormes tensiones de morbilidad al sistema durante periodos estacionales (otoño-invierno). La prevención activa en el paciente crónico se ejerce primariamente mediante:",
+    opciones: [
+      "El suministro masivo de antibióticos profilácticos de gran espectro durante todo el año.",
+      "Las campañas públicas periódicas de inmunización con la vacuna anual de la gripe (orientadas fuertemente a individuos de riesgo, ancianos, cuidadores y personal sanitario fundamental).",
+      "Las sangrías y purgas de líquidos en el domicilio.",
+      "La cuarentena obligatoria en hospitales militarizados durante todos los meses del invierno crudo español."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "358. En resumen metodológico y aplicativo de cara a la consulta de Atención Primaria con el paciente adulto, todos y cada uno de los protocolos de actuación frente a factores de riesgo mayores, infecciones o conductas tóxicas deben cimentarse como objetivo base general en:",
+    opciones: [
+      "La simple toma pasiva y no registrada de las constantes vitales con una simple entrevista anual.",
+      "Un abordaje e identificación precoz junto con una educación sanitaria intensiva tendente al fomento indispensable de la auto-responsabilidad personal, los estilos de vida saludables protectores y la modificación del estilo de vida (autocuidado real).",
+      "Hacer derivaciones sistemáticas no justificadas a las distintas especialidades de neurología u otorrinolaringología al menor síntoma agudo sin evaluación local primaria de choque para ganar tiempo asistencial y aligerar cupos.",
+      "Relegar el control cardiológico a un papel totalmente secundario por considerarse una patología menor o inexistente en Europa."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "359. A diferencia de las intervenciones a corto plazo (como las curas quirúrgicas), la prevención comunitaria exige una estratificación basada en el cálculo del score de riesgo RCV. Según las guías abordadas, es altamente recomendable aplicarlo de manera sistemática y como filtro inicial a:",
+    opciones: [
+      "Ningún paciente, solo si pide que se lo hagan expresamente.",
+      "A todos los adultos (en especial varones sanos mayores de 40 años o mujeres mayores de 50 que experimenten los cambios hormonales derivados del climaterio) que además pudiesen manifestar algún factor de riesgo subyacente diagnosticable localmente por el EAP.",
+      "A los lactantes y neonatos (3 a 5 días) en el momento preciso de realizar la extracción sanguínea obligatoria de la prueba diagnóstica del tablón (cribado metabólico congénito).",
+      "Tan solo a los enfermos geriátricos ingresados permanentemente en la URPA del servicio de cirugía mayor del hospital especializado central provincial de su zona correspondiente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 2 (Adulto)",
+    pregunta: "360. Para atajar un posible caso inicial de infección y diseminación aérea activa comunitaria de la bacteria causal de la Tuberculosis pulmonar (el 90% de los casos de afectación tísica), la enfermera instruirá estrictamente al paciente bacilífero y a la familia sobre la profilaxis, advirtiendo que es fundamental:",
+    opciones: [
+      "Fumar menos de cinco cigarrillos en el cuarto ventilado del paciente tosedor.",
+      "Asistir diariamente y sin limitaciones a las grandes reuniones sociales y centros abarrotados del barrio para fortalecer artificialmente la inmunidad de rebaño de los más jóvenes.",
+      "Evitar la diseminación directa de las secreciones orales tapando la boca con pañuelos al toser, lavando las manos frecuentemente para destruir los patógenos y aislando higiénicamente los desechos o fómites del enfermo en un recipiente individual cerrado.",
+      "No utilizar agua y jabón corriente, ya que estos disuelven las defensas microscópicas de la capa superficial cutánea y favorecen de hecho la invasión del esputo de las vías aéreas profundas e inferiores del pulmón."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  // ==========================================
+  // MÓDULO III - TEMA 3: ATENCIÓN DE ENFERMERÍA A LA MUJER
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "361. Al abordar la salud de la mujer, es fundamental diferenciar entre sexo y género. ¿Qué impacto específico tiene el 'género' (factores sociales) en la morbimortalidad femenina según los apuntes?",
+    opciones: [
+      "Las mujeres tienen menor esperanza de vida que los hombres y consumen menos medicamentos.",
+      "Las mujeres tienen mayor esperanza de vida, pero perciben peor su salud, notifican más enfermedades crónicas, sufren más dolor y demandan más asistencia en AP.",
+      "El género solo afecta a los varones, reduciendo su acceso a los hospitales.",
+      "No existe ninguna desigualdad de salud basada en el género en el siglo XXI."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "362. En la planificación familiar, la fertilidad durante la etapa de lactancia presenta unas características particulares. Según las guías, las relaciones sexuales pueden reanudarse a partir de la 4º semana tras el parto, y se recomienda:",
+    opciones: [
+      "No utilizar ningún anticonceptivo porque la lactancia protege al 100% en todos los casos.",
+      "El uso prioritario de métodos de barrera o anticonceptivos hormonales compatibles con la lactancia.",
+      "Realizar inmediatamente una esterilización quirúrgica irreversible.",
+      "Evitar las relaciones sexuales hasta el destete total del bebé a los 2 años."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "363. Al clasificar los métodos anticonceptivos, el método basado en 'la lactancia y amenorrea' (MELA) proporciona una mayor seguridad cuando:",
+    opciones: [
+      "Se combina exclusivamente con el método del calendario (Ogino-Knaus).",
+      "La mujer presenta inhibición hormonal de la ovulación y mantiene una amenorrea estricta durante la lactancia exclusiva.",
+      "El bebé ya ha empezado a consumir alimentación complementaria sólida.",
+      "Se realizan extracciones dentales previas al amamantamiento."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "364. Los métodos anticonceptivos hormonales (estrógenos y progestágenos) son altamente eficaces para inhibir la ovulación. Sin embargo, su principal limitación desde el punto de vista comunitario es:",
+    opciones: [
+      "Que producen esterilidad irreversible a los 3 meses de uso.",
+      "Que no ofrecen ninguna protección frente a las Enfermedades de Transmisión Sexual (ETS), por lo que se recomiendan para parejas estables.",
+      "Que están prohibidos en mujeres menores de 40 años.",
+      "Que provocan invariablemente cáncer de endometrio fulminante."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "365. ¿Cuál es el método anticonceptivo de barrera considerado de elección prioritaria en el varón joven para prevenir embarazos no deseados y proteger simultáneamente contra las ETS?",
+    opciones: [
+      "El diafragma masculino.",
+      "La vasectomía temporal.",
+      "El preservativo (se recomienda asociar a espermicidas para mayor eficacia anticonceptiva).",
+      "El coito interruptus."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "366. Dentro del Programa de Captación y Control del Embarazo, ¿en qué momento límite se debe realizar idealmente la captación precoz de la gestante por parte de la matrona o enfermera?",
+    opciones: [
+      "Antes de la semana 12 de gestación.",
+      "Entre la semana 20 y 24.",
+      "A partir de la semana 36.",
+      "En el mismo momento de iniciar el trabajo de parto."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "367. Según el calendario de seguimiento del embarazo normal en Atención Primaria, la periodicidad de los controles debe ser:",
+    opciones: [
+      "Anual hasta el momento del parto.",
+      "Mensual de la semana 0 a la 36, quincenal de la 36 a la 38, y semanal de la 38 al parto.",
+      "Semanal desde el primer día de gestación.",
+      "A demanda exclusiva de la paciente cuando sienta dolor."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "368. En la primera consulta de seguimiento del embarazo, uno de los datos administrativos y clínicos más importantes a recoger en la anamnesis para poder calcular la Fecha Probable de Parto (FPP) es:",
+    opciones: [
+      "El nivel educativo del padre.",
+      "La Fecha de la Última Regla (FUR).",
+      "El índice de masa corporal de los abuelos.",
+      "La edad de la menarquia de la madre."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "369. Las actividades de Educación para la Salud (EpS) y preparación para la maternidad se dividen en etapas. La 2º etapa (preparación al parto) tiene como objetivo fundamental:",
+    opciones: [
+      "Erradicar los mitos preconcepcionales sobre la dieta.",
+      "Prevenir exclusivamente la depresión postparto severa.",
+      "Disminuir la ansiedad y el dolor mediante ejercicios facilitadores y fomentar la participación activa de la gestante en la toma de decisiones.",
+      "Obligar al padre a realizar la lactancia artificial."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "370. El periodo fisiológico que transcurre desde el parto hasta la normalización del organismo de la mujer (aproximadamente de 6 a 8 semanas) recibe el nombre clínico de:",
+    opciones: [
+      "Climaterio.",
+      "Perimenopausia.",
+      "Puerperio.",
+      "Gestación tardía."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "371. En la atención primaria, es crucial realizar una visita o captación muy temprana de la puérpera y el recién nacido para evaluar el estado emocional, los loquios y la instauración de la lactancia. ¿Cuándo se recomienda hacer esta captación?",
+    opciones: [
+      "A los 30 días tras el parto.",
+      "A los 6 meses de vida del bebé.",
+      "En los 3 - 5 días tras el parto.",
+      "Inmediatamente antes de recibir el alta hospitalaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "372. El Cáncer de Mama es el tumor maligno más frecuente y la primera causa de muerte en mujeres de 40 a 55 años. Entre los Factores de Riesgo (FR) modificables asociados a alteraciones hormonales, ¿cuál actúa como un FACTOR PROTECTOR reconocido?",
+    opciones: [
+      "La obesidad central.",
+      "La lactancia materna.",
+      "El consumo de alcohol.",
+      "El uso prolongado de anticonceptivos hormonales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "373. Para la prevención secundaria (cribado) del Cáncer de Mama en la población asintomática, ¿qué prueba diagnóstica está indicada de forma rutinaria en mujeres mayores de 50 años (generalmente cada 2 años) para reducir la mortalidad?",
+    opciones: [
+      "La autoexploración mamaria manual diaria.",
+      "La biopsia de ganglio centinela profiláctica.",
+      "La citología cervicovaginal.",
+      "La Mamografía de control."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "374. Respecto al Cáncer de Cérvix (cuello uterino), la evidencia demuestra que el 95% de los casos incipientes tienen un claro origen infeccioso primario, siendo el agente causal principal:",
+    opciones: [
+      "El hongo Candida Albicans.",
+      "La bacteria Treponema Pallidum.",
+      "El Virus del Papiloma Humano (VPH).",
+      "El Virus de la Inmunodeficiencia Humana (VIH)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "375. Como medida de prevención primaria frente al Cáncer de Cérvix en la población preadolescente, el calendario sistemático nacional incluye actualmente:",
+    opciones: [
+      "La extirpación preventiva del útero a los 18 años.",
+      "La administración de antibióticos profilácticos de por vida.",
+      "La vacunación frente al Virus del Papiloma Humano (VPH) a los 12 años (tanto a niñas como a niños).",
+      "El aislamiento social durante la pubertad."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "376. ¿Cuál es el principal síntoma de alarma que debe hacer sospechar a la enfermera de un posible Cáncer de Endometrio en una mujer postmenopáusica (60 años) y que requiere derivación para biopsia urgente?",
+    opciones: [
+      "La incontinencia de esfuerzo leve.",
+      "La aparición repentina de metrorragia (sangrado vaginal).",
+      "La sequedad vaginal durante el coito.",
+      "Los sofocos nocturnos esporádicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "377. Según la OMS, el cese definitivo de la función reproductiva que se diagnostica de manera retrospectiva tras 12 meses consecutivos de amenorrea sin causas patológicas se denomina estrictamente:",
+    opciones: [
+      "Perimenopausia aguda.",
+      "Menarquia.",
+      "Menopausia.",
+      "Puerperio crónico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "378. Fisiológicamente, los cambios sistémicos que experimenta la mujer durante el climaterio (sofocos, atrofia urogenital, cambios de la masa ósea) están desencadenados principalmente por:",
+    opciones: [
+      "El aumento exponencial de testosterona.",
+      "La disminución brusca de los estrógenos y el aumento de las gonadotrofinas.",
+      "El exceso de progesterona en la glándula suprarrenal.",
+      "La atrofia de la glándula tiroides y el déficit de yodo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "379. Al disminuir el efecto protector de los estrógenos durante la postmenopausia, la mujer experimenta un aumento drástico del riesgo de sufrir dos patologías mayores silentes. Estas son:",
+    opciones: [
+      "El asma bronquial y la EPOC.",
+      "La enfermedad cardiovascular (por alteración del colesterol y riesgo de obesidad/HTA) y la osteoporosis (por disminución de masa ósea).",
+      "La esclerosis múltiple y la artritis reumatoide juvenil.",
+      "La ceguera por cataratas y la sordera bilateral."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "380. Dentro de la atención integral a la mujer en el climaterio, una intervención enfermera muy eficaz para prevenir y tratar la incontinencia urinaria y mejorar la salud sexual (tono del suelo pélvico) es la enseñanza de:",
+    opciones: [
+      "Ejercicios aeróbicos de alto impacto con saltos.",
+      "Ejercicios isométricos abdominales.",
+      "Ejercicios de fortalecimiento de la musculatura del suelo pélvico (Ejercicios de Kegel).",
+      "Técnicas de restricción hídrica extrema (beber menos de 1 vaso al día)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "381. Si una mujer en el climaterio presenta una sintomatología vasomotora y urogenital extremadamente intensa que deteriora gravemente su calidad de vida, el tratamiento médico de elección a valorar en consulta es:",
+    opciones: [
+      "La quimioterapia profiláctica.",
+      "El Tratamiento Hormonal Sustitutivo (THS) con estrógenos y/o progestágenos.",
+      "La extirpación de las glándulas suprarrenales.",
+      "La prescripción de morfina en parches."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "382. Entre los Factores de Riesgo (FR) para desarrollar un Cáncer de Endometrio relacionados con la vida reproductiva de la mujer, destaca fuertemente:",
+    opciones: [
+      "El haber tenido más de 5 embarazos a término (multiparidad).",
+      "La nuliparidad (no haber tenido hijos) y la infertilidad.",
+      "El inicio de las relaciones sexuales antes de los 16 años.",
+      "El tabaquismo pasivo en la infancia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "383. En el marco sociológico del climaterio, la OMS subraya que muchos de los problemas y connotaciones negativas (pérdida de atractivo, síndrome del nido vacío) derivan fundamentalmente de:",
+    opciones: [
+      "Alteraciones genéticas intracelulares.",
+      "Factores sociales y constructos culturales de la sociedad actual, más que de factores puramente biológicos.",
+      "Defectos neuronales irreversibles.",
+      "La falta de ingesta de alimentos proteicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "384. A nivel epidemiológico y de salud pública, ¿por qué los expertos señalan que el Cáncer de Cérvix es altamente prevenible en la actualidad?",
+    opciones: [
+      "Porque responde a la quimioterapia en un 100% de los casos avanzados.",
+      "Porque el método preventivo 1 (vacuna VPH) y el método preventivo 2 (citología periódica) permiten detectar y erradicar las lesiones premalignas antes de que evolucionen.",
+      "Porque es un cáncer de origen autoinmune fácilmente tratable con corticoides tópicos.",
+      "Porque desaparece espontáneamente al llegar la menopausia."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "385. La Atención Integral de la gestante debe contemplar el riesgo de sufrir Enfermedades de Transmisión Sexual (ETS). En la actualidad, para evitar el contagio al neonato, el método reversible doblemente recomendado en jóvenes es:",
+    opciones: [
+      "El uso exclusivo del DIU de cobre.",
+      "La combinación de método hormonal y método de barrera (preservativo).",
+      "La toma de la píldora postcoital tras cada relación.",
+      "El método de la temperatura basal estricto."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "386. Durante la primera etapa de la preparación a la maternidad (antes o al inicio del embarazo), la labor educativa de la enfermera incide prioritariamente en:",
+    opciones: [
+      "Enseñar pujos y respiración para el periodo expulsivo.",
+      "Identificar y erradicar ideas erróneas/mitos y promover hábitos saludables (dieta, cese de tóxicos) desde el momento de la concepción.",
+      "El cuidado del cordón umbilical del bebé.",
+      "La tramitación administrativa de la baja laboral por maternidad inminente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "387. Si durante la valoración ginecológica en una consulta de planificación identificamos a una usuaria joven adolescente consumidora de drogas y con historia de interrupción voluntaria del embarazo, metodológicamente la clasificamos como:",
+    opciones: [
+      "Población de riesgo, requiriendo especial atención, información sin juicios y asegurar un método anticonceptivo eficiente.",
+      "Candidata obligatoria a ligadura de trompas inmediata.",
+      "Una usuaria de bajo riesgo que no necesita seguimiento anual.",
+      "Un caso para derivación exclusiva a psiquiatría sin intervención comunitaria."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "388. En el postparto o puerperio temprano (días 3 a 5), la enfermera debe explorar físicamente elementos críticos en el domicilio o consulta. Además de las mamas y la involución uterina, es imperativo inspeccionar:",
+    opciones: [
+      "La agudeza visual de la madre.",
+      "El estado de la cicatriz de la episiotomía o de la incisión de la cesárea para descartar infección temprana.",
+      "Los reflejos osteotendinosos rotulianos.",
+      "La flexibilidad de la columna vertebral cervical."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "389. Una patología mamaria como el cáncer puede manifestarse con signos clínicos visibles a la inspección antes de ser un nódulo doloroso. ¿Cuál de los siguientes es un signo de sospecha de neoplasia mamaria?",
+    opciones: [
+      "Aumento simétrico y doloroso de ambas mamas previo a la menstruación.",
+      "Retracción del pezón, secreción anómala por el mismo y alteraciones en la piel de la mama.",
+      "Coloración blanquecina temporal por el reflejo del frío.",
+      "Estrías rosadas nacaradas tras el amamantamiento."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 3 (Mujer)",
+    pregunta: "390. En relación a la prevención de la osteoporosis en el climaterio, la recomendación de educación para la salud (EpS) más extendida por enfermería para fomentar la mineralización ósea incluye:",
+    opciones: [
+      "El reposo absoluto en cama y el consumo de vitamina A.",
+      "Una dieta rica en calcio y la realización regular de ejercicio físico de carga.",
+      "El consumo de suplementos de hierro en grandes dosis.",
+      "Evitar por completo la exposición al sol durante todo el año."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+
+  // ==========================================
+  // MÓDULO III - TEMA 4: ATENCIÓN A PERSONAS CON PROCESOS CRÓNICOS
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "391. El actual patrón epidemiológico del siglo XXI ha supuesto un cambio radical en la sanidad. Debido al envejecimiento, las enfermedades crónicas generan un impacto brutal en los recursos, suponiendo aproximadamente:",
+    opciones: [
+      "El 10% de las consultas en AP y el 20% del gasto sanitario.",
+      "El 80% de las consultas en AP, el 60% de los ingresos hospitalarios y entre el 70% y el 75% del gasto sanitario total.",
+      "Apenas un 5% de los ingresos hospitalarios, ya que los crónicos sanan rápidamente.",
+      "El 100% de la actividad pediátrica y el 0% de la actividad geriátrica."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "392. Ante este aumento de la cronicidad, la Atención Primaria debe abandonar el modelo tradicional centrado en los eventos agudos y transitar hacia un nuevo modelo con un enfoque positivo de salud basado en la:",
+    opciones: [
+      "Subespecialización quirúrgica.",
+      "Patogénesis hospitalaria.",
+      "Salutogénesis y el fomento del empoderamiento del paciente.",
+      "Medicalización pasiva constante."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "393. La estratificación del riesgo mediante los 'Grupos de Morbilidad Ajustados' (GMA) clasifica a la población del Nivel 1 al 7. ¿A qué grupo corresponde el Nivel 1, base de la intervención comunitaria preventiva?",
+    opciones: [
+      "Pacientes con neoplasias terminales.",
+      "Embarazo y parto.",
+      "Población sana sin patologías detectadas.",
+      "Pacientes con enfermedades crónicas en más de 4 sistemas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "394. Siguiendo esa misma clasificación (GMA), el nivel de mayor complejidad (Nivel 6) engloba a pacientes que exigen una enorme coordinación asistencial (Gestión de Casos). Estos son:",
+    opciones: [
+      "Población sana joven.",
+      "Pacientes con patologías agudas reversibles (ej. fractura ósea).",
+      "Pacientes pluripatológicos con enfermedades crónicas afectando a 4 o más sistemas del organismo.",
+      "Mujeres con embarazo de bajo riesgo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "395. Según la evidencia científica (Pirámide de Kaiser Permanente), los pacientes con enfermedades crónicas simples que necesitan apoyo en conocimientos para cuidarse de sí mismos, se clasifican en el:",
+    opciones: [
+      "Nivel 1: Autogestión o autocuidado.",
+      "Nivel 2: Gestión de la enfermedad (Disease Management).",
+      "Nivel 3: Gestión de Casos altamente complejos.",
+      "Nivel 4: Cuidados intensivos paliativos."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "396. Por su parte, la Xunta de Galicia y la Estrategia de Cronicidad establecen que los pacientes con enfermedades crónicas avanzadas y exacerbaciones frecuentes (que demandan alta necesidad asistencial) pertenecen en la pirámide de Kaiser al:",
+    opciones: [
+      "Nivel 1: Autogestión.",
+      "Nivel 2: Prevención primaria general.",
+      "Nivel 3: Gestión de Caso (Case Management).",
+      "Nivel cero de salud comunitaria."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "397. Entre las 'Buenas prácticas' demostradas en la gestión de la cronicidad en la Atención Primaria, se afirma que a nivel educativo:",
+    opciones: [
+      "Las intervenciones educativas oportunistas (improvisadas) son mucho mejores que las planificadas.",
+      "Las intervenciones educativas oportunistas son menos eficaces que las planificadas y orientadas formalmente a la autogestión del paciente.",
+      "La educación para la salud debe delegarse exclusivamente a internet.",
+      "Educar al paciente crónico aumenta paradójicamente el gasto sanitario en un 80%."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "398. La evidencia también nos muestra el enorme impacto que tiene el papel proactivo de la enfermera (visitas domiciliarias, soporte al autocuidado, teleasistencia) logrando:",
+    opciones: [
+      "Aumentar el número de ingresos hospitalarios en un 50%.",
+      "Duplicar las estancias en la UCI geriátrica.",
+      "Reducir de forma comprobada los ingresos hospitalarios innecesarios entre un 21% y un 48%.",
+      "Evitar que el paciente vuelva a ser visto por el médico de familia nunca más."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "399. Al analizar los determinantes sociales del paciente crónico, los estudios epidemiológicos han confirmado categóricamente que:",
+    opciones: [
+      "Existe una relación inversa entre cronicidad y nivel socioeconómico (a menor nivel de renta, mayor carga de cronicidad).",
+      "Las personas con mayor poder adquisitivo enferman crónicamente mucho más rápido.",
+      "La economía personal no influye en absoluto en el desarrollo de patologías como la diabetes o la obesidad.",
+      "Las enfermedades crónicas se distribuyen exclusivamente entre los directivos de grandes empresas por el estrés."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "400. ¿Qué concepto inglés es considerado un elemento o factor 'clave' en la filosofía actual de atención a la cronicidad, y se traduce como dotar al paciente de conocimientos, habilidades y confianza para gestionar su propia salud?",
+    opciones: [
+      "Compliance (Cumplimiento ciego).",
+      "Empowerment (Empoderamiento).",
+      "Burnout (Desgaste).",
+      "Malingering (Simulación)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "401. Dentro del abordaje sociosanitario conjunto e integral de la cronicidad compleja pluripatológica, se aconseja abandonar la atención fragmentada y sustituirla organizativamente por:",
+    opciones: [
+      "La gestión compartida de casos mediante el trabajo de equipos multidisciplinares.",
+      "El monopolio de un único especialista médico que dicte todo desde el hospital.",
+      "La derivación del anciano a una ONG comunitaria sin historial clínico.",
+      "La separación estricta entre servicios sociales (asistentes) y sanitarios (enfermeras)."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "402. La 'Estrategia Gallega para la atención a personas en situación de cronicidad' enumera como uno de sus grandes objetivos cardinales:",
+    opciones: [
+      "Fomentar que la cronicidad progrese rápido hacia la dependencia para cobrar ayudas.",
+      "Evitar la progresión de la cronicidad hacia estadios más complejos, disminuyendo así el daño, la discapacidad y la dependencia.",
+      "Centralizar todos los cuidados crónicos en hospitales de tercer nivel tecnológico.",
+      "Reducir las plantillas de atención domiciliaria."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "403. Clínicamente, un paciente crónico, consciente de su evolución, que establece metas junto al personal de salud y tiene habilidades desarrolladas para manejar su día a día, recibe el nombre técnico de:",
+    opciones: [
+      "Paciente frágil terminal.",
+      "Paciente dependiente severo.",
+      "Paciente activo (empoderado).",
+      "Paciente institucionalizado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "404. El seguimiento no presencial, vital hoy en día en AP para evitar desplazamientos innecesarios y descompensaciones severas del paciente pluripatológico (vigilando por ejemplo su TA o saturación de oxígeno a distancia), se apoya en programas tecnológicos institucionales como:",
+    opciones: [
+      "TELEA (Plataforma de teleasistencia domiciliaria).",
+      "SiNASP.",
+      "Redes sociales genéricas (Facebook, Instagram).",
+      "Correo postal certificado."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "405. La cronicidad y sus programas abogan por garantizar el confort final del paciente cuando su enfermedad es irreversible y limitante. En la etapa de 'paciente crónico avanzado con pronóstico de vida limitado', los cuidados pasan a ser eminentemente:",
+    opciones: [
+      "Quirúrgicos curativos agresivos.",
+      "Paliativos y de control sintomático, mejorando la calidad de vida hasta el final.",
+      "Inexistentes (se da el alta administrativa).",
+      "Exclusivamente de rehabilitación deportiva de alta intensidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "406. Una premisa ineludible en el manejo de las enfermedades crónicas en AP es que la patología raramente viene sola. Frecuentemente coexisten en el mismo individuo diabetes, HTA y artrosis, por lo que el enfoque no debe tratar patologías aisladas, sino gestionar la:",
+    opciones: [
+      "Inmunosupresión yatrogénica.",
+      "Comorbilidad (el factor acumulativo de varias enfermedades crónicas).",
+      "Iatrogenia quirúrgica aguda.",
+      "Alergia cruzada estacional."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "407. En la gestión de pacientes de nivel 3 (Pirámide de Kaiser), además del paciente, la enfermera debe dedicar atención e intervenciones específicas de prevención (evitar el burnout) sobre una figura externa fundamental:",
+    opciones: [
+      "El gerente del centro de salud.",
+      "El farmacéutico del barrio.",
+      "El Cuidador Principal (formal o informal).",
+      "Los vecinos del bloque."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "408. Si un paciente crónico hipertenso acude a la consulta y tiene un control perfecto de la TA, tolera la medicación y comprende la dieta sin alteraciones orgánicas, ¿qué actitud se recomienda tomar desde el enfoque de enfermería para evitar la hiperfrecuentación y fomentar la autonomía?",
+    opciones: [
+      "Citarlo de nuevo a la semana siguiente por precaución.",
+      "Darle cita de seguimiento mensual para pesarlo siempre.",
+      "Realizar un seguimiento distanciado (por ejemplo, cada 6 meses), promoviendo que mantenga su autocuidado.",
+      "Ingresarlo en observación domiciliaria forzosa."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "409. Según las nuevas directrices comunitarias, para construir un sistema seguro en torno al enfermo crónico y asegurar una correcta toma de decisiones conjuntas, es prioritario disponer a nivel informático de:",
+    opciones: [
+      "Una Historia Clínica Electrónica única y accesible que facilite la comunicación segura entre profesionales y niveles.",
+      "Un perfil público del paciente accesible por cualquier persona en internet.",
+      "Múltiples historias en papel dispersas entre servicios para mayor seguridad ante hackeos.",
+      "Solo historiales de facturación económica sin notas de evolución de enfermería."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "410. Dentro del marco de la salud comunitaria, el concepto de 'Salutogénesis' formulado por Aaron Antonovsky centra su modelo de intervención en la identificación y promoción de:",
+    opciones: [
+      "Los factores de riesgo puramente genéticos y letales.",
+      "Los microorganismos causantes del deterioro tisular.",
+      "Los 'Activos en Salud' (factores que mejoran la capacidad de las personas para mantener un estado óptimo de bienestar).",
+      "Las técnicas quirúrgicas experimentales de crónicos."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "411. Según los apuntes, un 'Activo en salud' se diferencia de un simple 'Recurso en salud' en una cuestión de perspectiva comunitaria esencial. ¿Cuál es esa diferencia clave?",
+    opciones: [
+      "El recurso es gratis y el activo siempre de pago.",
+      "El recurso es un elemento objetivo, mientras que el 'Activo' es un recurso que además es RECONOCIDO subjetivamente por la propia comunidad como útil y favorable para su bienestar.",
+      "El activo solo puede ser de naturaleza farmacológica.",
+      "No existe diferencia, son términos intercambiables en todas las legislaciones mundiales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "412. Identifica un ejemplo claro de un 'Activo físico en salud' según los materiales teóricos estudiados:",
+    opciones: [
+      "Las acciones individuales de promoción de salud dietética.",
+      "Los artistas musicales locales que crean identidad de barrio.",
+      "Los espacios verdes, parques e instalaciones deportivas accesibles de la zona que la comunidad utiliza para relajarse y socializar.",
+      "La pensión de jubilación o las ayudas económicas del Estado."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "413. La Acción Comunitaria, fundamental para incidir en los determinantes sociales del paciente crónico del barrio, se estructura como un ciclo metódico. Su Fase 0 o punto de partida se denomina:",
+    opciones: [
+      "Preparar como actuar.",
+      "Conocerse y reconocerse (identificar motivaciones iniciales y tecer confianza).",
+      "Evaluar resultados finales de morbilidad.",
+      "Analizar y priorizar el gasto hospitalario."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "414. Una vez formado el equipo motor, el ciclo de acción comunitaria entra en su Fase 2, que metodológicamente consiste en:",
+    opciones: [
+      "Hacer equipo y red interna sin consultar a nadie.",
+      "Celebrar los éxitos y redactar el artículo científico.",
+      "Explorar la comunidad (iniciar la investigación y diagnóstico comunitario recolectando datos, necesidades y activos).",
+      "Ejecutar inmediatamente el plan de acción sin haber valorado nada previo."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "415. Las técnicas participativas para identificar 'Activos en Salud' en el entorno de nuestros pacientes crónicos pueden incluir intervenciones a pie de calle muy visuales y colectivas, como por ejemplo:",
+    opciones: [
+      "La lectura aislada de libros de anatomía médica.",
+      "El 'Paseo saludable' por el barrio, el 'Mapa mundo' y el 'Mapeo emocional'.",
+      "Extracciones de sangre capilar en masa en el parque.",
+      "Confinamiento vecinal para rellenar cuestionarios informáticos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "416. Tras explorar el barrio, la Fase 3 del ciclo comunitario consiste en 'Analizar y Priorizar'. ¿Por qué se dice en la teoría que esta fase es de vital importancia práctica?",
+    opciones: [
+      "Porque los presupuestos sobran y se puede abordar todo simultáneamente.",
+      "Porque los recursos y el tiempo son limitados (hay que ser realistas) y es necesario decidir democráticamente qué campos de actuación urgentes se abordarán primero.",
+      "Porque aquí se disuelve el equipo y se abandona el proyecto al ser demasiado complejo.",
+      "Porque delega toda la responsabilidad en el alcalde local."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "417. Una de las directrices que marca el éxito o fracaso en la atención comunitaria es la forma en la que el personal sanitario transmite el mensaje. La comunicación donde la enfermera emite un mensaje unidireccional puramente informativo sin dejar que la gente participe o comparta su experiencia se denomina de forma peyorativa:",
+    opciones: [
+      "Comunicación problematizadora.",
+      "Comunicación participativa interactiva.",
+      "Comunicación bancaria.",
+      "Comunicación bidireccional empática."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "418. En el marco del cuidado del anciano crónico, uno de los parámetros más sensibles a la alteración vascular silente es la función cognitiva. Si deseamos evaluar un posible deterioro o despistes leves en la memoria de un anciano en AP, usaremos preferentemente un test cribado rápido como el:",
+    opciones: [
+      "Cuestionario de Salud General de Goldberg.",
+      "Índice de Barthel para Actividades de la Vida Diaria.",
+      "Test de Pfeiffer (Short Portable Mental Status Questionnaire).",
+      "Escala visual analógica del dolor (EVA)."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "419. Si en una consulta programada de crónicos detectamos que nuestro paciente anciano está tomando anticoagulantes orales (TAO) tipo Acenocumarol por Fibrilación Auricular y pregunta por su dieta, la recomendación de educación para la salud nutricional que debe dar la enfermera es:",
+    opciones: [
+      "Que consuma una dieta extremadamente rica en espinacas y vegetales de hoja verde a diario para potenciar el efecto.",
+      "Que coma exclusivamente alimentos procesados libres de vitaminas para no interaccionar.",
+      "Que mantenga una dieta equilibrada y constante en sus raciones, evitando variaciones bruscas y excesos esporádicos en los alimentos ricos en Vitamina K (verduras hoja verde, coles) que alteren el INR.",
+      "Que suprima absolutamente toda fruta y verdura de su ingesta de por vida."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 4 (Crónicos)",
+    pregunta: "420. En resumen, el nuevo enfoque de 'Atención al Paciente Crónico' de la Estrategia Gallega defiende la 'Equidad'. Desde la filosofía de la Enfermería Familiar y Comunitaria, incorporar la 'Perspectiva de Género' a nuestras intervenciones significa entender que:",
+    opciones: [
+      "Las patologías siempre afectan biológicamente más al varón debido a su genética celular pura.",
+      "Existen desigualdades injustas debidas a los roles sociales, acceso a los recursos y división del trabajo, y que hombres y mujeres pueden enfermar de distinta forma por razones culturales.",
+      "Las mujeres deben ser atendidas en centros de salud diferentes y físicamente separados de los hombres.",
+      "Es irrelevante conocer el contexto social del individuo a la hora de prescribir su medicación cardiológica."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  // ==========================================
+  // MÓDULO III - TEMA 5: ATENCIÓN A LAS PERSONAS ANCIANAS
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "421. Según los datos sociodemográficos, el aumento de la esperanza de vida en los países desarrollados ha provocado una inversión de la pirámide poblacional. Actualmente, ¿dónde reside la inmensa mayoría de las personas mayores de 65 años?",
+    opciones: [
+      "En hospitales de crónicos de larga estancia.",
+      "En residencias geriátricas públicas o privadas exclusivamente.",
+      "En la comunidad (aproximadamente el 95% vive en su domicilio).",
+      "En unidades de cuidados paliativos centralizadas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "422. A nivel de repercusiones sociosanitarias, el envejecimiento poblacional ha provocado que el paciente anciano se convierta en:",
+    opciones: [
+      "El usuario que menos acude al sistema sanitario.",
+      "El principal usuario de la Atención Primaria y el principal consumidor de fármacos.",
+      "Un paciente con estancias hospitalarias muy cortas y sin reingresos.",
+      "Un colectivo sin ninguna repercusión económica para el SNS."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "423. Históricamente, ¿a quién se le atribuye ser la primera geriatra (fines s. XIX - s. XX) que promovió la atención integral en equipos multidisciplinares y la movilización precoz de pacientes mayores considerados 'incurables'?",
+    opciones: [
+      "Florence Nightingale.",
+      "Marjorie Warren.",
+      "Callista Roy.",
+      "Virginia Henderson."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "424. Mientras que la 'Geriatría' es la rama médica relativa a las enfermedades de la vejez, el estudio del envejecimiento en TODOS sus aspectos biológicos y sociales recibe el nombre de:",
+    opciones: [
+      "Gerontología (término introducido por Mechnikov en 1904).",
+      "Pediatría social.",
+      "Salutogénesis.",
+      "Antropología forense."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "425. Clínicamente, el envejecimiento humano NO es una enfermedad, sino un proceso caracterizado por presentar unos cambios morfológicos y fisiológicos que se desarrollan de manera:",
+    opciones: [
+      "Exactamente igual y simultánea en todos los individuos del planeta.",
+      "Reversible si se administra la farmacología adecuada a tiempo.",
+      "Individual, heterogénea (a su tiempo) e irreversible.",
+      "Repentina, sucediendo todos los cambios en el 65º cumpleaños."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "426. Una de las características fisiológicas vitales que define al anciano y que influye directamente en los planes de cuidados de enfermería es:",
+    opciones: [
+      "El aumento exponencial de su reserva fisiológica.",
+      "Una mejor capacidad de adaptación a los cambios ambientales bruscos.",
+      "Una menor reserva fisiológica y el consiguiente aumento de la vulnerabilidad ante la enfermedad.",
+      "La curación acelerada de las heridas y fracturas óseas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "427. Una particularidad fundamental que la enfermera debe tener en cuenta al valorar urgencias en personas mayores es que, a menudo, la presentación clínica de las enfermedades ocurre de forma:",
+    opciones: [
+      "Con fiebres altísimas que superan los 40ºC siempre.",
+      "Atípica y solapada (ej. confusión o caídas en lugar del dolor habitual), lo que dificulta el diagnóstico precoz.",
+      "Idéntica a como se presentan en un adolescente sano.",
+      "Estrictamente asintomática hasta la curación espontánea."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "428. El síndrome clínico vinculado al envejecimiento que se caracteriza por una homeostasis inestable, una menor resistencia al estrés y un alto riesgo de desarrollar incapacidad severa se denomina:",
+    opciones: [
+      "Sarcopenia muscular benigna.",
+      "Delirium agudo.",
+      "Fragilidad.",
+      "Demencia senil vascular."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "429. Según los estudios de Fried et al. (2005), para establecer un diagnóstico certero en el anciano, la valoración holística de la fragilidad debe contemplar la interacción de tres grandes dimensiones:",
+    opciones: [
+      "Renta económica, vivienda y apoyo familiar.",
+      "Fragilidad pura, Comorbilidad (enfermedades) y Discapacidad.",
+      "Genética, nutrición celular y sedentarismo.",
+      "Memoria, visión y audición."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "430. Utilizando las escalas de clasificación del grado de fragilidad en el anciano, un paciente encamado que es 'Totalmente dependiente para movilizarse, presenta incontinencia fecal y diagnóstico médico de demencia', se ubicaría en el:",
+    opciones: [
+      "Grado 1.",
+      "Grado 2.",
+      "Grado 3.",
+      "Grado 4."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "431. En la misma escala de fragilidad, si un anciano es independiente y camina sin ayuda, pero ha comenzado a presentar 'Sólo incontinencia urinaria ocasional', se clasificaría preventivamente en el:",
+    opciones: [
+      "Grado 1.",
+      "Grado 2.",
+      "Grado 3.",
+      "Grado 4."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "432. Frente a la fragilidad, la intervención multidisciplinar en el centro de salud NO busca curar el envejecimiento, sino prevenir el deterioro. ¿Cuál es uno de sus objetivos comunitarios centrales?",
+    opciones: [
+      "Promover el placer por la vida (ejercicio físico, sentirse útil) y fomentar al máximo la autonomía para las AVD.",
+      "Recomendar el encamamiento continuo para evitar caídas y fracturas.",
+      "Retirar todas las ayudas sociales para no crear dependencia económica.",
+      "Medicalizar preventivamente al paciente con sedantes para evitar que se agite en su domicilio."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "433. El proceso diagnóstico estructurado conocido como 'Valoración Geriátrica Integral' se caracteriza metodológicamente por ser:",
+    opciones: [
+      "Estático, intuitivo, unilateral y médico.",
+      "Integral, dinámico (evalúa evolución), multidisciplinar y estandarizado (uso de escalas validadas).",
+      "Rápido, basado únicamente en la analítica de sangre y subjetivo.",
+      "Exclusivo del trabajador social, sin importar el diagnóstico de enfermería."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "434. La Valoración Geriátrica Integral explora el estado global del paciente a través de cuatro grandes esferas de funcionamiento. Estas son:",
+    opciones: [
+      "Biológica/Clínica, Funcionamiento Físico, Funcionamiento Psicológico y Funcionamiento Social.",
+      "Renal, Cardiaca, Pulmonar y Hepática exclusivas.",
+      "Cognitiva, Conductual, Sensorial y Motora puras.",
+      "Familiar, Laboral, Económica e Histórica."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "435. Dentro de la esfera Clínica, la escala elegida por el SERGAS y preferida por la comunidad científica como herramienta estandarizada para predecir el riesgo de Úlceras por Presión (UPP) en adultos es:",
+    opciones: [
+      "La Escala de Zarit.",
+      "El Test de Pfeiffer.",
+      "La Escala de Braden - Bergstrom.",
+      "El Cuestionario de Goldberg."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "436. ¿Cuál de las siguientes afirmaciones sobre el Índice de Barthel (utilizado en la esfera del funcionamiento físico) es correcta?",
+    opciones: [
+      "Mide las capacidades intelectuales como el cálculo matemático.",
+      "Está basado en 10 preguntas cuya máxima puntuación es 100 puntos (o 90 si el paciente va en silla de ruedas). Evalúa dependencia en Actividades Básicas.",
+      "Una puntuación de 100 indica dependencia total inminente.",
+      "Solo se puede aplicar a niños menores de 14 años en pediatría."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "437. Si en la consulta la enfermera necesita valorar la capacidad del anciano para realizar las Actividades Instrumentales de la Vida Diaria (AIVD) (ej. usar el teléfono, comprar, manejo del dinero o de la medicación), utilizará preferentemente:",
+    opciones: [
+      "La Escala de Lawton y Brody.",
+      "El Índice de Katz.",
+      "La escala visual analógica del dolor (EVA).",
+      "El test de la figura compleja de Rey."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "438. Para valorar concretamente el riesgo de caídas y la funcionalidad de la marcha y el equilibrio en el anciano, la prueba validada y recomendada es:",
+    opciones: [
+      "La Escala de Norton modificada.",
+      "El Test del reloj horario.",
+      "El Test 'Time up & Go' (Levántate y anda).",
+      "El Test de Apgar Funcional."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "439. Según hemos estudiado, ¿cuál de los siguientes test cognitivos NO utilizarías para evaluar la función cognitiva y los despistes en un paciente de 60 años?",
+    opciones: [
+      "Test de Pfeiffer (Short Portable Mental Status Questionnaire).",
+      "Test de Lobo (Mini-Examen Cognoscitivo).",
+      "Índice de Barthel (ya que evalúa independencia física, no función mental).",
+      "Mini Mental State Examination (MMSE)."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "440. El 'Mini-Examen Cognoscitivo' (MEC-35), que se utiliza sistemáticamente en los cribados de Atención Primaria para detectar una posible demencia en pacientes geriátricos, se conoce comúnmente en España como:",
+    opciones: [
+      "Cuestionario de Barber.",
+      "Test de Yesavage.",
+      "Test de Zarit.",
+      "Test de Lobo."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "441. Para la evaluación del estado afectivo, concretamente para detectar de forma rápida la presencia de síntomas depresivos en la población mayor mediante preguntas de Sí/No, la herramienta de elección es:",
+    opciones: [
+      "Índice de esfuerzo de Katz.",
+      "Escala de Depresión Geriátrica (GDS de Yesavage).",
+      "Test de Mantenimiento de Memoria.",
+      "Escala de Gijón."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "442. En la esfera Social, el instrumento diseñado específicamente para mostrar cómo perciben los distintos miembros el nivel de apoyo y el funcionamiento de su unidad familiar de forma global se denomina:",
+    opciones: [
+      "Genograma familiar estructural.",
+      "Ecomapa de redes sociales.",
+      "Test de Apgar Familiar.",
+      "Test de Denver II."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "443. La Escala de Sobrecarga del Cuidador de Zarit es fundamental para la enfermera de enlace. En su interpretación, aunque no hay puntos de corte absolutos, se considera indicativa de 'sobrecarga intensa' (burnout inminente) una puntuación:",
+    opciones: [
+      "Inferior a 10 puntos.",
+      "Inferior a 46 puntos.",
+      "Superior a 56 puntos.",
+      "De exactamente 0 puntos (todas las respuestas negativas)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "444. En el abordaje geriátrico, una de las características propias que deben cumplir los test e instrumentos de evaluación (propiedades psicométricas) es que deben 'medir aquello que realmente dicen medir'. A esta cualidad científica se le llama:",
+    opciones: [
+      "Fiabilidad (consistencia interna).",
+      "Sensibilidad diagnóstica.",
+      "Validez.",
+      "Aplicabilidad comunitaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "445. Dentro de la valoración funcional estandarizada del anciano, las tareas de autocuidado imprescindibles para la supervivencia física como vestirse, comer, el aseo personal o el control de esfínteres, se enmarcan dentro de las:",
+    opciones: [
+      "Actividades Básicas de la Vida Diaria (ABVD).",
+      "Actividades Instrumentales de la Vida Diaria (AIVD).",
+      "Actividades Avanzadas y de Ocio (AAVD).",
+      "Funciones ejecutivas cognitivas."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "446. Si un anciano evaluado con el Índice de Barthel obtiene una puntuación total inferior a 20 puntos (<20), la interpretación clínica que debe constar en su historial es que se encuentra en un estado de:",
+    opciones: [
+      "Independencia absoluta.",
+      "Dependencia leve.",
+      "Dependencia severa.",
+      "Dependencia total."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "447. Como medida de prevención de seguridad en el domicilio de un paciente mayor con fragilidad grado 3, ¿cuál de las siguientes recomendaciones se considera INCORRECTA (peligrosa) al realizar educación para la salud?",
+    opciones: [
+      "Instalar una silla antideslizante en la ducha.",
+      "Colocar barandillas de apoyo en el aseo y en las escaleras.",
+      "Asegurar una buena y potente iluminación en pasillos nocturnos.",
+      "Colocar alfombras gruesas sueltas por la casa para mayor comodidad al caminar descalzo."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "calidad_seguridad"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "448. En las consultas del anciano frágil, es vital tener presente la iatrogenia farmacológica. ¿Qué característica destaca respecto a este grupo poblacional en la Atención Primaria?",
+    opciones: [
+      "Son el grupo poblacional que rechaza cualquier tipo de medicamento.",
+      "Son el principal consumidor de fármacos y presentan una terapéutica más compleja, lo que exige estricta conciliación de la medicación.",
+      "No sufren nunca efectos secundarios debido a su edad avanzada.",
+      "Solo pueden consumir medicamentos por vía intravenosa, nunca oral."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "449. Si nos remontamos al concepto de la Geriatría, ¿qué objetivo perseguía su pionero 'Nascher' en 1909 cuando diferenció esta rama de la medicina?",
+    opciones: [
+      "Descubrir la cura genética de la inmortalidad celular.",
+      "Encargarse exclusivamente del aislamiento social de los ancianos dementes.",
+      "Constituir el arte de la asistencia sanitaria encargado de los aspectos clínicos, preventivos, terapéuticos y sociales de la vejez.",
+      "Sustituir a la figura de la enfermera visitadora en los domicilios."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "evolucion_historica"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo III - Tema 5 (Ancianos)",
+    pregunta: "450. Para establecer un diagnóstico correcto de fragilidad, el equipo de salud debe comprender que la pérdida de la capacidad funcional del anciano no depende mágicamente de cumplir 80 años, sino que es el resultado de la interacción constante entre:",
+    opciones: [
+      "El clima atmosférico y la suerte del individuo.",
+      "Su patrimonio económico y su nivel de estudios primarios.",
+      "Su base genética pura sin influencia ambiental.",
+      "Los factores patológicos (comorbilidad), factores sociales y factores culturales que conforman su historia vital holística."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+
+  // ==========================================
+  // CLASES INTERACTIVAS: SALUTOGÉNESIS, ACTIVOS Y ACCIÓN COMUNITARIA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "451. Pregunta oficial de examen: 'A salutoxénese é un modelo teórico desenvolvido por Aaron Antonovsky que se centra en...'",
+    opciones: [
+      "O illamento de virus patóxenos.",
+      "A contabilización de enfermidades crónicas graves.",
+      "Activos en saúde (os factores que favorecen a saúde e o benestar).",
+      "O fomento exclusivo do consumo farmacolóxico na terceira idade."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "452. Frente a la perspectiva tradicional de la 'patogénesis' (centrada en el déficit y el riesgo), el modelo de Salutogénesis propone entender:",
+    opciones: [
+      "Cómo aislar las bacterias comunitarias en laboratorios locales.",
+      "Cómo las personas generan salud a lo largo de su vida, identificando sus fortalezas y capacidades a pesar de estar expuestas a situaciones difíciles o estresantes.",
+      "Cómo cobrar impuestos sanitarios a los enfermos crónicos.",
+      "Cómo medicalizar el cien por cien de las tristezas cotidianas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "453. Pregunta oficial de examen: 'Que é un activo en saúde?'",
+    opciones: [
+      "O saldo positivo nas contas bancarias da xerencia da Área Sanitaria local.",
+      "Unha vacina xenética contra as alerxias do pole.",
+      "Calquera factor ou recurso que mellore a capacidade dun individuo ou unha comunidade para manter un óptimo estado de saúde e benestar (ex. un parque infantil).",
+      "Un médico que traballa máis de 60 horas semanais ininterrompidas."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "454. En la teoría de mapeo comunitario, ¿cuál es la diferencia metodológica BÁSICA y esencial entre un mero 'Recurso en saúde' y un 'Activo en saúde'?",
+    opciones: [
+      "El recurso es gratuito y el activo requiere pago mediante seguro privado.",
+      "El recurso es un elemento objetivo disponible, pero el 'Activo' es ese mismo recurso cuando la propia comunidad lo reconoce y valora de forma SUBJETIVA como útil y favorable para su bienestar.",
+      "El recurso es farmacológico (pastillas) y el activo es instrumental (vendas).",
+      "No existe diferencia, son términos legalmente idénticos en la Ley de Sanidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "455. Si analizamos un territorio, 'La Facultad de Enfermería' como edificio o institución, sin tener en cuenta la opinión subjetiva de los vecinos del barrio, se clasifica en el mapa como:",
+    opciones: [
+      "Un activo emocional profundo.",
+      "Un activo económico intangible.",
+      "Un recurso en salud (elemento objetivo).",
+      "Una barrera arquitectónica insalvable."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "456. En cambio, un espacio de la ciudad como el 'Parque de Bonaval' se convierte en un auténtico 'Activo en salud' para un individuo cuando:",
+    opciones: [
+      "Se inscribe en el registro de la propiedad del ayuntamiento.",
+      "La persona lo reconoce como un espacio donde se relaja, hace ejercicio e interactúa con sus vecinos de forma positiva.",
+      "Acude a él exclusivamente obligado por sentencia judicial.",
+      "Se prohíbe el paso a menores de 18 años por seguridad física."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "457. A la hora de mapear activos comunitarios con jóvenes, ¿podría considerarse 'salir de fiesta los sábados y consumir grandes cantidades de alcohol' como un activo en salud, dado que para ellos es una actividad de ocio valiosa?",
+    opciones: [
+      "Sí, siempre y cuando lo hagan en grupo para evitar la soledad.",
+      "Sí, porque todo lo que genere placer mental inmediato es salutogénico.",
+      "No, nunca se puede considerar un activo en salud una práctica que, aunque sea de ocio, es perjudicial y destructiva para el organismo.",
+      "Sí, pero solo si el alcohol es de alta graduación y está subvencionado."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "458. Pregunta oficial de examen: 'Cales serían activos físicos en salud?'",
+    opciones: [
+      "Accións individuais de cada un para promocionar a propia saúde.",
+      "Artistas musicais locais que poidan influír na cultura e identidade da vila.",
+      "Talleres de promoción da saúde e modificación estrita de hábitos nocivos.",
+      "Espazos verdes (parques), instalacións deportivas, prazas e edificios accesibles."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "459. Las técnicas participativas para la identificación a pie de calle de los activos comunitarios junto con los vecinos (recopilando información cualitativa) incluyen metodologías como:",
+    opciones: [
+      "La extracción de sangre masiva obligatoria en la plaza del pueblo.",
+      "El 'Paseo saudable' (recorrido por el barrio) y el 'Mapa mundo' (colocar pegatinas en lugares percibidos como saludables).",
+      "El aislamiento de las familias en sus domicilios para rellenar test por internet.",
+      "La revisión privada de las cuentas bancarias de las asociaciones locales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "460. La 'Acción Comunitaria' se define en los apuntes de la USC de forma teórica como:",
+    opciones: [
+      "La vacunación masiva impuesta por el ejército a toda una provincia asintomática.",
+      "El aumento exponencial de camas hospitalarias en hospitales de tercer nivel para reducir las listas de espera en cirugía general.",
+      "La dinamización de las relaciones sociales de cooperación entre las personas de un determinado ámbito o espacio de convivencia para mejorar sus determinantes de salud.",
+      "La privatización y externalización de los servicios de urgencias primarias."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "461. Toda intervención comunitaria rigurosa se estructura en un ciclo de fases. La 'Fase 0', que constituye el arranque emocional y organizativo del proyecto, se denomina:",
+    opciones: [
+      "Avaliación final de resultados.",
+      "Facer equipo motor pechado.",
+      "Coñecerse e recoñecerse.",
+      "Preparar como actuar."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "462. En esa 'Fase 0' (Conocerse y reconocerse), el objetivo clave antes de ponerse a trabajar en la comunidad es reflexionar sobre:",
+    opciones: [
+      "Qué presupuesto económico exacto va a donar la Unión Europea al proyecto.",
+      "Identificar los intereses, las motivaciones de quienes inician el proceso y conectar con lo que ya existe para empezar a tejer confianza genuina.",
+      "Los castigos legales que se impondrán a los vecinos que no participen.",
+      "El despido inmediato del personal del centro de salud."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "463. En la 'Fase 1' del ciclo de acción comunitaria (Facer equipo e rede), la meta es consolidar a las personas que van a tener una mayor implicación. Estas personas conformarán lo que técnicamente se conoce como:",
+    opciones: [
+      "El Equipo Motor y la red de apoyo comunitaria.",
+      "El tribunal de la Inquisición sanitaria.",
+      "La junta directiva de la OMS local.",
+      "El comité de ética de trasplantes."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "464. Pregunta oficial de examen: 'Cal é unha fase do plan de acción comunitaria onde se inicia a investigación colectiva da realidade dos veciños?'",
+    opciones: [
+      "Fase 0: formar equipo.",
+      "Fase 1: actuar.",
+      "Fase 2: explorar a comunidade (diagnóstico comunitario das necesidades e activos).",
+      "Fase 6: avaliación e peche."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "465. Una vez terminada la exploración (diagnóstico), llegamos a la 'Fase 3: Analizar e priorizar'. ¿Por qué la teoría recalca que esta fase de priorización es absolutamente imprescindible en salud pública?",
+    opciones: [
+      "Porque los recursos económicos, humanos y el tiempo son ilimitados en el sistema.",
+      "Porque hay que ser realistas: los recursos son limitados y es obligatorio decidir participativamente qué problemas graves se abordarán primero y qué margen de actuación tenemos (sociograma).",
+      "Para poder excluir legalmente a los inmigrantes del proyecto de salud del barrio.",
+      "Porque en esta fase el proyecto finaliza y se archivan todos los datos de forma permanente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "466. En la 'Fase 4: Preparar como actuar', el equipo comunitario se reúne para elaborar el documento formal que guiará el trabajo real. Este documento es:",
+    opciones: [
+      "La receta médica electrónica.",
+      "El alta hospitalaria de crónicos.",
+      "El Plan de Actuación (o Plan de Acción), que incluye objetivos coherentes, actividades, cronogramas y responsables.",
+      "El test de Zarit de sobrecarga del cuidador local."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "467. La última etapa del ciclo de acción comunitaria es la 'Fase 6: Avaliar'. El objetivo de la evaluación NO es buscar culpables, sino:",
+    opciones: [
+      "Cobrar los incentivos económicos de final de año.",
+      "Obtener información para la mejora continua de la acción comunitaria, analizando su diseño, los indicadores de participación y los resultados de salud reales logrados en la población.",
+      "Castigar a las asociaciones de pacientes que no cumplieron las expectativas.",
+      "Cerrar el centro de salud definitivamente si no se curaron los crónicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "468. Pregunta oficial de examen: 'Nun taller comunitario, as enfermeiras fan unha comunicación unidireccional puramente informativa sen deixar que a xente participe nin comparta as súas experiencias. Este modelo pernicioso denomínase:'",
+    opciones: [
+      "Comunicación bidireccional empática.",
+      "Comunicación bancaria.",
+      "Comunicación problematizadora.",
+      "Comunicación participativa comunitaria."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "469. Para que un proceso comunitario se considere realmente justo y equitativo en sus bases, el equipo motor debe cuidar de forma específica (como 'Clave del Ciclo') que todo el mundo se sienta invitado, prestando un enfoque especial a:",
+    opciones: [
+      "Los políticos y cargos directivos institucionales de la élite local.",
+      "Exclusivamente las familias con rentas altas y casas en propiedad.",
+      "Las personas y colectivos en riesgo de exclusión o vulnerabilidad social, que habitualmente no tienen voz.",
+      "Aquellos que no residen en el territorio analizado para ganar objetividad foránea."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "470. Según la clasificación de los activos en salud de la comunidad, si nos referimos a elementos intangibles como las tradiciones, las fiestas locales, el lenguaje común y la identidad compartida del barrio, estamos hablando de:",
+    opciones: [
+      "Activos económicos líquidos.",
+      "Activos culturales.",
+      "Activos de la infraestructura sanitaria formal.",
+      "Activos físicos deportivos puros."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "471. En relación con las desigualdades sociales en salud, el diagnóstico comunitario debe ayudarnos a evitar el 'efecto de la atención fragmentada'. Esto se consigue fomentando en el territorio una cultura de trabajo que oriente sus esfuerzos hacia:",
+    opciones: [
+      "Los determinantes sociales de la salud (vivienda, empleo, educación) y no únicamente a paliar las carencias del sistema sanitario clínico curativo.",
+      "Aumentar masivamente el gasto en recetas médicas de antibióticos sin mirar el origen del problema.",
+      "El fomento exclusivo del hospitalocentrismo clásico de los años 70.",
+      "Prohibir que los pacientes crónicos sean atendidos por la Atención Primaria."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "472. Pregunta oficial de examen: 'Por que é tan importante incorporar a perspectiva de xénero (muller e saúde) ás intervencións comunitarias do noso proxecto?'",
+    opciones: [
+      "Porque as patoloxías afectan bioloxicamente máis aos homes debido á xenética estrita da célula e ao cromosoma Y.",
+      "Porque permite coñecer as desigualdades sociais e os factores determinantes en canto ao acceso á sanidade, os roles asumidos e a división inxusta do traballo (traballo doméstico, coidados da dependencia invisibles) que enferman á muller de xeito diferencial.",
+      "Porque as mulleres non padecen enfermidades crónicas de ningunha clase antes da menopausa natural.",
+      "Porque é un requisito estético legal sen ningunha implicación na morbilidade da comunidade estudada na práctica."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "473. Desde la óptica del empoderamiento (empowerment) en el proyecto comunitario, cuando la enfermera diseña un taller de educación para la salud (EpS), su objetivo final NO debe ser adoctrinar mediante miedos, sino:",
+    opciones: [
+      "Conseguir el 'compliance' o cumplimiento ciego y pasivo por temor a la muerte por infarto.",
+      "Facilitar a la población la adquisición de herramientas críticas, capacidades, habilidades prácticas y confianza que les permitan gestionar de forma autónoma y activa su propia salud.",
+      "Imponer sanciones y multas económicas directas a los vecinos que no logren reducir el colesterol de inmediato.",
+      "Fomentar la dependencia excesiva del sistema sanitario (adherencia asistencial extrema)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "474. Pregunta oficial de examen: En el diseño del proyecto de intervención sobre consumo de drogas en jóvenes de la comunidad, si utilizamos el test 'AUDIT' validado para AP, ¿cuál es el objetivo central clínico de esta escala rápida de screening preventivo?",
+    opciones: [
+      "Calcular matematicamente a afectación ou a cirrose hepática estrutural avanzada mediante analítica celular.",
+      "Medir o estrés xeral do adolescente deprimido ante a selectividade.",
+      "Detectar precozmente patróns de 'consumo de risco' de alcohol e identificar posibles trastornos encubertos por dependencia de substancias etílicas no ámbito da APS antes do dano vital.",
+      "Determinar o nivel de nicotina exacto en sangue do individuo fumador nos últimos seis meses cronolóxicos de xeito continuo."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "475. Dentro de la metodología del ciclo de la intervención social, el hecho de ser realistas y 'afrontar la realidad y nuestros propios límites institucionales' es un pilar crítico que evita la frustración del equipo enfermero. Esta advertencia forma parte de la reflexión metodológica indispensable de la fase de:",
+    opciones: [
+      "Evaluación final del cierre del programa sanitario hospitalario de trasplantes.",
+      "La pre-evaluación en la Fase 0 (Punto de partida - Coñecerse e recoñecerse).",
+      "La ejecución técnica masiva quirúrgica de la Fase 5 (Actuar con bisturí de forma ambulatoria generalizada en los pacientes crónicos del barrio estudiado en base al diagnóstico).",
+      "El archivo de documentos de facturación privada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "476. Pregunta oficial de examen: Si un paciente de la comunidad acude con factores de riesgo cardiovascular por padecer HTA controlada sin lesiones orgánicas y buscamos promover la autogestión y evitar la adherencia excesiva al sistema, ¿cómo se debería espaciar su seguimiento presencial con la enfermera?",
+    opciones: [
+      "Diariamente.",
+      "Mensualmente de forma estricta y coercitiva.",
+      "Cada 6 meses (promoviendo que mantenga su autocuidado, ya que es un paciente de nivel bajo de la pirámide de Kaiser que solo precisa autogestión de su estilo de vida y supervisión distante).",
+      "Nunca más en su vida, se le expulsa del sistema de control del Servicio Gallego de Salud."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_primaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "477. Si el proyecto comunitario está orientado a la prevención primaria del cáncer de cérvix entre la población joven del municipio, la enfermera debe organizar las campañas basándose en la medida principal que incluye:",
+    opciones: [
+      "La realización de citologías masivas diarias a mujeres menopáusicas.",
+      "La extirpación preventiva ambulatoria del útero a las niñas de 12 años.",
+      "La promoción general de la vacunación sistemática frente al Virus del Papiloma Humano (VPH) en adolescentes de 12 años.",
+      "La aplicación de radioterapia local preventiva comunitaria sin diagnóstico previo."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "478. Desde la óptica de la acción comunitaria, cuando se habla de la importancia de la 'participación ciudadana' en el proceso, se entiende que el rol de los vecinos organizados debe ser:",
+    opciones: [
+      "Un rol puramente contemplativo: escuchar las decisiones tomadas por los médicos de traje blanco en el despacho.",
+      "Un rol de sujeto pasivo obediente que se limita a cumplir órdenes higiénicas bajo coacción legal.",
+      "Un rol de sumisión económica: financiar los centros de salud mediante donativos privados anónimos mensuales y sin protestar las carencias del personal de guardia.",
+      "Un rol de sujeto activo y protagonista real: colaborar en el diagnóstico, decidir prioridades y codesarrollar las intervenciones para generar control real sobre su propia salud y la de su entorno."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "479. Para consolidar el concepto, ¿qué dimensión o tipo de activo englobaría a una persona de la comunidad que, debido a su profundo conocimiento del barrio, su resiliencia y su habilidad para motivar a los jóvenes, fomenta la salud local de forma voluntaria?",
+    opciones: [
+      "Un activo económico financiero de clase A.",
+      "Un activo organizativo estatal mayor.",
+      "Un activo de los individuos o activo humano clave de la comunidad estudiada.",
+      "Un activo de infraestructura sanitaria muerta."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Interactivas (Activos y Comunidad)",
+    pregunta: "480. Como conclusión del Módulo de Metodología de Intervención Comunitaria (Interactivas y Modelos), el desarrollo del perfil competencial avanzado de la Enfermería Familiar y Comunitaria (basado en la Orden SAS/2010 y el método científico) demuestra de forma definitiva que la profesión:",
+    opciones: [
+      "Es una disciplina puramente técnica que debe relegar toda la carga comunitaria a los asistentes sociales y basarse cien por cien en la obediencia clínica intrahospitalaria sin aplicar pensamiento crítico propio al entorno social de los individuos aislados.",
+      "Se ha desligado por fin del trato humano directo y debe centrar su futuro puramente en la gestión burocrática digital de agendas desde despachos de gerencia en los servicios centrales alejados de los barrios.",
+      "Asume en la actualidad la gestión autónoma del cuidado integral de las poblaciones desde un enfoque preventivo, holístico y salutogénico; consolidando un modelo donde el empoderamiento del sujeto y la intervención activa sobre los determinantes sociales en la comunidad son la pieza clave del nuevo Sistema Nacional de Salud eficiente y centrado en la equidad.",
+      "Debería retornar obligatoriamente a los principios de caridad pura fundados por las órdenes religiosas del siglo XVIII, ignorando los avances tecnológicos, epidemiológicos y de diagnóstico clínico."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  }
+  // ==========================================
+  // MÓDULO IV: CUIDADOS DE ENFERMERÍA A LA FAMILIA
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo IV - Cuidados a la familia",
+    pregunta: "481. En la valoración integral de la dinámica familiar, ¿qué herramienta gráfica estandarizada debe utilizar la enfermera para representar la estructura interna de la familia, sus vínculos genéticos y las convivencias a lo largo de al menos tres generaciones?",
+    opciones: [
+      "El Ecomapa.",
+      "El Genograma familiar.",
+      "El Sociograma de barrio.",
+      "El Test de Apgar Familiar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo IV - Cuidados a la familia",
+    pregunta: "482. Si el objetivo de la enfermera es representar gráficamente los flujos de energía, las interacciones y el nivel de apoyo que tiene la familia con su entorno macrosocial (trabajo, escuela, asociaciones, sistema de salud), la herramienta indicada es:",
+    opciones: [
+      "El Ecomapa.",
+      "El familiograma.",
+      "La escala de Zarit.",
+      "El test de Pfeiffer."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo IV - Cuidados a la familia",
+    pregunta: "483. Pregunta oficial de examen: Cal non é un principio da enfermaría holística aplicable á atención familiar e comunitaria?",
+    opciones: [
+      "A equidade.",
+      "A comunicación efectiva.",
+      "Todas son correctas (tanto a equidade como a comunicación son principios clave da visión holística).",
+      "O illamento institucional."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo IV - Cuidados a la familia",
+    pregunta: "484. Pregunta oficial de examen: En relación coa comunicación non verbal durante as entrevistas no domicilio familiar, que término se utiliza especificamente para definir a distancia ou espaciación física que manteñen as persoas ao interactuar?",
+    opciones: [
+      "Proxémica.",
+      "Paralingüística.",
+      "Kinestésica.",
+      "Asertividade."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "competencias"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo IV - Cuidados a la familia",
+    pregunta: "485. Al establecer el Plan de Atención Familiar, el profesional debe tener en cuenta el 'Ciclo Vital Familiar'. La etapa de mayor crisis adaptativa, donde suele aparecer el 'síndrome del nido vacío' y la readaptación de la pareja, se conoce habitualmente como:",
+    opciones: [
+      "Fase de formación de la pareja.",
+      "Fase de extensión (nacimiento de hijos).",
+      "Fase de contracción o dispersión (independencia de los hijos).",
+      "Fase de nido lleno."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo IV - Cuidados a la familia",
+    pregunta: "486. Cuando un miembro de la familia sufre una enfermedad crónica incapacitante, los cuidados en el entorno recaen casi siempre sobre un cuidador informal (cuidador principal). Como medida de prevención primaria, la enfermera debe:",
+    opciones: [
+      "Asumir ella misma todas las tareas del hogar.",
+      "Prevenir la claudicación familiar valorando la sobrecarga (Escala de Zarit) e instruyendo en habilidades de manejo y descanso.",
+      "Institucionalizar al paciente inmediatamente sin consultar.",
+      "Prohibir que el resto de familiares visiten el domicilio."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "enfermeria_enlace"
+  },
+
+  // ==========================================
+  // MÓDULO V: CUIDADOS A LA COMUNIDAD Y ADAPTACIÓN DEL ENTORNO
+  // ==========================================
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "487. Pregunta oficial de examen: Dentro dos coidados de adaptación do entorno e xestión de recursos, cal distos produtos precisa ser homologado de forma específica por farmacia para poder ser prescrito por medicina ou enfermaría na comunidade?",
+    opciones: [
+      "As tiras de glicemia.",
+      "As sondas vesicais.",
+      "As bolsas de ostomías.",
+      "As medias de alta compresión."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "488. Pregunta oficial de examen: Cal das seguintes NON é unha guía de aplicación enfermeira recoñecida na estandarización de procedementos comunitarios?",
+    opciones: [
+      "A guía da Febre.",
+      "A guía da Ostomía.",
+      "A guía de Queimaduras e feridas.",
+      "A guía de Material sanitario de oficina."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "489. Pregunta oficial de examen: No taller de desenvolvemento e intervención comunitaria sobre o Pé Diabético, que recomendación hixiénica de prevención básica se lle daría SEMPRE a unha persoa con este diagnóstico?",
+    opciones: [
+      "Empregar calcetíns moi axustados para mellorar o retorno venoso.",
+      "Recomendar dúas veces por semana utilizar zapatos de tacóns.",
+      "Poñer abundante crema hidratante entre os dedos dos pés.",
+      "Secar ben os espazos interdixitais tras o lavado para evitar maceración e infeccións fúnxicas."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "490. Pregunta oficial de examen: Na exploración clínica específica do Pé Diabético, o compoñente 'osteoarticular' comproba a mobilidade e as deformacións. Cal das seguintes opcións é INCORRECTA (é dicir, NON pertence estritamente á valoración osteoarticular)?",
+    opciones: [
+      "O Edema (pertence á valoración vascular/partes brandas, non osteoarticular).",
+      "O movemento articular xeral.",
+      "A presenza de prominencias óseas.",
+      "A presenza de deformacións óseas (como o hallux valgus ou pé de Charcot)."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "491. Pregunta oficial de examen: En relación á exploración da sensibilidade neuropática do pé diabético na consulta, sinale a afirmación CORRECTA sobre o uso do monofilamento (Semmes-Weinstein):",
+    opciones: [
+      "Porase o dispositivo en posición paralela á pel e valorarase frotando rapidamente sen chegar a dobralo.",
+      "A valoración realizarase principalmente en tres sitios clave por pé: a falange distal do primeiro dedo, a base do primeiro metatarsiano e a base do quinto metatarsiano.",
+      "Debe aplicarse cravando a punta do filamento ata provocar un leve sangrado.",
+      "Só se utiliza en pacientes menores de 50 anos."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Participación y Diagnóstico Comunitario",
+    pregunta: "492. Pregunta oficial de examen: Unha cuestión de debate ético e lexislativo na saúde pública é a atención a colectivos inmigrantes sen papeis. Sinale a resposta verdadeira na actualidade:",
+    opciones: [
+      "Só os nenos inmigrantes teñen dereito a ser atendidos.",
+      "Só se é unha emerxencia vital, os inmigrantes teñen dereito a ser atendidos en calquera caso.",
+      "No caso de mulleres embarazadas (durante e despois do parto), os nenos menores e en situacións de urxencias, teñen sempre o dereito garantido a ser atendidos.",
+      "Ningún deles ten dereito ao uso dos servizos públicos de saúde en España."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Participación y Diagnóstico Comunitario",
+    pregunta: "493. Pregunta oficial de examen (Repaso Clínico Integral): Cando falamos do diagnóstico e clínica das enfermidades transmisibles na comunidade, sinale a afirmación verdadeira sobre o Tétanos:",
+    opciones: [
+      "O signo clínico principal é a forte contracción dos músculos faciais, producindo a coñecida 'risa sardónica' (trismo).",
+      "O axente etiolóxico é un virus (Papilomavirus).",
+      "A única prevención contra o tétanos é pechar inmediatamente a ferida sen realizar profilaxe de limpeza nin vacinación.",
+      "É unha patoloxía que xa está erradicada a nivel mundial e non existe vacina no calendario adulto."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Participación y Diagnóstico Comunitario",
+    pregunta: "494. Dentro de la Participación Comunitaria, la técnica participativa denominada 'Sociograma' se utiliza en la Fase 3 del ciclo comunitario principalmente para:",
+    opciones: [
+      "Analizar exclusivamente el gasto económico en fármacos del barrio.",
+      "Representar de manera gráfica y analizar la red de relaciones sociales, afinidades, tensiones y poder entre los distintos actores/asociaciones de la comunidad.",
+      "Medir la agudeza visual de los adolescentes en los institutos.",
+      "Contar el número de centros de salud construidos en la última década."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "495. Al adaptar el entorno domiciliario a una situación de discapacidad sobrevenida (ej. un anciano en silla de ruedas), una de las primeras barreras arquitectónicas a suprimir en la vivienda según los protocolos de Terapia Ocupacional y Enfermería es:",
+    opciones: [
+      "La instalación de fibra óptica para internet.",
+      "La sustitución de la bañera tradicional por un plato de ducha a cota cero con asiento y asideros.",
+      "El cambio de color de las paredes de la habitación.",
+      "El aumento del número de escalones en la entrada principal."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Adaptación y Discapacidad",
+    pregunta: "496. Los 'Productos de Apoyo' (antes llamados ayudas técnicas) son herramientas indispensables para facilitar el desenvolvimiento en la vida cotidiana. Un andador (rollator) se clasifica funcionalmente como un producto de apoyo para:",
+    opciones: [
+      "La comunicación alternativa.",
+      "El cuidado personal e higiene.",
+      "La movilidad personal y transferencia.",
+      "La manipulación de alimentos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_avanzados"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Participación y Diagnóstico Comunitario",
+    pregunta: "497. Si el EAP decide intervenir sobre un grupo de mujeres mayores con riesgo de aislamiento y diseña un taller de manualidades que sirve como excusa para hablar de salud emocional, estamos aplicando una estrategia de:",
+    opciones: [
+      "Atención puramente hospitalaria.",
+      "Intervención grupal y empoderamiento comunitario mediante el fomento de redes de apoyo social mutuo.",
+      "Medicalización del sufrimiento psíquico.",
+      "Aislamiento de la población sana."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Cuidados a la familia",
+    pregunta: "498. Para realizar el 'Diagnóstico de Salud Comunitaria' desde la taxonomía enfermera, el profesional utiliza los diagnósticos NANDA, que no solo están formulados para individuos, sino que incluyen dominios específicos y etiquetas para referirse al 'Afrontamiento', 'Mantenimiento ineficaz' o 'Déficit de conocimientos' enfocados directamente a:",
+    opciones: [
+      "Únicamente el entorno quirúrgico del quirófano.",
+      "La Familia y la Comunidad como sujeto de cuidados.",
+      "Las máquinas y dispositivos electrónicos del centro de salud.",
+      "Los animales de compañía exclusivamente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "metodologia_enfermera"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Módulo V - Participación y Diagnóstico Comunitario",
+    pregunta: "499. La evaluación final (Fase 6) de un programa de adaptación de espacios públicos impulsado por enfermería y vecinos no debe medir únicamente el número de rampas construidas, sino fundamentalmente:",
+    opciones: [
+      "El presupuesto exacto gastado en publicidad del ayuntamiento.",
+      "El impacto real o resultado en salud (ej. mejora de la autonomía, reducción de fracturas por caídas y aumento de la participación social de las personas con discapacidad).",
+      "La cantidad de multas impuestas a conductores mal aparcados.",
+      "El nombre de la empresa constructora contratada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "salud_publica_comunitaria"
+  },
+  {
+    asignatura: "comunitaria",
+    tema: "Cierre Integral EFyC",
+    pregunta: "500. A modo de conclusión de la asignatura: La Enfermería Familiar y Comunitaria es la disciplina que, apoyada en el Método Científico (PAE) y el enfoque Salutogénico, tiene como máxima finalidad y competencia primordial:",
+    opciones: [
+      "Convertir a la enfermera en un médico sustituto de bajo coste para diagnosticar y operar enfermedades raras en hospitales regionales.",
+      "La gestión integral del cuidado a lo largo de todo el ciclo vital, empoderando a la persona, fomentando los activos en salud y dinamizando la participación de la comunidad para mejorar sus propios determinantes socio-sanitarios.",
+      "Asumir labores puramente administrativas sin contacto clínico directo con los pacientes en los centros de salud.",
+      "Restringir el gasto farmacéutico prohibiendo toda atención médica a pacientes mayores de 65 años."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "competencias"
+  },
+
 ];
 
 // --- MAPAS MENTALES (MERMAID) ---
@@ -18073,7 +25852,7 @@ mindmap
         Sedación paliativa
         Planificación anticipada
         Evitar obstinación terapéutica
-    `,
+  `,
   salud_mental: `
 mindmap
   root((Salud Mental 2025))
@@ -18144,6 +25923,59 @@ mindmap
       Gestión de Agitación
       Prevención Suicidio
       Límites Profesionales
+  `,
+  comunitaria: `
+mindmap
+  root("Enfermería Familiar y Comunitaria")
+    ("Evolución Histórica")
+      ("Siglo XIX")
+        ("Florence Nightingale: Tratado de enfermería comunitaria")
+        ("William Rathbone: Primeras enfermeras de distrito")
+        ("Lilian Wald: Enfermeras de salud pública (EE.UU.)")
+      ("Hitos Globales")
+        ("1978 Declaración de Alma-Ata: Salud para todos")
+        ("2018 Declaración de Astaná: Compromiso con APS")
+      ("España")
+        ("Concepción Arenal: Bases enfermería moderna")
+        ("1977: Integración universitaria")
+        ("1984-1986: Estructuras básicas y Ley de Sanidad")
+    ("Atención Primaria de Salud (APS)")
+      ("Características")
+        ("Atención integral y continuada")
+        ("Accesible y participativa")
+        ("Equipos multidisciplinares")
+      ("Estructura")
+        ("Zona Básica de Salud")
+        ("Área de Salud")
+        ("Centro de Salud")
+    ("Competencias y Especialidad")
+      ("Dimensiones del Saber")
+        ("Saber saber (Conocimientos)")
+        ("Saber ser (Actitud)")
+        ("Saber hacer (Aptitud)")
+      ("Agrupación de Competencias")
+        ("Cuidados avanzados")
+        ("Salud pública y comunitaria")
+        ("Docencia e Investigación")
+        ("Gestión de cuidados")
+    ("Enfermería de Enlace")
+      ("Gestión de Casos")
+      ("Continuidad de cuidados")
+      ("Atención al paciente crónico y pluripatológico")
+      ("Apoyo al cuidador familiar")
+    ("Metodología Enfermera")
+      ("Proceso Enfermero (5 fases)")
+        ("Valoración")
+        ("Diagnóstico")
+        ("Planificación")
+        ("Ejecución")
+        ("Evaluación")
+      ("Taxonomías: NANDA, NOC, NIC")
+    ("Calidad y Seguridad")
+      ("Dimensiones: Eficacia, Seguridad, Equidad")
+      ("Eventos adversos e incidentes")
+      ("Notificación: SiNASP")
+      ("Prácticas seguras")
     `,
   clinica_ii: `
 mindmap
@@ -18189,5 +26021,5 @@ mindmap
         ("Fisioterapia respiratoria: prevencion postoperatoria")
         ("Peak-flow: seguimiento del asma")
         ("Contraindicacion espirometria: aneurisma")
-      `,
+  `
 };
