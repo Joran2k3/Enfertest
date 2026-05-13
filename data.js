@@ -25492,7 +25492,7 @@ const BANCO_PREGUNTAS = [
     correcta: 2,
     esExamen: false,
     conceptoMapa: "competencias"
-  }
+  },
   // ==========================================
   // MÓDULO IV: CUIDADOS DE ENFERMERÍA A LA FAMILIA
   // ==========================================
