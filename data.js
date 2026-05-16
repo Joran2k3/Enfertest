@@ -17,10 +17,17 @@ const CONFIG_ASIGNATURAS = {
   },
   salud_genero: {
     nombre: "Salud género y retos sociales",
-    preguntasSimulacro: 30,
+    preguntasSimulacro: 20,
     notaAprobado: 5,
     resta: true,
-    idTemas: [1, 2, 3, 4]
+    idTemas: [
+      "Tema 1 (Determinantes Culturales)",
+      "Tema 2 (Determinantes de Género)",
+      "Tema 3 (Violencia)",
+      "Tema 4 (Violencia de Género)",
+      "Tema 5 (Equidad y Determinantes Sociales)",
+      "Cierre Integral Salud y Género"
+    ]
   },
   comunitaria: {
     nombre: "Familiar y comunitaria",
@@ -25780,6 +25787,1499 @@ const BANCO_PREGUNTAS = [
     esExamen: false,
     conceptoMapa: "competencias"
   },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 2 (Determinantes de Género)",
+    pregunta: "1. ¿Qué modelo de género está relacionado con los TCA (Trastornos de la Conducta Alimentaria)?",
+    opciones: [
+      "Igualitario.",
+      "Contemporáneo.",
+      "En transición.",
+      "Tradicional."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "modelos_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 2 (Determinantes de Género)",
+    pregunta: "2. Indica cuál de las siguientes es verdadera:",
+    opciones: [
+      "Los hombres trans deben suprimir el tratamiento 2 semanas antes de inmovilización.",
+      "Una mujer trans es sexo masculino al nacer e identidad de género femenina.",
+      "El tratamiento con los análogos GnRH tarda 6 meses en verse el resultado.",
+      "Las opciones B y C son correctas."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "atencion_personas_trans"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "3. ¿Quién es el que, después de haber iniciado el acoso escolar, sigue agrediendo a la víctima asumiendo un papel activo?",
+    opciones: [
+      "El agresor reactivo.",
+      "El acosador pasivo.",
+      "El seguidor del acosador.",
+      "El observador despreocupado."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "violencia_escolar"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "4. Según el Protocolo de violencia del Sergas, se debe pasar el cuestionario (cribado) sobre la violencia de género a:",
+    opciones: [
+      "Cualquier persona con indicadores de violencia de género.",
+      "Cualquier mujer con indicadores de violencia de género exclusivamente.",
+      "Toda mujer mayor de 18 años.",
+      "Toda mujer mayor o igual a 15 años que acuda a consulta."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "violencia_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "5. En el ciclo de la violencia, ¿en qué fase se produce principalmente la manipulación y el chantaje emocional justificando la violencia con el amor?",
+    opciones: [
+      "Fase de luna de miel o reconciliación.",
+      "Fase de agresión.",
+      "Fase de acumulación de tensión.",
+      "Ninguna de las anteriores."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "violencia_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "6. Cómo se procede según el protocolo del Sergas si hay indicadores de sospecha de violencia de género y el cribado sistemático es negativo:",
+    opciones: [
+      "Pasar el cuestionario WAST y registrar en la historia clínica.",
+      "Pasar el cuestionario DA y registrar.",
+      "Pasar el WAST, el DA y registrar.",
+      "No se realiza ninguna acción."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "violencia_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 1 (Determinantes Culturales)",
+    pregunta: "7. Una persona con sobrepeso y HTA dice que le gusta mucho comer y que el sobrepeso para él es signo de salud por su cultura. ¿Qué acción de cuidados culturales debemos hacer ante esta situación?",
+    opciones: [
+      "Mantenimiento y preservación de los cuidados culturales.",
+      "Acomodación y negociación de los cuidados culturales sin cambiar el hábito.",
+      "Remodelación o reestructuración del cuidado cultural (cambiar estilos de vida perjudiciales).",
+      "No se hace nada por respeto etnocéntrico."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "cuidados_culturales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 2 (Determinantes de Género)",
+    pregunta: "8. Era una gráfica sobre el cáncer de pulmón en los últimos 30 años donde había 2 líneas (mujer y hombre) y una estaba en el nivel 0 y la otra en un nivel más alto. ¿Qué representa esta forma de analizar los datos?",
+    opciones: [
+      "La línea de desigualdad de género biológica pura.",
+      "La línea de los determinantes sociales estructurales.",
+      "La línea de salud específica de las mujeres.",
+      "La línea de análisis de los determinantes de género (estudio de morbilidad diferencial y hábitos como el tabaco)."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "enfoque_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 2 (Determinantes de Género)",
+    pregunta: "9. Las etapas de transición secundaria que pueden expresar los familiares ante la revelación de una persona trans son:",
+    opciones: [
+      "Sorpresa, negación, ira (rabia), negociación y aceptación.",
+      "Negación, rabia, sorpresa, negociación y aceptación.",
+      "Rabia, tristeza, negociación y aceptación.",
+      "Sorpresa, rabia, negación, aceptación y negociación."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "atencion_personas_trans"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 1 (Determinantes Culturales)",
+    pregunta: "10. En un centro de salud un grupo de inmigrantes intercambian la tarjeta de salud para poder acceder a los servicios por miedo o desconocimiento. ¿Qué tipo de mediación intercultural usarías aquí para poder solucionarlo?",
+    opciones: [
+      "Preventiva.",
+      "Rehabilitadora.",
+      "Transformadora o creativa.",
+      "Terapéutica."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "mediacion_intercultural"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "11. Según el Protocolo de violencia de Sergas, ¿qué se debe hacer si una mujer da negativo en el cuestionario de cribado y NO muestra indicadores de violencia de género?",
+    opciones: [
+      "Entender que no tiene ningún riesgo y no volver a evaluar.",
+      "Derivar inmediatamente al servicio de psiquiatría preventivamente.",
+      "Informar que ante cualquier maltrato puede pedir ayuda, repetir al año (o a los dos años según visitas) y registrar en HC.",
+      "Repetir el cuestionario WAST a la semana siguiente obligatoriamente."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "violencia_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 1 (Determinantes Culturales)",
+    pregunta: "12. Según el Modelo del Sol Naciente de Leininger, ¿en qué nivel se obtienen los datos e información acerca de los individuos, familias y su entorno para poder establecer unos cuidados basados en la cultura?",
+    opciones: [
+      "Nivel 1.",
+      "Nivel 2.",
+      "Nivel 3.",
+      "Nivel 4."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "cuidados_culturales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "13. Cuando tenemos una entrevista clínica con una mujer víctima de violencia debemos:",
+    opciones: [
+      "Emitir juicios de valor para que abra los ojos ante su situación.",
+      "Mantener la escucha activa, mostrando empatía sin presionarla.",
+      "Emplear una actitud paternalista debido a la situación de vulnerabilidad en la que se encuentra.",
+      "Forzarla a que interponga la denuncia en el momento de la consulta."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "violencia_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "14. La violencia dirigida intencionadamente hacia la mascota de la víctima en el hogar...",
+    opciones: [
+      "Es considerada un tipo de violencia física directa hacia la mujer.",
+      "Es un tipo de violencia de género de tipo social.",
+      "No se considera ningún tipo de violencia, es un accidente.",
+      "Se considera una forma de coacción y violencia psicológica (violencia ambiental) dentro de la violencia de género."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "violencia_de_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 2 (Determinantes de Género)",
+    pregunta: "15. Indica cuál de las siguientes afirmaciones sobre los tratamientos en personas trans es VERDADERA:",
+    opciones: [
+      "Entre los efectos adversos de los análogos de la GnRH (bloqueo puberal) destaca el acné facial.",
+      "Los cambios físicos que produce la testosterona son en su totalidad reversibles una vez se interrumpe la medicación.",
+      "El principal efecto adverso del tratamiento de bloqueo con análogos de la GnRH es el riesgo de sufrir una futura osteoporosis.",
+      "El tratamiento hormonal cruzado feminizante consigue revertir siempre el engrosamiento de las cuerdas vocales."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "atencion_personas_trans"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 2 (Determinantes de Género)",
+    pregunta: "16. En el contexto de la materia, ¿a qué se refiere la expresión 'ponerse las gafas violetas' (aplicar el enfoque de género)?",
+    opciones: [
+      "A observar de forma minuciosa la realidad para identificar desigualdades de salud causadas por construcciones culturales y sociales asignadas a hombres y mujeres.",
+      "A centrarse exclusivamente en la salud biológica y los factores genéticos de las mujeres.",
+      "A tratar a todos los pacientes exactamente igual, ignorando por completo su sexo y su contexto social.",
+      "A obligar a que las intervenciones comunitarias se realicen por personal exclusivamente femenino."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "enfoque_de_genero"
+  },// ==========================================
+  // TEMA 3: LA VIOLENCIA
+  // ==========================================
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "61. En el ámbito sociosanitario, para que una acción se considere estrictamente 'violencia', ¿qué aspecto clave debe cumplir siempre?",
+    opciones: [
+      "Debe causar siempre la muerte o una discapacidad permanente.",
+      "Debe existir la intencionalidad del daño y una imposición contra la voluntad mediante el uso de la fuerza o el poder.",
+      "Debe realizarse exclusivamente en el ámbito doméstico.",
+      "Debe producir lesiones físicas que requieran ingreso hospitalario."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "concepto_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "62. Al clasificar la violencia según el 'autor del hecho', los denominados 'retos virales' peligrosos (como el Condom Challenge o la Ballena Azul) se categorizan como:",
+    opciones: [
+      "Violencia colectiva estructural.",
+      "Violencia interpersonal de la comunidad.",
+      "Violencia autoinfligida.",
+      "Violencia doméstica."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "clasificacion_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "63. El terrorismo o la violencia utilizada como instrumento por personas que se identifican como miembros de un grupo para lograr objetivos sociales, económicos o políticos, se denomina:",
+    opciones: [
+      "Violencia colectiva.",
+      "Violencia interpersonal extraña.",
+      "Violencia autoinfligida.",
+      "Violencia de género institucional."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "clasificacion_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "64. Al clasificar la violencia según el 'tipo de acción', el abandono o descuido de las obligaciones en los cuidados de una persona dependiente se considera:",
+    opciones: [
+      "Una acción fortuita no violenta.",
+      "Violencia por omisión (negligencia).",
+      "Violencia física directa.",
+      "Un trastorno de la personalidad del cuidador."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "clasificacion_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "65. ¿Cuál es el tipo de maltrato infantil MÁS frecuente en España, representando aproximadamente un 41% de los casos?",
+    opciones: [
+      "El maltrato físico (golpes).",
+      "El abuso sexual.",
+      "La negligencia o violencia por omisión.",
+      "El síndrome de Munchausen por poderes."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "clasificacion_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "66. ¿Cuál de los siguientes ejemplos NO se considera clínicamente una acción de violencia?",
+    opciones: [
+      "No pagar la manutención con la intención de causar daño a la ex pareja (violencia vicaria).",
+      "La mutilación genital femenina practicada por cultura.",
+      "Un golpe accidental durante un partido de fútbol o la práctica de boxeo profesional consentido.",
+      "Desatender la alimentación de un menor hasta la desnutrición."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "concepto_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "67. ¿Qué diferencia conceptual existe entre la 'Violencia escolar' general y el 'Acoso escolar (Bullying)'?",
+    opciones: [
+      "Son exactamente lo mismo en cualquier contexto.",
+      "La violencia escolar solo la ejercen los profesores, y el bullying los alumnos.",
+      "El acoso escolar (bullying) requiere que la conducta sea persistente en el tiempo y se dé entre iguales (alumnos), mientras que la violencia escolar puede ser un hecho puntual fortuito o involucrar a otros miembros.",
+      "El bullying solo ocurre a través de internet (ciberbullying)."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "acoso_escolar"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "68. Para que un comportamiento se tipifique como Bullying (según los criterios de Dan Olweus), DEBE cumplir tres requisitos indispensables:",
+    opciones: [
+      "Intención de dañar, uso de armas blancas y suceder fuera del colegio.",
+      "Intención de hacer daño, persistencia en el tiempo y abuso de poder desequilibrado entre víctima y agresor.",
+      "Realizarse por redes sociales, haber agresiones físicas sangrantes y ser denunciado a la policía.",
+      "Participación de los padres, intervención de la enfermera y daño económico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "acoso_escolar"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "69. En el contexto del acoso escolar y el desarrollo psicológico de la víctima, el sentimiento de persecución que lleva a la víctima a creer que no puede hacer nada para cambiar su situación se relaciona con:",
+    opciones: [
+      "El síndrome de indefensión aprendida (fábula del elefante encadenado).",
+      "El síndrome de Estocolmo.",
+      "El trastorno de déficit de atención.",
+      "La disforia de género puberal."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "consecuencias_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "70. Dentro de los tipos de Bullying, ¿cómo se clasificaría la acción en la que a un niño siempre le desaparecen las cosas o se las estropean sin que el agresor dé la cara?",
+    opciones: [
+      "Bullying físico directo.",
+      "Bullying verbal directo.",
+      "Bullying social excluyente.",
+      "Bullying físico indirecto (se escuda en el anonimato)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "tipos_bullying"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "71. La violencia a través de las TICs en adolescentes incluye el 'Sexting sin consentimiento'. Si el agresor utiliza ese contenido íntimo para chantajear o amenazar a la víctima, se denomina específicamente:",
+    opciones: [
+      "Phishing.",
+      "Revenge Porn.",
+      "Sextorsión.",
+      "Grooming."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "tipos_bullying"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "72. En la dinámica del acoso escolar ('Triada del Bullying'), la víctima que reacciona con violencia de modo defensivo e incluso puede llegar a ser agresora si cambia de colegio, recibe el nombre de:",
+    opciones: [
+      "Víctima pasiva.",
+      "Víctima activa o provocativa.",
+      "Acosador reactivo.",
+      "Espectador proactivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "dinamica_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "73. ¿Cómo se define al agresor escolar que actúa por iniciativa propia, con comportamiento dominante y un modelo relacional basado en la dominancia-sumisión sin justificación previa?",
+    opciones: [
+      "Agresor proactivo.",
+      "Agresor reactivo.",
+      "Observador despreocupado.",
+      "Acosador pasivo."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "dinamica_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "74. Pregunta de Examen: En el 'Círculo del Bullying', ¿quién es el actor que, después de que el agresor principal haya iniciado el acoso escolar, sigue agrediendo a la víctima asumiendo un papel activo y prestándole apoyo?",
+    opciones: [
+      "El acosador pasivo.",
+      "El seguidor del acosador / seguidor del agresor.",
+      "El observador despreocupado.",
+      "El potencial defensor."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "dinamica_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "75. A diferencia del seguidor, en el círculo del bullying el 'Acosador pasivo' se caracteriza por:",
+    opciones: [
+      "Iniciar siempre la violencia física.",
+      "Apoyar el acoso (Sí) pero no manifestarlo asumiendo un papel activo directo (No).",
+      "Defender a la víctima en secreto.",
+      "Ignorar por completo lo que sucede en el aula."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "dinamica_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "76. ¿Qué indicador conductual en la esfera del 'estado de ánimo' debe hacer saltar las alarmas en el personal sanitario o padres ante un posible caso de acoso escolar?",
+    opciones: [
+      "Que el niño pida más dinero de lo habitual (es indicador escolar/actitud, no de ánimo).",
+      "La presencia de molestias físicas recurrentes o somatizaciones, como el dolor de barriga que aparece de lunes a viernes pero desaparece los sábados.",
+      "Que traiga peores notas (es indicador escolar).",
+      "Que abandone sus actividades deportivas de los viernes."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "deteccion_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "77. Si nos fijamos en los indicadores de 'Relaciones Sociales', una sospecha clara de que un alumno sufre bullying en su trayecto es:",
+    opciones: [
+      "Que llegue siempre con los deberes sin hacer.",
+      "Que experimente nerviosismo ante el teléfono móvil.",
+      "Los cambios injustificados en los horarios (tiempos de llegada y salida) o los cambios en los itinerarios de ida y vuelta al centro educativo.",
+      "Que conteste mal a sus hermanos en casa."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "deteccion_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "78. El impacto del bullying sobre los compañeros espectadores pasivos genera una consecuencia moral muy grave a largo plazo, ya que crecen interiorizando que:",
+    opciones: [
+      "El diálogo es la única salida.",
+      "La empatía los hará más fuertes.",
+      "Las normas son quebrantables y que el incumplimiento de las leyes o la violencia es una forma válida de alcanzar el éxito social (desensibilización y deterioro moral).",
+      "Toda violencia será castigada por el centro tarde o temprano."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "consecuencias_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "79. Según la evidencia estudiada, a largo plazo, el agresor escolar tiene un elevado riesgo (como antesala) de:",
+    opciones: [
+      "Desarrollar una carrera académica brillante por su capacidad de liderazgo.",
+      "Sufrir ataques de pánico por arrepentimiento.",
+      "Convertirse en un potencial maltratador, delincuente, con dificultad para seguir normas y abusar de sustancias.",
+      "Desarrollar indefensión aprendida."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "consecuencias_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "80. Entre los Factores de Riesgo para que se desarrolle acoso en el Centro Educativo se incluye la existencia de 'Medidas sancionadoras inadecuadas'. ¿A qué se refiere este factor?",
+    opciones: [
+      "A no expulsar nunca a ningún alumno del centro.",
+      "A que si se penaliza siempre al niño con los mismos castigos rígidos, este seguirá agrediendo porque 'sabe que siempre lo van a castigar igual', restando eficacia a la corrección.",
+      "A poner buenas notas a todos los alumnos.",
+      "A la falta de iluminación en los patios del colegio."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "factores_riesgo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "81. Uno de los factores de riesgo de origen 'Familiar' que predispone a que un menor asuma el rol de agresor en el centro es:",
+    opciones: [
+      "Tener ambos padres trabajando fuera de casa.",
+      "Un estilo de educación familiar autoritario o permisivo, junto con falta de afecto y permisividad ante conductas agresivas previas.",
+      "Tener demasiados hermanos pequeños.",
+      "La imposición de normas estrictas consensuadas en asambleas familiares."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "factores_riesgo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "82. Un factor de riesgo de tipo 'Comunitario' que influye negativamente fomentando el acoso escolar desde el exterior es:",
+    opciones: [
+      "Las clases extraescolares de música.",
+      "La influencia de los medios de comunicación (tendencia a imitar conductas agresivas e indiferencia ante la violencia) y el contexto de barrios violentos.",
+      "La lectura excesiva de libros clásicos.",
+      "La dieta alta en azúcares en los comedores sociales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "factores_riesgo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "83. En el caso de que el personal de enfermería de Atención Primaria detecte un 'Ciberbullying' consistente en amenazar a la víctima con publicar fotos suyas de carácter sexual si no cumple sus exigencias, lo registraremos bajo el término de:",
+    opciones: [
+      "Grooming infantil.",
+      "Revenge porn pasivo.",
+      "Sextorsión.",
+      "Gaslighting."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "tipos_bullying"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "84. A nivel epidemiológico, el principal impacto en la salud mental que produce el Acoso Escolar y que más preocupa a los sanitarios en la etapa de la adolescencia es que supone:",
+    opciones: [
+      "La principal causa de diabetes tipo 2 juvenil.",
+      "El origen número uno de las alergias alimentarias.",
+      "La principal causa de suicidio en adolescentes.",
+      "Un factor protector frente a la esquizofrenia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "consecuencias_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "85. El 'Revenge Porn' es una forma de ciberviolencia especialmente común en:",
+    opciones: [
+      "Niños de educación infantil (menores de 6 años).",
+      "Relaciones de expareja, donde el agresor difunde contenido íntimo sin permiso con intención de venganza y dañar la imagen.",
+      "Acoso ascendente (de alumnos hacia profesores universitarios).",
+      "Las residencias de ancianos institucionalizados."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "tipos_bullying"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "86. ¿Cuál de las siguientes es una característica que define el 'abuso de poder' en la triada del bullying?",
+    opciones: [
+      "Solo puede ser un desequilibrio de fuerza física bruta.",
+      "Se debe exclusivamente a una diferencia de clases sociales entre agresor y víctima.",
+      "No tiene por qué ser un desequilibrio puramente físico, puede ser un poder psicológico o social consolidado al mantenerse la violencia en el tiempo.",
+      "Solo existe si el agresor es mayor de edad legalmente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "acoso_escolar"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "87. Frente a una situación de sospecha de acoso escolar en consulta, la actitud de la enfermera de pediatría/comunitaria se ve dificultada porque:",
+    opciones: [
+      "Es un delito penal investigarlo sin permiso de un juez.",
+      "Nuestro rol como personal sanitario es muy difícil a menos que seamos enfermeros escolares in situ (figura inexistente en los colegios públicos de Galicia).",
+      "Los niños mienten por naturaleza médica.",
+      "No existe ningún protocolo legal en España que permita intervenir."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "deteccion_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "88. En una agresión escolar, el sujeto que ejerce el papel de 'Observador despreocupado' (mirón no involucrado) en el círculo de Olweus se caracteriza por:",
+    opciones: [
+      "Atacar físicamente a la víctima cuando el agresor se cansa.",
+      "Animar abiertamente al agresor con gritos e insultos a la víctima.",
+      "Alejarse emocional y físicamente, no asumiendo ninguna postura de defensa ni de apoyo activo al agresor por no considerarlo su problema.",
+      "Defender a la víctima frente al agresor arriesgando su estatus."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "dinamica_acoso"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "89. ¿Por qué el sentimiento de culpabilidad es una de las consecuencias psicológicas más graves para la víctima de acoso?",
+    opciones: [
+      "Porque los psicólogos siempre confirman que tienen la culpa de ser agredidos.",
+      "Porque está condicionado por la respuesta de su entorno ('algo habrás hecho', 'el problema es que los provocas'), haciéndoles creer que merecen el castigo.",
+      "Porque las víctimas suelen ser los que iniciaron la pelea realmente.",
+      "No existe tal sentimiento de culpabilidad en las víctimas, solo ira."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "consecuencias_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 3 (Violencia)",
+    pregunta: "90. Según la clasificación por tipo de víctima, la violencia ejercida intencionadamente hacia individuos vulnerables en residencias de la tercera edad o geriátricos se categoriza como:",
+    opciones: [
+      "Violencia colectiva política.",
+      "Violencia intrafamiliar estricta.",
+      "Violencia interpersonal (específicamente violencia por parte de la comunidad/cuidadores hacia ancianos).",
+      "Violencia autoinfligida por demencia."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "clasificacion_violencia"
+  },
+
+  // ==========================================
+  // TEMA 4: LA VIOLENCIA DE GÉNERO
+  // ==========================================
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "91. Según la definición normativa abordada, la Violencia de Género se define específicamente como aquella violencia que:",
+    opciones: [
+      "Cualquier miembro de la familia ejerce sobre otro conviviente (Violencia doméstica).",
+      "Como manifestación de la discriminación, la desigualdad y las relaciones de poder de los hombres sobre las mujeres, se ejerce sobre éstas por sus parejas o ex parejas.",
+      "Las mujeres ejercen sobre los hombres en el ámbito laboral.",
+      "Las instituciones del estado ejercen sobre las personas Trans."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "concepto_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "92. De entre las formas de ejercer violencia de género, ¿cuál es estadísticamente la más frecuente, aunque a menudo pasa invisibilizada y suele preceder a las demás?",
+    opciones: [
+      "La violencia sexual.",
+      "La violencia económica.",
+      "La violencia física.",
+      "La violencia psicológica (humillaciones, control, menosprecio)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "formas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "93. Pregunta de Examen: La violencia que va dirigida intencionadamente hacia la mascota u objetos queridos de la víctima en el hogar se considera:",
+    opciones: [
+      "Un accidente doméstico fortuito sin importancia clínica.",
+      "Un tipo de violencia física directa hacia la mujer.",
+      "Una forma de coacción y violencia psicológica (violencia ambiental) que se incluye dentro de la violencia de género.",
+      "Violencia económica exclusiva."
+    ],
+    correcta: 2,
+    esExamen: true,
+    conceptoMapa: "formas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "94. ¿Se considera a la 'Violencia Vicaria' legalmente como Violencia de Género en España?",
+    opciones: [
+      "No, se considera exclusivamente maltrato infantil ordinario.",
+      "Sí, desde la entrada en vigor de la Ley 8/2021, considerándola la violencia ejercida sobre familiares o menores de edad allegados con el único objetivo de causar daño a la mujer.",
+      "Solo si el agresor no tiene parentesco biológico con los menores.",
+      "No, es un término sin validez jurídica que solo se usa en sociología."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "formas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "95. En la analogía del 'Iceberg de la Violencia de Género', ¿qué formas de violencia se sitúan en la base sumergida por ser formas sutiles e invisibles (ej. anulación, chantaje emocional, humor sexista)?",
+    opciones: [
+      "La violencia física y la violencia sexual.",
+      "El asesinato (feminicidio) y las palizas.",
+      "La violencia social, económica y psicológica sutil.",
+      "La violencia explícita exclusivamente."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "iceberg_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "96. En el 'Ciclo de la Violencia' de Leonore Walker, la fase en la que el hombre se muestra cada vez más enfadado sin motivo, incrementa los insultos, y la mujer intenta calmar la situación justificándolo, se denomina:",
+    opciones: [
+      "Fase de explosión.",
+      "Fase de luna de miel.",
+      "Fase de acumulación de tensión.",
+      "Fase de arrepentimiento y perdón."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "ciclo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "97. Pregunta de Examen: En el ciclo de la violencia, ¿en qué fase se produce el chantaje emocional extremo y las justificaciones (ej. responsabilizar a la víctima o amenazar con suicidarse si lo deja) inmediatamente después de ocurrir el maltrato severo?",
+    opciones: [
+      "Fase de acumulación de tensión.",
+      "Fase de agresión o explosión.",
+      "Fase pre-contemplativa.",
+      "Fase de luna de miel pacífica."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "ciclo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "98. La tercera etapa del ciclo, la 'Fase de luna de miel o reconciliación', se caracteriza por:",
+    opciones: [
+      "La interposición definitiva de la denuncia policial y el ingreso hospitalario.",
+      "Un aumento extremo de las palizas físicas continuadas en el domicilio.",
+      "La aparente tranquilidad donde el agresor intenta compensar el daño (hace regalos, se muestra cariñoso) reforzando la dependencia emocional de la mujer, y donde habitualmente se retiran las denuncias.",
+      "La huida del agresor a otro país."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "ciclo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "99. A medida que la relación avanza y el maltrato se cronifica, ¿qué ocurre habitualmente con las fases del Ciclo de la Violencia?",
+    opciones: [
+      "La violencia se extingue por sí sola debido al cansancio del agresor.",
+      "La frecuencia e intensidad crecen de manera gradual, desapareciendo primero la Fase de Luna de Miel y quedando reducida la relación prácticamente a la Fase de Agresión constante.",
+      "La luna de miel se vuelve permanente y el agresor sana de forma espontánea.",
+      "El ciclo se invierte y la víctima se convierte en el maltratador físico exclusivo."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "ciclo_violencia"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "100. En el contexto del abuso emocional de pareja, la técnica de manipulación mediante la cual el agresor hace dudar a la víctima de su propia percepción, juicio y cordura ('eso nunca pasó', 'estás loca') se conoce como:",
+    opciones: [
+      "Sextorsión.",
+      "Síndrome de Estocolmo.",
+      "Gaslighting.",
+      "Phishing emocional."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "formas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "101. Desde la sociología y salud pública, las verdaderas CAUSAS fundamentales que originan la Violencia de Género son:",
+    opciones: [
+      "Las enfermedades psiquiátricas graves y la esquizofrenia no diagnosticada en los varones.",
+      "El abuso incontrolado de alcohol y drogas de diseño.",
+      "La pobreza, el desempleo y el bajo nivel educativo.",
+      "Factores socioculturales, político-legales y económicos derivados de relaciones de poder aprendidas y la desigualdad estructural entre sexos (patriarcado)."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "causas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "102. Si analizamos el perfil del agresor, debemos tener claro que:",
+    opciones: [
+      "El 99% son alcohólicos y toxicómanos marginales.",
+      "No existe un perfil único previo, pero suelen desarrollar características como celos, dominio, misoginia y a menudo mantienen una 'buena imagen' pública que invisibiliza la violencia.",
+      "Todos padecen psicopatías severas detectables desde la infancia.",
+      "Suelen ser hombres con graves discapacidades físicas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "perfiles_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "103. Entre los adolescentes, las conductas de control abusivo ('¿dónde estás?', revisar el móvil) se justifican y normalizan frecuentemente escudándose en:",
+    opciones: [
+      "La presión académica del instituto.",
+      "Las directrices religiosas de los padres.",
+      "Los Mitos del amor romántico (ej. amor incondicional, la posesión como prueba de amor).",
+      "El consumo de drogas ilegales en el parque."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "adolescentes_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "104. El 'Mito de la media naranja' en el amor romántico resulta perjudicial porque promueve:",
+    opciones: [
+      "Que el amor lo puede perdonar absolutamente todo (Mito de omnipotencia).",
+      "La necesidad impositiva de tener una pareja para ser feliz totalmente, creando dependencia y evitando que el adolescente transite periodos sanos de soledad e identidad.",
+      "Que la primera pareja debe ser la única para toda la vida (Mito del amor eterno).",
+      "La idealización de la pareja perfecta sin defectos (Mito del príncipe azul)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "adolescentes_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "105. Existen prejuicios sociales muy arraigados sobre la VG. El 'Mito del ámbito privado' sostiene erróneamente que:",
+    opciones: [
+      "La violencia solo se da en clases bajas y marginales.",
+      "Si la mujer sigue con él, tan mal no lo estará pasando.",
+      "La violencia dentro de casa es un asunto exclusivo de la familia, es 'cosa de pareja' y no debe salir de ahí, dificultando la denuncia comunitaria.",
+      "Todas las denuncias interpuestas en comisaría son falsas para cobrar ayudas."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "mitos_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "106. Pregunta de Examen: Según el Protocolo de Violencia del SERGAS, el cuestionario de cribado sistemático para detectar violencia oculta en Atención Primaria debe pasarse rutinariamente a:",
+    opciones: [
+      "A mujeres que acuden de urgencia con huesos rotos.",
+      "Toda mujer mayor o igual a 15 años que acuda a la consulta.",
+      "Toda mujer mayor de edad (18 años) que lo solicite por escrito.",
+      "Mujeres menopáusicas (mayores de 50) exclusivamente."
+    ],
+    correcta: 1,
+    esExamen: true,
+    conceptoMapa: "protocolo_sergas"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "107. Según este mismo protocolo del SERGAS, la herramienta de evaluación clínica estandarizada que se utiliza como Cuestionario Corto para el cribado inicial se denomina:",
+    opciones: [
+      "Escala de Zarit.",
+      "Test de Pfeiffer.",
+      "Cuestionario WAST.",
+      "Índice de Barthel."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "protocolo_sergas"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "108. Pregunta de Examen: En el algoritmo del SERGAS, si a una mujer se le realiza el cribado sistemático en su consulta (WAST negativo) y la enfermera a nivel físico y actitudinal determina que SIN indicadores de sospecha visibles, la actuación a seguir será:",
+    opciones: [
+      "Informar que ante cualquier maltrato puede pedir ayuda, repetir el cribado al cabo de un año (o dos según el flujograma si no hay visitas) y registrar la intervención en la Historia Clínica.",
+      "Denunciar automáticamente a su marido al juzgado de guardia de forma anónima.",
+      "Omitir el registro y no volver a preguntarle nunca más para no ofenderla.",
+      "Pasar de inmediato el Cuestionario de Valoración del Riesgo (DA) y emitir parte de lesiones."
+    ],
+    correcta: 0,
+    esExamen: true,
+    conceptoMapa: "protocolo_sergas"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "109. ¿Cómo orienta la OMS al personal sanitario a la hora de explorar la violencia de género en las consultas?",
+    opciones: [
+      "Recomienda no entrometerse jamás, ya que las mujeres mentirán para proteger al agresor sistemáticamente.",
+      "Recomienda preguntar de forma directa y no valorativa ('sin miedo'), ya que la mayoría de las mujeres están dispuestas a revelarlo si se les pregunta adecuadamente en un entorno seguro.",
+      "Ordena preguntar siempre delante del cónyuge para valorar su reacción facial.",
+      "Sugiere emplear siempre detectores de mentiras."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "actuacion_sanitaria"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "110. Pregunta de Examen: Durante una entrevista clínica ('Ganarse a la paciente') con una mujer de la que sospechamos o confirma ser víctima de violencia, la actitud que DEBE mostrar la enfermera es:",
+    opciones: [
+      "Emplear una actitud de autoridad paternalista debido a su gran vulnerabilidad cognitiva y dirigir su vida.",
+      "Emitir juicios de valor constructivos sobre su marido para que ella logre 'abrir los ojos' ante su crítica situación.",
+      "Forzarla a que interponga la denuncia en el mismo momento de la consulta bloqueando la puerta.",
+      "Mantener la escucha activa, mostrando empatía sin presionarla, sin culpabilizar y respetando escrupulosamente la confidencialidad."
+    ],
+    correcta: 3,
+    esExamen: true,
+    conceptoMapa: "entrevista_clinica"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "111. Un escenario de alerta (indicador de sospecha) al realizar la valoración clínica por parte de enfermería en el PAC es:",
+    opciones: [
+      "Que la paciente acuda sola y tranquila a la consulta de control de tensión arterial.",
+      "Que el marido entre con la mujer a la consulta, no la deje sola nunca, responda a las preguntas clínicas por ella y justifique los golpes diciendo que 'es muy patosa'.",
+      "Que la paciente exija ser atendida por una médica en lugar de un médico por simple preferencia de intimidad en citologías.",
+      "Que la paciente rechace tomar paracetamol por alergia confirmada."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "deteccion_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "112. Dentro de la prevención de la VG en las consultas de Atención Primaria, la labor de Educación Maternal de la matrona/enfermera es vital para erradicar el falso mito de que:",
+    opciones: [
+      "Durante el embarazo no ocurre nunca violencia de género, cuando en realidad el embarazo puede ser un detonante o agravante (ej. abortos de repetición causados por maltrato).",
+      "La leche artificial causa psicopatías en el niño.",
+      "Las mujeres embarazadas no pueden denunciar a sus parejas legalmente.",
+      "El parto por cesárea se considera siempre violencia obstétrica ineludible."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "prevencion_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "113. Si al evaluar el contexto social de una paciente víctima de VG notamos que el agresor le prohíbe tener redes sociales, veta sus relaciones de amistad y boicotea cualquier cita familiar para mantenerla aislada, estamos documentando:",
+    opciones: [
+      "Violencia vicaria directa.",
+      "Violencia sexual pasiva.",
+      "Violencia social de género.",
+      "Un mecanismo de protección epidemiológica del marido."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "formas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "114. En el abordaje integral desde la enfermería comunitaria, ¿qué significa el principio de 'no victimización secundaria' o revictimización?",
+    opciones: [
+      "No atender a la paciente una segunda vez para ahorrar costes.",
+      "Evitar que el sistema sanitario o judicial someta a la mujer a sufrimientos adicionales (interrogatorios repetitivos innecesarios, actitudes de duda, culpabilización) en el proceso de buscar ayuda.",
+      "Obligar a la víctima a enfrentarse a su agresor cara a cara en la sala de curas.",
+      "Atender a las mascotas antes que a la paciente."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "actuacion_sanitaria"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "115. El cuestionario WAST utilizado como herramienta central en el protocolo del SERGAS consta en su formato inicial de preguntas generales y sencillas como:",
+    opciones: [
+      "¿Aceptaría irse a vivir a una casa de acogida hoy mismo?",
+      "¿Cuántas bofetadas ha recibido en los últimos 7 días?",
+      "¿Tiene pensado interponer una demanda de divorcio exprés?",
+      "¿Cómo van las cosas en casa? y ¿Está usted contenta en su relación con su pareja?"
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "protocolo_sergas"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "116. De acuerdo con el protocolo SERGAS, si la valoración del riesgo a través del Cuestionario DA resulta ser 'Positiva' con un Peligro Extremo de integridad, la principal acción de carácter urgente a realizar por el profesional sanitario es:",
+    opciones: [
+      "Mandar a la mujer a casa recomendando que intente calmar al agresor.",
+      "Informar de sus derechos, emitir de forma ineludible el Parte de Lesiones al Juzgado y consensuar con la mujer un plan de intervención y fuga urgente.",
+      "Citarla a revisión ordinaria con el trabajador social al mes siguiente.",
+      "Extirpar el DIU por seguridad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "protocolo_sergas"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "117. ¿Por qué el 'Mito de las denuncias falsas' se considera un enorme obstáculo sociológico para la erradicación de la violencia de género?",
+    opciones: [
+      "Porque es estadísticamente cierto y bloquea los juzgados.",
+      "Porque deslegitima el sufrimiento real de la inmensa mayoría de las víctimas y crea una percepción social falsa de que las mujeres usan las denuncias masivamente para obtener ventajas económicas o custodias (cuando representan menos del 0,01%).",
+      "Porque favorece que los agresores cobren subsidios por falso testimonio.",
+      "No es un mito, es una ley orgánica española."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "mitos_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "118. La exigencia de que la mujer deba dejar de trabajar o la imposición maliciosa de no permitirle realizar la compra para bloquear su acceso al dinero familiar constituyen claros signos clínicos de:",
+    opciones: [
+      "Violencia económica.",
+      "Acoso escolar reactivo.",
+      "Fase de arrepentimiento del ciclo.",
+      "Dependencia biológica femenina natural."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "formas_vg"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "119. La actitud de minusvalorar las dolencias de una paciente asumiendo que 'las mujeres se quejan demasiado por histeria', retrasando diagnósticos graves (como en la cardiopatía isquémica), se diagnostica desde la teoría de la materia como:",
+    opciones: [
+      "Privilegio legislativo femenino.",
+      "Sesgo diagnóstico y terapéutico de género (que vulnera la equidad asistencial).",
+      "Un acto de violencia vicaria grave.",
+      "Síndrome del cuidador quemado (Burnout)."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "sesgos_genero"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 4 (Violencia de Género)",
+    pregunta: "120. En resumen, al colocar en el centro de nuestra intervención la perspectiva de género ('ponerse las gafas violetas') frente a una víctima en Atención Primaria, la enfermera persigue como fin último:",
+    opciones: [
+      "Garantizar que se priorice la atención biológica genética omitiendo el contexto familiar.",
+      "Juzgar y castigar penalmente a los agresores desde su consulta sin intervención del juzgado.",
+      "Obligar a la paciente a separarse legalmente esa misma tarde.",
+      "Ofrecer una atención integral, segura e individualizada que reconozca los condicionantes socioculturales de la salud (desigualdades asimétricas), fomentando el empoderamiento y acompañando a la mujer respetando sus tiempos."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "enfoque_genero_integral"
+  },
+  // ==========================================
+  // TEMA 5: LA EQUIDAD COMO RETO SOCIAL EN EL ACCESO A LA SALUD
+  // ==========================================
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "121. Según la OMS, ¿cómo se definen los Determinantes Sociales de la Salud (DSS)?",
+    opciones: [
+      "Las alteraciones puramente genéticas con las que nacen los individuos.",
+      "Las circunstancias en las que las personas nacen, crecen, viven, trabajan y envejecen, incluido el sistema de salud, resultado de la distribución del dinero, poder y recursos.",
+      "Los microorganismos patógenos presentes en el medio ambiente de un país.",
+      "La herencia biológica exclusivamente familiar."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "122. El concepto moderno de determinantes tiene su origen en los determinantes clásicos descritos por:",
+    opciones: [
+      "Florence Nightingale.",
+      "Madeleine Leininger.",
+      "Marc Lalonde.",
+      "Dan Olweus."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "modelos_salud"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "123. Según el modelo clásico de Lalonde, la salud está condicionada por cuatro grandes determinantes. Estos son:",
+    opciones: [
+      "Ambiente, herencia genética, estilo de vida y sistema sanitario.",
+      "Raza, religión, estado civil y nacionalidad.",
+      "Hospitales, centros de salud, farmacias y residencias.",
+      "Nivel educativo, ingresos, ocupación y vivienda."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "modelos_salud"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "124. Dentro de los cuatro determinantes de Lalonde, ¿cuál se considera a nivel teórico el menos relevante para determinar el estado de salud puro, pero actúa como un importante amortiguador o mediador?",
+    opciones: [
+      "El estilo de vida.",
+      "La herencia genética.",
+      "El ambiente.",
+      "El sistema sanitario."
+    ],
+    correcta: 3,
+    esExamen: false,
+    conceptoMapa: "modelos_salud"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "125. La evolución hacia el estudio de los 'Determinantes Sociales de la Salud' surgió al constatar que la salud y la enfermedad:",
+    opciones: [
+      "Son fenómenos puramente aleatorios.",
+      "Son factores sociales y políticos más que estrictamente biológicos.",
+      "Dependen al 100% del ADN.",
+      "Solo pueden curarse mediante tratamientos quirúrgicos."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "126. En los marcos conceptuales de salud pública, a los Determinantes Estructurales se les conoce habitualmente como:",
+    opciones: [
+      "Las causas de las consecuencias.",
+      "Las causas de las causas.",
+      "Los factores de riesgo directo.",
+      "Los mediadores finales."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "127. Los Determinantes Estructurales que generan las desigualdades en salud están formados principalmente por:",
+    opciones: [
+      "Las redes de apoyo social y el estrés.",
+      "El contexto socioeconómico/político y los ejes de desigualdad (clase social, género, edad, etnia, territorio).",
+      "El consumo de tabaco, alcohol y la dieta.",
+      "La dotación de camas hospitalarias."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "128. En la estratificación social de los determinantes estructurales, el eje de 'Clase Social' (vinculada a la posición socioeconómica) se determina en base a tres factores clave:",
+    opciones: [
+      "Ingresos, educación y ocupación.",
+      "Edad, sexo y genética.",
+      "Religión, dieta y nacionalidad.",
+      "Estado civil, número de hijos y tipo de contrato."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "129. Una mala gestión política en las capas estructurales (más externas) tiene como consecuencia directa:",
+    opciones: [
+      "Una distribución totalmente igualitaria de la riqueza.",
+      "La distribución no equitativa o desigual de los factores intermediarios, provocando desigualdades en salud en los individuos.",
+      "La curación espontánea de las enfermedades infecciosas.",
+      "El aislamiento genético de las clases altas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "130. Los factores conductuales y biológicos (como la nutrición, la actividad física y el consumo de tabaco) se clasifican dentro de los:",
+    opciones: [
+      "Determinantes estructurales.",
+      "Determinantes intermedios.",
+      "Factores inmodificables.",
+      "Causas de las causas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_intermedios"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "131. ¿Qué papel juegan los 'Servicios de Salud' dentro del esquema de los determinantes intermedios?",
+    opciones: [
+      "Son la principal causa de las enfermedades crónicas.",
+      "Actúan como mediadores o amortiguadores de las consecuencias de la enfermedad y las desigualdades.",
+      "Generan el 100% de la salud de una población.",
+      "Son un determinante estructural inmodificable."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_intermedios"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "132. Si analizamos la exposición de una persona a circunstancias de vida estresantes, tensiones laborales o falta de redes de apoyo, estamos evaluando concretamente los:",
+    opciones: [
+      "Factores biológicos puros.",
+      "Factores materiales.",
+      "Factores psicosociales (determinantes intermedios).",
+      "Factores macroeconómicos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "determinantes_intermedios"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "133. ¿Qué concepto define a las diferencias de salud 'objetivables, esperables, medibles empíricamente y no modificables' entre grupos poblacionales?",
+    opciones: [
+      "Inequidad.",
+      "Desigualdad.",
+      "Justicia distributiva.",
+      "Gradiente biológico."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "desigualdad_vs_inequidad"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "134. Por el contrario, ¿qué característica diferencial estricta define a una 'Inequidad en salud'?",
+    opciones: [
+      "Que es puramente genética y aleatoria.",
+      "Que presenta una dimensión moral y ética al ser una diferencia sistemática, innecesaria, evitable e injusta que pone en desventaja a ciertos grupos.",
+      "Que ocurre exclusivamente en hombres mayores de 65 años.",
+      "Que no se puede evaluar de ninguna manera."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "desigualdad_vs_inequidad"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "135. Según los ejemplos de clase, el hecho biológico de que las mujeres tengan mayor incidencia de cáncer de mama que los hombres se considera:",
+    opciones: [
+      "Una inequidad social injusta.",
+      "Una desigualdad en salud (diferencia objetivable por factores inherentes).",
+      "Un determinante macroeconómico.",
+      "Un fallo del sistema sanitario."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "desigualdad_vs_inequidad"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "136. Por el contrario, el hecho de que la esperanza de vida sea mucho mayor en Europa que en África se clasifica sociológicamente como:",
+    opciones: [
+      "Una desigualdad genética.",
+      "Una inequidad evitable e injusta.",
+      "Un factor psicosocial hereditario.",
+      "Un éxito de las políticas macroeconómicas africanas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "desigualdad_vs_inequidad"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "137. Dentro del grupo de personas consideradas tradicionalmente más vulnerables o desfavorecidas frente a las inequidades de salud, encontramos a:",
+    opciones: [
+      "Los grandes empresarios.",
+      "Las clases sociales altas con seguros privados.",
+      "Los migrantes, minorías étnicas, personas sin empleo o con diversidad funcional.",
+      "Exclusivamente las mujeres sin hijos."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "138. 'Cuanto más necesitamos (peor estado de salud), menos servicios demandamos o menor calidad recibimos, y al revés'. Esta afirmación define a:",
+    opciones: [
+      "La Ley del Gradiente Universal.",
+      "El modelo de Sol Naciente de Leininger.",
+      "La Ley de los Cuidados Inversos.",
+      "La teoría del Capitalismo Sanitario."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "cuidados_inversos"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "139. En el ejemplo expuesto en teoría (Luisa, 45 años, sedentaria, con doble jornada, viviendo en zona aislada sin luz y cuidadora de dependientes), si la enfermera la culpa únicamente a ella por su falta de voluntad para salir a caminar 30 minutos, la enfermera está ignorando:",
+    opciones: [
+      "La genética hereditaria de Luisa.",
+      "Los determinantes sociales (ingresos precarios, falta de redes de apoyo, barreras del entorno) que dificultan o impiden la modificación de su estilo de vida.",
+      "Los factores tecnológicos médicos.",
+      "La mediación transcultural del hospital."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "140. A nivel estadístico, ¿qué patrón de uso de los servicios sanitarios se observa claramente condicionado por la Clase Social (CS) en España?",
+    opciones: [
+      "Las clases bajas usan más la Atención Especializada y las altas la Primaria.",
+      "La Atención Primaria es más usada por personas desfavorecidas (CS V-VI), mientras que la Atención Especializada es más utilizada por las personas de clases favorecidas (CS I-II).",
+      "No existe diferencia, todos usan los servicios por igual.",
+      "Ninguna clase social acude a Atención Primaria en la actualidad."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "cuidados_inversos"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "141. Al analizar los datos epidemiológicos sobre la prevalencia de enfermedades crónicas (EPOC, diabetes, depresión, artrosis), el gradiente social muestra que:",
+    opciones: [
+      "La clase social más baja presenta siempre la mayor prevalencia de estas enfermedades crónicas.",
+      "Las clases sociales más altas enferman de forma más crónica por el estrés directivo.",
+      "La clase media no padece ninguna enfermedad.",
+      "La prevalencia es totalmente aleatoria e independiente del nivel de renta."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "142. ¿Qué indica el concepto de 'Gradiente Social' en materia de salud?",
+    opciones: [
+      "Que a medida que disminuye la posición socioeconómica, empeora progresivamente el estado de salud de la población.",
+      "Que la temperatura ambiente influye en la aparición de infecciones.",
+      "Que los ricos enferman más rápido porque consumen más calorías.",
+      "Que la salud es un derecho garantizado por la Constitución."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "143. En la gráfica de Esperanza de Vida vs Producto Interior Bruto (PIB) per cápita, se observa que:",
+    opciones: [
+      "No hay correlación alguna entre PIB y años vividos.",
+      "Las comunidades o personas con un PIB más alto tienden a presentar una mayor esperanza de vida (existe una correlación directa entre economía y salud).",
+      "Las CCAA con menor PIB viven muchos más años debido a dietas tradicionales.",
+      "La esperanza de vida en mujeres decrece a medida que aumenta su PIB."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "144. Si evaluamos las condiciones de 'empleo y trabajo' de una población (ej. precariedad laboral, turnos nocturnos, exposición a tóxicos), nos estamos centrando en los recursos materiales de los determinantes:",
+    opciones: [
+      "Genéticos.",
+      "Socioeconómicos macro.",
+      "Intermedios.",
+      "Inmodificables."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "determinantes_intermedios"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "145. Cuando hablamos de que las Inequidades en salud presentan una dimensión moral, significa que son:",
+    opciones: [
+      "Culpabilidad única del paciente por sus pecados.",
+      "Un acto de justicia divina.",
+      "Injustas, ya que colocan a ciertos grupos en desventaja sistemática de forma evitable.",
+      "Ilegales y penadas con cárcel de forma inmediata."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "desigualdad_vs_inequidad"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "146. Para solucionar el reto de la equidad desde las consultas de enfermería familiar y comunitaria, es imprescindible que la Educación para la Salud (EpS) abandone el enfoque tradicional de:",
+    opciones: [
+      "Empoderar a la persona mediante redes de apoyo.",
+      "Responsabilizar y culpabilizar únicamente al individuo de su enfermedad por sus malos hábitos, omitiendo sus determinantes estructurales e intermedios.",
+      "Promover la participación activa del barrio.",
+      "Adoptar las 'gafas violetas' en las terapias."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "147. En el modelo de la Comisión para Reducir las Desigualdades en Salud en España, ¿cuál de los siguientes elementos forma parte de las Políticas Macroeconómicas y del Estado de Bienestar (Determinantes Estructurales)?",
+    opciones: [
+      "El mercado de trabajo y las tradiciones políticas del gobierno.",
+      "El consumo individual de alcohol de los fines de semana.",
+      "Las horas que duerme una paciente por la noche.",
+      "La asistencia al centro de salud local."
+    ],
+    correcta: 0,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "148. Las personas con diversidad funcional (discapacidad) se enfrentan habitualmente a inequidades porque:",
+    opciones: [
+      "Tienen una genética de élite.",
+      "Sufren de una distribución desigual del poder y recursos que dificulta el diseño de entornos accesibles e igualitarios, generándoles una desventaja injusta.",
+      "Suelen cobrar subsidios mayores que la media de directivos.",
+      "No padecen de enfermedades crónicas."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_sociales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Tema 5 (Equidad y Determinantes Sociales)",
+    pregunta: "149. Como hemos visto durante toda la asignatura, en las consultas, cuando observamos cómo influye pertenecer al 'género mujer' en la doble carga laboral, la precariedad o el rol de cuidado, estamos analizando un Eje de Desigualdad que pertenece al bloque de:",
+    opciones: [
+      "Los factores psicosociales intermedios.",
+      "Los determinantes estructurales.",
+      "Los factores conductuales modificables rápidos.",
+      "Las políticas del gobierno central."
+    ],
+    correcta: 1,
+    esExamen: false,
+    conceptoMapa: "determinantes_estructurales"
+  },
+  {
+    asignatura: "salud_genero",
+    tema: "Cierre Integral Salud y Género",
+    pregunta: "150. A modo de conclusión integral de la asignatura: La labor de la enfermera frente a los Retos Sociales y de Género radica fundamentalmente en:",
+    opciones: [
+      "Ignorar los aspectos culturales (etnocentrismo) y tratar las enfermedades únicamente desde un punto de vista fisiológico.",
+      "Realizar un esfuerzo diagnóstico únicamente en varones blancos.",
+      "Observar la realidad con perspectiva (gafas violetas y enfoque transcultural) para identificar inequidades, mitos y sesgos, actuando de forma sensible y congruente sobre los determinantes sociales para lograr una atención sanitaria equitativa y de calidad.",
+      "Fomentar el modelo patriarcal jerarquizado para mantener el orden de las salas de espera de atención primaria."
+    ],
+    correcta: 2,
+    esExamen: false,
+    conceptoMapa: "enfoque_genero_integral"
+  }
 
 ];
 
@@ -26021,5 +27521,55 @@ mindmap
         ("Fisioterapia respiratoria: prevencion postoperatoria")
         ("Peak-flow: seguimiento del asma")
         ("Contraindicacion espirometria: aneurisma")
+  `,
+  salud_genero: `
+mindmap
+  root((Salud, Género y Retos Sociales en Enfermería))
+    Determinantes Culturales
+      Cultura y Cuidados
+        Definición: Creencias, valores y normas compartidas
+        Multicultural: Coexistencia sin relación
+        Intercultural/Transcultural: Interacción entre culturas
+        Vivencia de salud/enfermedad: Concepto, causas, vivencia y tratamiento
+      Enfermería Transcultural
+        Madeleine Leininger: Diversidad y Universalidad
+        Rechazo al etnocentrismo e imposición cultural
+        Objetivo: Asistencia multicultural segura y eficaz
+      Modelo del Sol Naciente (Leininger)
+        Nivel 1: Visión del mundo y sistemas sociales
+        Nivel 2: Individuos, familias e instituciones
+        Nivel 3: Sistemas tradicionales y profesionales
+        Nivel 4: Decisiones y acciones enfermeras
+        Factores de valoración: Tecnológicos, religiosos, sociales, económicos, educativos
+      Acciones de Cuidados Culturales
+        Preservación y mantenimiento
+        Acomodación y negociación
+        Remodelación o reestructuración
+      Mediación Intercultural
+        Finalidad: Comunicación y comprensión mutua
+        Tipos: Preventiva, rehabilitadora, transformadora
+        Perfil del mediador: Dominio lenguas, empatía, formación sanitaria
+        Ventajas: Mayor inmunización y calidad, menor coste
+    Determinantes de Género
+      Sistema Sexo-Género
+        Sexo: Biológico, natural, universal, inmodificable
+        Género: Construcción social, aprendido, dinámico
+        Estereotipos: Creencias impuestas y patrones rígidos
+        Roles: Funciones asignadas (Reproductivo vs Productivo)
+      Enfoque de Género en Salud
+        Línea salud mujeres: Necesidades específicas y biológicas
+        Línea desigualdades: Morbilidad diferencial y sesgos de género
+        Sesgos: Errores diagnósticos, terapéuticos y de investigación
+      Modelos de Género
+        Tradicional: Familia jerarquizada, patriarcado, roles fijos
+        En transición: Autonomía mujer, amor como base, sobrecarga tareas
+        Contemporáneo: Éxito personal, imagen corporal, culto al cuerpo
+      Atención a Personas Trans
+        Identidad de género: Vivencia interna y autopercepción
+        Transición: Adaptación física, social o administrativa
+        Despatologización: De trastorno a incongruencia/disforia
+        Atención sanitaria: Global, especializada e individualizada
+        Acciones inclusivas: Actitud positiva, respeto a nombre y pronombres
   `
+
 };

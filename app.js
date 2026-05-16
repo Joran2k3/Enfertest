@@ -288,7 +288,8 @@ function showTopicSelector() {
         // Calcular número de preguntas para este tema
         const count = BANCO_PREGUNTAS.filter(q => q.asignatura === state.subject && String(q.tema) === String(tema)).length;
         
-        btn.innerHTML = `Tema ${tema} <span class="text-sm text-gray ml-2">(${count} pregs)</span>`;
+        const temaLabel = typeof tema === 'number' ? `Tema ${tema}` : tema;
+        btn.innerHTML = `${temaLabel} <span class="text-sm text-gray ml-2">(${count} pregs)</span>`;
         
         if (state.stats[state.subject].temasAprobados.includes(tema)) {
             btn.innerHTML += ' <span class="text-green text-sm ml-2 font-bold">✓ Aprobado</span>';
@@ -695,6 +696,13 @@ function renderAchievements(targetSubject = state.subject || 'paliativos') {
             repasos: 'com_logro_repasos.png',
             platino: 'com_logro_platino.png',
             superate: 'com_logro_superate.png'
+        },
+        salud_genero: {
+            temas: 'gen_logro_temas.png',
+            simulacros: 'gen_logro_simulacros.png',
+            repasos: 'gen_logro_repasos.png',
+            platino: 'gen_logro_platino.png',
+            superate: 'gen_logro_superate.png'
         }
     };
 
